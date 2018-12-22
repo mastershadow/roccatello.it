@@ -1,6 +1,7 @@
 +++
 authors = []
 date = "2018-12-22T16:00:00+00:00"
+lastmod = "2018-12-22T16:00:00+00:00"
 summary = "This is a test of Forestry.io as CMS"
 tags = ["Personal", "Development"]
 title = "Testing Forestry.io as a Static CMS"
