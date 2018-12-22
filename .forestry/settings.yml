@@ -10,16 +10,6 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/slides
-  label: Slides
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/tutorial
-  label: Tutorial
-  create: all
-  match: "**/*"
-- type: directory
   path: content/post
   label: Post
   create: all
@@ -27,11 +17,6 @@ sections:
 - type: directory
   path: content/home
   label: Home
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/talk
-  label: Talk
   create: all
   match: "**/*"
 - type: directory
