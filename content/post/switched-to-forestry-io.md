@@ -2,9 +2,9 @@
 authors = []
 date = "2018-12-22T16:00:00+00:00"
 lastmod = "2018-12-22T16:00:00+00:00"
-summary = "This is a test of Forestry.io as CMS"
+summary = "This is a test of Forestry.io as Static CMS"
 tags = ["Personal", "Development"]
-title = "Testing Forestry.io as a Static CMS"
+title = "Testing Forestry.io as Static CMS"
 [header]
 caption = ""
 image = "https://res.cloudinary.com/roccatello/image/upload/v1545491239/samples/landscapes/nature-mountains.jpg"
