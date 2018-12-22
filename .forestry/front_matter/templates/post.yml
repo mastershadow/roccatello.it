@@ -48,4 +48,4 @@ fields:
   config:
     labelField: author
 pages:
-- content/post/switched-to-forestry-io.md
+- content/post/testing-forestry-io-static-cms.md
