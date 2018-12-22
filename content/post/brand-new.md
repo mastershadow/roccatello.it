@@ -20,5 +20,3 @@ Hugo is really a nice piece of software. It is written in Go and content could b
 Also it is integrable with static CMS like Forestry but I didn't tried yet.
 
 I'm going to publish on this website all the experiments I've in my mind. So stay tuned :rocket:
-
-x
