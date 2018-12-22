@@ -1,0 +1,50 @@
+---
+label: Post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: title
+  name: title
+  config:
+    required: true
+- type: textarea
+  name: summary
+  label: Summary
+  config:
+    required: false
+- type: field_group
+  name: header
+  label: Header
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: caption
+    label: caption
+- type: datetime
+  name: date
+  label: Date
+  config:
+    display_utc: false
+    required: true
+    date_format: YYYY-MM-DD
+- type: datetime
+  name: lastmod
+  label: Last mod
+  config:
+    date_format: YYYY-MM-DD
+    required: true
+- type: field_group_list
+  name: authors
+  label: Authors
+  fields:
+  - type: text
+    name: author
+    label: Author
+  config:
+    labelField: author
+- type: tag_list
+  name: tags
+  label: tags
