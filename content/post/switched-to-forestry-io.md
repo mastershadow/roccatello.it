@@ -4,7 +4,7 @@ date = "2018-12-21T23:00:00+00:00"
 draft = true
 summary = "This is a test of Forestry.io as CMS"
 tags = ["Personal", "Development"]
-title = "Switched to Forestry.io"
+title = "Testing Forestry.io as a Static CMS"
 [header]
 caption = ""
 image = "https://res.cloudinary.com/roccatello/image/upload/v1545491239/samples/landscapes/nature-mountains.jpg"
