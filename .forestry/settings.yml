@@ -29,9 +29,9 @@ sections:
   label: Publication
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: ''
+public_path: https://res.cloudinary.com/roccatello/image/upload
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: 
+file_template: ":year/:filename/:filename:"
 version: '0.52'
