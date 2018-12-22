@@ -30,12 +30,6 @@ fields:
     display_utc: false
     required: true
     date_format: YYYY-MM-DD
-- type: datetime
-  name: lastmod
-  label: Last mod
-  config:
-    date_format: YYYY-MM-DD
-    required: true
 - type: field_group_list
   name: authors
   label: Authors
