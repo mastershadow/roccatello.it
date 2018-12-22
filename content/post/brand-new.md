@@ -1,19 +1,13 @@
 +++
-title = "Brand new website"
-
-date = 2018-10-28T00:00:00
-lastmod = 2018-10-28T00:00:00
-draft = false
-
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = []
-
-tags = ["Personal", "Development"]
+date = "2018-10-28T00:00:00.000+00:00"
+lastmod = "2018-10-28T00:00:00.000+00:00"
 summary = "I've rebooted my personal website switching to Hugo, a static site generator written in Go."
-
+tags = ["Personal", "Development"]
+title = "Brand new website"
 [header]
-image = "headers/welcome.png"
 caption = ""
+image = "headers/welcome.png"
 
 +++
 Welcome to a revamped version of my personal website.
@@ -26,3 +20,5 @@ Hugo is really a nice piece of software. It is written in Go and content could b
 Also it is integrable with static CMS like Forestry but I didn't tried yet.
 
 I'm going to publish on this website all the experiments I've in my mind. So stay tuned :rocket:
+
+x
