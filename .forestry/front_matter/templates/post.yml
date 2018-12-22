@@ -30,6 +30,14 @@ fields:
     display_utc: false
     required: true
     date_format: YYYY-MM-DD
+- type: datetime
+  name: lastmod
+  label: lastmod
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: tags
 - type: field_group_list
   name: authors
   label: Authors
@@ -39,8 +47,5 @@ fields:
     label: Author
   config:
     labelField: author
-- type: tag_list
-  name: tags
-  label: tags
 pages:
 - content/post/switched-to-forestry-io.md
