@@ -10,9 +10,9 @@ caption = ""
 image = "https://res.cloudinary.com/roccatello/image/upload/v1545491239/samples/landscapes/nature-mountains.jpg"
 
 +++
-Some days ago I've switched from Wordpress to Hugo.
+Some days ago I've switched from Wordpress to Hugo, as I was looking for a zero maintenance solution after deploy.
 
-Wordpress is a very versatile CMS and that's why I was looking for a static CMS for Hugo.  
-After looking for a while I've found Forestry and I'm giving it a try.
+But Wordpress is a very versatile CMS and that's why I was looking for a static CMS for Hugo.  
+After looking for a while I've found Forestry and I'm giving it a try. This is the first post using this system.
 
 Also I've moved website source to GitHub :smile:
