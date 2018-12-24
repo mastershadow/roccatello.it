@@ -11,6 +11,14 @@ caption = ""
 image = "https://res.cloudinary.com/roccatello/image/upload/v1545491229/samples/sheep.jpg"
 
 +++
-It's almost Xmas folks and I really need a break about forced politeness, so I'll shout here something I would have told you before.
+It's almost Xmas folks and I really need a break about forced politeness, so I'll shout here a secret I really would have told you before:
 
 > **Agile sucks. But it's great for you!**
+
+Agile project management actually works quite well. It's great compared to waterfall approach when applied to computer software development, as it helps PMs to take uncertainty in account and keep the delivery pace high enough in order not to sleep at night. Joking :)
+
+Using a sprint based approach you could really keep production under control. There is plenty of literature about this and I'm not the right person to give you lessons about this (probably I could but let's keep this out for a moment).
+
+At 3DGIS we currently use the great Atlassian tool called JIRA, which is actually perfect when used with Tempo Timesheet and Tempo Planner. We also use Confluence, Gliffy and some other nice tools.
+
+All this stuff is integrated with our custom ERP which collects performance indicators and help us find out performance bottlenecks.
