@@ -22,3 +22,15 @@ Using a sprint based approach you could really keep production under control. Th
 At 3DGIS we currently use the great Atlassian tool called JIRA, which is actually perfect when used with Tempo Timesheet and Tempo Planner. We also use Confluence, Gliffy and some other nice tools.
 
 All this stuff is integrated with our custom ERP which collects performance indicators and help us find out performance bottlenecks.
+
+Our project management pipeline is almost always done in the following way, and it is accurately documented in our quality management system. I'll skip the documentation part.
+
+    1)   A projects is collected in the ERP, which assigns it a code. 
+         This code is unique and shared between management apps.
+    1.a) A specific JIRA project is created, if the requirements need it.
+    2)   JIRA issues are created within the project and 
+         they have a reference to the project code.
+    3)   Issues are orchestrated in Sprints which corresponds to milestones, 
+         something that would be called a "deliverable" in real life.
+    4)   Deliverables get delivered to their destination, which responds with a feedback.
+    5)   Development receives feedbacks and iterates 2-5 until project completion.
