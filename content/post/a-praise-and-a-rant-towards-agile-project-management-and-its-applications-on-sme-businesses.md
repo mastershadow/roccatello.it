@@ -45,8 +45,26 @@ Currently our project management pipeline is almost always done in the following
     4)	 Sprints are assigned on a weekly base and people could be
          assigned to multiple sprints (macro managing).
     4.a) Sprints have deadlines which are hard but 
-         duration is based on working time (so if you have 2 projects elapsed time is twice).
+         duration is based on working time:
+         so if you have 2 projects elapsed time is twice.
     5)   Once ready deliverables get delivered to their destination, 
          which responds with a feedback.
     6)   Development receives feedbacks and 
          iterates 2-6 until project completion or new planning.
+
+This approach is probably not perfect and will be refined in the future but it has some crucial advantages:
+
+* **Delegation / micromanagement**  
+  People who is working with you is also responsible for themselves and are allowed to managed their time.
+* **Preemption support**  
+  A new project can fit in the schedule quite easily. Obviously other projects timeline gets stretched.
+* **Can be used with intermittent projects**  
+  Given you are working in a pipeline it doesn't matter if a stage is not ready yet. You keep working on other things
+
+As I was telling you it's not perfect, and these are some drawbacks:
+
+* People needs to able to manage themselves
+* Multitasking lowers performance
+* Projects timing needs more supervising as it is less predictable
+
+As always please tell me what you think :)
