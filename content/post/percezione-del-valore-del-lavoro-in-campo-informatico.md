@@ -63,10 +63,20 @@ Momento... cosa vuol dire costruire un sito statico? Vuol dire che qualcuno ha s
 
 Facciamo un esempio pratico. Questo sito è un sito statico generato tramite Hugo dopo che io ho costruito il tema (basandomi su uno esistente) e ho inserito i contenuti. Ci ho messo qualche giorno nei ritagli di tempo. Non ho dovuto però preoccuparmi di nessuna delle attività preliminari e successive. Inoltre ho usato un template già pronto per la grafica con poche modifiche, riducendo di molto i tempi.
 
-Diversamente ho sviluppato progetti a singola pagina dove le sole animazioni hanno richiesto mesi di lavoro. Eppure è comunque un sito web statico. Ha lo stesso valore del mio sito web personale?
+Diversamente ho sviluppato progetti a singola pagina dove le sole animazioni hanno richiesto mesi di lavoro. Eppure è comunque un sito web statico. Ha lo stesso valore del mio sito web personale? 
+
+La risposta da una domanda del genere non può che essere: **se ritieni che quanto ti venga richiesto per sviluppare il tuo progetto sia eccessivo è probabile che tu non conosca il lavoro richiesto o che tu creda che il lavoro degli altri sia meno importante del tuo e che quindi non vada pagato adeguatamente.**
+
+Ovviamente i margini di trattativa vanno considerati dato che siamo un paese dove per sentirsi più bravi e realizzati è necessario andare a tirare sul prezzo (che quindi terranno conto di questa cosa...).
 
 # La percezione del valore
 
-Quanto vale il tuo lavoro?
+**Quanto vale il tuo lavoro?**
 
- 
+Vi siete mai posti questa domanda? Bene, perché se siete dei professionisti dell'informatica dovreste essere in grado di rispondere. Dovreste essere consci che la vostra professione è importante, molto più importante di altre che verranno soppiantate dal progresso nel tempo.
+
+Non intendo che saper programmare sia la panacea di tutti i mali ma che se siete una persona capace di gestire da capo a piedi un progetto, di saper valorizzare gli input che vi vengono affidati e di produrre risultati allora il vostro valore è grande.
+
+Diffidate da chi minimizza con "sei sempre davanti al computer" o esordisce con qualche apprezzamento sulla fatica di stare davanti allo schermo.
+
+Se conosci quanto vali inoltre avrai sempre più margini di trattativa in tutte le questioni relative al lavoro :)
