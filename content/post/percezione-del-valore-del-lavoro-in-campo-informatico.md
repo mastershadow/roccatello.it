@@ -1,14 +1,13 @@
 +++
 authors = []
 date = "2019-01-26T23:00:00+00:00"
-draft = true
 lastmod = "2019-01-26T23:00:00+00:00"
-summary = ""
+summary = "E' molto difficile per le persone estranee al mondo dello sviluppo avere idea di cosa ci sia dietro ogni progetto."
 tags = ["italiano", "lavoro", "opinioni", "informatica"]
 title = "Percezione del valore del lavoro in campo informatico"
 [header]
 caption = ""
-image = ""
+image = "https://res.cloudinary.com/roccatello/image/upload/v1545491236/samples/ecommerce/accessories-bag.jpg"
 
 +++
 Sono incappato in questa domanda su Quora:
