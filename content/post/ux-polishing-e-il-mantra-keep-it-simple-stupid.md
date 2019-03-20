@@ -1,7 +1,6 @@
 +++
 authors = []
 date = "2019-03-19T23:00:00+00:00"
-draft = true
 lastmod = "2019-03-19T23:00:00+00:00"
 summary = ""
 tags = []
@@ -29,4 +28,4 @@ In una condizione del genere è inevitabile arrivare alla complessità della ter
 
 Questo è il motivo principale per cui i prodotti enterprise generalmente non hanno una buona qualità per quanto riguarda la user experience. Purtroppo infatti non ci si può sempre permettere, per fattori di opportunità e anche economici, di buttare via tutto e rifare da capo come ci hanno abituato i grandi player, che non hanno a cuore la vita dei prodotti (cfr Google Graveyard) ma semplicemente desiderano avere traction verso gli utenti.
 
-A 3DGIS abbiamo messo a punto un equilibrio abbastanza efficace nella progettazione della User Experience, tramite l'impiego di wireframe, mockup e prototipazione veloce, che ci hanno portato ad avere soluzioni usabili anche in caso di forte complessità, come nel caso della cartografia e dell'informazione spaziale integrata.
+A 3DGIS abbiamo messo a punto un equilibrio abbastanza efficace nella progettazione della User Experience, tramite l'impiego di wireframe, mockup e prototipazione veloce, che ci hanno portato ad avere soluzioni usabili anche in caso di forte complessità, come nel caso della cartografia e dell'informazione spaziale integrata, e nonostante ciò periodicamente ci adoperiamo nella riprogettazione completa di tutti i flussi di esperienza utente.
