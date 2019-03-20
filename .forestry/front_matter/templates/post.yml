@@ -1,7 +1,6 @@
 ---
 label: Post
 hide_body: false
-is_partial: false
 fields:
 - type: text
   label: title
@@ -48,6 +47,7 @@ fields:
   config:
     labelField: author
 pages:
-- content/post/testing-forestry-io-static-cms.md
-- content/post/a-praise-and-a-rant-towards-agile-project-management-and-its-applications-on-sme-businesses.md
+- content/post/ux-polishing-e-il-mantra-keep-it-simple-stupid.md
 - content/post/percezione-del-valore-del-lavoro-in-campo-informatico.md
+- content/post/a-praise-and-a-rant-towards-agile-project-management-and-its-applications-on-sme-businesses.md
+- content/post/testing-forestry-io-static-cms.md
