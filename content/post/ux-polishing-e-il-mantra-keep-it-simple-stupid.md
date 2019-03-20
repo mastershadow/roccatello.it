@@ -2,7 +2,7 @@
 authors = []
 date = "2019-03-19T23:00:00+00:00"
 lastmod = "2019-03-19T23:00:00+00:00"
-summary = ""
+summary = "Da qualche mese a 3DGIS stiamo mettendo in cantiere nuove idee e prototipi per le evoluzioni di Carto, con l'obiettivo di semplificare l'uso del prodotto pur mantenendo molto ampie le possibilità."
 tags = []
 title = "User experience, user interface e il mantra \"keep it simple and stupid\""
 [header]
