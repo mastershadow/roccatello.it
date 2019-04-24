@@ -8,7 +8,7 @@ tags = ["gis", "futuro", "5g", "tecnologia"]
 title = "GIS e 5G: un matrimonio possibile per le città del futuro?"
 [header]
 caption = ""
-image = ""
+image = "https://res.cloudinary.com/roccatello/image/upload/v1556134457/:year/:filename/5G-radiation-1024x579-1-1024x579-1024x579-1024x579-1024x579-1.jpg"
 
 +++
 Visualizzate nella vostra mente un paesaggio urbano: ognuno di voi vedrà il riflesso della città ideale nei propri pensieri. Lo scopo principale della pubblica amministrazione e del governo del territorio è proprio la costruzione di un ambiente ideale per ognuno di noi, per ogni cittadino.
