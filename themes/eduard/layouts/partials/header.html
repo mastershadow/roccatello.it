@@ -132,7 +132,7 @@
   <meta property="og:description" content="{{ $desc }}">
   {{ $og_image := "" }}
   {{ if .Params.header.image }}
-    {{ $og_image = print "img/" .Params.header.image }}
+    {{ $og_image = .Params.header.image }}
   {{ else if .Site.Params.sharing_image }}
     {{ $og_image = .Site.Params.sharing_image }}
   {{ else }}
