@@ -47,8 +47,9 @@ fields:
   config:
     labelField: author
 pages:
-- content/post/gis-e-5g-un-connubio-possibile-per-le-città-del-futuro.md
-- content/post/ux-polishing-e-il-mantra-keep-it-simple-stupid.md
+- content/post/5-fallacie-logiche-che-affliggono-lo-sviluppo-software-e-il-project-management-nell-ict.md
 - content/post/percezione-del-valore-del-lavoro-in-campo-informatico.md
 - content/post/a-praise-and-a-rant-towards-agile-project-management-and-its-applications-on-sme-businesses.md
+- content/post/gis-e-5g-un-connubio-possibile-per-le-città-del-futuro.md
 - content/post/testing-forestry-io-static-cms.md
+- content/post/ux-polishing-e-il-mantra-keep-it-simple-stupid.md
