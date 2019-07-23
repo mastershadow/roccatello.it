@@ -1,14 +1,13 @@
 +++
 authors = []
 date = "2019-07-22T22:00:00+00:00"
-draft = true
 lastmod = "2019-07-22T22:00:00+00:00"
 summary = "La domanda che ho interiorizzato nel tempo è: \"Come può questo paese essere smart se complichiamo anche le cose più semplici?\""
 tags = ["italia", "pubblica amministrazione", "smart city", "partecipazione"]
 title = "Il lungo percorso verso la cittadinanza smart passa dalla disruption della Pubblica Amministrazione"
 [header]
 caption = ""
-image = ""
+image = "https://res.cloudinary.com/roccatello/image/upload/v1563913429/Think-smart.jpg"
 
 +++
 Vivere in Italia significa barcamenarsi tra procedure burocratiche complicate, dove anche le innovazioni non riescono a staccarsi dallo strato burocratico storico, aggiungendo provvedimenti di semplificazione che in realtà si incastrano in un dedalo di ulteriori norme. Il risultato è sorprendentemente deludente e abbiamo ancora molta strada da fare per poter essere all'altezza delle migliori realtà mondiali.
