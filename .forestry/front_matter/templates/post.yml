@@ -47,8 +47,9 @@ fields:
   config:
     labelField: author
 pages:
-- content/post/il-lungo-percorso-verso-la-cittadinanza-smart-passa-dalla-disruption-della-pubblica-amministrazione.md
+- content/post/tempo-di-affrontare-l-analfabetismo-funzionale.md
 - content/post/5-fallacie-logiche-che-affliggono-lo-sviluppo-software-e-il-project-management-nell-ict.md
+- content/post/il-lungo-percorso-verso-la-cittadinanza-smart-passa-dalla-disruption-della-pubblica-amministrazione.md
 - content/post/percezione-del-valore-del-lavoro-in-campo-informatico.md
 - content/post/a-praise-and-a-rant-towards-agile-project-management-and-its-applications-on-sme-businesses.md
 - content/post/gis-e-5g-un-connubio-possibile-per-le-città-del-futuro.md
