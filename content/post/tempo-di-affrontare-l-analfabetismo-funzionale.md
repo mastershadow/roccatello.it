@@ -1,7 +1,6 @@
 +++
 authors = []
 date = "2019-09-11T22:00:00+00:00"
-draft = true
 lastmod = "2019-09-11T22:00:00+00:00"
 summary = "Fino a poco tempo fa la mia policy su social e affini è stata il silenzio. Forse altezzosamente volevo sentirmi superiore agli altri ignorandoli. Ora non più."
 tags = ["italia", "internet", "social", "politica"]
