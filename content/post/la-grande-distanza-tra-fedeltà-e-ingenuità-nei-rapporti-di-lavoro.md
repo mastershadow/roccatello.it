@@ -1,7 +1,6 @@
 +++
 authors = []
 date = "2019-10-29T23:00:00+00:00"
-draft = true
 lastmod = "2019-10-29T23:00:00+00:00"
 summary = "Lavoro per soldi. Se vuoi lealtà, assumi un cane."
 tags = ["lavoro", "it", "pensieri", "riflessioni"]
