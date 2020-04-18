@@ -7,12 +7,13 @@ tags = ["lavoro", "it", "pensieri", "riflessioni"]
 title = "La grande distanza tra fedeltà e ingenuità nei rapporti di lavoro."
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1572445721/FB_IMG_1571218314881_drqgau.jpg"
+image = "posts/FB_IMG_1571218314881_drqgau.jpg"
 
 +++
+
 Circola da un po' questa foto qui (la stessa dell'header ma la ripropongo in dettaglio di seguito):
 
-![](https://res.cloudinary.com/roccatello/image/upload/v1572445721/FB_IMG_1571218314881_drqgau.jpg)
+![](/img/posts/FB_IMG_1571218314881_drqgau.jpg)
 
 La fotografia riprende una persona di spalle con un foglio attaccato alla sedia, che recita "I work for money. If you want loyalty, hire a dog." ossia "Lavoro per soldi. Se vuoi lealtà, assumi un cane".
 La prima volta che ho visto quest'immagine mi ha lasciato un po' l'amaro in bocca ma non ci ho dato molto peso. Nel frattempo sono successe un po' di cose e stamattina mi è ricapitata nel feed di qualche pagina umoristica sui programmatori e mi è venuto spontaneo salvarla per rifletterci su un po'.

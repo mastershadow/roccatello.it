@@ -1,5 +1,4 @@
 {{ partial "header" . }}
-
 {{ partial "navbar" . }}
 
 {{ range $index, $page := where (where .Site.RegularPages "Section" "home") ".Params.active" "!=" false }}
@@ -8,10 +7,10 @@
 {{ partial $widget $params }}
 {{ end }}
 
+{{ partial "webpackstyle" . }}
 {{ $script := .Site.Data.webpack.main }}
 {{ with $script.js }}
 <script src="{{ relURL . }}"></script>
 {{ end }}
 
-{{ partial "webpackstyle" . }}
 {{ partial "footer" . }}

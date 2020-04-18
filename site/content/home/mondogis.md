@@ -1,47 +1,16 @@
 +++
-# About/Biography widget.
 widget = "mondogis"
 active = true
 date = 2016-04-20T00:00:00
+weight = 2
 
-# Order that this section will appear in.
-weight = 3
-
-# List your academic interests.
-[interests]
-  interests = [
-    "Spatial data infrastructures",
-    "INSPIRE",
-    "3D Data and LIDAR",
-    "WebGL / OpenGL",
-    "System administration",
-    "Cycling and cats"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "M.Eng in Computer Engineering"
-  institution = "University of Padua"
-  year = 2008
-
-[[education.courses]]
-  course = "B.Eng in Computer Engineering"
-  institution = "University of Padua"
-  year = 2005
-
-[[education.courses]]
-  course = "HSDG in Electical Engineering"
-  institution = "ITIS F.Viola Rovigo"
-  year = 2002
- 
+title = "Storie dal Mondo GIS"
+trailer = "DAYP0NFU42c"
+channelurl = "https://www.youtube.com/channel/UCjcLUZV44x0CieY-goXpeTw"
 +++
 
-# Biography
+**Storie dal Mondo GIS** vi racconta i segreti del mondo dell'informatica geografica e vi spiega come funzionano tante cose legate alla natura e alla terra. Ovviamente informaticamente parlando!
 
-I'm Eduard Roccatello, the Chief Technology Officer of 3DGIS, an Italian GIS company.
-I love working on innovative solutions: things that _change the status quo about spatial data development and usage_.
+Se siete curiosi su come funzionino le mappe che utilizzate tutti i giorni, la navigazione satellitare e la localizzazione dei vostri device allora questo è il posto giusto!
 
-My day is usually full of math and big data and I like to be surrounded by interesting and skilled people. I also really do care about user experience and software usability.
-
-Leading 3D geospatial R&D at 3DGIS, I've leart to manage hard tasks with difficult timelines on a daily basis.
-I'm also the lead software architect of the Cityvu project and a long time developer of the Xfce Desktop Environment.
+Parleremo di proiezioni geografiche, di 2D e 3D, di innovazione e molto altro legato alla Terra e al mondo in cui viviamo.

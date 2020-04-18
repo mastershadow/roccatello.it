@@ -6498,6 +6498,29 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma"); }
 body {
-  padding-top: 3em; }
+  font-family: "system";
+  padding-top: 4rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility; }
+.featurette {
+  text-align: center; }
+.featurette .featurette-icon {
+    font-size: 4rem; }
+#contacts li {
+  padding-top: 0.8rem;
+  margin-bottom: 0.3rem; }
+#contacts .fa-li {
+  position: absolute;
+  left: -3.14285714rem;
+  width: 2rem;
+  top: 0.14285714em;
+  text-align: center; }
 

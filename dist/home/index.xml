@@ -21,23 +21,23 @@
     </item>
     
     <item>
-      <title>Projects</title>
+      <title>Storie dal Mondo GIS</title>
+      <link>http://www.roccatello.it/home/mondogis/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/mondogis/</guid>
+      <description>Storie dal Mondo GIS vi racconta i segreti del mondo dell&amp;rsquo;informatica geografica e vi spiega come funzionano tante cose legate alla natura e alla terra. Ovviamente informaticamente parlando!
+Se siete curiosi su come funzionino le mappe che utilizzate tutti i giorni, la navigazione satellitare e la localizzazione dei vostri device allora questo è il posto giusto!
+Parleremo di proiezioni geografiche, di 2D e 3D, di innovazione e molto altro legato alla Terra e al mondo in cui viviamo.</description>
+    </item>
+    
+    <item>
+      <title>Progetti personali</title>
       <link>http://www.roccatello.it/home/showcase/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>http://www.roccatello.it/home/showcase/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.roccatello.it/home/mondogis/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>http://www.roccatello.it/home/mondogis/</guid>
-      <description>Biography I&amp;rsquo;m Eduard Roccatello, the Chief Technology Officer of 3DGIS, an Italian GIS company. I love working on innovative solutions: things that change the status quo about spatial data development and usage.
-My day is usually full of math and big data and I like to be surrounded by interesting and skilled people. I also really do care about user experience and software usability.
-Leading 3D geospatial R&amp;amp;D at 3DGIS, I&amp;rsquo;ve leart to manage hard tasks with difficult timelines on a daily basis.</description>
     </item>
     
     <item>
@@ -55,13 +55,12 @@ Leading 3D geospatial R&amp;amp;D at 3DGIS, I&amp;rsquo;ve leart to manage hard 
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>http://www.roccatello.it/home/about/</guid>
-      <description>Su di me About me I&amp;rsquo;m Eduard Roccatello, the Chief Technology Officer of 3DGIS, an Italian GIS company. I love working on innovative solutions: things that change the status quo about spatial data development and usage.
-My day is usually full of math and big data and I like to be surrounded by interesting and skilled people. I also really do care about user experience and software usability.
-Leading 3D geospatial R&amp;amp;D at 3DGIS, I&amp;rsquo;ve leart to manage hard tasks with difficult timelines on a daily basis.</description>
+      <description>Su di me Mi chiamo Eduard Roccatello, sono nato a Rovigo nel 1983 e sono un grande appassionato di tecnologia e, in particolare, di informatica fin dall&amp;rsquo;età di sette anni, quando ricevetti il mio primo personal computer: un bellissimo Amiga 500.
+Da lì nacque tutta la mia passione per l&amp;rsquo;informatica, che mi portò a diventare prima un programmatore e poi un ingegnere informatico (ebbene sì, non è la stessa cosa).</description>
     </item>
     
     <item>
-      <title>Selected coding / tech skills</title>
+      <title>Skill e competenze</title>
       <link>http://www.roccatello.it/home/skills/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
@@ -70,7 +69,7 @@ Leading 3D geospatial R&amp;amp;D at 3DGIS, I&amp;rsquo;ve leart to manage hard 
     </item>
     
     <item>
-      <title>Selected Publications</title>
+      <title>Pubblicazioni scientifiche</title>
       <link>http://www.roccatello.it/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       

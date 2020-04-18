@@ -7,12 +7,13 @@ tags = ["gis", "futuro", "5g", "tecnologia"]
 title = "GIS e 5G: un matrimonio possibile per le città del futuro?"
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1556134457/:year/:filename/5G-radiation-1024x579-1-1024x579-1024x579-1024x579-1024x579-1.jpg"
+image = "posts/5G-radiation-1024x579-1-1024x579-1024x579-1024x579-1024x579-1.jpg"
 
 +++
+
 Visualizzate nella vostra mente un paesaggio urbano: ognuno di voi vedrà il riflesso della città ideale nei propri pensieri. Lo scopo principale della pubblica amministrazione e del governo del territorio è proprio la costruzione di un ambiente ideale per ognuno di noi, per ogni cittadino.
 
-Cosa può aiutare nella costruzione di città migliori? L'informazione geografica ha un  importante ruolo in tutto ciò. Collegare informazione e territorio, contestualizzandola al meglio, è un passo strategico per migliorare i servizi pubblici e il coinvolgimento dei cittadini.
+Cosa può aiutare nella costruzione di città migliori? L'informazione geografica ha un importante ruolo in tutto ciò. Collegare informazione e territorio, contestualizzandola al meglio, è un passo strategico per migliorare i servizi pubblici e il coinvolgimento dei cittadini.
 
 **L'urbanizzazione del futuro sarà guidata da dati geospaziali** e la posizione geografica sarà una componente cruciale della digitalizzazione della nostra vita e delle città.
 

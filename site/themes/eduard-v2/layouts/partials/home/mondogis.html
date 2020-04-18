@@ -1,1 +1,23 @@
-<section id="mondogis"></section>
+{{ $ := .root }}
+{{ $page := .page }}
+<section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>{{ $page.Title }}</h1>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-lg-6 col-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="http://www.youtube.com/embed/{{ $page.Params.trailer }}" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        {{ $page.Content }}
+
+        <a class="btn btn-block btn-lg btn-success" href="{{ $page.Params.channelurl }}">Clicca qui per accedere al
+          canale</a>
+      </div>
+    </div>
+</section>

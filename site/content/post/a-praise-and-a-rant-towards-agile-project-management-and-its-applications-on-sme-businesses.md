@@ -7,9 +7,10 @@ tags = ["Development", "Project Management"]
 title = "A praise and a rant towards Agile project management and its applications on SME businesses"
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1545491229/samples/sheep.jpg"
+image = "posts/sheep.jpg"
 
 +++
+
 It's almost Xmas and I really need a break about forced politeness, so I'll shout here a secret I really would have told you before.
 
 # Agile sucks. But it's great for you!
@@ -34,36 +35,36 @@ If you scale this down to SME's reality, you could see how things get worse. You
 
 Currently our project management pipeline is almost always done in the following way, and it is accurately documented in our quality management system. I'll skip the documentation part.
 
-    1)   A project is collected in the ERP, which assigns it a code. 
+    1)   A project is collected in the ERP, which assigns it a code.
          This code is unique and shared between management apps.
     1.a) A specific JIRA project is created, if the requirements need it.
-    2)   JIRA issues are created within the project and 
+    2)   JIRA issues are created within the project and
          they have a reference to the project code.
-    3)   Issues are orchestrated in Sprints which corresponds to milestones, 
+    3)   Issues are orchestrated in Sprints which corresponds to milestones,
          something that would be called a "deliverable" in real life.
     4)	 Sprints are assigned on a weekly base and people could be
          assigned to multiple sprints (macro managing).
-    4.a) Sprints have deadlines which are hard but 
+    4.a) Sprints have deadlines which are hard but
          duration is based on working time:
          so if you have 2 projects elapsed time is twice.
-    5)   Once ready, deliverables get delivered to their destination, 
+    5)   Once ready, deliverables get delivered to their destination,
          which responds with a feedback.
-    6)   Development receives feedbacks and 
+    6)   Development receives feedbacks and
          iterates 2-6 until project completion or new planning.
 
 This approach is probably not perfect, and will be refined in the future, but it has some crucial advantages:
 
-* **Delegation / micromanagement**  
+- **Delegation / micromanagement**  
   People who is working with you is also responsible for themselves and are allowed to managed their time.
-* **Preemption support**  
+- **Preemption support**  
   A new project can fit in the schedule quite easily. Obviously other project's timeline gets stretched.
-* **Can be used with intermittent projects**  
+- **Can be used with intermittent projects**  
   Given you are working in a pipeline it doesn't matter if a stage is not ready yet. You keep working on other things.
 
 As I was telling you it's not perfect, and these are some drawbacks:
 
-* People needs to able to manage themselves.
-* Multitasking lowers performance, so keep it lowest as possible.
-* Projects timing needs more supervising as it is less predictable.
+- People needs to able to manage themselves.
+- Multitasking lowers performance, so keep it lowest as possible.
+- Projects timing needs more supervising as it is less predictable.
 
 As always please tell me what you think :)

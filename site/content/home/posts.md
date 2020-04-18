@@ -8,10 +8,6 @@ subtitle = "Posts are in Italian if their target is Italy only (mostly personal 
 
 weight = 4
 
-tags_include = []
-tags_exclude = []
 
-count = 5
-
-list_format = 1
+count = 8
 +++

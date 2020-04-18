@@ -7,9 +7,10 @@ tags = ["Personal", "Development"]
 title = "Testing Forestry.io as Static CMS"
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1545491239/samples/landscapes/nature-mountains.jpg"
+image = "posts/nature-mountains.jpg"
 
 +++
+
 Some days ago I've switched from Wordpress to Hugo, as I was looking for a zero maintenance solution after deploy.
 
 But Wordpress is a very versatile CMS and that's why I was looking for a static CMS for Hugo.  

@@ -1,3 +1,6 @@
+{{ $css := .Site.Data.assets.css }}
+{{ $js := .Site.Data.assets.js }}
+{{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.fontAwesome.url $css.fontAwesome.version) $css.fontAwesome.sri | safeHTML }}
 {{ $stylesheet := .Site.Data.webpack.main }}
 {{ with $stylesheet.css }}
 <link href="{{ relURL . }}" rel="stylesheet">

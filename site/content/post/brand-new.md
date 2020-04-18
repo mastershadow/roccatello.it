@@ -7,9 +7,10 @@ tags = ["Personal", "Development"]
 title = "Brand new website"
 [header]
 caption = ""
-image = "headers/welcome.png"
+image = "posts/welcome.png"
 
 +++
+
 Welcome to a revamped version of my personal website.
 
 Probably I would never populate the old content back, so let's start from scratch (also because a lot of previous content were pretty lame).

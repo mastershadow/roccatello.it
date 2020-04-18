@@ -7,9 +7,10 @@ tags = ["italia", "pubblica amministrazione", "smart city", "partecipazione"]
 title = "Il lungo percorso verso la cittadinanza smart passa dalla disruption della Pubblica Amministrazione"
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1563913429/Think-smart.jpg"
+image = "posts/Think-smart.jpg"
 
 +++
+
 Vivere in Italia significa barcamenarsi tra procedure burocratiche complicate, dove anche le innovazioni non riescono a staccarsi dallo strato burocratico storico, aggiungendo provvedimenti di semplificazione che in realtà si incastrano in un dedalo di ulteriori norme. Il risultato è sorprendentemente deludente e abbiamo ancora molta strada da fare per poter essere all'altezza delle migliori realtà mondiali.
 
 Questo triste assioma, si applica a tutto quello che ha a che fare con la Pubblica Amministrazione. Ad esempio non c'è da stupirsi infatti di come si debba prenotare in Agenzia delle Entrate alle sei del mattino per il giorno stesso. Sembra incredibile ma è esattamente così.

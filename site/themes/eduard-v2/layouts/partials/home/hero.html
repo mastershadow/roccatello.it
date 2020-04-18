@@ -1,5 +1,10 @@
+{{ $ := .root }}
+{{ $page := .page }}
 <section id="hero">
   <div class="container">
-    <div class="row">Hero</div>
-  </div>
+    <div class="row">
+      <div class="col-12">
+        {{ $page.Content }}
+      </div>
+    </div>
 </section>

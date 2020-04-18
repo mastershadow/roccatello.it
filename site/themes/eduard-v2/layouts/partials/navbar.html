@@ -1,36 +1,15 @@
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+<nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-lg" id="navbar-main">
   <div class="container">
     <a class="navbar-brand" href="{{ "/" | relLangURL }}">{{- .Site.Title -}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="collapse navbar-collapse" id="navbar">
-
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         {{ range .Site.Menus.main }}
 
-        {{ if .HasChildren }}
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            {{ .Pre }}
-            <span>{{ .Name | safeHTML }}</span>
-            {{ .Post }}
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            {{ range .Children }}
-            <li class="dropdown-item my-0 py-0 mx-0 px-0">
-              <a href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}>
-                {{ .Pre }}
-                <span>{{ .Name | safeHTML }}</span>
-                {{ .Post }}
-              </a>
-            </li>
-            {{ end }}
-          </ul>
-        </li>
-
-        {{ else }}
-
-        {{/* Set target for link. */}}
         {{ $.Scratch.Set "target" "" }}
         {{ if gt (len .URL) 4 }}
         {{ if eq "http" (slicestr .URL 0 4) }}
@@ -48,10 +27,7 @@
         </li>
 
         {{ end }}
-        {{ end }}
-
       </ul>
-
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>

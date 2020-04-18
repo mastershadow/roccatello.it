@@ -27,6 +27,19 @@
           </li>
           {{ end }}
 
+          {{ range $.Site.Params.social }}
+          {{ $pack := or .icon_pack "fas" }}
+          {{ $pack_prefix := $pack }}
+          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+          {{ end }}
+          <li>
+            <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x big-icon"></i>
+            <span>
+              <a href="{{ .link | safeURL }}">{{ .text | safeURL }}</a>
+            </span>
+          </li>
+          {{ end }}
         </ul>
 
       </div>

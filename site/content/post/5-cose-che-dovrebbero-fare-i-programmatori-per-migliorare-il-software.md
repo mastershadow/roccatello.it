@@ -7,9 +7,10 @@ tags = ["azienda", "sviluppo", "consigli", "prodotto", "product-manager", "progr
 title = "5 cose che dovrebbero fare i programmatori per migliorare il software"
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1570036675/product-launch-mistakes_mgk4k8.png"
+image = "posts/product-launch-mistakes_mgk4k8.png"
 
 +++
+
 Siete i programmatori più bravi nel mondo e nel vostro campo siete imbattibili. Il vostro output è solitamente un prodotto, gestito da un product manager, che va a finire nelle mani di utenti, più o meno bravi (solitamente meno, dati gli ultimi rapporti Nielsen sulla capacità digitale media delle persone).
 
 Potete fare qualcosa per migliorare il vostro lavoro. Non dal punto di vista strettamente ingegneristico ma dal punto di vista complessivo della realtà aziendale in cui vi trovate. Ecco cinque cose che potete provare senza sconvolgere troppo la vostra vita.

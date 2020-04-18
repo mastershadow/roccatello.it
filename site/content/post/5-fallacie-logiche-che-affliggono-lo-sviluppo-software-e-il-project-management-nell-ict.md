@@ -7,9 +7,10 @@ tags = ["software", "ingegneria", "fallacia", "errori", "project management", "d
 title = "5 fallacie logiche che affliggono lo sviluppo software e il project management nell'ICT"
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1560074643/:year/:filename/T-error-article-header.jpg"
+image = "posts/T-error-article-header.jpg"
 
 +++
+
 Progettare, sviluppare e mantenere software è un lavoro complesso. Uno dei lavori più stressanti a mio avviso, che con l'avvento del mainstream computing ha portato la percezione di come sia "semplice" fare le cose con il computer.
 
 La realtà è però molto diversa. Soprattutto nel caso si debba garantire un'ottima user experience, il sottostante sarà dannatamente complicato. Siamo abituati ad avere a che fare con trappole per umani come Facebook, Youtube, Instagram e gli altri social network, curati in ogni dettaglio per farci restare a nostro agio nella loro piattaforma. Siamo abituati alla semplicità di Gmail, all'intuitività di Apple e alla comunicazione in tempo reale via Whatsapp.

@@ -7,9 +7,10 @@ tags = ["italiano", "lavoro", "opinioni", "informatica"]
 title = "Percezione del valore del lavoro in campo informatico"
 [header]
 caption = ""
-image = "https://res.cloudinary.com/roccatello/image/upload/v1545491236/samples/ecommerce/accessories-bag.jpg"
+image = "posts/accessories-bag.jpg"
 
 +++
+
 Sono incappato in questa domanda su Quora:
 
 > L'importo di € 3000 per la creazione di un sito web statico con una ventina di pagine è esagerato? Se sì, a quanto ammonterebbe un prezzo sensato? ([link](https://it.quora.com/Limporto-di-3000-per-la-creazione-di-un-sito-web-statico-con-una-ventina-di-pagine-%C3%A8-esagerato-Se-s%C3%AC-a-quanto-ammonterebbe-un-prezzo-sensato))
@@ -62,7 +63,7 @@ Momento... cosa vuol dire costruire un sito statico? Vuol dire che qualcuno ha s
 
 Facciamo un esempio pratico. Questo sito è un sito statico generato tramite Hugo dopo che io ho costruito il tema (basandomi su uno esistente) e ho inserito i contenuti. Ci ho messo qualche giorno nei ritagli di tempo. Non ho dovuto però preoccuparmi di nessuna delle attività preliminari e successive. Inoltre ho usato un template già pronto per la grafica con poche modifiche, riducendo di molto i tempi.
 
-Diversamente ho sviluppato progetti a singola pagina dove le sole animazioni hanno richiesto mesi di lavoro. Eppure è comunque un sito web statico. Ha lo stesso valore del mio sito web personale? 
+Diversamente ho sviluppato progetti a singola pagina dove le sole animazioni hanno richiesto mesi di lavoro. Eppure è comunque un sito web statico. Ha lo stesso valore del mio sito web personale?
 
 La risposta da una domanda del genere non può che essere: **se ritieni che quanto ti venga richiesto per sviluppare il tuo progetto sia eccessivo è probabile che tu non conosca il lavoro richiesto o che tu creda che il lavoro degli altri sia meno importante del tuo e che quindi non vada pagato adeguatamente.**
 

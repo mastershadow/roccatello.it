@@ -10,9 +10,10 @@ caption = ""
 image = ""
 
 +++
+
 Questa immagine è in giro da un bel po' ormai... Sebbene sia datata 2012, se ricordo bene, rappresenta la realtà ancora oggi e forse non ci sarà modo di cambiare le cose.
 
- ![](https://res.cloudinary.com/roccatello/image/upload/v1553115424/:year/:filename/simplicity.jpg)
+![](/img/posts/simplicity.jpg)
 
 Da qualche mese a 3DGIS stiamo mettendo in cantiere nuove idee e prototipi per le evoluzioni di Carto, con l'obiettivo di semplificare l'uso del prodotto pur mantenendo molto ampie le possibilità.
 

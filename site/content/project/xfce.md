@@ -15,7 +15,7 @@ image_preview = "boards.jpg"
 tags = ["Linux", "Development"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://www.3dgis.it/it/cityvu"
+external_link = "https://www.xfce.org"
 
 # Does the project detail page use math formatting?
 math = false

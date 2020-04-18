@@ -4,8 +4,9 @@ date = 2017-09-20T00:00:00
 
 active = true
 
-title = "Selected coding / tech skills"
-subtitle = ""
+title = "Skill e competenze"
+subtitle = """Nel tempo ho fatto tesoro della mia esperienza e ho imparato molto tra linguaggi di programmazione e software applicativi e d'ambiente.
+Continuo a imparare ogni giorno ma in quest'ultimo periodo sto utilizzando maggiormente queste tecnologie, prodotti e linguaggi di programmazione."""
 
 weight = 6
 
