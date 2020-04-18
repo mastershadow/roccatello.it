@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>azienda on Eduard Roccatello</title>
+    <link>http://www.roccatello.it/tags/azienda/</link>
+    <description>Recent content in azienda on Eduard Roccatello</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Tue, 01 Oct 2019 22:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.roccatello.it/tags/azienda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 cose che dovrebbero fare i programmatori per migliorare il software</title>
+      <link>http://www.roccatello.it/post/5-cose-che-dovrebbero-fare-i-programmatori-per-migliorare-il-software/</link>
+      <pubDate>Tue, 01 Oct 2019 22:00:00 +0000</pubDate>
+      
+      <guid>http://www.roccatello.it/post/5-cose-che-dovrebbero-fare-i-programmatori-per-migliorare-il-software/</guid>
+      <description>Potete fare qualcosa per migliorare il vostro lavoro. Non dal punto di vista strettamente ingegneristico ma dal punto di vista complessivo della realtà aziendale in cui vi trovate.</description>
+    </item>
+    
+  </channel>
+</rss>

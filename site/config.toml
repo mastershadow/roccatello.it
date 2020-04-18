@@ -1,0 +1,155 @@
+baseurl = "http://www.roccatello.it/"
+title = "Eduard Roccatello"
+copyright = "&copy; 2020"
+
+theme = "eduard-v2"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+paginate = 10
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = "UA-695484-3"
+
+defaultContentLanguage = "it"
+defaultContentLanguageInSubdir = false
+
+# Get last modified date for content from Git?
+enableGitInfo = false
+
+[outputs]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
+  section = [ "HTML", "RSS" ]
+
+[blackfriday]
+  hrefTargetBlank = true
+  fractions = true
+  smartypants = true
+
+[params]
+  name = "Eduard Roccatello"
+  role = ""
+  organizations = [ { name = "3DGIS Chief Technical Officer", url = "https://www.3dgis.it" } ]
+
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "avatar.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  
+  # Details for the Contact Widget
+  email = "eduard.roccatello@3dgis.it"
+  address = "Rovigo. Padova. Bergamo."
+
+  map = 0
+  map_api_key = ""
+  latitude = "45.050801"
+  longitude = "11.780133"
+  zoom = 6
+
+  # Description for social sharing and search engines. If undefined, author role is used in place.
+  description = ""
+  
+  # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+  sharing_image = ""
+
+  # Twitter username (without @). Used when a vistor shares your site on Twitter.
+  twitter = "edurocc"
+
+  # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "2006-01-02"
+  #   Examples: "3:04 pm" or "15:04"
+  time_format = "15:04"
+
+  # Show estimated reading time for posts?
+  reading_time = true
+
+  # Display comment count? Requires commenting to be enabled.
+  comment_count = false
+
+  # Display next/previous section pager?
+  section_pager = true
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  highlight = true
+  highlight_languages = []
+  highlight_style = "github"
+
+  sharing = true
+  privacy_pack = true
+
+  custom_css = []
+  custom_js  = []
+
+  publication_types = [
+    'Uncategorized',  # 0
+    'Conference paper',  # 1
+    'Journal article',  # 2
+    'Manuscript',  # 3
+    'Report',  # 4
+    'Book',  # 5
+    'Book section'  # 6
+  ]
+
+  # Configuration of talk pages.
+  [params.talks]
+    # Show talk time?
+    time = true
+
+  # Configuration of publication pages.
+  [params.publications]
+    # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+    date_format = "January, 2006"
+
+  # Configuration of project pages.
+  [params.projects]
+    # List publications and talks related to the project?
+    list_children = true
+    publication_format = 3
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fas"
+    link = "mailto:eduard.roccatello@3dgis.it"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fab"
+    link = "//twitter.com/edurocc"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fab"
+    link = "//github.com/mastershadow"
+
+[[menu.main]]
+  name = "Storie dal Mondo GIS"
+  url = "#storie-mondo-gis"
+  weight = 2
+
+[[menu.main]]
+  name = "Showcase"
+  url = "#showcase"
+  weight = 4
+
+[[menu.main]]
+  name = "Articoli"
+  url = "#posts"
+  weight = 5
+  
+[[menu.main]]
+  name = "Su di me"
+  url = "#aboutme"
+  weight = 6
+
+[[menu.main]]
+  name = "Contatti"
+  url = "#contacts"
+  weight = 7
+

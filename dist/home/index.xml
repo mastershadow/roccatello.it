@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Eduard Roccatello</title>
+    <link>http://www.roccatello.it/home/</link>
+    <description>Recent content in Homes on Eduard Roccatello</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.roccatello.it/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, I&#39;m Eduard.</title>
+      <link>http://www.roccatello.it/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/hero/</guid>
+      <description>Location data and knowledge lover.Innovative technology enthusiast.I love working on challenging tasks.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.roccatello.it/home/showcase/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/showcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.roccatello.it/home/mondogis/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/mondogis/</guid>
+      <description>Biography I&amp;rsquo;m Eduard Roccatello, the Chief Technology Officer of 3DGIS, an Italian GIS company. I love working on innovative solutions: things that change the status quo about spatial data development and usage.
+My day is usually full of math and big data and I like to be surrounded by interesting and skilled people. I also really do care about user experience and software usability.
+Leading 3D geospatial R&amp;amp;D at 3DGIS, I&amp;rsquo;ve leart to manage hard tasks with difficult timelines on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>Ultimi articoli</title>
+      <link>http://www.roccatello.it/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.roccatello.it/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/about/</guid>
+      <description>Su di me About me I&amp;rsquo;m Eduard Roccatello, the Chief Technology Officer of 3DGIS, an Italian GIS company. I love working on innovative solutions: things that change the status quo about spatial data development and usage.
+My day is usually full of math and big data and I like to be surrounded by interesting and skilled people. I also really do care about user experience and software usability.
+Leading 3D geospatial R&amp;amp;D at 3DGIS, I&amp;rsquo;ve leart to manage hard tasks with difficult timelines on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>Selected coding / tech skills</title>
+      <link>http://www.roccatello.it/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/skills/</guid>
+      <description>I also know a use and know lot of other languages and tools during the day, like Adobe CC, PHP, Python, Wordpress, Blender, Geoserver, Geonetwork and so on.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>http://www.roccatello.it/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contatti</title>
+      <link>http://www.roccatello.it/home/contacts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>http://www.roccatello.it/home/contacts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

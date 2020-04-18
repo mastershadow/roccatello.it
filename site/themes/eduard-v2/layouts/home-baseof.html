@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+
+{{ partial "navbar" . }}
+
+{{ range $index, $page := where (where .Site.RegularPages "Section" "home") ".Params.active" "!=" false }}
+{{ $params := dict "root" $ "page" $page }}
+{{ $widget := printf "home/%s.html" $page.Params.widget }}
+{{ partial $widget $params }}
+{{ end }}
+
+{{ $script := .Site.Data.webpack.main }}
+{{ with $script.js }}
+<script src="{{ relURL . }}"></script>
+{{ end }}
+
+{{ partial "webpackstyle" . }}
+{{ partial "footer" . }}

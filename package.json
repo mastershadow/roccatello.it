@@ -1,0 +1,52 @@
+{
+  "name": "roccatello.it",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-p start:**",
+    "start:hugo": "hugo -d ../dist -s site -vw",
+    "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
+    "prebuild": "rimraf dist",
+    "build": "npm run build:webpack && npm run build:hugo",
+    "build:hugo": "hugo -d ../dist -s site -v",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastershadow/roccatello.it.git"
+  },
+  "author": "Eduard Roccatello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mastershadow/roccatello.it/issues"
+  },
+  "homepage": "https://github.com/mastershadow/roccatello.it#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "assets-webpack-plugin": "^3.9.12",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.4.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.2.0",
+    "hugo-bin": "^0.57.0",
+    "jquery": "^3.5.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "popper.js": "^1.16.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  }
+}
