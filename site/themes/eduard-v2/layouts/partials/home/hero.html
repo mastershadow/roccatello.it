@@ -3,7 +3,8 @@
 <section id="hero" class="mt-1">
   <div class="jumbotron jumbotron-fluid bg-success text-light">
     <div class="container">
-      <h1 class="display-2">{{ $page.Title }}</h1>
+      <h1 class="display-2 d-none d-sm-block">{{ $page.Title }}</h1>
+      <h1 class="display-3 d-sm-none">{{ $page.Title }}</h1>
       <h2 class="display-4">{{ $page.Params.subtitle }}</h2>
       {{ $page.Content }}
     </div>
