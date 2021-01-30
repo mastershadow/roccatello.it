@@ -2,7 +2,7 @@
 {{ $page := .page }}
 {{ $pubs_len := len (where $.Site.RegularPages "Type" "publication") }}
 
-<section id="publications">
+<section id="publications" class="bg-secondary text-light mt-4 pt-5 pb-4 mb-5">
   <div class="container">
     <!-- Publications widget -->
     <div class="row">
@@ -30,7 +30,7 @@
           {{ else if .Params.publication }}
           {{- .Params.publication | markdownify -}}.
           {{ end }}<br>
-          <strong class="text-primary">{{ .Title }}</strong>.
+          <strong class="text-light text-uppercase">{{ .Title }}.</strong>
         </div>
         {{ end }}
 

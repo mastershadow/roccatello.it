@@ -4,7 +4,8 @@ widget = "hero"
 active = true
 date = 2017-10-15T00:00:00
 
-title = "Hello, I'm Eduard."
+title = "Eduard Roccatello"
+subtitle = "Opinioni e attività personali"
 
 # Order that this section will appear in.
 weight = 1
@@ -24,6 +25,7 @@ weight = 1
 #  label = '<i class="fas fa-download"></i> Install Now'
 +++
 
-Location data and knowledge lover.<br/>
-Innovative technology enthusiast.<br/>
-I love working on challenging tasks.
+<p class="lead"><br/>
+🌍 Location data and knowledge lover.<br/>
+🚀 Innovative technology enthusiast.<br/>
+💪 Challenging tasks admirer.</p>

@@ -1,7 +1,7 @@
 {{ $ := .root }}
 {{ $page := .page }}
 
-<section id="contacts">
+<section id="contacts" class="mb-5">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-4 section-heading">
@@ -15,7 +15,7 @@
           <li>
             <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
             <span id="person-email" itemprop="email">
-              <a href="mailto:{{ . }}">{{ . }}</a>
+              <a class="text-success" href="mailto:{{ . }}">{{ . }}</a>
             </span>
           </li>
           {{ end }}
@@ -36,7 +36,7 @@
           <li>
             <i class="fa-li {{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-2x big-icon"></i>
             <span>
-              <a href="{{ .link | safeURL }}">{{ .text | safeURL }}</a>
+              <a class="text-success font-weight-bold" href="{{ .link | safeURL }}">{{ .text | safeURL }}</a>
             </span>
           </li>
           {{ end }}

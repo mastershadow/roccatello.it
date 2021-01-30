@@ -5,7 +5,7 @@
   {{/* If `authors` is set and is not empty. */}}
   {{ if $.Params.authors }}
   {{ $authorLen := len $.Params.authors }}
-  <div>
+  <div><i class="fa fa-user fa-fw"></i>
     {{ range $k, $v := $.Params.authors }}
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">{{- $v -}}</span>
@@ -25,7 +25,7 @@
     {{ end }}
     <meta content="{{ $.Params.Date }}" itemprop="datePublished">
     <time datetime="{{ $.Params.LastMod }}" itemprop="dateModified">
-      {{ $.Lastmod.Format $.Site.Params.date_format }}
+      <i class="fa fa-calendar fa-fw mr-1"></i>{{ $.Lastmod.Format $.Site.Params.date_format }}
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -35,7 +35,7 @@
   {{ if ne $.Site.Params.reading_time false }}
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    {{ $.ReadingTime }} {{ i18n "minute_read" }}
+    <i class="fa fa-clock fa-fw mr-1"></i>{{ $.ReadingTime }} {{ i18n "minute_read" }}
   </span>
   {{ end }}
 
@@ -60,8 +60,8 @@
   {{ end }}
   {{ end }}
 
-  {{ if ne $is_list 1 }}
-  {{ partial "share.html" $ }}
-  {{ end }}
-
 </div>
+
+{{ if ne $is_list 1 }}
+{{ partial "share.html" $ }}
+{{ end }}

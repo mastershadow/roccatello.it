@@ -1,10 +1,11 @@
 {{ $ := .root }}
 {{ $page := .page }}
-<section id="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        {{ $page.Content }}
-      </div>
+<section id="hero" class="mt-1">
+  <div class="jumbotron jumbotron-fluid bg-success text-light">
+    <div class="container">
+      <h1 class="display-2">{{ $page.Title }}</h1>
+      <h2 class="display-4">{{ $page.Params.subtitle }}</h2>
+      {{ $page.Content }}
     </div>
+  </div>
 </section>

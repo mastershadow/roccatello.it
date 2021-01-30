@@ -1,6 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
-<section id="aboutme">
+<section id="aboutme" class="bg-dark text-light pt-5 pb-3 mt-4">
   <div class="container">
     <!-- About widget -->
     <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
@@ -16,8 +16,7 @@
 
         {{ $page.Content }}
 
-        <div class="row">
-
+        <div class="row  rounded bg-danger pt-4 pb-4">
           {{ with $page.Params.interests }}
           <div class="col-md-5">
             <h3>{{ i18n "interests" | markdownify }}</h3>

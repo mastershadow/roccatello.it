@@ -3,13 +3,25 @@
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
 
-  <div class="article-container">
-    <h1 itemprop="name">{{ .Title }}</h1>
-
+    {{ with .Title }}
+    <div class="jumbotron jumbotron-fluid bg-success text-light mb-0">
+      <div class="container">
+        <h1 class="display-3">{{ . }}</h1>
+      </div>
+    </div>
+    {{ end }}
     {{ partial "header_image" . }}
-    {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
 
-    <div class="article-style" itemprop="articleBody">
+    <div class="bg-secondary">
+      <div class="container text-light">
+        <div class="d-flex justify-content-between align-items-center pt-3 pb-3">
+          {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="article-style pt-4" itemprop="articleBody">
       {{ .Content }}
     </div>
 

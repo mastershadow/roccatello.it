@@ -1,12 +1,11 @@
 +++
-authors = []
+authors = ["Eduard Roccatello"]
 date = "2019-07-22T22:00:00+00:00"
 lastmod = "2019-07-22T22:00:00+00:00"
 summary = "La domanda che ho interiorizzato nel tempo è: \"Come può questo paese essere smart se complichiamo anche le cose più semplici?\""
 tags = ["italia", "pubblica amministrazione", "smart city", "partecipazione"]
 title = "Il lungo percorso verso la cittadinanza smart passa dalla disruption della Pubblica Amministrazione"
 [header]
-caption = ""
 image = "posts/Think-smart.jpg"
 
 +++

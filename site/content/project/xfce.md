@@ -8,7 +8,7 @@ title = "Xfce"
 summary = "The lightweight desktop environment for *nix."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "https://www.3dgis.it/wp-content/uploads/2015/10/xubuntu-xfce412-utopic.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

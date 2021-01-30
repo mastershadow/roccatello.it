@@ -6,11 +6,11 @@ weight = 5
 
 [interests]
   interests = [
-    "Infrastrutture dati geografici (SDI)",
-    "INSPIRE e Open data",
+    "Game development",
+    "Open data / source",
     "3D e LIDAR",
     "Linux e sistemi *NIX",
-    "Gatti",
+    "Gatti e felini in generale",
     "Ciclismo",
     "Fotografia"
   ]

@@ -84,4 +84,4 @@ weight = 6
 
 +++
 
-I also know a use and know lot of other languages and tools during the day, like <br/>Adobe CC, PHP, Python, Wordpress, Blender, Geoserver, Geonetwork and so on.
+I also know a use and know lot of other languages and tools during the day, like Adobe CC, PHP, Python, Wordpress, Blender, Geoserver, Geonetwork and so on.

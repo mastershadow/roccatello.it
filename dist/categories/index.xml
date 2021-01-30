@@ -5,10 +5,6 @@
     <link>http://www.roccatello.it/categories/</link>
     <description>Recent content in Categories on Eduard Roccatello</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2020</copyright>
-    
-	<atom:link href="http://www.roccatello.it/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021</copyright><atom:link href="http://www.roccatello.it/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

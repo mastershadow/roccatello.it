@@ -64,10 +64,10 @@
 # About widget
 
 - id: interests
-  translation: Interessi
+  translation: Interessi personali
 
 - id: education
-  translation: Formazione
+  translation: Formazione principale
 
 # Publications widget
 

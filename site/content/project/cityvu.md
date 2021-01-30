@@ -5,7 +5,7 @@ title = "3DGIS cityvu"
 
 summary = "Architectural projects and 3D urban data visualisation directly in your browser."
 
-image_preview = "boards.jpg"
+image_preview = "https://www.3dgis.it/wp-content/uploads/2015/10/generazione-modello-3d.jpg"
 
 tags = ["3D", "GIS"]
 

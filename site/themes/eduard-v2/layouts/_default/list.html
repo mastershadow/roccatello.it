@@ -1,8 +1,14 @@
 {{ partial "header" . }}
 {{ partial "navbar" . }}
 
-<div class="universal-wrapper">
-  {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+  {{ with .Title }}
+  <div class="jumbotron jumbotron-fluid bg-success text-light">
+    <div class="container">
+      <h1 class="display-2">{{ . }}</h1>
+    </div>
+  </div>
+  {{ end }}
+  <div class="container">
 
   {{ with .Content }}
   <div class="article-style" itemprop="articleBody">{{ . }}</div>
@@ -10,9 +16,9 @@
 
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
-  <div>
-    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-    <div class="article-style">
+  <article class="pt-5">
+    <h2><a href="{{ .RelPermalink }}" class="text-success font-weight-bold">{{ .Title }}</a></h2>
+    <p class="lead">
       {{ if .Params.summary }}
       {{ .Params.summary | plainify | emojify }}
       {{ else if .Params.abstract }}
@@ -20,12 +26,12 @@
       {{ else if .Summary }}
       {{ .Summary | plainify | emojify }}
       {{ end }}
-    </div>
-  </div>
+    </p>
+  </article>
   {{ end }}
 
   {{ partial "pagination" . }}
-</div>
+  </div>
 
 {{ partial "webpackstyle" . }}
 {{ partial "footer" . }}

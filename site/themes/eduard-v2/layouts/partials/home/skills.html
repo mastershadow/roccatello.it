@@ -1,21 +1,19 @@
 {{ $ := .root }}
 {{ $page := .page }}
 <section id="skills">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      {{ with $page.Title }}
+        <h1 class="display-4">{{ . | markdownify | emojify }}</h1>
+      {{ end }}
+      {{ if $page.Params.subtitle }}<p class="lead">{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+      {{ with $page.Content }}
+      <p>{{ . | markdownify }}</p>
+      {{ end }}
+    </div>
+  </div>
   <div class="container">
     <div class="row featurette mb-4">
-      {{ with $page.Title }}
-      <div class="col-12 col-lg-6 offset-lg-3 section-heading">
-        <h1>{{ . | markdownify | emojify }}</h1>
-        {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
-      </div>
-      {{ end }}
-
-      {{ with $page.Content }}
-      <div class="col-md-12">
-        <p>{{ . | markdownify }}</p>
-      </div>
-      {{ end }}
-
       {{ range $page.Params.feature }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
@@ -23,7 +21,7 @@
       {{ $pack_prefix = "fa" }}
       {{ end }}
       <div class="col-md-4">
-        {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>
+        {{ with .icon }}<div class="featurette-icon text-danger"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>
         {{ end }}
         <h3>{{ .name | markdownify | emojify }}</h3>
         {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}

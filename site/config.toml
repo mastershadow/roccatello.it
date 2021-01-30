@@ -1,6 +1,6 @@
 baseurl = "http://www.roccatello.it/"
 title = "Eduard Roccatello"
-copyright = "&copy; 2020"
+copyright = "&copy; 2021"
 
 theme = "eduard-v2"
 enableEmoji = true
@@ -146,3 +146,7 @@ enableGitInfo = false
   url = "#contacts"
   weight = 7
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
