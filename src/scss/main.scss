@@ -52,3 +52,10 @@ body {
 .article-style {
     font-size: 1.5em;
 }
+
+blockquote {
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 4px solid #eee;
+    font-style: italic;
+}

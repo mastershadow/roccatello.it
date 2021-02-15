@@ -3,13 +3,18 @@
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
 
-    {{ with .Title }}
+
     <div class="jumbotron jumbotron-fluid bg-success text-light mb-0">
       <div class="container">
+        {{ with .Title }}
         <h1 class="display-3">{{ . }}</h1>
+        {{ end }}
+        {{ with .Summary }}
+        <h4 class="display-6">{{ . }}</h4>
+        {{ end }}
       </div>
     </div>
-    {{ end }}
+
     {{ partial "header_image" . }}
 
     <div class="bg-secondary">
