@@ -7,7 +7,8 @@
     <div class="jumbotron jumbotron-fluid bg-success text-light mb-0">
       <div class="container">
         {{ with .Title }}
-        <h1 class="display-3">{{ . }}</h1>
+        <h1 class="display-4 d-none d-sm-block">{{ . }}</h1>
+        <h1 class="display-5 d-sm-none">{{ . }}</h1>
         {{ end }}
         {{ with .Summary }}
         <h4 class="display-6">{{ . }}</h4>

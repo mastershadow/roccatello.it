@@ -123,7 +123,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Storie dal Mondo GIS"
-  url = "#storie-mondo-gis"
+  url = "#mondogis"
   weight = 2
 
 [[menu.main]]

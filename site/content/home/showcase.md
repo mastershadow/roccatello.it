@@ -4,7 +4,7 @@ widget = "showcase"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Showcase e progetti a cui lavoro"
+title = "Showcase e progetti"
 subtitle = ""
 
 # Order that this section will appear in.

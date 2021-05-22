@@ -5,7 +5,7 @@ active = true
 date = 2017-10-15T00:00:00
 
 title = "Eduard Roccatello"
-subtitle = "Opinioni e attività personali"
+subtitle = "Geospatial expert"
 
 # Order that this section will appear in.
 weight = 1
@@ -26,6 +26,6 @@ weight = 1
 +++
 
 <p class="lead"><br/>
-🌍 Location data and knowledge lover.<br/>
-🚀 Innovative technology enthusiast.<br/>
-💪 Challenging tasks admirer.</p>
+🌍 Location location location.<br/>
+🚀 Innovative technology.<br/>
+💪 Challenging tasks.</p>
