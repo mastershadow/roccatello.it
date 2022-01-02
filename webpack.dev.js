@@ -14,10 +14,10 @@ module.exports = merge(common, {
 
   devServer: {
     port: process.env.PORT || 3000,
-    contentBase: path.join(process.cwd(), "./dist"),
-    watchContentBase: true,
-    writeToDisk: true,
-    quiet: false,
+    static: {
+      directory: path.join(process.cwd(), "./dist"),
+      watch: true,
+    },
     open: true,
     historyApiFallback: {
       rewrites: [

@@ -2,7 +2,7 @@ baseurl = "http://www.roccatello.it/"
 title = "GIS, GeoICT e innovazione"
 copyright = "&copy; 2022"
 
-theme = "eduard-v2"
+theme = "eduard-v3"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
