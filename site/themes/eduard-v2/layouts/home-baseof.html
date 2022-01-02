@@ -1,6 +1,5 @@
 {{ partial "header" . }}
 {{ partial "navbar" . }}
-
 {{ range $index, $page := where (where .Site.RegularPages "Section" "home") ".Params.active" "!=" false }}
 {{ $params := dict "root" $ "page" $page }}
 {{ $widget := printf "home/%s.html" $page.Params.widget }}

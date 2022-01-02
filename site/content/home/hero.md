@@ -5,7 +5,7 @@ active = true
 date = 2017-10-15T00:00:00
 
 title = "Eduard Roccatello"
-subtitle = "Geospatial expert"
+subtitle = "Geospatial expert, who loves technology and creates software."
 
 # Order that this section will appear in.
 weight = 1
@@ -24,8 +24,3 @@ weight = 1
 ##  url = "./post/getting-started/"
 #  label = '<i class="fas fa-download"></i> Install Now'
 +++
-
-<p class="lead"><br/>
-🌍 Location location location.<br/>
-🚀 Innovative technology.<br/>
-💪 Challenging tasks.</p>

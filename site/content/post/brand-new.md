@@ -5,6 +5,7 @@ lastmod = "2018-10-28T00:00:00.000+00:00"
 summary = "I've rebooted my personal website switching to Hugo, a static site generator written in Go."
 tags = ["Personal", "Development"]
 title = "Brand new website"
+language = "en"
 [header]
 caption = ""
 image = "posts/welcome.png"

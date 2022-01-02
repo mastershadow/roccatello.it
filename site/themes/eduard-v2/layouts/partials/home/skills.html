@@ -4,7 +4,7 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       {{ with $page.Title }}
-        <h1 class="display-4">{{ . | markdownify | emojify }}</h1>
+        <h1 class="display-5">{{ . | markdownify | emojify }}</h1>
       {{ end }}
       {{ if $page.Params.subtitle }}<p class="lead">{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
       {{ with $page.Content }}

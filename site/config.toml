@@ -1,6 +1,6 @@
 baseurl = "http://www.roccatello.it/"
-title = "Eduard Roccatello"
-copyright = "&copy; 2021"
+title = "GIS, GeoICT e innovazione"
+copyright = "&copy; 2022"
 
 theme = "eduard-v2"
 enableEmoji = true
@@ -38,7 +38,7 @@ enableGitInfo = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "avatar.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   
-  address = "Rovigo. Padova. Bergamo."
+  address = "Bergamo. Rovigo. Padova."
 
   map = 0
   map_api_key = ""
@@ -132,17 +132,17 @@ enableGitInfo = false
   weight = 4
 
 [[menu.main]]
-  name = "Articoli"
-  url = "#posts"
+  name = "Articles"
+  url = "post"
   weight = 5
   
 [[menu.main]]
-  name = "Su di me"
+  name = "About"
   url = "#aboutme"
   weight = 6
 
 [[menu.main]]
-  name = "Contatti"
+  name = "Contacts"
   url = "#contacts"
   weight = 7
 

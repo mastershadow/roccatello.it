@@ -12,7 +12,7 @@
   translation: Related
 
 - id: minute_read
-  translation: minuti
+  translation: minute(s)
 
 - id: previous
   translation: Precedente

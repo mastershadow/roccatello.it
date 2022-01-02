@@ -1,61 +1,59 @@
 @import "~bootstrap/scss/bootstrap";
 
 @font-face {
-    font-family: system;
-    font-style: normal;
-    font-weight: 300;
-    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"),
+    local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
 body {
-    font-family: "system";
-    padding-top: 4rem;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-font-smoothing: subpixel-antialiased;
-    text-rendering: optimizeLegibility;
+  font-family: "system";
+  padding-top: 56px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .featurette {
-    text-align: center;
+  text-align: center;
 
-    .featurette-icon {
-        font-size: 4rem;
-    }
+  .featurette-icon {
+    font-size: 4rem;
+  }
 }
 
 #contacts {
-    li {
-        padding-top: 0.8rem;
-        margin-bottom: 0.3rem;
-    }
+  li {
+    padding-top: 0.8rem;
+    margin-bottom: 0.3rem;
+  }
 
-    .fa-li {
-        position: absolute;
-        left: -3.14285714rem;
-        width: 2rem;
-        top: 0.14285714em;
-        text-align: center;
-    }
+  .fa-li {
+    position: absolute;
+    left: -3.14285714rem;
+    width: 2rem;
+    top: 0.14285714em;
+    text-align: center;
+  }
 }
-
 
 .article-header {
-    background-size: contain;
-    background-position: center;
-    background-repeat: repeat;
-    height: 240px;
-
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  height: 240px;
 }
 
-
 .article-style {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 blockquote {
-    margin: 1em 0;
-    padding-left: 1em;
-    border-left: 4px solid #eee;
-    font-style: italic;
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 4px solid #eee;
+  font-style: italic;
 }
