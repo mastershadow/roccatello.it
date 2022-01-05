@@ -7,22 +7,22 @@
     <!-- Blog Posts widget -->
     <div class="row">
       <div class="col-12 section-heading">
-        <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+        <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
         {{ with $page.Params.subtitle }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
+    <div class="row ms-1">
+      <div class="col">
         {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
         {{ $posts := where (where $.Site.RegularPages "Type" "post") ".Params.notonhomepage" nil }}
         <ul class="list-unstyled">
           {{ range $post := first $page.Params.count $posts }}
-          <li class="media mb-3">
-            <div class="icon mr-3"><i class="fas fa-newspaper fa-2x text-success"></i></div>
+          <li class="d-flex">
+            <div class="icon me-3"><i class="fas fa-newspaper fa-2x text-success"></i></div>
             <article class="media-body">
               <h5 class="mt-0 mb-1 font-weight-bold"><a href="{{ $post.RelPermalink }}"
                   itemprop="url" class="text-success">{{ $post.Title }}</a></h5>
-              <p class="lead">{{ $post.Summary }}</p>
+              <p>{{ $post.Summary }}</p>
             </article>
           </li>
           {{ end }}
@@ -31,10 +31,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12">
+      <div class="col">
         {{ if gt $posts_len $page.Params.count }}
-        <p class="lead view-all text-right">
-          <a class="font-weight-bold text-danger text-uppercase" href="{{ ($.Site.GetPage "section" "post").RelPermalink }}">
+        <p class="d-flex justify-content-end">
+          <a class="font-weight-bold text-light text-uppercase btn btn-danger" href="{{ ($.Site.GetPage "section" "post").RelPermalink }}">
             {{ i18n "more_posts" | markdownify }}
             <i class="fas fa-angle-double-right"></i>
           </a>

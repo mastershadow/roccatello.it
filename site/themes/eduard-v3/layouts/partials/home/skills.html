@@ -1,10 +1,10 @@
 {{ $ := .root }}
 {{ $page := .page }}
 <section id="skills">
-  <div class="jumbotron jumbotron-fluid">
+  <div class="p-5 pb-2">
     <div class="container">
       {{ with $page.Title }}
-        <h1 class="display-5">{{ . | markdownify | emojify }}</h1>
+        <h2>{{ . | markdownify | emojify }}</h2>
       {{ end }}
       {{ if $page.Params.subtitle }}<p class="lead">{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
       {{ with $page.Content }}
@@ -13,17 +13,17 @@
     </div>
   </div>
   <div class="container">
-    <div class="row featurette mb-4">
+    <div class="row featurette mb-5">
       {{ range $page.Params.feature }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
       {{ if in (slice "fab" "fas" "far" "fal") $pack }}
       {{ $pack_prefix = "fa" }}
       {{ end }}
-      <div class="col-md-4">
+      <div class="col-md-2">
         {{ with .icon }}<div class="featurette-icon text-danger"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>
         {{ end }}
-        <h3>{{ .name | markdownify | emojify }}</h3>
+        <h4>{{ .name | markdownify | emojify }}</h4 >
         {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
       </div>
       {{ end }}
