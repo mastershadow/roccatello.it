@@ -5,8 +5,7 @@ date = 2017-09-20T00:00:00
 active = true
 
 title = "Skill e competenze"
-subtitle = """Nel tempo ho fatto tesoro della mia esperienza e ho imparato molto tra linguaggi di programmazione e software applicativi e d'ambiente.
-Continuo a imparare ogni giorno ma in quest'ultimo periodo sto utilizzando maggiormente queste tecnologie, prodotti e linguaggi di programmazione."""
+subtitle = """Ho fatto tesoro della mia esperienza con linguaggi di programmazione e software applicativi e d'ambiente, senza mai smettere di imparare."""
 
 weight = 4
 
@@ -83,5 +82,3 @@ weight = 4
   description = ""
 
 +++
-
-I also know a use and know lot of other languages and tools during the day, like Adobe CC, PHP, Python, Wordpress, Blender, Geoserver, Geonetwork and so on.

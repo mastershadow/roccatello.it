@@ -3,6 +3,7 @@ widget = "aboutme"
 active = true
 date = 2016-04-20T00:00:00
 weight = 3
+title = "About me"
 
 [interests]
   interests = [
@@ -31,26 +32,23 @@ weight = 3
   year = 2002
 +++
 
-# About me
-
-Mi chiamo Eduard Roccatello, sono nato a Rovigo nel 1983 e sono un grande appassionato di tecnologia fin dall'età di sette anni, quando ricevetti il mio primo personal computer: un bellissimo Amiga 500.
+Sono Eduard Roccatello, nato a Rovigo nel 1983 e grande appassionato di tecnologia fin dall'età di sette anni, quando ricevetti il mio primo personal computer: un bellissimo Amiga 500.
 Da lì nacque tutta la mia passione per l'informatica, che mi portò a diventare prima un programmatore e poi un ingegnere.
-Nel tempo mi sono dedicato a molti progetti. Se siete utilizzatori abbastanza esperti di Linux, FreeBSD o OpenBSD è possibile stiate utilizzando qualcosa fatto da me, soprattutto se il vostro ambiente desktop è Xfce.
+Nel tempo mi sono dedicato a molti progetti. Se utilizzate Linux, FreeBSD o OpenBSD è possibile stiate utilizzando qualcosa fatto da me, soprattutto se il vostro ambiente desktop è Xfce.
 
-Ho cominciato a lavorare nel 2002, sono stato libero professionista per lungo tempo prima di fondare 3DGIS, una software house GIS italiana, di cui sono CTO e mi occupo di **ricerca e sviluppo (RD)**.
-Fare ricerca e sviluppo significa che la mia giornata è solitamente densa di matematica e grandi moli di dati, e che ogni giorno devo gestire task complessi in tempi ridotti. Non certo una passeggiata.
-Mi piace inoltre occuparmi della componente estetica dei prodotti, con particolare cura della User Experience (UX) e della usabilità in generale.
+Sono stato libero professionista per lungo tempo prima di fondare 3DGIS, software house GIS italiana di cui sono CTO e mi occupo di **ricerca e sviluppo (RD)**.
+La mia giornata è solitamente densa di matematica e grandi moli di dati e ogni giorno devo gestire task complessi in tempi ridotti. Mi piace inoltre occuparmi della componente estetica dei prodotti, curandone la User Experience (UX) e l'usabilità.
 
-<section lang="en">
+<section lang="en" class="text-warning">
 
-## English version
+### English version
 
-I'm Eduard Roccatello, the Chief Technology Officer of 3DGIS, an Italian GIS company.
+I'm Eduard Roccatello, CTO of 3DGIS, an Italian GIS company.
 I love working on innovative solutions: things that _change the status quo about spatial data development and usage_.
 
 My day is usually full of math and big data and I like to be surrounded by interesting and skilled people. I also really do care about user experience and software usability.
 
-Leading 3D geospatial R&D at 3DGIS, I've leart to manage hard tasks with difficult timelines on a daily basis.
+Leading 3D geospatial R&D, I've learnt to manage hard tasks with tight timelines on a daily basis.
 I'm also the lead software architect of the Cityvu project and a long time developer of the Xfce Desktop Environment.
 
 </section>

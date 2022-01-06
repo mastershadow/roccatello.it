@@ -2,16 +2,16 @@
 {{ $page := .page }}
 <section id="aboutme" class="bg-dark text-light pt-5 pb-3 mt-4">
   <div class="container">
-    <!-- About widget -->
+    <h2>{{ $page.Title }}</h2>
     <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
       itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
-      <div class="col-12 fs-5" itemprop="description">
+      <div class="col-12 fs-5 wrap-two-columns" itemprop="description">
         {{ $page.Content }}
       </div>
     </div>
-        <div class="row rounded pt-4 pb-4">
+        <div class="row bg-secondary text-light rounded pt-4 mt-4 mb-2 pb-4">
           {{ with $page.Params.interests }}
-          <div class="col">
+          <div class="col-4">
             <h3>{{ i18n "interests" | markdownify }}</h3>
             <ul class="ul-interests">
               {{ range .interests }}
