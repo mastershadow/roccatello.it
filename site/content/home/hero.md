@@ -5,7 +5,7 @@ active = true
 date = 2017-10-15T00:00:00
 
 title = "Eduard Roccatello"
-subtitle = "Geospatial expert, who loves technology and creates software."
+subtitle = "A geospatial expert who loves technology and creates software"
 
 # Order that this section will appear in.
 weight = 1

@@ -3,28 +3,30 @@
   <div class="p-4 bg-success text-light">
     <div class="container">
       {{ with .Title }}
-      <h1 class="display-4 m-0 p-0">{{ . }}</h1>
+      <h2 class="m-0 p-0">{{ . }}</h2>
       {{ end }}
-
       {{ with .Content }}
       <div class="article-style" itemprop="articleBody">{{ . }}</div>
       {{ end }}
     </div>
   </div>
-  <div class="container">
+  <div class="container mt-3">
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
-  <article class="pt-4">
-    <h2 class="mb-0"><i class="fas fa-fw fa-book text-secondary"></i> <a href="{{ .RelPermalink }}" class="text-success font-weight-bold">{{ .Title }}</a></h2>
-    <p class="lead">
-      {{ if .Params.summary }}
-      {{ .Params.summary | plainify | emojify }}
-      {{ else if .Params.abstract }}
-      {{ .Params.abstract | plainify | emojify | truncate 250 }}
-      {{ else if .Summary }}
-      {{ .Summary | plainify | emojify }}
-      {{ end }}
-    </p>
+  <article class="pt-3 d-flex">
+    <div class="fs-4 p-1 text-secondary"><i class="fas fa-fw fa-book "></i></div>
+    <div>
+      <h3 class="m-0 "><a href="{{ .RelPermalink }}" class="link-success font-weight-bold">{{ .Title }}</a></h3>
+      <p class="lead">
+        {{ if .Params.summary }}
+        {{ .Params.summary | plainify | emojify }}
+        {{ else if .Params.abstract }}
+        {{ .Params.abstract | plainify | emojify | truncate 250 }}
+        {{ else if .Summary }}
+        {{ .Summary | plainify | emojify }}
+        {{ end }}
+      </p>
+    </div>
   </article>
   {{ end }}
 

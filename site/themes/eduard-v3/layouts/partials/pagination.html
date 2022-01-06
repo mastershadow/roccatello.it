@@ -2,10 +2,32 @@
 <nav>
   <ul class="pagination justify-content-center">
     {{ if .Paginator.HasPrev }}
-    <li class="page-item"><a class="text-light bg-success font-weight-bold border-light page-link" href="{{ .Paginator.Prev.URL | relLangURL }}"><i class="fa fa-chevron-left"></i></a></li>
+    <li class="page-item"><a class="link-light bg-success font-weight-bold border-light page-link" href="{{ .Paginator.Prev.URL | relLangURL }}"><i class="fa fa-chevron-left"></i></a></li>
     {{ end }}
+    {{- with .Paginator }}
+    {{- $currentPageNumber := .PageNumber }}
+    {{- $slots := 5 }}
+    {{- $start := math.Max 1 (sub .PageNumber (math.Floor (div $slots 2))) }}
+    {{- $end := math.Min .TotalPages (sub (add $start $slots) 1) }}
+    {{- if lt (add (sub $end $start) 1) $slots }}
+      {{- $start = math.Max 1 (add (sub $end $slots) 1) }}
+    {{- end }}
+
+    {{- range $k := seq $start $end }}
+      {{- if eq $.Paginator.PageNumber $k }}
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page {{ $k }}" class="link-light bg-success page-link" role="button">{{ $k }}</a>
+      </li>
+      {{- else }}
+      <li class="page-item">
+        <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" aria-label="Page {{ $k }}" class="link-success page-link" role="button">{{ $k }}</a>
+      </li>
+      {{- end }}
+    {{- end }}
+
+    {{- end }}
     {{ if .Paginator.HasNext }}
-    <li class="page-item"><a class="text-light bg-success font-weight-bold border-light page-link" href="{{ .Paginator.Next.URL | relLangURL }}"><i class="fa fa-chevron-right"></i></a></li>
+    <li class="page-item"><a class="link-light bg-success font-weight-bold border-light page-link" href="{{ .Paginator.Next.URL | relLangURL }}"><i class="fa fa-chevron-right"></i></a></li>
     {{ end }}
   </ul>
 </nav>

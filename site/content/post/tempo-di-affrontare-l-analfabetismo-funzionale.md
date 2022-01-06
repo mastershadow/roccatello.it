@@ -2,7 +2,7 @@
 authors = []
 date = "2019-09-11T22:00:00+00:00"
 lastmod = "2019-09-11T22:00:00+00:00"
-summary = "Fino a poco tempo fa la mia policy su social e affini è stata il silenzio. Forse altezzosamente volevo sentirmi superiore agli altri ignorandoli. Ora non più."
+summary = "Fino a poco tempo fa la mia policy su social e affini è stata il silenzio.<br>Forse altezzosamente volevo sentirmi superiore agli altri ignorandoli. Ora non più."
 tags = ["italia", "internet", "social", "politica"]
 title = "Tempo di affrontare l'analfabetismo funzionale"
 [header]
@@ -10,6 +10,7 @@ caption = ""
 image = ""
 
 +++
+
 Fino a poco tempo fa la mia policy su social e affini è stata il silenzio. Forse altezzosamente volevo sentirmi superiore agli altri ignorandoli.
 
 Mi accorgo di come chiunque sia diventato esperto di ogni cosa e ne parli pur senza avere un minimo di cognizione di causa, su quella o altri argomenti.
