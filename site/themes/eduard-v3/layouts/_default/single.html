@@ -5,7 +5,7 @@
     <div class="p-3 bg-success text-light mb-0">
       <div class="container">
         <div class="row">
-          <div class="col-6 offset-3">
+          <div class="col col-lg-6 offset-lg-3">
             {{ with .Title }}
             <h2>{{ . }}</h2>
             {{ end }}
@@ -20,7 +20,7 @@
 
     <div class="bg-secondary">
       <div class="container text-light">
-        <div class="d-flex justify-content-between align-items-center pt-3 pb-3 col-6 offset-3">
+        <div class="d-flex justify-content-between align-items-center pt-3 pb-3 col col-lg-6 offset-lg-3">
           {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
         </div>
       </div>
@@ -28,7 +28,7 @@
 
     <div class="container">
       <div class="article-style row pt-4" itemprop="articleBody">
-        <div class="col-6 offset-3">
+        <div class="col col-lg-6 offset-lg-3">
         {{ .Content }}
         </div>
       </div>
@@ -36,7 +36,7 @@
 
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       {{ with $related }}
-      <div class="article-widget col-6 offset-3 mt-3">
+      <div class="article-widget col col-lg-6 offset-lg-3 mt-3">
         <div class="hr-light"></div>
         <h3 class="text-secondary">{{ i18n "related" }}</h3>
         <hr>
