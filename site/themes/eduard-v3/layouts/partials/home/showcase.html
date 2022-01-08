@@ -10,12 +10,12 @@
         {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
       </div>
     </div>
-    <div class="row row-cols-3 mb-4 mt-3">
+    <div class="row row-cols-1 row-cols-lg-3 mb-4 mt-3">
       {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
       {{ $posts := where (where $.Site.RegularPages "Type" "project") ".Params.notonhomepage" nil }}
 
       {{ range $post := first $page.Params.count $posts }}
-      <div class="col">
+      <div class="col mb-3 mb-lg-0">
         <div class="card">
           <img src="{{ $post.Params.image_preview }}" class="card-img-top" alt="{{ $post.Title }}">
           <div class="card-body">
