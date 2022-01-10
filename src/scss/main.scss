@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
 @font-face {
   font-family: system;
   font-style: normal;
@@ -9,12 +11,22 @@
 }
 
 body {
-  font-family: "system";
+  font-family: "Noto Serif", serif;
   padding-top: 56px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: "system";
 }
 
 .featurette {
