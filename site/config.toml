@@ -30,6 +30,9 @@ enableGitInfo = false
   fractions = true
   smartypants = true
 
+[permalinks]
+  'post' = '/:year/:month/:slug/'
+
 [params]
   name = "Eduard Roccatello"
   role = ""

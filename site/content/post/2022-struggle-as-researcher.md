@@ -4,6 +4,7 @@ date = "2022-01-10T00:00:00+00:00"
 lastmod = "2022-01-10T00:00:00+00:00"
 title = "The life impact of doing a research and development job, especially in IT"
 summary = "Physical jobs vs intellectual jobs is a long time diatribe."
+slug = "life-impact-research-it-job"
 tags = ["rd", "research", "it", "job"]
 language = "en"
 draft = false
