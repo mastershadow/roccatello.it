@@ -48,6 +48,12 @@ Let's try to forecast three of them.
 
 ## Renewable energy
 
+I think this will be the sector that will benefit more from Location Intelligence in the near future.
+We are moving towards the ecologic transition and we need to cut on carbon emissions. In order to do that we need to place a lot of renewable energy sources on the field.
+> Where to put those solar and wind farms we need?
+
+Location intelligence will help the sector to obtain better answers to that question. A lot of things may should be considered: is there enough open space? Will that trigger a NIMBY effect? Is there an electric substation near the choosen place or must be built? is is windy enough but not too much? how many hours of sun a day will be there? it is better to build offshore or onshore? And I could go on forever...
+
 ## Healthcare
 
 Healthcare is becoming a commodity with more and more devices which are constantly analizing our bodies. We are collecting health data like never before and this could be really useful (also frightening if data is misused) in some LI applications.
@@ -59,3 +65,4 @@ Moving into the future, data collected from the past can be used to feed an Arti
 
 This is quite a classic in Location Intelligence. One of the first use case of LI is infact the process of choosing the right place for a store. It would take into account the type of shop, the local demography, the traffic condition, the population kind and many other aspects, like the weather.
 Future advances into sales related LI may include automatic POS, which knows what a specific customer will buy during the year, and communicates with stock for replenishment but also can bring insights on what to buy in that specific time of the year. LI could also help to optimize carbon neutrality, choosing the nearest producer for that specific amount of goods.
+
