@@ -11,16 +11,16 @@ draft = false
 +++
 
 Collecting data about something is the kind of activity you would love to do without too much effort on your side.
-Location data collection has always been very costly but things are changing.
+Location data collection has always been very costly, but things are changing.
 
 Technological progress has brought us a wide range of small, cost-effective, and powerful devices, which are location capable and can carry a wide range of sensors.
 
 Just think about what you have in your pocket: a powerful computer which is capable to know its location, in every moment.
 Your smartphone can actually do a lot with location data, as it is able to manipulate data and show you the results in real time (that's why I'm developing carto.app :-).
 
-Take your smartphone and shrink it down. You are making your pocket device way smaller and more energy efficient. The desiderata is a small device, which is location aware with enough computational power and connectivity to do everything you need for sensing and surveying.
+Take your smartphone and shrink it down. You are making your pocket device way smaller and more energy efficient. The desiderata are a small device, which is location aware with enough computational power and connectivity to do everything you need for sensing and surveying.
 
-Nowadays you just need to deploy IoT sensors to collect data using (not so) simple infrastructures. What you get is a truck load of data you could use to create analysis and extract insights, maybe using artificial intelligence, machine learning and business intelligence applications.
+Nowadays, you just need to deploy IoT sensors to collect data using (not so) simple infrastructures. What you get is a truck load of data you could use to create analysis and extract insights, maybe using artificial intelligence, machine learning and business intelligence applications.
 
 > Location data is the way to extract value insights from data.
 
@@ -35,7 +35,7 @@ Let's make an example.
 
 You have a phenomenon and you need to find the origin. Every instance of the phenomena has its location, but data seems uncorrelated. How can you extract some insights in order to know more about the phenomena?
 Location intelligence suggests to start overlaying geospatial data, for instance roads, buildings, rivers, and to try to understand if there is some kind of correlation.
-For example, smelling reports alone seems uncorrelated but if you add a industrial sites overlay it may indicate that some  chemistry companies in the site is not managing waste correctly.
+For example, smelling reports alone seems uncorrelated but if you add an industrial sites overlay it may indicate that some  chemistry companies in the site is not managing waste correctly.
 
 # The business impact of Location Intelligence
 
