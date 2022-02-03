@@ -26,6 +26,12 @@
   {{ $desc = .Site.Params.role }}
   {{ end }}
   <meta name="description" content="{{ $desc }}">
+  <meta property="og:title" content="{{ if not $.IsHome }}{{ .Title }}{{ else }}{{ $.Site.Params.name }} | {{ $.Site.Title }}{{ end }}">
+<meta property="og:site_name" content="{{ $.Site.Params.name }} | {{ $.Site.Title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{{ $.Site.BaseURL }}img/placeholder.jpg">
 </head>
 
 <body>
