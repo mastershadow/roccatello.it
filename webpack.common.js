@@ -38,7 +38,6 @@ module.exports = {
       },
       {
         test: /\.(sa|sc|c)ss$/,
-        exclude: /node_modules/,
         use: [
           isProductionMode ? MiniCssExtractPlugin.loader : "style-loader",
           "css-loader",

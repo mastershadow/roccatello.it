@@ -1,7 +1,7 @@
 +++
-date = "2018-10-28T00:00:00.000+00:00"
+date = "2018-10-28"
 title = "Privacy Policy"
-
+summary = "Privacy policy for Roccatello.it"
 +++
 Effective date: October 28, 2018
 

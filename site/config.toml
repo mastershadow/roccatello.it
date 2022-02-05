@@ -12,9 +12,6 @@ paginate = 10
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-695484-3"
-
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = false
 

@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.16.7",
+    "@klaxit/cookie-consent": "^0.3.4",
     "postcss": "^8.4.5"
   },
   "peerDependencies": {
