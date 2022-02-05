@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2018-12-23T23:00:00+00:00"
-lastmod = "2018-12-23T23:00:00+00:00"
+date = "2018-12-23"
+lastmod = "2018-12-23"
 summary = "Is agile project management really always great? Let's take a deep breath and dive in!"
 tags = ["Development", "Project Management"]
 title = "A praise and a rant towards Agile project management and its applications on SME businesses"

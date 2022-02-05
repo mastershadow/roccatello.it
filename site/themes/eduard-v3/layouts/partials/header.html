@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="{{ index .Params "language" | default $.Site.Language.Lang }}">
+{{ $lang := index .Params "language" | default $.Site.Language.Lang }}
+<html lang="{{ $lang }}">
 
 <head>
   <title>{{ if not $.IsHome }}{{ .Title }}{{ else }}{{ $.Site.Params.name }} | {{ $.Site.Title }}{{ end }}</title>
@@ -8,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Eduard Roccatello">
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   {{ with .Site.Params.name }}
   <meta name="author" content="{{ . }}">{{ end }}
   {{ $scr := .Scratch }}

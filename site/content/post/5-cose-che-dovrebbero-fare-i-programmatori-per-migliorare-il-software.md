@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2019-10-01T22:00:00+00:00"
-lastmod = "2019-10-01T22:00:00+00:00"
+date = "2019-10-01"
+lastmod = "2019-10-01"
 summary = "Potete fare qualcosa per migliorare il vostro lavoro. Non dal punto di vista strettamente ingegneristico ma dal punto di vista complessivo della realtà aziendale in cui vi trovate. "
 tags = ["azienda", "sviluppo", "consigli", "prodotto", "product-manager", "programmazione"]
 title = "5 cose che dovrebbero fare i programmatori per migliorare il software"

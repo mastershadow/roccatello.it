@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2022-01-10T00:00:00+00:00"
-lastmod = "2022-01-10T00:00:00+00:00"
+date = "2022-01-10"
+lastmod = "2022-01-10"
 title = "What to expect from Location Intelligence this year and in the near future"
 summary = "Location aware devices are smaller and powerful than ever, and will be very common in 2022. This means you will be able to collect location data for almost everything and build value upon them."
 tags = ["location", "intelligence"]

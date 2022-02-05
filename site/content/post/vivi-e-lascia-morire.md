@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2021-02-15T00:00:00+00:00"
-lastmod = "2021-02-15T00:00:00+00:00"
+date = "2021-02-15"
+lastmod = "2021-02-15"
 summary = "Riflessioni amare sul vivi e lascia morire, unico destino di questa triste Italia."
 tags = ["lavoro", "it", "pensieri", "riflessioni"]
 title = "Un paese distrutto da faziosità e incapacità di analisi razionali."

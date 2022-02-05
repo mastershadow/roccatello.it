@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2019-01-26T23:00:00+00:00"
-lastmod = "2019-01-26T23:00:00+00:00"
+date = "2019-01-26"
+lastmod = "2019-01-26"
 summary = "E' molto difficile per le persone estranee al mondo dello sviluppo avere idea di cosa ci sia dietro ogni progetto."
 tags = ["italiano", "lavoro", "opinioni", "informatica"]
 title = "Percezione del valore del lavoro in campo informatico"

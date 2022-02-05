@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2022-02-03T00:00:00+00:00"
-lastmod = "2022-02-03T00:00:00+00:00"
+date = "2022-02-03"
+lastmod = "2022-02-03"
 title = "What's wrong with hiring new ICT people, especially in SMEs"
 summary = "I wanted to write this as a rant, but I think it is a better idea to explain what is the source of my problem, trying to keep a constructive approach to the subject."
 tags = ["hr", "people", "management"]

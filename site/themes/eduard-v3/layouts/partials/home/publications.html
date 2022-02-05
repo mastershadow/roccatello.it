@@ -8,10 +8,10 @@
     <div class="row">
       <div class="col-12 col-lg-4 section-heading">
         <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
-        {{ with $page.Params.subtitle }}<p>{{ . | markdownify  }}</p>{{ end }}
+        {{ with $page.Params.subtitle }}{{ . | markdownify  }}{{ end }}
       </div>
       <div class="col-12 col-lg-8">
-        {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+        {{ with $page.Content }}{{ . | markdownify }}{{ end }}
 
         {{ $.Scratch.Set "recent_pubs" (where $.Site.RegularPages "Type" "publication") }}
 

@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2019-10-29T23:00:00+00:00"
-lastmod = "2019-10-29T23:00:00+00:00"
+date = "2019-10-29"
+lastmod = "2019-10-29"
 summary = "Lavoro per soldi. Se vuoi lealtà, assumi un cane."
 tags = ["lavoro", "it", "pensieri", "riflessioni"]
 title = "La grande distanza tra fedeltà e ingenuità nei rapporti di lavoro."

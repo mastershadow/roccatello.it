@@ -9,35 +9,34 @@
         {{ $page.Content }}
       </div>
     </div>
-        <div class="row bg-secondary text-light rounded pt-4 mt-4 mb-2 pb-4">
-          {{ with $page.Params.interests }}
-          <div class="col">
-            <h3>{{ i18n "interests" | markdownify }}</h3>
-            <ul class="ul-interests">
-              {{ range .interests }}
-              <li>{{ . | markdownify }}</li>
-              {{ end }}
-            </ul>
-          </div>
+    <div class="row bg-secondary text-light rounded pt-4 mt-4 mb-2 pb-4">
+      {{ with $page.Params.interests }}
+      <div class="col">
+        <h3>{{ i18n "interests" | markdownify }}</h3>
+        <ul class="ul-interests">
+          {{ range .interests }}
+          <li>{{ . | markdownify }}</li>
           {{ end }}
+        </ul>
+      </div>
+      {{ end }}
 
-          {{ with $page.Params.education }}
-          <div class="col">
-            <h3>{{ i18n "education" | markdownify }}</h3>
-            <ul class="ul-edu fa-ul">
-              {{ range .courses }}
-              <li>
-                <i class="fa-li fas fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course mb-0">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-                  <p class="institution">{{ .institution }}</p>
-                </div>
-              </li>
-              {{ end }}
-            </ul>
-          </div>
+      {{ with $page.Params.education }}
+      <div class="col">
+        <h3>{{ i18n "education" | markdownify }}</h3>
+        <ul class="ul-edu fa-ul">
+          {{ range .courses }}
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course mb-0">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ .institution }}</p>
+            </div>
+          </li>
           {{ end }}
-        </div>
+        </ul>
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>

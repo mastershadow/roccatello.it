@@ -1,7 +1,7 @@
 +++
 authors = []
-date = "2021-05-22T00:00:00+00:00"
-lastmod = "2021-05-22T00:00:00+00:00"
+date = "2021-05-22"
+lastmod = "2021-05-22"
 summary = "Guida per escursionisti e ciclisti per orientarsi con mappe e GPS."
 tags = ["storie", "mondo-gis", "youtube", "video"]
 title = "Minicorso GIS per escursionisti e ciclisti"

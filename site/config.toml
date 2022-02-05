@@ -22,8 +22,14 @@ defaultContentLanguageInSubdir = false
 enableGitInfo = false
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS", "JSON" ]
+  home = [ "HTML", "RSS" ]
   section = [ "HTML", "RSS" ]
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+      keepWhitespace = false
 
 [blackfriday]
   hrefTargetBlank = true
