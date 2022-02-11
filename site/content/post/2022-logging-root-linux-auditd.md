@@ -10,17 +10,17 @@ draft = false
 
 +++
 
-I want to enforce my security policies, so my desiderata is to log everything a root use does on a linux server.
+I want to enforce my security policies, so my desiderata is to log everything a root use does on a Linux server.
 Linux kernel contains a feature called Linux Audit Framework, which is obviously a framework to allow auditing events on a system.
 
-It seems like it can can serve our purpose. Let's dig in.
+It seems like it could serve our purpose. Let's dig in.
 
 ## Enable Linux Audit Framework
-Linux Audit Framework is already enabled in recent kernels, so your linux distro should already be compatible.
+Linux Audit Framework is already enabled in recent kernels, so your Linux distro should already be compatible.
 You just need to ensure you have **auditd** installed and running.
 Auditd is the responsible for audit data collection, which is stored in /var/log/auditd.log.
 
-In ubuntu you can install it using the following command, which also installs related useful tools:
+In Ubuntu, you can install it using the following command, which also installs related useful tools:
 ```bash
 sudo apt install auditd
 ```
@@ -30,8 +30,8 @@ The main tools you will need are: **auditctl** (the auditd client) and **ausearc
 The framework also includes the following tools: audispd, aureport, autrace, aulast, aulastlog, ausyscall, auvirt.
 
 ## Enable root execve syscall logging
-Out main objective is to monitor the execve syscall, whenever the effective UID (user ID) is 0 (root).
-This allow us to log both root shells and sudo commands.
+Our main objective is to monitor the execve syscall, whenever the effective UID (user ID) is 0 (root).
+This allows us to log both root shells and sudo commands.
 
 ```bash
 auditctl -a exit,always -F euid=0 -F arch=b64 -S execve -k root-exevce
@@ -46,14 +46,14 @@ These commands will:
 * tag events as root-commands
 
 ## Enable stricter root actions logging
-If we want enforce logging to all actions involving root, we could use a permission based filter as follows:
+If we want to enforce logging to all actions involving root, we could use a permission-based filter as follows:
 
 ```bash
 auditctl -a exit,always -F euid=0 -F perm=awx -S all -k root-actions
 ```
 
-The logic is the same above but we enable a filter on **permissions** and enable a wildcard on the syscalls.
-In this case we are logging:
+The logic is the same above, but we enable a filter on **permissions** and enable a wildcard on the syscalls.
+In this case, we are logging:
 * command executions
 * file writing
 * file attribute changes
@@ -83,4 +83,4 @@ ausearch -k TAG_NAME
 
 TAG_NAME is root-execve or root-actions, as we defined before.
 
-**ausearch** command is quite complex so take a look to its man page.
+**ausearch** command is quite complex, so take a look to its man page.
