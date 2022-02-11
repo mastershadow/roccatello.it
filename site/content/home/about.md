@@ -32,6 +32,10 @@ title = "About me"
   year = 2002
 +++
 
+<section lang="it" class="col">
+
+### Italiano
+
 Sono Eduard Roccatello, nato a Rovigo nel 1983 e grande appassionato di tecnologia fin dall'età di sette anni, quando ricevetti il mio primo personal computer.
 Da lì nacque la mia passione per l'informatica, che mi portò a diventare prima un programmatore e poi un ingegnere.
 Nel tempo mi sono dedicato a molti progetti: se utilizzate Linux, FreeBSD o OpenBSD è possibile stiate utilizzando qualcosa fatto da me, soprattutto se il vostro ambiente desktop è Xfce.
@@ -39,10 +43,11 @@ Nel tempo mi sono dedicato a molti progetti: se utilizzate Linux, FreeBSD o Open
 <br>
 Sono stato un freelance per lungo tempo prima di fondare 3DGIS, software house GIS italiana di cui sono CTO e mi occupo di **ricerca e sviluppo (RD)**.
 La mia giornata è solitamente densa di matematica e grandi moli di dati e ogni giorno devo gestire task complessi in tempi ridotti. Mi piace inoltre occuparmi della componente estetica dei prodotti, curandone la User Experience (UX) e l'usabilità.
+</section>
 
-<section lang="en" class="text-warning mt-3">
+<section lang="en" class="col-sm-12 col-md mt-3 mt-md-0 text-warning">
 
-### English version
+### English
 
 I'm Eduard Roccatello, CTO of 3DGIS, an Italian GIS company.
 I love working on innovative solutions: things that _change the status quo about spatial data development and usage_.
