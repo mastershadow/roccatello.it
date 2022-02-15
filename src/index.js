@@ -2,7 +2,9 @@ import "bootstrap/dist/js/bootstrap.js";
 import "./scss/main.scss";
 
 import CookieConsent from "@klaxit/cookie-consent"
+import { v4 as uuid } from 'uuid';
 
+const GA_LOCAL_STORAGE_KEY = 'ga:clientId';
 
 const activateAnalytics = () => {
   const hd = document.head;
@@ -13,7 +15,18 @@ const activateAnalytics = () => {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-695484-3');
+
+  if (window.localStorage) {
+    if (!localStorage.getItem(GA_LOCAL_STORAGE_KEY)) {
+      window.localStorage.setItem(GA_LOCAL_STORAGE_KEY, uuid());
+    }
+
+    gtag('config', 'UA-695484-3', {
+          send_page_view: true,
+          client_storage: 'none',
+          client_id: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
+        });
+  }
 };
 
 const cc = new CookieConsent({
@@ -27,14 +40,14 @@ const cc = new CookieConsent({
 
 if (cc.status != "accepted") {
   cc.open();
-} else {
-  activateAnalytics();
-}
+} 
+
+activateAnalytics();
 
 cc.on("accept", (cc) => {
   const hasAnalytics = cc.acceptedCategories.indexOf("analytics") !== -1;
   if (hasAnalytics) {
-    activateAnalytics();
+    //activateAnalytics();
   }
 
 });
