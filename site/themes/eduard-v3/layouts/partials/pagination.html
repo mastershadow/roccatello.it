@@ -16,18 +16,18 @@
     {{- range $k := seq $start $end }}
       {{- if eq $.Paginator.PageNumber $k }}
       <li class="page-item active">
-        <a aria-current="page" aria-label="Page {{ $k }}" class="link-light bg-success page-link" role="button">{{ $k }}</a>
+        <a aria-current="page" aria-label="Page {{ $k }}" rel="canonical" class="link-light bg-success page-link" role="button">{{ $k }}</a>
       </li>
       {{- else }}
       <li class="page-item">
-        <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" aria-label="Page {{ $k }}" class="link-success page-link" role="button">{{ $k }}</a>
+        <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" rel="canonical" aria-label="Page {{ $k }}" class="link-success page-link" role="button">{{ $k }}</a>
       </li>
       {{- end }}
     {{- end }}
 
     {{- end }}
     {{ if .Paginator.HasNext }}
-    <li class="page-item"><a class="link-light bg-success font-weight-bold border-light page-link" href="{{ .Paginator.Next.URL | relLangURL }}"><i class="fa fa-chevron-right"></i></a></li>
+    <li class="page-item"><a  rel="canonical" class="link-light bg-success font-weight-bold border-light page-link" href="{{ .Paginator.Next.URL | relLangURL }}"><i class="fa fa-chevron-right"></i></a></li>
     {{ end }}
   </ul>
 </nav>

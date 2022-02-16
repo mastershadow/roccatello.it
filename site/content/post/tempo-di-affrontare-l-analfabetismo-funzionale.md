@@ -5,6 +5,7 @@ lastmod = "2019-09-11"
 summary = "Fino a poco tempo fa la mia policy su social e affini è stata il silenzio.<br>Forse altezzosamente volevo sentirmi superiore agli altri ignorandoli. Ora non più."
 tags = ["italia", "internet", "social", "politica"]
 title = "Tempo di affrontare l'analfabetismo funzionale"
+slug = "affrontare-analfabetismo-funzionale"
 [header]
 caption = ""
 image = ""

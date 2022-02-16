@@ -5,6 +5,7 @@ lastmod = "2019-10-29"
 summary = "Lavoro per soldi. Se vuoi lealtà, assumi un cane."
 tags = ["lavoro", "it", "pensieri", "riflessioni"]
 title = "La grande distanza tra fedeltà e ingenuità nei rapporti di lavoro."
+slug = "distanza-rapporti-lavoro-fiducia"
 [header]
 caption = ""
 image = "posts/FB_IMG_1571218314881_drqgau.jpg"

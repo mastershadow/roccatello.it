@@ -5,6 +5,7 @@ lastmod = "2019-10-01"
 summary = "Potete fare qualcosa per migliorare il vostro lavoro. Non dal punto di vista strettamente ingegneristico ma dal punto di vista complessivo della realtà aziendale in cui vi trovate. "
 tags = ["azienda", "sviluppo", "consigli", "prodotto", "product-manager", "programmazione"]
 title = "5 cose che dovrebbero fare i programmatori per migliorare il software"
+slug = "5-cose-programmator-migliorare-software"
 [header]
 caption = ""
 image = "posts/product-launch-mistakes_mgk4k8.png"

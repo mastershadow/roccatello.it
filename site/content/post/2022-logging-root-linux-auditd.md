@@ -7,7 +7,7 @@ summary = "Sometimes, for law compliance or internal security policy, you may ne
 tags = ["sysop", "linux"]
 language = "en"
 draft = false
-
+slug = "logging-root-commands-linux-audit-framework"
 +++
 
 I want to enforce my security policies, so my desiderata is to log everything a root use does on a Linux server.

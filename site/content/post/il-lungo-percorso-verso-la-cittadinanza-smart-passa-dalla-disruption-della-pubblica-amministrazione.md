@@ -5,6 +5,7 @@ lastmod = "2019-07-22"
 summary = "La domanda che ho interiorizzato nel tempo è: \"Come può questo paese essere smart se complichiamo anche le cose più semplici?\""
 tags = ["italia", "pubblica amministrazione", "smart city", "partecipazione"]
 title = "Il lungo percorso verso la cittadinanza smart passa dalla disruption della Pubblica Amministrazione"
+slug = "distruption-pubblica-amministrazione-smart-cities"
 [header]
 image = "posts/Think-smart.jpg"
 

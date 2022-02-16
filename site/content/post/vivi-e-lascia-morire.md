@@ -5,6 +5,7 @@ lastmod = "2021-02-15"
 summary = "Riflessioni amare sul vivi e lascia morire, unico destino di questa triste Italia."
 tags = ["lavoro", "it", "pensieri", "riflessioni"]
 title = "Un paese distrutto da faziosità e incapacità di analisi razionali."
+slug = "paese-distrutto-faziosita-analisi-razionale-italia-riflessioni"
 [header]
 caption = ""
 image = "https://res.cloudinary.com/roccatello/image/upload/c_scale,w_1920/v1613414358/worried-businessman-with-sign-decreased-profit.jpg"

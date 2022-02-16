@@ -7,6 +7,7 @@ summary = "Suppose you have a containerized script which you want behave differe
 tags = ["coding", "docker"]
 language = "en"
 draft = false
+slug = "passing-environment-variables-docker-using-docker-compose"
 
 +++
 

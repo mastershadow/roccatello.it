@@ -5,6 +5,7 @@ lastmod = "2019-04-23"
 summary = "Dare forma alle città del futuro tramite l'impiego della tecnologia 5G e dell'Internet of Things è fattibile ma quali sono punti di forza e debolezza? Vediamoli insieme."
 tags = ["gis", "futuro", "5g", "tecnologia"]
 title = "GIS e 5G: un matrimonio possibile per le città del futuro?"
+slug = "gis-5g-matrimonio-citta-futuro"
 [header]
 caption = ""
 image = "posts/5G-radiation-1024x579-1-1024x579-1024x579-1024x579-1024x579-1.jpg"

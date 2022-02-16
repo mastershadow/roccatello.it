@@ -8,7 +8,7 @@ title = "A praise and a rant towards Agile project management and its applicatio
 [header]
 caption = ""
 image = "posts/sheep.jpg"
-
+slug = "agile-project-management-great-dive-in"
 +++
 
 It's almost Xmas and I really need a break about forced politeness, so I'll shout here a secret I really would have told you before.

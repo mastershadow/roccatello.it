@@ -7,6 +7,7 @@ summary = "I wanted to write this as a rant, but I think it is a better idea to 
 tags = ["hr", "people", "management"]
 language = "en"
 draft = false
+slug = "what-wrong-hiring-people-ict-sme"
 
 +++
 

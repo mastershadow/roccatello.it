@@ -7,6 +7,7 @@ summary = "Do you need to convert GIS raster data between different formats? Her
 tags = ["coding", "gis", "gdal"]
 language = "en"
 draft = false
+slug = "converting-gis-raster-data-formats-using-gdal"
 
 +++
 The **gdal_translate** utility can be used to convert raster data between different formats, potentially performing some operations like sub-settings, resampling, and rescaling pixels in the process.

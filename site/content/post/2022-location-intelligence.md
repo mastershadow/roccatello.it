@@ -7,7 +7,7 @@ summary = "Location aware devices are smaller and powerful than ever, and will b
 tags = ["location", "intelligence"]
 language = "en"
 draft = false
-
+slug = "location-intelligence-trend-2022-future"
 +++
 
 Collecting data about something is the kind of activity you would love to do without too much effort on your side.

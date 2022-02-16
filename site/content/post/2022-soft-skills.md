@@ -7,6 +7,7 @@ summary = "My perspective on what really counts when you are approaching a new j
 tags = ["hr", "people", "management"]
 language = "en"
 draft = false
+slug = "why-soft-skills-more-important-technical"
 
 +++
 

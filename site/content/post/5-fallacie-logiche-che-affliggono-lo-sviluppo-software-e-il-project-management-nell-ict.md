@@ -5,6 +5,7 @@ lastmod = "2019-06-08"
 summary = "L'information technology in generale è un lavoro di testa e il nostro cervello, seppur fantastico, a volte si lascia ingannare e prende delle scorciatoie. Conosciamole per evitarle."
 tags = ["software", "ingegneria", "fallacia", "errori", "project management", "development"]
 title = "5 fallacie logiche che affliggono lo sviluppo software e il project management nell'ICT"
+slug = "5-fallacie-logiche-sviluppo-software-project-management"
 [header]
 caption = ""
 image = "posts/T-error-article-header.jpg"
