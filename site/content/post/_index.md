@@ -4,6 +4,7 @@ highlight = false
 list_format = 1
 math = false
 title = "My notes and posts"
+language = "en"
 [header]
 caption = ""
 image = ""

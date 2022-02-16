@@ -3,7 +3,7 @@ widget = "posts"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Ultimi post"
+title = "Latest posts"
 subtitle = ""
 
 weight = 6
