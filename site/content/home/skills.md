@@ -4,8 +4,8 @@ date = 2017-09-20T00:00:00
 
 active = true
 
-title = "Skill e competenze"
-subtitle = """Ho fatto tesoro della mia esperienza con linguaggi di programmazione e software applicativi e d'ambiente, senza mai smettere di imparare."""
+title = "Skills and abilities"
+subtitle = """During my work experience, I learned a lot of programming languages and softwares, and I always strive to keep learning new things during my life. That's why I love challenging tasks that bring in innovative solutions."""
 
 weight = 4
 

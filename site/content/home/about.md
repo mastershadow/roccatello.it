@@ -10,24 +10,24 @@ title = "About me"
     "Game development",
     "Open data / source",
     "3D e LIDAR",
-    "Linux e sistemi *NIX",
-    "Gatti e felini in generale",
-    "Ciclismo",
-    "Fotografia"
+    "Linux & *NIX",
+    "Cats (big and small)",
+    "Biking",
+    "Photography"
   ]
 
 [[education.courses]]
-  course = "Laurea Magistrale in Ingegneria Informatica."
+  course = "Master degree in Computer Engineering."
   institution = "University of Padua"
   year = 2008
 
 [[education.courses]]
-  course = "Laurea in Ingegneria Informatica"
+  course = "Bachelor degree in Computer Engineering"
   institution = "University of Padua"
   year = 2005
 
 [[education.courses]]
-  course = "Perito capotecnico industriale in Elettrotecnica"
+  course = "Industrial electrical engineering technician"
   institution = "ITIS F.Viola Rovigo"
   year = 2002
 +++
