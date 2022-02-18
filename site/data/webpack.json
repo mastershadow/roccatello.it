@@ -1,6 +1,7 @@
 {
   "main": {
-    "js": "main.js"
+    "js": "main.e3bfa.js",
+    "css": "main.a944d6d45288ff363956.css"
   },
   "": {
     "gitkeep": "fonts/.gitkeep"

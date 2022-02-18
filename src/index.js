@@ -1,4 +1,4 @@
-import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/js/src/collapse";
 import "./scss/main.scss";
 
 import CookieConsent from "@klaxit/cookie-consent"
