@@ -32,7 +32,7 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:description" content="{{ $desc }}">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="{{ $.Site.BaseURL }}img/placeholder.jpg">
+  <meta property="og:image" content="{{ $.Site.BaseURL }}{{ if .Params.ogimage }}{{ .Params.ogimage }}{{ else }}img/placeholder.jpg{{ end }}">
 </head>
 
 <body>
