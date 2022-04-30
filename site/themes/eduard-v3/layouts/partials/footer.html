@@ -18,6 +18,16 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script>
 {{ end }}
+{{ if $.Params.js }}
+{{ range $.Params.js }}
+<script src="{{ . }}"></script>
+{{ end }}
+{{ end }}
+{{ if $.Params.css }}
+{{ range $.Params.css }}
+<link href="{{ . }}" rel="stylesheet">
+{{ end }}
+{{ end }}
 </body>
 
 </html>
