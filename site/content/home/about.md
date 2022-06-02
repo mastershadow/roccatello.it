@@ -17,7 +17,7 @@ title = "About me"
   ]
 
 [[education.courses]]
-  course = "Master degree in Computer Engineering."
+  course = "Master degree in Computer Engineering"
   institution = "University of Padua"
   year = 2008
 
