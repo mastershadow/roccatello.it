@@ -1,7 +1,9 @@
 {
+  "init": {
+    "js": "init.js"
+  },
   "main": {
-    "js": "main.720d8.js",
-    "css": "main.f68e20354107ad0cd3ad.css"
+    "js": "main.js"
   },
   "": {
     "gitkeep": "fonts/.gitkeep"

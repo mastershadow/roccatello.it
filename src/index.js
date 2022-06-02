@@ -1,5 +1,4 @@
 import "bootstrap/js/src/collapse";
-import "./scss/main.scss";
 
 import CookieConsent from "@klaxit/cookie-consent"
 import { v4 as uuid } from 'uuid';

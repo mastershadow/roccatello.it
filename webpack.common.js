@@ -9,6 +9,7 @@ const isProductionMode = process.env.NODE_ENV === "production";
 
 module.exports = {
   entry: {
+    init: path.join(__dirname, "src", "init.js"),
     main: path.join(__dirname, "src", "index.js"),
   },
 
