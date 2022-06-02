@@ -33,6 +33,10 @@
   <meta property="og:description" content="{{ $desc }}">
   <meta property="og:type" content="article">
   <meta property="og:image" content="{{ $.Site.BaseURL }}{{ if .Params.ogimage }}{{ .Params.ogimage }}{{ else }}img/placeholder.jpg{{ end }}">
+  {{ $stylesheet := .Site.Data.webpack.init }}
+{{ with $stylesheet.css }}
+<link href="{{ relURL . }}" rel="stylesheet">
+{{ end }}
   {{ $script := .Site.Data.webpack.init }}
   {{ with $script.js }}
   <script src="{{ relURL . }}"></script>
