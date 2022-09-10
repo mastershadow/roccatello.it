@@ -1,11 +1,9 @@
 {
   "init": {
-    "js": "init.c02d9.js",
-    "css": "init.1354b4a7174db87f877f.css"
+    "js": "init.js"
   },
   "main": {
-    "js": "main.c02d9.js",
-    "css": "main.415c3bd7b5c042c24371.css"
+    "js": "main.js"
   },
   "": {
     "gitkeep": "fonts/.gitkeep"
