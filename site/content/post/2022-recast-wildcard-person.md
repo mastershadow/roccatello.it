@@ -17,7 +17,8 @@ Today's article is from WildcardPeople, which explains us what is a Wildcard Per
 
 A Wildcard is a person who can take on many different roles as needed. They are fundamentally problem solvers who enjoy tackling new challenges. A Wildcard's role at any given time is dictated by the problem that needs solving.
 
-**About ReCAST**
+### About ReCAST
+
 ReCAST brings you some of the most interesting articles, that I find on the web. There are no no fixed topics. We will read and comment them together. 
 
 {{< youtube CsGx-4BOTGo >}}
