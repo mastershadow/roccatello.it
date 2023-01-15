@@ -1,6 +1,6 @@
 baseurl = "https://www.roccatello.it/"
 title = "Eduard Roccatello's GIS blog"
-copyright = "&copy; 2022"
+copyright = "&copy; 2023"
 
 theme = "eduard-v3"
 enableEmoji = true
@@ -130,7 +130,7 @@ enableGitInfo = false
     text = "github.com/mastershadow"
 
 [[menu.main]]
-  name = "Storie dal Mondo GIS"
+  name = "Tales from the GIS"
   url = "#mondogis"
   weight = 2
 

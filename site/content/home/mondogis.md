@@ -4,7 +4,7 @@ active = true
 date = 2016-04-20T00:00:00
 weight = 2
 
-title = "Storie dal Mondo GIS"
+title = "Tales from the GIS"
 trailer = "DAYP0NFU42c"
 channelurl = "https://www.youtube.com/channel/UCjcLUZV44x0CieY-goXpeTw"
 +++
