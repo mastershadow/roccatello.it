@@ -18,6 +18,7 @@ In this episode I'll show you how to install GDAL in Ubuntu Linux, gather inform
 And obviously some QGIS tips about raster visualization.
 
 {{< youtube _lhh9HWIHtA >}}
+
 <br>
 
 ## What is GDAL?
