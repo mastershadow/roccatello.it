@@ -1,6 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
-<section id="aboutme" class="bg-dark text-light pt-5 pb-3 mt-4">
+<section id="aboutme" class="bg-dark text-light pt-5 pb-3">
   <div class="container">
     <h2>{{ $page.Title }}</h2>
     <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">

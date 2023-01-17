@@ -9,8 +9,6 @@ trailer = "DAYP0NFU42c"
 channelurl = "https://www.youtube.com/channel/UCjcLUZV44x0CieY-goXpeTw"
 +++
 
-**Storie dal Mondo GIS** vi racconta i segreti del mondo dell'informatica geografica e vi spiega come funzionano tante cose legate alla natura e alla terra. Ovviamente informaticamente parlando!
+**Tales from the GIS** is a geospatial journey into the fascinating world of Geographic Information Systems, telling you stories about nature and world.
 
-Se siete curiosi su come funzionino le mappe che utilizzate tutti i giorni, la navigazione satellitare e la localizzazione dei vostri device allora questo è il posto giusto!
-
-Parleremo di proiezioni geografiche, di 2D e 3D, di innovazione e molto altro legato alla Terra e al mondo in cui viviamo.
+If you want to know about the internals about mapping, how digital maps works, navigation systems and your smartphone geolocation, geographic projections, 2D and 3D data visualization and latest trends in GIS development: TFTG is the right place to subscribe for free!

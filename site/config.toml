@@ -14,7 +14,7 @@ enableRobotsTXT = true
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
-defaultContentLanguage = "it"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
@@ -142,7 +142,7 @@ enableGitInfo = false
 [[menu.main]]
   name = "Articles"
   url = "post"
-  weight = 5
+  weight = 3
   
 [[menu.main]]
   name = "About"

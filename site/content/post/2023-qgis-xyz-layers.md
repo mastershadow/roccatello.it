@@ -2,7 +2,7 @@
 authors = []
 date = "2023-01-17"
 lastmod = "2023-01-17"
-title = "How to add a XYZ basemap layer to QGIS 3. Also a Python script"
+title = "How to add a XYZ basemap layer to QGIS 3. Also a Python script to add the most common one easily!"
 summary = "I will also teach you how to use a python script to add a bunch of existing basemaps."
 tags = ["qgis", "tutorial", "xyz", "basemap", "layer", "geometry"]
 language = "en"
