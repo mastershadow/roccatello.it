@@ -9,7 +9,7 @@ const activateAnalytics = () => {
   const hd = document.head;
   const gtagScript = document.createElement("script");
   gtagScript.setAttribute("async", "");
-  gtagScript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=UA-695484-3");
+  gtagScript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-S3YK3YKMEZ");
   hd.appendChild(gtagScript);
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -20,7 +20,7 @@ const activateAnalytics = () => {
       window.localStorage.setItem(GA_LOCAL_STORAGE_KEY, uuid());
     }
 
-    gtag('config', 'UA-695484-3', {
+    gtag('config', 'G-S3YK3YKMEZ', {
           send_page_view: true,
           client_storage: 'none',
           client_id: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
