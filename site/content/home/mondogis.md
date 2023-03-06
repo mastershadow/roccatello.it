@@ -5,7 +5,7 @@ date = 2016-04-20T00:00:00
 weight = 2
 
 title = "Tales from the GIS"
-trailer = "DAYP0NFU42c"
+trailer = "Ds8ci-0FLBw"
 channelurl = "https://www.youtube.com/channel/UCjcLUZV44x0CieY-goXpeTw"
 +++
 
