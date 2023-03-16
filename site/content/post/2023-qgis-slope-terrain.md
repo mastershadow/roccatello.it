@@ -1,26 +1,24 @@
 +++
 authors = []
-date = "2023-03-06"
-lastmod = "2023-03-06"
-title = "Create a RELIEF MAP in ONE CLICK with QGIS 3"
+date = "2023-03-13"
+lastmod = "2023-03-13"
+title = "Create a SLOPE MAP with QGIS 3 using a digital terrain model"
 summary = "Use the processing toolbox to create a beautiful map"
-tags = ["qgis", "tutorial", "dtm", "relief", "terrain"]
+tags = ["qgis", "tutorial", "terrain", "slope", "raster"]
 language = "en"
 draft = false
 mermaid = false
 ogimage = "post/images/qgis-dark-osm.jpg"
-slug = "tutorial-qgis-road-centerline-style"
+slug = "tutorial-qgis-slope-terrain-dtm"
 
 +++
-Create a nice relief map in ONE CLICK with QGIS 3 and this smart tutorial.
-
-Use the processing toolbox to create a beautiful map without any effort by only using a digital terrain model of the alps and the embedded QGIS tools.
-Powerful, beautiful and easy!
+Use the processing toolbox to create a slope map without any effort by only using a digital terrain model of the alps and the embedded QGIS tools.
+You will learn how to create a slope raster with both degrees and percentage as values.
 
 Get the DTM from:
 https://www.regione.veneto.it/web/agricoltura-e-foreste/modello-digitale-del-terreno
 
-{{< youtube kcdM2TD5mAQ >}}
+{{< youtube ufXwlB2boeg >}}
 
 <br>
 
