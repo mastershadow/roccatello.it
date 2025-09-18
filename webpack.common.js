@@ -43,7 +43,14 @@ module.exports = {
           isProductionMode ? MiniCssExtractPlugin.loader : "style-loader",
           "css-loader",
           "postcss-loader",
-          "sass-loader",
+          {
+            loader: 'sass-loader',
+            options: {
+              sassOptions: {
+                silenceDeprecations: ['color-functions', 'global-builtin', 'import'],
+              }
+            }
+          }
         ],
       },
     ],

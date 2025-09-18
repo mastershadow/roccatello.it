@@ -1,14 +1,12 @@
 baseurl = "https://www.roccatello.it/"
 title = "Eduard Roccatello's GIS blog"
-copyright = "&copy; 2023"
+copyright = "&copy; 2025"
 
 theme = "eduard-v3"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
-paginate = 10
-
 enableRobotsTXT = true
 
 # Enable comments by entering your Disqus shortname
@@ -37,6 +35,9 @@ enableGitInfo = false
 
 [permalinks]
   'post' = '/:year/:month/:slug/'
+
+[pagination]
+  pagerSize = 10
 
 [params]
   name = "Eduard Roccatello"
