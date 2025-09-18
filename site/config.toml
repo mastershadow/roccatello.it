@@ -119,12 +119,6 @@ enableGitInfo = false
     text = "eduard.roccatello@3dgis.it"
 
   [[params.social]]
-    icon = "twitter"
-    icon_pack = "fab"
-    link = "//twitter.com/edurocc"
-    text = "twitter.com/edurocc"
-
-  [[params.social]]
     icon = "github"
     icon_pack = "fab"
     link = "//github.com/mastershadow"
