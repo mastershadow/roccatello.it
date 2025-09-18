@@ -14,7 +14,7 @@ module.exports = {
   },
 
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "docs"),
   },
 
   module: {
@@ -59,8 +59,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: [
-        "dist/**/*.js",
-        "dist/**/*.css",
+        "docs/**/*.js",
+        "docs/**/*.css",
         "site/data/webpack.json",
       ],
     }),

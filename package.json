@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "run-p start:**",
-    "start:hugo": "/usr/bin/hugo -d ../dist --minify -s site -w",
+    "start:hugo": "/usr/bin/hugo -d ../docs --minify -s site -w",
     "start:webpack": "webpack serve --config webpack.dev.js --hot",
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf docs",
     "build": "npm run build:webpack && npm run build:hugo",
-    "build:hugo": "/usr/bin/hugo -d ../dist --minify -s site",
+    "build:hugo": "/usr/bin/hugo -d ../docs --minify -s site",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
   "repository": {
