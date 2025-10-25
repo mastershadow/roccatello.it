@@ -135,9 +135,14 @@ enableGitInfo = false
   weight = 4
 
 [[menu.main]]
-  name = "Articles"
+  name = "My articles"
   url = "post"
   weight = 3
+
+[[menu.main]]
+  name = "Interesting articles"
+  url = "interesting-articles"
+  weight = 5
   
 [[menu.main]]
   name = "About"
