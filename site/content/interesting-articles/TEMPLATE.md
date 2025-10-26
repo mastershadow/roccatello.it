@@ -12,7 +12,3 @@ image = ""
 caption = ""
 +++
 
-
-{{< small >}}2025-10-20{{< /small >}}<br>
-[Duck Duck Go](https://duckduckgo.com#?)<br>
-Lorem ipsum
