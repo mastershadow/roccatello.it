@@ -15,7 +15,7 @@ caption = ""
 
 {{< small >}}2025-10-26{{< /small >}}<br>
 [Why I code as a CTO](https://www.assembled.com/blog/why-i-code-as-a-cto#?)<br>
-Assembled CTO John Wang on why coding makes him a better leaderâand how AI tools are redefining what it means to build at scale.
+Assembled CTO John Wang on why coding makes him a better leader—and how AI tools are redefining what it means to build at scale.
 
 {{< small >}}2025-10-26{{< /small >}}<br>
 [You already have a git server: (Maurycy's blog)](https://maurycyz.com/misc/easy_git/#?)<br>
