@@ -1,11 +1,11 @@
 {
   "init": {
-    "js": "init.c9744.js",
-    "css": "init.a5d9936e2f5bb60b37bd.css"
+    "js": "init.346aa.js",
+    "css": "init.ee2bdbeda8ae4e5525c6.css"
   },
   "main": {
-    "js": "main.c9744.js",
-    "css": "main.fb93db112aa505a36697.css"
+    "js": "main.346aa.js",
+    "css": "main.ceec15bd736a22810641.css"
   },
   "": {
     "gitkeep": "fonts/.gitkeep"
