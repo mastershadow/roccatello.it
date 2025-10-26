@@ -5,7 +5,7 @@ date = 2025-01-01T12:00:00
 math = false
 highlight = false
 list_format = 10
-hidden = true
+
 
 [header]
 image = ""
