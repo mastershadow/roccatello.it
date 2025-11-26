@@ -17,7 +17,7 @@ caption = ""
 [Simplify Your Code: Functional Core, Imperative Shell](https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html#?)
 
 {{< small >}}2025-10-28{{< /small >}}<br>
-[AI can code, but it can't build software | ByteSauna](https://bytesauna.com/post/coding-vs-software-engineering#?)
+[AI can code, but it can&#x27;t build software | ByteSauna](https://bytesauna.com/post/coding-vs-software-engineering#?)
 
 {{< small >}}2025-10-27{{< /small >}}<br>
 [Mistakes I see engineers making in their code reviews](https://www.seangoedecke.com/good-code-reviews/#?)
@@ -29,7 +29,7 @@ caption = ""
 [Hacktivate](https://www.hacktivate.app/why-teach-kids-to-hack#?)
 
 {{< small >}}2025-10-26{{< /small >}}<br>
-[You already have a git server: (Maurycy's blog)](https://maurycyz.com/misc/easy_git/#?)
+[You already have a git server: (Maurycy&#x27;s blog)](https://maurycyz.com/misc/easy_git/#?)
 
 {{< small >}}2025-10-26{{< /small >}}<br>
 [Why I code as a CTO](https://www.assembled.com/blog/why-i-code-as-a-cto#?)
@@ -38,13 +38,13 @@ caption = ""
 [The Linux Boot Process: From Power Button to Kernel](https://www.0xkato.xyz/linux-boot/#?)
 
 {{< small >}}2025-10-26{{< /small >}}<br>
-[WebDAV Isn't Dead Yet](https://blog.feld.me/posts/2025/09/webdav-isnt-dead-yet/#?)
+[WebDAV Isn&#x27;t Dead Yet](https://blog.feld.me/posts/2025/09/webdav-isnt-dead-yet/#?)
 
 {{< small >}}2025-10-26{{< /small >}}<br>
 [Why I code as a CTO](https://www.assembled.com/blog/why-i-code-as-a-cto#?)
 
 {{< small >}}2025-10-26{{< /small >}}<br>
-[You already have a git server: (Maurycy's blog)](https://maurycyz.com/misc/easy_git/#?)
+[You already have a git server: (Maurycy&#x27;s blog)](https://maurycyz.com/misc/easy_git/#?)
 
 {{< small >}}2025-10-25{{< /small >}}<br>
 [Mesh2Motion](https://mesh2motion.org/#?)
@@ -86,7 +86,7 @@ caption = ""
 [Attention is a luxury good](https://seths.blog/2025/10/attention-is-a-luxury-good/#?)
 
 {{< small >}}2025-10-18{{< /small >}}<br>
-[Exploring PostgreSQL 18's new UUIDv7 support](https://aiven.io/blog/exploring-postgresql-18-new-uuidv7-support#?)
+[Exploring PostgreSQL 18&#x27;s new UUIDv7 support](https://aiven.io/blog/exploring-postgresql-18-new-uuidv7-support#?)
 
 {{< small >}}2025-10-18{{< /small >}}<br>
 [How to tame a user interface using a spreadsheet  ⌘I  Get Info](https://blog.gingerbeardman.com/2025/10/11/how-to-tame-a-user-interface-using-a-spreadsheet/#?)
@@ -119,7 +119,7 @@ caption = ""
 [Pipelining in psql (PostgreSQL 18)](https://postgresql.verite.pro/blog/2025/10/01/psql-pipeline.html#?)
 
 {{< small >}}2025-10-13{{< /small >}}<br>
-[Free Software hasn't won](https://dorotac.eu/posts/fosswon/#?)
+[Free Software hasn&#x27;t won](https://dorotac.eu/posts/fosswon/#?)
 
 {{< small >}}2025-10-13{{< /small >}}<br>
 [Spotlight on pdfly, the Swiss Army knife for PDF files](https://chezsoi.org/lucas/blog/spotlight-on-pdfly.html#?)
@@ -242,13 +242,13 @@ caption = ""
 [Folks, we have the best π](https://lcamtuf.substack.com/p/folks-we-have-the-best#?)
 
 {{< small >}}2025-09-15{{< /small >}}<br>
-[Wanted to spy on my dog, ended up spying on TP-Link – Kennedn's Blog](https://kennedn.com/blog/posts/tapo/#?)
+[Wanted to spy on my dog, ended up spying on TP-Link – Kennedn&#x27;s Blog](https://kennedn.com/blog/posts/tapo/#?)
 
 {{< small >}}2025-09-14{{< /small >}}<br>
 [Magical systems thinking - Works in Progress Magazine](https://worksinprogress.co/issue/magical-systems-thinking/#?)
 
 {{< small >}}2025-09-14{{< /small >}}<br>
-[An Open-Source Maintainer's Guide to Saying No](https://www.jlowin.dev/blog/oss-maintainers-guide-to-saying-no#?)
+[An Open-Source Maintainer&#x27;s Guide to Saying No](https://www.jlowin.dev/blog/oss-maintainers-guide-to-saying-no#?)
 
 {{< small >}}2025-09-14{{< /small >}}<br>
 [Writing an operating system kernel from scratch](https://popovicu.com/posts/writing-an-operating-system-kernel-from-scratch/#?)
@@ -293,7 +293,7 @@ caption = ""
 [30 minutes with a stranger](https://pudding.cool/2025/06/hello-stranger/#?)
 
 {{< small >}}2025-09-04{{< /small >}}<br>
-[Poor man's bitemporal data system in SQLite and Clojure](https://www.evalapply.org/posts/poor-mans-time-oriented-data-system/index.html#?)
+[Poor man&#x27;s bitemporal data system in SQLite and Clojure](https://www.evalapply.org/posts/poor-mans-time-oriented-data-system/index.html#?)
 
 {{< small >}}2025-09-03{{< /small >}}<br>
 [Making a Linux home server sleep on idle and wake on demand — the simple way](https://dgross.ca/blog/linux-home-server-auto-sleep#?)
@@ -305,7 +305,7 @@ caption = ""
 [Blocky Planet — Making Minecraft Spherical](https://www.bowerbyte.com/posts/blocky-planet/#?)
 
 {{< small >}}2025-09-02{{< /small >}}<br>
-[No, you don't want to hire "the best engineers" - Otherbranch](https://www.otherbranch.com/shared/blog/no-you-dont-want-to-hire-the-best-engineers#?)
+[No, you don&#x27;t want to hire &quot;the best engineers&quot; - Otherbranch](https://www.otherbranch.com/shared/blog/no-you-dont-want-to-hire-the-best-engineers#?)
 
 {{< small >}}2025-08-30{{< /small >}}<br>
 [GitHub - zakirullin/cognitive-load: 🧠 Cognitive load is what matters](https://github.com/zakirullin/cognitive-load#?)
@@ -326,7 +326,7 @@ caption = ""
 [GitHub - 3b1b/manim: Animation engine for explanatory math videos](https://github.com/3b1b/manim#?)
 
 {{< small >}}2025-08-23{{< /small >}}<br>
-[Developer's block](https://underlap.org/developers-block/#?)
+[Developer&#x27;s block](https://underlap.org/developers-block/#?)
 
 {{< small >}}2025-08-22{{< /small >}}<br>
 [Why Semantic Layers Matter — and How to Build One with DuckDB - MotherDuck Blog](https://motherduck.com/blog/semantic-layer-duckdb-tutorial/#?)
@@ -347,10 +347,10 @@ caption = ""
 [Citybound](https://aeplay.org/citybound#?)
 
 {{< small >}}2025-08-10{{< /small >}}<br>
-[an engineer's perspective on hiring](https://jyn.dev/an-engineers-perspective-on-hiring#?)
+[an engineer&#x27;s perspective on hiring](https://jyn.dev/an-engineers-perspective-on-hiring#?)
 
 {{< small >}}2025-08-09{{< /small >}}<br>
-[Over engineering my homelab so I don't pay cloud providers](https://ergaster.org/posts/2025/08/04-overegineering-homelab/#?)
+[Over engineering my homelab so I don&#x27;t pay cloud providers](https://ergaster.org/posts/2025/08/04-overegineering-homelab/#?)
 
 {{< small >}}2025-08-08{{< /small >}}<br>
 [How to Sell if Your User is not the Buyer](https://writings.founderlabs.io/p/how-to-sell-if-your-user-is-not-the#?)
@@ -506,13 +506,13 @@ caption = ""
 [Breathbelly](https://www.breathbelly.com/exercises/4-7-8-breathing#?)
 
 {{< small >}}2025-06-07{{< /small >}}<br>
-[A masochist's guide to web development | Sebastiano Tronto](https://sebastiano.tronto.net/blog/2025-06-06-webdev/#?)
+[A masochist&#x27;s guide to web development | Sebastiano Tronto](https://sebastiano.tronto.net/blog/2025-06-06-webdev/#?)
 
 {{< small >}}2025-06-05{{< /small >}}<br>
 [I made a 3D SVG Renderer that projects textures without rasterization](https://seve.blog/p/i-made-a-3d-svg-renderer-that-projects#?)
 
 {{< small >}}2025-06-01{{< /small >}}<br>
-[GitHub - wzhudev/reverse-linear-sync-engine: A reverse engineering of Linear's sync engine. Endorsed by its co-founder & CTO.](https://github.com/wzhudev/reverse-linear-sync-engine#?)
+[GitHub - wzhudev/reverse-linear-sync-engine: A reverse engineering of Linear&#x27;s sync engine. Endorsed by its co-founder &amp; CTO.](https://github.com/wzhudev/reverse-linear-sync-engine#?)
 
 {{< small >}}2025-05-30{{< /small >}}<br>
 [A visual introduction to vector embeddings](http://blog.pamelafox.org/2025/05/a-visual-exploration-of-vector.html#?)
@@ -524,7 +524,7 @@ caption = ""
 [Particle Life simulation in browser using WebGPU](https://lisyarus.github.io/blog/posts/particle-life-simulation-in-browser-using-webgpu.html#?)
 
 {{< small >}}2025-05-27{{< /small >}}<br>
-[The Recurring Cycle of 'Developer Replacement' Hype](https://alonso.network/the-recurring-cycle-of-developer-replacement-hype/#?)
+[The Recurring Cycle of &#x27;Developer Replacement&#x27; Hype](https://alonso.network/the-recurring-cycle-of-developer-replacement-hype/#?)
 
 {{< small >}}2025-05-27{{< /small >}}<br>
 [The Future is Colourful and Dimensional](https://www.flarup.email/p/the-future-is-colourful-and-dimensional#?)
@@ -557,13 +557,13 @@ caption = ""
 [#9 - Pathfinding - Deep Space Exploitation by JuhrJuhr](https://juhrjuhr.itch.io/deep-space-exploitation/devlog/945428/9-pathfinding#?)
 
 {{< small >}}2025-05-17{{< /small >}}<br>
-[JavaScript's New Superpower: Explicit Resource Management · V8](https://v8.dev/features/explicit-resource-management#?)
+[JavaScript&#x27;s New Superpower: Explicit Resource Management · V8](https://v8.dev/features/explicit-resource-management#?)
 
 {{< small >}}2025-05-16{{< /small >}}<br>
 [A leap year check in three instructions](https://hueffner.de/falk/blog/a-leap-year-check-in-three-instructions.html#?)
 
 {{< small >}}2025-05-16{{< /small >}}<br>
-[Expressive Design: Google's UX Research - Google Design](https://design.google/library/expressive-material-design-google-research#?)
+[Expressive Design: Google&#x27;s UX Research - Google Design](https://design.google/library/expressive-material-design-google-research#?)
 
 {{< small >}}2025-05-15{{< /small >}}<br>
 [Working on Complex Systems: What I Learned Working at Google](https://read.thecoder.cafe/p/complex-systems#?)
@@ -572,13 +572,13 @@ caption = ""
 [Malicious compliance by booking an available meeting room](https://www.clientserver.dev/p/malicious-compliance-by-booking-an#?)
 
 {{< small >}}2025-05-12{{< /small >}}<br>
-[Writing an LLM from scratch, part 13 -- the 'why' of attention, or: attention heads are dumb](https://www.gilesthomas.com/2025/05/llm-from-scratch-13-taking-stock-part-1-attention-heads-are-dumb#?)
+[Writing an LLM from scratch, part 13 -- the &#x27;why&#x27; of attention, or: attention heads are dumb](https://www.gilesthomas.com/2025/05/llm-from-scratch-13-taking-stock-part-1-attention-heads-are-dumb#?)
 
 {{< small >}}2025-05-11{{< /small >}}<br>
 [Sierpiński triangle? In my bitwise AND?](https://lcamtuf.substack.com/p/sierpinski-triangle-in-my-bitwise#?)
 
 {{< small >}}2025-05-11{{< /small >}}<br>
-[Reverse engineering the 386 processor's prefetch queue circuitry](http://www.righto.com/2025/05/386-prefetch-circuitry-reverse-engineered.html#?)
+[Reverse engineering the 386 processor&#x27;s prefetch queue circuitry](http://www.righto.com/2025/05/386-prefetch-circuitry-reverse-engineered.html#?)
 
 {{< small >}}2025-05-11{{< /small >}}<br>
 [Four years of running a SaaS in a competitive market - Max Rozen](https://maxrozen.com/on-four-years-running-saas-competitive-market#?)
@@ -590,7 +590,7 @@ caption = ""
 [GitHub - marcboeker/gmail-to-sqlite: Index your Gmail account to a SQLite DB and play with the data.](https://github.com/marcboeker/gmail-to-sqlite#?)
 
 {{< small >}}2025-05-10{{< /small >}}<br>
-[(t,i,x,y) => "creative code golfing"](https://tixy.land/#?)
+[(t,i,x,y) =&gt; &quot;creative code golfing&quot;](https://tixy.land/#?)
 
 {{< small >}}2025-05-09{{< /small >}}<br>
 [Reservoir Sampling](https://samwho.dev/reservoir-sampling/#?)
@@ -647,7 +647,7 @@ caption = ""
 [Senior Developer Skills in the AI Age: Leveraging Experience for Better Results • Manuel Kießling](https://manuel.kiessling.net/2025/03/31/how-seasoned-developers-can-achieve-great-results-with-ai-coding-agents/#?)
 
 {{< small >}}2025-04-05{{< /small >}}<br>
-[Recreating Daft Punk's Something About Us](https://thoughts-and-things.ghost.io/recreating-daft-punks-something-about-us/#?)
+[Recreating Daft Punk&#x27;s Something About Us](https://thoughts-and-things.ghost.io/recreating-daft-punks-something-about-us/#?)
 
 {{< small >}}2025-04-03{{< /small >}}<br>
 [Minimal CSS-only blurry image placeholders](https://leanrada.com/notes/css-only-lqip/#?)
@@ -746,7 +746,7 @@ caption = ""
 [CEO Simulator: Startup Edition](https://ceosimulator.vercel.app/#?)
 
 {{< small >}}2025-02-25{{< /small >}}<br>
-[Kaneo ⎯ All you need. Nothing you don't.](https://kaneo.app/#?)
+[Kaneo ⎯ All you need. Nothing you don&#x27;t.](https://kaneo.app/#?)
 
 {{< small >}}2025-02-25{{< /small >}}<br>
 [Introduction to Stochastic Calculus](https://jiha-kim.github.io/posts/introduction-to-stochastic-calculus/#?)
@@ -798,13 +798,13 @@ caption = ""
 [Nine](https://linusakesson.net/scene/nine/index.php#?)
 
 {{< small >}}2025-02-05{{< /small >}}<br>
-[Software development topics I've changed my mind on after 10 years in the industry - Blogomatano](https://chriskiehl.com/article/thoughts-after-10-years#?)
+[Software development topics I&#x27;ve changed my mind on after 10 years in the industry - Blogomatano](https://chriskiehl.com/article/thoughts-after-10-years#?)
 
 {{< small >}}2025-02-05{{< /small >}}<br>
 [Push notifications for decentralized services](https://unifiedpush.org/news/20250131_push_for_decentralized/#?)
 
 {{< small >}}2025-02-04{{< /small >}}<br>
-[GitHub - hoppscotch/hoppscotch: Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia](https://github.com/hoppscotch/hoppscotch#?)
+[GitHub - hoppscotch/hoppscotch: Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem &amp; Cloud • Web, Desktop &amp; CLI • Open-Source Alternative to Postman, Insomnia](https://github.com/hoppscotch/hoppscotch#?)
 
 {{< small >}}2025-02-04{{< /small >}}<br>
 [Everyone knows your location](https://timsh.org/tracking-myself-down-through-in-app-ads/#?)
@@ -843,7 +843,7 @@ caption = ""
 [The Hidden Complexity of Scaling WebSockets](https://composehq.com/blog/scaling-websockets-1-23-25#?)
 
 {{< small >}}2025-01-27{{< /small >}}<br>
-[David A. Wheeler's Review of "Debugging" by David J. Agans](https://dwheeler.com/essays/debugging-agans.html#?)
+[David A. Wheeler&#x27;s Review of &quot;Debugging&quot; by David J. Agans](https://dwheeler.com/essays/debugging-agans.html#?)
 
 {{< small >}}2025-01-27{{< /small >}}<br>
 [HardBreak - Hardware Hacking Wiki | HardBreak](https://www.hardbreak.wiki/#?)
@@ -885,7 +885,7 @@ caption = ""
 [Keeping a CHANGELOG at Work](https://code.dblock.org/2020/09/01/keep-a-changelog-at-work.html#?)
 
 {{< small >}}2025-01-10{{< /small >}}<br>
-[Ideas from "A Philosophy of Software Design"](https://www.16elt.com/2024/09/25/first-book-of-byte-sized-tech/#?)
+[Ideas from &quot;A Philosophy of Software Design&quot;](https://www.16elt.com/2024/09/25/first-book-of-byte-sized-tech/#?)
 
 {{< small >}}2025-01-01{{< /small >}}<br>
 [Moon – Bartosz Ciechanowski](https://ciechanow.ski/moon/#?)
@@ -900,7 +900,7 @@ caption = ""
 [GitHub - seleniumbase/SeleniumBase: Python APIs for web automation, testing, and bypassing bot-detection.](https://github.com/seleniumbase/SeleniumBase#?)
 
 {{< small >}}2025-01-01{{< /small >}}<br>
-[Lou's Pseudo 3d Page](http://www.extentofthejam.com/pseudo/#?)
+[Lou&#x27;s Pseudo 3d Page](http://www.extentofthejam.com/pseudo/#?)
 
 {{< small >}}2025-01-01{{< /small >}}<br>
 [GitHub - apankrat/nullboard: Nullboard is a minimalist kanban board, focused on compactness and readability.](https://github.com/apankrat/nullboard#?)

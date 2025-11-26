@@ -17,7 +17,7 @@ caption = ""
 [TreeSheets](https://strlen.com/treesheets/#?)
 
 {{< small >}}2022-12-31{{< /small >}}<br>
-[Why I'm still using Python](https://mostlypython.substack.com/p/why-im-still-using-python#?)
+[Why I&#x27;m still using Python](https://mostlypython.substack.com/p/why-im-still-using-python#?)
 
 {{< small >}}2022-12-31{{< /small >}}<br>
 [Draw SVG rope using JavaScript · Muffin Man](https://muffinman.io/blog/draw-svg-rope-using-javascript/#?)
@@ -41,7 +41,7 @@ caption = ""
 [8 Hard Truths I learned when I got laid off from my SWE job](https://www.stevenbuccini.com/8-hard-truths-on-getting-laid-off#?)
 
 {{< small >}}2022-12-28{{< /small >}}<br>
-[SQLite's automatic indexes](https://misfra.me/2022/sqlite-automatic-indexes/#?)
+[SQLite&#x27;s automatic indexes](https://misfra.me/2022/sqlite-automatic-indexes/#?)
 
 {{< small >}}2022-12-28{{< /small >}}<br>
 [Jean-Michel Jarre’s Classic ‘Oxygene 4’ Recreated With 19KB Of Javascript](https://www.synthtopia.com/content/2022/12/27/jean-michel-jarres-classic-oxygene-4-recreated-with-19kb-of-javascript/#?)
@@ -74,7 +74,7 @@ caption = ""
 [GitHub - leandromoreira/cdn-up-and-running: CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load balancing, and Containers.](https://github.com/leandromoreira/cdn-up-and-running#?)
 
 {{< small >}}2022-12-25{{< /small >}}<br>
-["Nobody cares about your blog!"](https://mssprovenance.blogspot.com/2022/12/nobody-cares-about-your-blog.html#?)
+[&quot;Nobody cares about your blog!&quot;](https://mssprovenance.blogspot.com/2022/12/nobody-cares-about-your-blog.html#?)
 
 {{< small >}}2022-12-25{{< /small >}}<br>
 [Money, Money, Money](https://philip.greenspun.com/materialism/money#?)
@@ -83,7 +83,7 @@ caption = ""
 [Life is Short](https://paulgraham.com/vb.html#?)
 
 {{< small >}}2022-12-25{{< /small >}}<br>
-[Building a website like it's 1999... in 2022 - localghost](https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/#?)
+[Building a website like it&#x27;s 1999... in 2022 - localghost](https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/#?)
 
 {{< small >}}2022-12-24{{< /small >}}<br>
 [Introduction to Locality-Sensitive Hashing](https://tylerneylon.com/a/lsh1/#?)
@@ -104,7 +104,7 @@ caption = ""
 [picoSYNTH by Johan Peitz](https://johanpeitz.itch.io/picosynth#?)
 
 {{< small >}}2022-12-23{{< /small >}}<br>
-[Don't Call Yourself A Programmer, And Other Career Advice
+[Don&#x27;t Call Yourself A Programmer, And Other Career Advice
       
          | 
         Kalzumeus Software](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/#?)
@@ -167,13 +167,13 @@ caption = ""
 [Obsidian Canvas - Visualize your ideas](https://obsidian.md/canvas#?)
 
 {{< small >}}2022-12-20{{< /small >}}<br>
-[GitHub - melonjs/melonJS: a fresh, modern & lightweight HTML5 game engine](https://github.com/melonjs/melonJS#?)
+[GitHub - melonjs/melonJS: a fresh, modern &amp; lightweight HTML5 game engine](https://github.com/melonjs/melonJS#?)
 
 {{< small >}}2022-12-20{{< /small >}}<br>
 [Amiga Forever - Amiga Software, AmigaOS, Amiga Emulation, Games, History and Support Since 1986](https://www.amigaforever.com/#?)
 
 {{< small >}}2022-12-19{{< /small >}}<br>
-[Why doesn't Windows use the 64-bit virtual address space below 0x00000000`7ffe0000? - The Old New Thing](https://devblogs.microsoft.com/oldnewthing/20221216-00/?p=107598#?)
+[Why doesn&#x27;t Windows use the 64-bit virtual address space below 0x00000000`7ffe0000? - The Old New Thing](https://devblogs.microsoft.com/oldnewthing/20221216-00/?p=107598#?)
 
 {{< small >}}2022-12-19{{< /small >}}<br>
 [Productivity Blocker](https://www.productivityblocker.com/#?)
@@ -200,7 +200,7 @@ caption = ""
 [Sorting with SIMD - Blog - Tweede golf](https://tweedegolf.nl/en/blog/79/sorting-with-simd#?)
 
 {{< small >}}2022-12-18{{< /small >}}<br>
-[SQLite Internals: How The World's Most Used Database Works](https://www.compileralchemy.com/books/sqlite-internals/#?)
+[SQLite Internals: How The World&#x27;s Most Used Database Works](https://www.compileralchemy.com/books/sqlite-internals/#?)
 
 {{< small >}}2022-12-17{{< /small >}}<br>
 [Tiny Code Christmas](https://tcc.lovebyte.party/#?)
@@ -230,7 +230,7 @@ caption = ""
 [Vector animations with Python - __del__( self )](http://zulko.github.io/blog/2014/09/20/vector-animations-with-python/#?)
 
 {{< small >}}2022-12-14{{< /small >}}<br>
-[</> htmx ~ Documentation](https://htmx.org/docs/#?)
+[&lt;/&gt; htmx ~ Documentation](https://htmx.org/docs/#?)
 
 {{< small >}}2022-12-13{{< /small >}}<br>
 [Unovis](https://unovis.dev/#?)
@@ -263,7 +263,7 @@ caption = ""
 [Just Use Postgres for Everything | Amazing CTO](https://www.amazingcto.com/postgres-for-everything/#?)
 
 {{< small >}}2022-12-10{{< /small >}}<br>
-[We're breaking up with JavaScript frontends](https://triskweline.de/unpoly-rugb/#/#?)
+[We&#x27;re breaking up with JavaScript frontends](https://triskweline.de/unpoly-rugb/#/#?)
 
 {{< small >}}2022-12-10{{< /small >}}<br>
 [Redirecting to: /blog/tauri-mobile-alpha](https://tauri.app/blog/2022/12/09/tauri-mobile-alpha/#?)
@@ -344,7 +344,7 @@ caption = ""
 [How do transistors work, anyway?](https://lcamtuf.substack.com/p/how-do-transistors-work-anyway#?)
 
 {{< small >}}2022-11-30{{< /small >}}<br>
-[A.N. Lucas's 88x31 button Collection](https://anlucas.neocities.org/88x31Buttons#?)
+[A.N. Lucas&#x27;s 88x31 button Collection](https://anlucas.neocities.org/88x31Buttons#?)
 
 {{< small >}}2022-11-30{{< /small >}}<br>
 [Speeding up the JavaScript ecosystem - one library at a time](https://marvinh.dev/blog/speeding-up-javascript-ecosystem/#?)
@@ -377,7 +377,7 @@ caption = ""
 [Frontend developers: stop moving things that I’m about to click on](https://medium.com/@stephenjayakar/frontend-developers-stop-moving-things-that-im-about-to-click-on-5827bc0409b3#?)
 
 {{< small >}}2022-11-28{{< /small >}}<br>
-[A geek's guide to photography](https://lcamtuf.coredump.cx/photo_basics/#?)
+[A geek&#x27;s guide to photography](https://lcamtuf.coredump.cx/photo_basics/#?)
 
 {{< small >}}2022-11-28{{< /small >}}<br>
 [GPSrChive - GPS vs GLONASS vs Galileo](https://www.gpsrchive.com/Shared/Satellites/GPS%20vs%20GLONASS%20vs%20Galileo.html#?)
@@ -410,13 +410,13 @@ caption = ""
 [Startup Restructuring 101](https://cyrilgrislain.substack.com/p/startup-restructuring-101#?)
 
 {{< small >}}2022-11-27{{< /small >}}<br>
-[Ever wondered why plumbers are paid so much? – Naich's crappy blog](https://naich.net/wordpress/index.php/ever-wondered-why-plumbers-are-paid-so-much/#?)
+[Ever wondered why plumbers are paid so much? – Naich&#x27;s crappy blog](https://naich.net/wordpress/index.php/ever-wondered-why-plumbers-are-paid-so-much/#?)
 
 {{< small >}}2022-11-27{{< /small >}}<br>
 [GitHub - kuchin/awesome-cto: A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups](https://github.com/kuchin/awesome-cto#?)
 
 {{< small >}}2022-11-27{{< /small >}}<br>
-[A man won the legal right to not be 'fun' at work after refusing to embrace 'excessive alcoholism' and 'promiscuity'](https://www.businessinsider.com/man-won-legal-right-not-be-fun-at-work-alcoholism-2022-11#?)
+[A man won the legal right to not be &#x27;fun&#x27; at work after refusing to embrace &#x27;excessive alcoholism&#x27; and &#x27;promiscuity&#x27;](https://www.businessinsider.com/man-won-legal-right-not-be-fun-at-work-alcoholism-2022-11#?)
 
 {{< small >}}2022-11-27{{< /small >}}<br>
 [CRDT: Fractional Indexing - Made by Evan](https://madebyevan.com/algos/crdt-fractional-indexing/#?)
@@ -452,7 +452,7 @@ caption = ""
 [Bullshit Software Projects](https://earthly.dev/blog/bullshit-software-projects/#?)
 
 {{< small >}}2022-11-23{{< /small >}}<br>
-[Safely writing code that isn't thread-safe](https://cliffle.com/blog/not-thread-safe/#?)
+[Safely writing code that isn&#x27;t thread-safe](https://cliffle.com/blog/not-thread-safe/#?)
 
 {{< small >}}2022-11-23{{< /small >}}<br>
 [Why writing by hand is still the best way to retain information - Stack Overflow](https://stackoverflow.blog/2022/11/23/why-writing-by-hand-is-still-the-best-way-to-retain-information/#?)
@@ -482,7 +482,7 @@ caption = ""
 [Tools for Thought as Cultural Practices, not Computational Objects](https://maggieappleton.com/tools-for-thought#?)
 
 {{< small >}}2022-11-20{{< /small >}}<br>
-[AMD Finally Opens Up Its Radeon Raytracing Analyzer "RRA" Source Code - Phoronix](https://www.phoronix.com/news/AMD-GPUOpen-RRA-Open-Source#?)
+[AMD Finally Opens Up Its Radeon Raytracing Analyzer &quot;RRA&quot; Source Code - Phoronix](https://www.phoronix.com/news/AMD-GPUOpen-RRA-Open-Source#?)
 
 {{< small >}}2022-11-20{{< /small >}}<br>
 [Quirks of C](https://gist.github.com/fay59/5ccbe684e6e56a7df8815c3486568f01#?)
@@ -539,7 +539,7 @@ caption = ""
 [Fast Software, the Best Software](https://craigmod.com/essays/fast_software/#?)
 
 {{< small >}}2022-11-14{{< /small >}}<br>
-[Long live personal websites, Let's make the web personal again! - Nym blog](https://blog.nymhq.com/writing/long-live-personal-websites#?)
+[Long live personal websites, Let&#x27;s make the web personal again! - Nym blog](https://blog.nymhq.com/writing/long-live-personal-websites#?)
 
 {{< small >}}2022-11-13{{< /small >}}<br>
 [Why does calloc exist? — njs blog](https://vorpus.org/blog/why-does-calloc-exist/#?)
@@ -578,10 +578,10 @@ caption = ""
 [Podman Desktop - Containers and Kubernetes | Podman Desktop](https://podman-desktop.io/#?)
 
 {{< small >}}2022-11-10{{< /small >}}<br>
-[Web Automation: Don't Use Selenium, Use Playwright](https://pythonforengineers.com/blog/web-automation-dont-use-selenium-use-playwright/#?)
+[Web Automation: Don&#x27;t Use Selenium, Use Playwright](https://pythonforengineers.com/blog/web-automation-dont-use-selenium-use-playwright/#?)
 
 {{< small >}}2022-11-10{{< /small >}}<br>
-[GitHub stars won't pay your rent](https://www.kitze.io/posts/github-stars-wont-pay-your-rent#?)
+[GitHub stars won&#x27;t pay your rent](https://www.kitze.io/posts/github-stars-wont-pay-your-rent#?)
 
 {{< small >}}2022-11-10{{< /small >}}<br>
 [Why Everything Looks the Same](https://medium.com/knowable/why-everything-looks-the-same-bad80133dd6e#?)
@@ -665,7 +665,7 @@ caption = ""
 [Protobuf-ES: The Protocol Buffers TypeScript/JavaScript runtime we all deserve](https://buf.build/blog/protobuf-es-the-protocol-buffers-typescript-javascript-runtime-we-all-deserve#?)
 
 {{< small >}}2022-10-31{{< /small >}}<br>
-[GitHub - FiloSottile/mkcert: A simple zero-config tool to make locally trusted development certificates with any names you'd like.](https://github.com/FiloSottile/mkcert#?)
+[GitHub - FiloSottile/mkcert: A simple zero-config tool to make locally trusted development certificates with any names you&#x27;d like.](https://github.com/FiloSottile/mkcert#?)
 
 {{< small >}}2022-10-30{{< /small >}}<br>
 [Variability, Not Repetition, is the Key to Mastery - Scott H Young](https://www.scotthyoung.com/blog/2022/10/26/variable-mastery/#?)
@@ -692,7 +692,7 @@ caption = ""
 [Poseidon Labs](https://www.psdn.io/posts/systemd-shutdown-unit/#?)
 
 {{< small >}}2022-10-26{{< /small >}}<br>
-[How I recorded user behaviour on my competitor's websites](https://dejanmarketing.com/competitor-hack/#?)
+[How I recorded user behaviour on my competitor&#x27;s websites](https://dejanmarketing.com/competitor-hack/#?)
 
 {{< small >}}2022-10-26{{< /small >}}<br>
 [Markov Chain Monte Carlo Without all the Bullshit](https://www.jeremykun.com/2015/04/06/markov-chain-monte-carlo-without-all-the-bullshit/#?)
@@ -701,7 +701,7 @@ caption = ""
 [How to maintain engineering velocity as you scale | Y Combinator](https://www.ycombinator.com/blog/how-to-maintain-engineering-velocity-as-you-scale#?)
 
 {{< small >}}2022-10-26{{< /small >}}<br>
-[SadServers - Linux & DevOps Troubleshooting Interviews](https://sadservers.com/#?)
+[SadServers - Linux &amp; DevOps Troubleshooting Interviews](https://sadservers.com/#?)
 
 {{< small >}}2022-10-25{{< /small >}}<br>
 [Every Door](https://every-door.app/#?)
@@ -746,7 +746,7 @@ caption = ""
 [When life gives you lemons, write better error messages](https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f?gi=1cd2e1f570c2#?)
 
 {{< small >}}2022-10-18{{< /small >}}<br>
-[Trent Reznor & Atticus Ross "The Social Network" Synth Sound](https://reverbmachine.com/blog/trent-reznor-social-network-synth-sounds/#?)
+[Trent Reznor &amp; Atticus Ross &quot;The Social Network&quot; Synth Sound](https://reverbmachine.com/blog/trent-reznor-social-network-synth-sounds/#?)
 
 {{< small >}}2022-10-18{{< /small >}}<br>
 [Emulating Double Precision on the GPU to Render Large Worlds – Godot Engine](https://godotengine.org/article/emulating-double-precision-gpu-render-large-worlds/#?)
@@ -770,7 +770,7 @@ caption = ""
 [GitHub - rvaiya/warpd: A modal keyboard-driven virtual pointer](https://github.com/rvaiya/warpd#?)
 
 {{< small >}}2022-10-15{{< /small >}}<br>
-[How boring should your team's codebases be](https://blog.meadsteve.dev/team-work/2022/10/13/how-boring-should-your-teams-codebases-be/#?)
+[How boring should your team&#x27;s codebases be](https://blog.meadsteve.dev/team-work/2022/10/13/how-boring-should-your-teams-codebases-be/#?)
 
 {{< small >}}2022-10-14{{< /small >}}<br>
 [p5.js](https://p5js.org/#?)
@@ -779,7 +779,7 @@ caption = ""
 [Linear – Plan and build products](https://linear.app/homepage#?)
 
 {{< small >}}2022-10-12{{< /small >}}<br>
-[Simulating Wind on Procedural Terrain using GPU Accelerated Lattice Boltzmann Method – Nick's Blog](https://nickmcd.me/2022/10/01/procedural-wind-and-clouds-using-gpu-accelerated-lattice-boltzmann-method/#?)
+[Simulating Wind on Procedural Terrain using GPU Accelerated Lattice Boltzmann Method – Nick&#x27;s Blog](https://nickmcd.me/2022/10/01/procedural-wind-and-clouds-using-gpu-accelerated-lattice-boltzmann-method/#?)
 
 {{< small >}}2022-10-12{{< /small >}}<br>
 [One trick Apple uses to make you think green bubbles are “gross”](https://uxdesign.cc/how-apple-makes-you-think-green-bubbles-gross-e03b52b12fed?gi=acfc784e8636#?)
@@ -821,7 +821,7 @@ caption = ""
 [Submarine Cable Map](https://www.submarinecablemap.com/#?)
 
 {{< small >}}2022-10-07{{< /small >}}<br>
-[AWS doesn't make sense for scientific computing](https://www.noahlebovic.com/aws-doesnt-make-sense-for-scientific-computing/#?)
+[AWS doesn&#x27;t make sense for scientific computing](https://www.noahlebovic.com/aws-doesnt-make-sense-for-scientific-computing/#?)
 
 {{< small >}}2022-10-07{{< /small >}}<br>
 [Hacking Reolink cameras for fun and profit](https://www.thirtythreeforty.net/posts/2020/05/hacking-reolink-cameras-for-fun-and-profit/#?)
@@ -830,7 +830,7 @@ caption = ""
 [What does the ??!??! operator do in C?](https://stackoverflow.com/questions/7825055/what-does-the-operator-do-in-c#?)
 
 {{< small >}}2022-10-05{{< /small >}}<br>
-[Castopod | Your Free & Open-source Podcast Host](https://castopod.org/#?)
+[Castopod | Your Free &amp; Open-source Podcast Host](https://castopod.org/#?)
 
 {{< small >}}2022-10-05{{< /small >}}<br>
 [An end to doomerism](https://bigthink.com/progress/pessimism-is-a-barrier-to-progress/#?)
@@ -851,7 +851,7 @@ caption = ""
 [Why Men Are Hard to Help](https://nationalaffairs.com/publications/detail/why-men-are-hard-to-help#?)
 
 {{< small >}}2022-10-02{{< /small >}}<br>
-[GitHub - SigNoz/signoz: SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool](https://github.com/SigNoz/signoz#?)
+[GitHub - SigNoz/signoz: SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) &amp; Observability tool](https://github.com/SigNoz/signoz#?)
 
 {{< small >}}2022-10-01{{< /small >}}<br>
 [GitHub - epasveer/seer: Seer - a gui frontend to gdb](https://github.com/epasveer/seer#?)
@@ -866,7 +866,7 @@ caption = ""
 [Stop Overcomplicating It: The Simple Guidebook to Upping Your Management Game](https://review.firstround.com/stop-overcomplicating-it-the-simple-guidebook-to-upping-your-management-game/#?)
 
 {{< small >}}2022-09-28{{< /small >}}<br>
-[Soldering Wires - Here's a Different Way](https://www.instructables.com/Soldering-Wires-Heres-a-Better-Way/#?)
+[Soldering Wires - Here&#x27;s a Different Way](https://www.instructables.com/Soldering-Wires-Heres-a-Better-Way/#?)
 
 {{< small >}}2022-09-28{{< /small >}}<br>
 [Named Element IDs Can Be Referenced as JavaScript Globals | CSS-Tricks](https://css-tricks.com/named-element-ids-can-be-referenced-as-javascript-globals/#?)
@@ -923,7 +923,7 @@ caption = ""
 [Your Work Matters. Build Your Schedule Accordingly. - Cal Newport](https://calnewport.com/your-work-matters-build-your-schedule-accordingly/#?)
 
 {{< small >}}2022-09-22{{< /small >}}<br>
-[Will Serving Real HTML Content Make A Website Faster? Let's Experiment!](https://www.catchpoint.com/blog/will-serving-real-html-content-make-a-website-faster-lets-experiment#?)
+[Will Serving Real HTML Content Make A Website Faster? Let&#x27;s Experiment!](https://www.catchpoint.com/blog/will-serving-real-html-content-make-a-website-faster-lets-experiment#?)
 
 {{< small >}}2022-09-22{{< /small >}}<br>
 [Explore Successful Businesses - Starter Story](https://www.starterstory.com/explore#?)
@@ -962,7 +962,7 @@ caption = ""
 [Using WebTransport  |  Capabilities  |  Chrome for Developers](https://developer.chrome.com/docs/capabilities/web-apis/webtransport#?)
 
 {{< small >}}2022-09-16{{< /small >}}<br>
-[WunderBase – Serverless GraphQL DB using SQLite, Firecracker & Prisma](https://wundergraph.com/blog/wunderbase_serverless_graphql_database_on_top_of_sqlite_firecracker_and_prisma#?)
+[WunderBase – Serverless GraphQL DB using SQLite, Firecracker &amp; Prisma](https://wundergraph.com/blog/wunderbase_serverless_graphql_database_on_top_of_sqlite_firecracker_and_prisma#?)
 
 {{< small >}}2022-09-16{{< /small >}}<br>
 [Step on it! Walking is good for health but walking faster is even better, study finds](https://www.theguardian.com/australia-news/2022/sep/13/step-on-it-walking-is-good-for-health-but-walking-faster-is-even-better-study-finds#?)
@@ -1055,10 +1055,10 @@ caption = ""
 [Less is more agile](https://beny23.github.io/posts/my_take_on_engineering_room_9/#?)
 
 {{< small >}}2022-09-04{{< /small >}}<br>
-[GitHub - streetwriters/notesnook: A fully open source & end-to-end encrypted note taking alternative to Evernote.](https://github.com/streetwriters/notesnook#?)
+[GitHub - streetwriters/notesnook: A fully open source &amp; end-to-end encrypted note taking alternative to Evernote.](https://github.com/streetwriters/notesnook#?)
 
 {{< small >}}2022-09-04{{< /small >}}<br>
-[The Best Debugging Story I've Ever Heard](https://patrickthomson.tumblr.com/post/2499755681/the-best-debugging-story-ive-ever-heard#?)
+[The Best Debugging Story I&#x27;ve Ever Heard](https://patrickthomson.tumblr.com/post/2499755681/the-best-debugging-story-ive-ever-heard#?)
 
 {{< small >}}2022-09-03{{< /small >}}<br>
 [Using a Raspberry Pi as a Bluetooth speaker with PipeWire](https://www.collabora.com/news-and-blog/blog/2022/09/02/using-a-raspberry-pi-as-a-bluetooth-speaker-with-pipewire-wireplumber/#?)
@@ -1106,13 +1106,13 @@ caption = ""
 [Writing a toy WebSocket server from scratch · Caffeinspiration](https://alexanderell.is/posts/websockets-from-scratch/#?)
 
 {{< small >}}2022-08-30{{< /small >}}<br>
-[Git's database internals I: packed object store](https://github.blog/open-source/git/gits-database-internals-i-packed-object-store/#?)
+[Git&#x27;s database internals I: packed object store](https://github.blog/open-source/git/gits-database-internals-i-packed-object-store/#?)
 
 {{< small >}}2022-08-30{{< /small >}}<br>
 [Tom Lingham (Toml)](https://tomlingham.com/articles/why-are-you-so-busy/#?)
 
 {{< small >}}2022-08-30{{< /small >}}<br>
-[PostgreSQL 15: Stats Collector Gone? What's New?](https://www.percona.com/blog/postgresql-15-stats-collector-gone-whats-new/#?)
+[PostgreSQL 15: Stats Collector Gone? What&#x27;s New?](https://www.percona.com/blog/postgresql-15-stats-collector-gone-whats-new/#?)
 
 {{< small >}}2022-08-28{{< /small >}}<br>
 [André Staltz - Time Till Open Source Alternative](https://staltz.com/time-till-open-source-alternative.html#?)
@@ -1121,7 +1121,7 @@ caption = ""
 [Creativity requires solitude | DKB Show](https://dkb.show/post/creativity-requires-solitude#?)
 
 {{< small >}}2022-08-25{{< /small >}}<br>
-[The Three F's of Open Source Development | Ben E. C. Boyter](https://boyter.org/posts/the-three-f-s-of-open-source/#?)
+[The Three F&#x27;s of Open Source Development | Ben E. C. Boyter](https://boyter.org/posts/the-three-f-s-of-open-source/#?)
 
 {{< small >}}2022-08-24{{< /small >}}<br>
 [Every action you take is a vote for the type of person you wish to become](https://jeremyeder.com/2022/08/16/every-action-you-take-is-a-vote-for-the-type-of-person-you-wish-to-become/#?)
@@ -1142,7 +1142,7 @@ caption = ""
 [How to pay your rent with your open source project](https://plausible.io/blog/open-source-funding#?)
 
 {{< small >}}2022-08-24{{< /small >}}<br>
-[What's the big deal about key-value databases like FoundationDB and RocksDB? | notes.eatonphil.com](https://notes.eatonphil.com/whats-the-big-deal-about-key-value-databases.html#?)
+[What&#x27;s the big deal about key-value databases like FoundationDB and RocksDB? | notes.eatonphil.com](https://notes.eatonphil.com/whats-the-big-deal-about-key-value-databases.html#?)
 
 {{< small >}}2022-08-24{{< /small >}}<br>
 [Accounting for Developers, Part II | Modern Treasury Journal](https://www.moderntreasury.com/journal/accounting-for-developers-part-ii#?)
@@ -1176,7 +1176,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Turning SQLite into a distributed database](https://su3.io/posts/mvsqlite#?)
 
 {{< small >}}2022-08-20{{< /small >}}<br>
-[What I learned working with a senior engineer as a new grad: TK's website](https://tanishqkancharla.dev/blog/what-i-learned#?)
+[What I learned working with a senior engineer as a new grad: TK&#x27;s website](https://tanishqkancharla.dev/blog/what-i-learned#?)
 
 {{< small >}}2022-08-20{{< /small >}}<br>
 [Using :has() as a CSS Parent Selector and much more](https://webkit.org/blog/13096/css-has-pseudo-class/#?)
@@ -1293,13 +1293,13 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Is the Kalman filter a low-pass filter? Sometimes!](https://thesearesystems.substack.com/p/is-the-kalman-filter-just-a-low-pass#?)
 
 {{< small >}}2022-07-28{{< /small >}}<br>
-[Want to start hacking? Here's how to quickly dive in](https://about.gitlab.com/blog/cracking-our-bug-bounty-top-10/#?)
+[Want to start hacking? Here&#x27;s how to quickly dive in](https://about.gitlab.com/blog/cracking-our-bug-bounty-top-10/#?)
 
 {{< small >}}2022-07-28{{< /small >}}<br>
 [GitHub - jorgef/engineeringladders: A framework for Engineering Managers](https://github.com/jorgef/engineeringladders#?)
 
 {{< small >}}2022-07-28{{< /small >}}<br>
-[GitHub - ronami/HypeScript: 🐬 A simplified implementation of TypeScript's type system written in TypeScript's type system](https://github.com/ronami/HypeScript#?)
+[GitHub - ronami/HypeScript: 🐬 A simplified implementation of TypeScript&#x27;s type system written in TypeScript&#x27;s type system](https://github.com/ronami/HypeScript#?)
 
 {{< small >}}2022-07-27{{< /small >}}<br>
 [Shipping multi-tenant SaaS using Postgres Row-Level Security](https://www.thenile.dev/blog/multi-tenant-rls#?)
@@ -1311,7 +1311,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [How to Stop Procrastinating on Your Goals by Using the “Seinfeld Strategy”](https://jamesclear.com/stop-procrastinating-seinfeld-strategy#?)
 
 {{< small >}}2022-07-27{{< /small >}}<br>
-[SQLite Internals: Pages & B-trees](https://fly.io/blog/sqlite-internals-btree/#?)
+[SQLite Internals: Pages &amp; B-trees](https://fly.io/blog/sqlite-internals-btree/#?)
 
 {{< small >}}2022-07-26{{< /small >}}<br>
 [Emoji Kitchen Browser](https://emoji.supply/kitchen/#?)
@@ -1323,7 +1323,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Becoming a Full-Time Creator as a Software Engineer: Controversial Advice](https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/#?)
 
 {{< small >}}2022-07-26{{< /small >}}<br>
-[Lockdown: The coming war on general-purpose computing – Cory Doctorow's MEMEX](https://memex.craphound.com/2012/01/10/lockdown-the-coming-war-on-general-purpose-computing/#?)
+[Lockdown: The coming war on general-purpose computing – Cory Doctorow&#x27;s MEMEX](https://memex.craphound.com/2012/01/10/lockdown-the-coming-war-on-general-purpose-computing/#?)
 
 {{< small >}}2022-07-26{{< /small >}}<br>
 [GitHub - rustdesk/rustdesk: An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.](https://github.com/rustdesk/rustdesk#?)
@@ -1344,10 +1344,10 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Non-Obvious Docker Uses](https://mattrickard.com/non-obvious-docker-uses#?)
 
 {{< small >}}2022-07-24{{< /small >}}<br>
-[Leaked documents reveal Amazon managers’ process to review employees' worth to the company and pay | Fortune](https://fortune.com/2022/07/22/amazon-new-performance-review-process-leaked-how-managers-measure-employee-worth-and-pay/#?)
+[Leaked documents reveal Amazon managers’ process to review employees&#x27; worth to the company and pay | Fortune](https://fortune.com/2022/07/22/amazon-new-performance-review-process-leaked-how-managers-measure-employee-worth-and-pay/#?)
 
 {{< small >}}2022-07-24{{< /small >}}<br>
-[The tar archive format, its extensions, and why GNU tar extracts in quadratic time - Mort's Ramblings](https://mort.coffee/home/tar/#?)
+[The tar archive format, its extensions, and why GNU tar extracts in quadratic time - Mort&#x27;s Ramblings](https://mort.coffee/home/tar/#?)
 
 {{< small >}}2022-07-23{{< /small >}}<br>
 [What I don’t like about working at a remote job](https://www.priconceptions.com/notebook/remote-jobs-bad#?)
@@ -1368,7 +1368,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [The trouble with symbolic links](https://lwn.net/Articles/899543/#?)
 
 {{< small >}}2022-07-21{{< /small >}}<br>
-[When the Money's Just Too Damn Good](https://blog.nateliason.com/p/money-too-good#?)
+[When the Money&#x27;s Just Too Damn Good](https://blog.nateliason.com/p/money-too-good#?)
 
 {{< small >}}2022-07-21{{< /small >}}<br>
 [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/#?)
@@ -1380,7 +1380,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [The world is awful. The world is much better. The world can be much better.](https://ourworldindata.org/much-better-awful-can-be-better#?)
 
 {{< small >}}2022-07-19{{< /small >}}<br>
-[Implementing "seen by" functionality with Postgres](https://supabase.com/blog/seen-by-in-postgresql#?)
+[Implementing &quot;seen by&quot; functionality with Postgres](https://supabase.com/blog/seen-by-in-postgresql#?)
 
 {{< small >}}2022-07-19{{< /small >}}<br>
 [GitHub - mmikk/hextile-demo: demonstrates hex-tiling](https://github.com/mmikk/hextile-demo#?)
@@ -1395,10 +1395,10 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [The Book of Shaders](https://thebookofshaders.com/#?)
 
 {{< small >}}2022-07-17{{< /small >}}<br>
-[How "let it fail" leads to simpler code - Yiming Chen](https://yiming.dev/blog/2022/07/10/how-let-it-fail-leads-to-simpler-code/#?)
+[How &quot;let it fail&quot; leads to simpler code - Yiming Chen](https://yiming.dev/blog/2022/07/10/how-let-it-fail-leads-to-simpler-code/#?)
 
 {{< small >}}2022-07-16{{< /small >}}<br>
-[How They Designed the Characters of 'Cowboy Bebop'](https://animationobsessive.substack.com/p/designing-the-characters-of-cowboy#?)
+[How They Designed the Characters of &#x27;Cowboy Bebop&#x27;](https://animationobsessive.substack.com/p/designing-the-characters-of-cowboy#?)
 
 {{< small >}}2022-07-15{{< /small >}}<br>
 [Lessons from Writing a Compiler](https://borretti.me/article/lessons-writing-compiler#?)
@@ -1407,7 +1407,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Linen Community](https://www.linen.dev/bot#?)
 
 {{< small >}}2022-07-15{{< /small >}}<br>
-[People with low BMI aren&apos;t more active, they are just less hungry and &apos;run hotter&apos;](https://www.sciencedaily.com/releases/2022/07/220714145059.htm#?)
+[People with low BMI aren&amp;apos;t more active, they are just less hungry and &amp;apos;run hotter&amp;apos;](https://www.sciencedaily.com/releases/2022/07/220714145059.htm#?)
 
 {{< small >}}2022-07-15{{< /small >}}<br>
 [How Duke Nukem II’s parallax scrolling worked](https://lethalguitar.wordpress.com/2022/07/14/how-duke-nukem-iis-parallax-scrolling-worked/#?)
@@ -1446,7 +1446,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Astrofox](https://astrofox.io/#?)
 
 {{< small >}}2022-07-09{{< /small >}}<br>
-[Bad UI is causing people to get scammed | Ashlan's blog](https://ashlan.com/blog/bad-ui-is-causing-people-to-get-scammed/#?)
+[Bad UI is causing people to get scammed | Ashlan&#x27;s blog](https://ashlan.com/blog/bad-ui-is-causing-people-to-get-scammed/#?)
 
 {{< small >}}2022-07-09{{< /small >}}<br>
 [Algorithms Books](https://algorithmsbook.com/#?)
@@ -1461,7 +1461,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [A journey into the Linux scheduler](https://blog.maxgio.me/posts/linux-scheduler-journey/#?)
 
 {{< small >}}2022-07-05{{< /small >}}<br>
-[Cloud-Native GIS Software & Online Mapping Platform | Felt](https://felt.com/#?)
+[Cloud-Native GIS Software &amp; Online Mapping Platform | Felt](https://felt.com/#?)
 
 {{< small >}}2022-07-05{{< /small >}}<br>
 [How to animate multiplayer cursors | Liveblocks blog](https://liveblocks.io/blog/how-to-animate-multiplayer-cursors#?)
@@ -1473,22 +1473,22 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [rsync, article 3: How does rsync work?](https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/#?)
 
 {{< small >}}2022-07-02{{< /small >}}<br>
-[An Engineer's Best Tips for Writing Documentation Devs Love](https://thenewstack.io/an-engineers-best-tips-for-writing-documentation-devs-love/#?)
+[An Engineer&#x27;s Best Tips for Writing Documentation Devs Love](https://thenewstack.io/an-engineers-best-tips-for-writing-documentation-devs-love/#?)
 
 {{< small >}}2022-07-02{{< /small >}}<br>
 [The new wave of React state management](https://frontendmastery.com/posts/the-new-wave-of-react-state-management/#?)
 
 {{< small >}}2022-07-01{{< /small >}}<br>
-[GitHub - upptime/upptime: ⬆️ GitHub Actions uptime monitor & status page by @AnandChowdhary](https://github.com/upptime/upptime#?)
+[GitHub - upptime/upptime: ⬆️ GitHub Actions uptime monitor &amp; status page by @AnandChowdhary](https://github.com/upptime/upptime#?)
 
 {{< small >}}2022-06-29{{< /small >}}<br>
-[The really important job interview questions engineers should ask (but don't) - PostHog](https://posthog.com/founders/what-to-ask-in-interviews#?)
+[The really important job interview questions engineers should ask (but don&#x27;t) - PostHog](https://posthog.com/founders/what-to-ask-in-interviews#?)
 
 {{< small >}}2022-06-29{{< /small >}}<br>
 [It Is Your Responsibility to Follow Up - Alexey Guzey](https://guzey.com/follow-up/#?)
 
 {{< small >}}2022-06-29{{< /small >}}<br>
-[SQLite or PostgreSQL? It's Complicated!](https://www.twilio.com/en-us/blog/sqlite-postgresql-complicated#?)
+[SQLite or PostgreSQL? It&#x27;s Complicated!](https://www.twilio.com/en-us/blog/sqlite-postgresql-complicated#?)
 
 {{< small >}}2022-06-29{{< /small >}}<br>
 [GitHub - ForeignGods/Sorting-Algorithms-Blender: Sorting algorithms visualized using the Blender Python API.](https://github.com/ForeignGods/Sorting-Algorithms-Blender#?)
@@ -1506,7 +1506,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Wasting Time in Tech Interviews](https://www.benjamistan.tech/2022/06/26/wasting-time-in-tech-interviews.html#?)
 
 {{< small >}}2022-06-28{{< /small >}}<br>
-[Extreme Explorations of TypeScript's Type System | Learning TypeScript](https://www.learningtypescript.com/articles/extreme-explorations-of-typescripts-type-system#?)
+[Extreme Explorations of TypeScript&#x27;s Type System | Learning TypeScript](https://www.learningtypescript.com/articles/extreme-explorations-of-typescripts-type-system#?)
 
 {{< small >}}2022-06-27{{< /small >}}<br>
 [Life Is Not Short | DKB Show](https://dkb.show/post/life-is-not-short#?)
@@ -1572,7 +1572,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Video live streaming: Notes on RTMP, HLS, and WebRTC](https://www.daily.co/blog/video-live-streaming/#?)
 
 {{< small >}}2022-06-06{{< /small >}}<br>
-[In Defense of OpenStreetMap's Data Model](https://stevecoast.com/p/in-defense-of-openstreetmaps-data#?)
+[In Defense of OpenStreetMap&#x27;s Data Model](https://stevecoast.com/p/in-defense-of-openstreetmaps-data#?)
 
 {{< small >}}2022-06-06{{< /small >}}<br>
 [scene.org file archive :: rgba_tbc_elevated_source.zip](https://files.scene.org/view/resources/code/sources/rgba_tbc_elevated_source.zip#?)
@@ -1587,7 +1587,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Open Source Alternatives To Proprietary Software](https://www.opensourcealternative.to/#?)
 
 {{< small >}}2022-05-30{{< /small >}}<br>
-[I'm Retiring From the Engineering Profession](https://archive.strongtowns.org/journal/2022/5/23/im-retiring-from-the-engineering-profession#?)
+[I&#x27;m Retiring From the Engineering Profession](https://archive.strongtowns.org/journal/2022/5/23/im-retiring-from-the-engineering-profession#?)
 
 {{< small >}}2022-05-30{{< /small >}}<br>
 [Interactive Typography Tutorial](https://www.learnui.design/tools/typography-tutorial.html#?)
@@ -1653,25 +1653,25 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Thorsten Ball - The Tools I Use To Write Books](https://thorstenball.com/blog/2018/09/04/the-tools-i-use-to-write-books/#?)
 
 {{< small >}}2022-05-18{{< /small >}}<br>
-[Let's build a distributed Postgres proof of concept | notes.eatonphil.com](https://notes.eatonphil.com/distributed-postgres.html#?)
+[Let&#x27;s build a distributed Postgres proof of concept | notes.eatonphil.com](https://notes.eatonphil.com/distributed-postgres.html#?)
 
 {{< small >}}2022-05-18{{< /small >}}<br>
 [on terminal control](https://xn--rpa.cc/irl/term.html#?)
 
 {{< small >}}2022-05-18{{< /small >}}<br>
-[A dev's thoughts on developer productivity | Sourcegraph Blog](https://webflow.sourcegraph.com/blog/developer-productivity-thoughts#?)
+[A dev&#x27;s thoughts on developer productivity | Sourcegraph Blog](https://webflow.sourcegraph.com/blog/developer-productivity-thoughts#?)
 
 {{< small >}}2022-05-18{{< /small >}}<br>
 [Introduction - 3D Math Primer for Graphics and Game Development](https://gamemath.com/book/intro.html#?)
 
 {{< small >}}2022-05-18{{< /small >}}<br>
-[How to feel engaged at work: a software engineer's guide | Jason Tu](https://nucleartide.com/ennui#?)
+[How to feel engaged at work: a software engineer&#x27;s guide | Jason Tu](https://nucleartide.com/ennui#?)
 
 {{< small >}}2022-05-18{{< /small >}}<br>
 [Lago Blog - 😵‍💫 Why billing systems are a nightmare for engineers](https://www.getlago.com/blog/why-billing-systems-are-a-nightmare-for-engineers#?)
 
 {{< small >}}2022-05-17{{< /small >}}<br>
-[Tiger Cloud: Managed PostgreSQL Platform for Time Series & Event Data | Tiger Data](https://www.tigerdata.com/cloud#?)
+[Tiger Cloud: Managed PostgreSQL Platform for Time Series &amp; Event Data | Tiger Data](https://www.tigerdata.com/cloud#?)
 
 {{< small >}}2022-05-16{{< /small >}}<br>
 [Many software companies are a joke](https://liou28335.medium.com/many-software-companies-are-a-joke-9f4b10378c7a#?)
@@ -1710,7 +1710,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Efficiency is the Enemy](https://fs.blog/slack/#?)
 
 {{< small >}}2022-05-07{{< /small >}}<br>
-[Use Fast Data Algorithms | Joey Lynch's Site](https://jolynch.github.io/posts/use_fast_data_algorithms/#?)
+[Use Fast Data Algorithms | Joey Lynch&#x27;s Site](https://jolynch.github.io/posts/use_fast_data_algorithms/#?)
 
 {{< small >}}2022-05-07{{< /small >}}<br>
 [Demystifying Database Performance for Developers | Crunchy Data Blog](https://www.crunchydata.com/blog/demystifying-database-performance-for-developers#?)
@@ -1764,7 +1764,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Tabler Icons: 4950+ free vector icons for web design](https://tabler.io/icons#?)
 
 {{< small >}}2022-04-22{{< /small >}}<br>
-[You probably don't need AWS and are better off without it – Trickster Dev](https://www.trickster.dev/post/you-probably-dont-need-aws-and-are-better-off-without-it/#?)
+[You probably don&#x27;t need AWS and are better off without it – Trickster Dev](https://www.trickster.dev/post/you-probably-dont-need-aws-and-are-better-off-without-it/#?)
 
 {{< small >}}2022-04-22{{< /small >}}<br>
 [Insanely Useful Websites for October 2023](https://insanelyusefulwebsites.com/#?)
@@ -1800,7 +1800,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [How to Freaking Find Great Developers By Having Them Read Code](https://freakingrectangle.wordpress.com/2022/04/15/how-to-freaking-hire-great-developers/#?)
 
 {{< small >}}2022-04-18{{< /small >}}<br>
-[The terrible things I'd do with your money](https://timdaub.github.io/2022/04/15/the-terrible-things-I-would-do-with-your-money/#?)
+[The terrible things I&#x27;d do with your money](https://timdaub.github.io/2022/04/15/the-terrible-things-I-would-do-with-your-money/#?)
 
 {{< small >}}2022-04-18{{< /small >}}<br>
 [Why I avoid async/await](https://uniqname.medium.com/why-i-avoid-async-await-7be98014b73e#?)
@@ -1917,13 +1917,13 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [How I learned to stop worrying and structure all writing as a list](https://dynomight.net/lists/#?)
 
 {{< small >}}2022-03-19{{< /small >}}<br>
-[I'm Too Risk-Averse for Index Investing](https://paranoidvalueinvestor.substack.com/p/im-too-risk-adverse-for-index-investing#?)
+[I&#x27;m Too Risk-Averse for Index Investing](https://paranoidvalueinvestor.substack.com/p/im-too-risk-adverse-for-index-investing#?)
 
 {{< small >}}2022-03-17{{< /small >}}<br>
 [GitHub - nkallen/plasticity](https://github.com/nkallen/plasticity#?)
 
 {{< small >}}2022-03-17{{< /small >}}<br>
-[How Tailscale's free plan stays free](https://tailscale.com/blog/free-plan#?)
+[How Tailscale&#x27;s free plan stays free](https://tailscale.com/blog/free-plan#?)
 
 {{< small >}}2022-03-16{{< /small >}}<br>
 [Home](https://github.com/ssloy/tinyrenderer/wiki#?)
@@ -1956,7 +1956,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Teaching is a slow process of becoming everything you hate](https://dynomight.net/teaching/#?)
 
 {{< small >}}2022-03-11{{< /small >}}<br>
-[Why Tensors? A Beginner's Perspective](https://mfaizan.github.io/2022/03/08/why-tensors.html#?)
+[Why Tensors? A Beginner&#x27;s Perspective](https://mfaizan.github.io/2022/03/08/why-tensors.html#?)
 
 {{< small >}}2022-03-10{{< /small >}}<br>
 [Postgres Auditing in 150 lines of SQL](https://supabase.com/blog/postgres-audit#?)
@@ -1968,7 +1968,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Barcode Detection API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Barcode_Detection_API#?)
 
 {{< small >}}2022-03-08{{< /small >}}<br>
-[Don't build (or build) that feature](https://dont.build/#?)
+[Don&#x27;t build (or build) that feature](https://dont.build/#?)
 
 {{< small >}}2022-03-08{{< /small >}}<br>
 [Adam Drake](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html#?)
@@ -1986,13 +1986,13 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [The most important thing to understand about queues](https://blog.danslimmon.com/2016/08/26/the-most-important-thing-to-understand-about-queues/#?)
 
 {{< small >}}2022-03-07{{< /small >}}<br>
-[C++ Cheat Sheets & Infographics](https://hackingcpp.com/cpp/cheat_sheets.html#?)
+[C++ Cheat Sheets &amp; Infographics](https://hackingcpp.com/cpp/cheat_sheets.html#?)
 
 {{< small >}}2022-03-07{{< /small >}}<br>
 [You’re Using Email Wrong](https://arne.me/blog/youre-using-email-wrong/#?)
 
 {{< small >}}2022-03-07{{< /small >}}<br>
-[Damn Cool Algorithms: Levenshtein Automata - Nick's Blog](http://blog.notdot.net/2010/07/Damn-Cool-Algorithms-Levenshtein-Automata#?)
+[Damn Cool Algorithms: Levenshtein Automata - Nick&#x27;s Blog](http://blog.notdot.net/2010/07/Damn-Cool-Algorithms-Levenshtein-Automata#?)
 
 {{< small >}}2022-03-06{{< /small >}}<br>
 [Design: #noFramework](https://javarome.medium.com/design-noframework-bbc00a02d9b3#?)
@@ -2001,7 +2001,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Redirecting...](https://platformers.dev/log/2022-03-02-latest-literally-kills-puppies/#?)
 
 {{< small >}}2022-03-04{{< /small >}}<br>
-[It's always been you, Canvas2D  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/canvas2d/#?)
+[It&#x27;s always been you, Canvas2D  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/canvas2d/#?)
 
 {{< small >}}2022-03-02{{< /small >}}<br>
 [Open Web Advocacy](https://open-web-advocacy.org/#?)
@@ -2010,16 +2010,16 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [fork() is evil; vfork() is goodness; afork() would be better; clone() is stupid](https://gist.github.com/nicowilliams/a8a07b0fc75df05f684c23c18d7db234#?)
 
 {{< small >}}2022-03-01{{< /small >}}<br>
-[How to take credit for someone else's work on GitHub](https://repography.com/blog/how-to-take-credit-for-someone-elses-work-on-github#?)
+[How to take credit for someone else&#x27;s work on GitHub](https://repography.com/blog/how-to-take-credit-for-someone-elses-work-on-github#?)
 
 {{< small >}}2022-03-01{{< /small >}}<br>
-[5 things you don't need Javascript for](https://lexoral.com/blog/you-dont-need-js/#?)
+[5 things you don&#x27;t need Javascript for](https://lexoral.com/blog/you-dont-need-js/#?)
 
 {{< small >}}2022-02-28{{< /small >}}<br>
 [GitHub - RunaCapital/awesome-oss-alternatives: Awesome list of open-source startup alternatives to well-known SaaS products 🚀](https://github.com/RunaCapital/awesome-oss-alternatives#?)
 
 {{< small >}}2022-02-28{{< /small >}}<br>
-[Using Ansible & Nomad for a homelab (part 1)](https://blog.aleksic.dev/using-ansible-and-nomad-for-a-homelab-part-1#?)
+[Using Ansible &amp; Nomad for a homelab (part 1)](https://blog.aleksic.dev/using-ansible-and-nomad-for-a-homelab-part-1#?)
 
 {{< small >}}2022-02-28{{< /small >}}<br>
 [Sam Julien: Director of DevRel and Your Biggest Fan](https://www.samjulien.com/shy-dev-networking/#?)
@@ -2049,7 +2049,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [A Shader Trick – The Witness](http://the-witness.net/news/2022/02/a-shader-trick/#?)
 
 {{< small >}}2022-02-24{{< /small >}}<br>
-[You can't capture the nuance of my form fields](https://drewdevault.com/2021/06/27/You-cant-capture-the-nuance.html#?)
+[You can&#x27;t capture the nuance of my form fields](https://drewdevault.com/2021/06/27/You-cant-capture-the-nuance.html#?)
 
 {{< small >}}2022-02-23{{< /small >}}<br>
 [Avoiding the Top 10 NGINX Configuration Mistakes](https://www.f5.com/company/blog/nginx/avoiding-top-10-nginx-configuration-mistakes#?)
@@ -2097,7 +2097,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [WebGL 2.0 Achieves Pervasive Support from all Major Web Browsers](https://www.khronos.org/blog/webgl-2-achieves-pervasive-support-from-all-major-web-browsers#?)
 
 {{< small >}}2022-02-16{{< /small >}}<br>
-[1Password for SSH & Git | 1Password Developer](https://developer.1password.com/docs/ssh/#?)
+[1Password for SSH &amp; Git | 1Password Developer](https://developer.1password.com/docs/ssh/#?)
 
 {{< small >}}2022-02-16{{< /small >}}<br>
 [Acute aerobic exercise to recover from mental exhaustion - a randomized controlled trial - PubMed](https://pubmed.ncbi.nlm.nih.gov/34516957/#?)
@@ -2244,7 +2244,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Tricking PostgresSQL into Using 200x Faster Query Plan](https://spacelift.io/blog/tricking-postgres-into-using-query-plan#?)
 
 {{< small >}}2022-01-18{{< /small >}}<br>
-[Why I enjoy PostgreSQL - Infrastructure Engineer's Perspective](https://www.shayon.dev/post/2022/17/why-i-enjoy-postgresql-infrastructure-engineers-perspective/#?)
+[Why I enjoy PostgreSQL - Infrastructure Engineer&#x27;s Perspective](https://www.shayon.dev/post/2022/17/why-i-enjoy-postgresql-infrastructure-engineers-perspective/#?)
 
 {{< small >}}2022-01-18{{< /small >}}<br>
 [Jodd](https://jodd.org/#?)
@@ -2268,7 +2268,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Teaching how to code is broken](https://neil.computer/notes/teaching-how-to-code-is-broken/#?)
 
 {{< small >}}2022-01-15{{< /small >}}<br>
-[GitHub - opsdisk/the_cyber_plumbers_handbook: Free copy of The Cyber Plumber's Handbook - The definitive guide to Secure Shell (SSH) tunneling, port redirection, and bending traffic like a boss.](https://github.com/opsdisk/the_cyber_plumbers_handbook#?)
+[GitHub - opsdisk/the_cyber_plumbers_handbook: Free copy of The Cyber Plumber&#x27;s Handbook - The definitive guide to Secure Shell (SSH) tunneling, port redirection, and bending traffic like a boss.](https://github.com/opsdisk/the_cyber_plumbers_handbook#?)
 
 {{< small >}}2022-01-14{{< /small >}}<br>
 [animations the easy way](https://animatize.com/#?)
@@ -2346,7 +2346,7 @@ control on the Apple GPU](https://rosenzweig.io/blog/asahi-gpu-part-6.html#?)
 [Understanding UUIDs, ULIDs and String Representations](https://sudhir.io/uuids-ulids#?)
 
 {{< small >}}2022-01-04{{< /small >}}<br>
-[Vanta.js - 3D & WebGL Background Animations For Your Website](https://www.vantajs.com/#?)
+[Vanta.js - 3D &amp; WebGL Background Animations For Your Website](https://www.vantajs.com/#?)
 
 {{< small >}}2022-01-03{{< /small >}}<br>
 [An Algorithm for Passing Programming Interviews - malisper.me](https://malisper.me/an-algorithm-for-passing-programming-interviews/#?)

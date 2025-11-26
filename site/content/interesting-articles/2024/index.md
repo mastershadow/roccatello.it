@@ -17,7 +17,7 @@ caption = ""
 [Tech Notes: The Success and Failure of Ninja](https://neugierig.org/software/blog/2020/05/ninja.html#?)
 
 {{< small >}}2024-12-19{{< /small >}}<br>
-[800% Detail: Tweaking Stunt Island's 30-year-old 3D Engine](https://marnetto.net/2024/11/20/tweaking-stunt-island#?)
+[800% Detail: Tweaking Stunt Island&#x27;s 30-year-old 3D Engine](https://marnetto.net/2024/11/20/tweaking-stunt-island#?)
 
 {{< small >}}2024-12-19{{< /small >}}<br>
 [BrianDouglas.ie - Sensible SQLite defaults](https://briandouglas.ie/sqlite-defaults/#?)
@@ -32,7 +32,7 @@ caption = ""
 [Poisoning the day](https://ashore.io/journal/crossover-creativity/poisoning-the-day#?)
 
 {{< small >}}2024-12-17{{< /small >}}<br>
-[I Didn't Need Kubernetes](https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run#?)
+[I Didn&#x27;t Need Kubernetes](https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run#?)
 
 {{< small >}}2024-12-17{{< /small >}}<br>
 [I Stopped Using Kubernetes. Our DevOps Team Is Happier Than Ever](https://blog.stackademic.com/i-stopped-using-kubernetes-our-devops-team-is-happier-than-ever-a5519f916ec0?gi=64a0afdf1319#?)
@@ -47,10 +47,10 @@ caption = ""
 [Building a Large Geospatial Model to Achieve Spatial Intelligence](https://nianticlabs.com/news/largegeospatialmodel#?)
 
 {{< small >}}2024-11-23{{< /small >}}<br>
-[GitHub - rudyrucker/chaos: James Gleick's Chaos: The Software](https://github.com/rudyrucker/chaos#?)
+[GitHub - rudyrucker/chaos: James Gleick&#x27;s Chaos: The Software](https://github.com/rudyrucker/chaos#?)
 
 {{< small >}}2024-11-23{{< /small >}}<br>
-[</> htmx ~ You Can't Build Interactive Web Apps Except as Single Page Applications... And Other Myths](https://htmx.org/essays/you-cant/#?)
+[&lt;/&gt; htmx ~ You Can&#x27;t Build Interactive Web Apps Except as Single Page Applications... And Other Myths](https://htmx.org/essays/you-cant/#?)
 
 {{< small >}}2024-11-15{{< /small >}}<br>
 [From BSP To ESP – How S3ctor Abused Quake Editors to Redefine the Morrowind Modding Experience](https://openmw.org/2024/from-bsp-to-esp-how-s3ctor-abused-quake-editors-to-redefine-the-morrowind-modding-experience/#?)
@@ -86,7 +86,7 @@ caption = ""
 [What Every Developer Should Know About GPU Computing](https://blog.codingconfessions.com/p/gpu-computing#?)
 
 {{< small >}}2024-11-06{{< /small >}}<br>
-[Please just stop saying "just"](https://sgringwe.com/2019/10/10/Please-just-stop-saying-just#?)
+[Please just stop saying &quot;just&quot;](https://sgringwe.com/2019/10/10/Please-just-stop-saying-just#?)
 
 {{< small >}}2024-11-05{{< /small >}}<br>
 [Diagrams · Diagram as Code](https://diagrams.mingrammer.com/#?)
@@ -131,7 +131,7 @@ caption = ""
 [Visual guide to SSH tunneling and port forwarding - Ittavern.com](https://ittavern.com/visual-guide-to-ssh-tunneling-and-port-forwarding/#?)
 
 {{< small >}}2024-09-20{{< /small >}}<br>
-[gaining access to anyones browser without them even visiting a website - eva's site](https://kibty.town/blog/arc/#?)
+[gaining access to anyones browser without them even visiting a website - eva&#x27;s site](https://kibty.town/blog/arc/#?)
 
 {{< small >}}2024-09-20{{< /small >}}<br>
 [Digital signatures and how to avoid them](https://neilmadden.blog/2024/09/18/digital-signatures-and-how-to-avoid-them/#?)
@@ -146,7 +146,7 @@ caption = ""
 [A gentle guide to self-hosting your software](https://knhash.in/gentle-guide-to-self-hosting/#?)
 
 {{< small >}}2024-09-13{{< /small >}}<br>
-[Does Your Startup Really Need Complex Cloud Infrastructure? - Hadi Javeed's blog](https://www.hadijaveed.me/2024/09/08/does-your-startup-really-need-complex-cloud-infrastructure/#?)
+[Does Your Startup Really Need Complex Cloud Infrastructure? - Hadi Javeed&#x27;s blog](https://www.hadijaveed.me/2024/09/08/does-your-startup-really-need-complex-cloud-infrastructure/#?)
 
 {{< small >}}2024-09-11{{< /small >}}<br>
 [Building the Same App Using Various Web Frameworks](https://eugeneyan.com/writing/web-frameworks/#?)
@@ -167,10 +167,10 @@ caption = ""
 [CSS @property and the New Style](https://ryanmulligan.dev/blog/css-property-new-style/#?)
 
 {{< small >}}2024-09-08{{< /small >}}<br>
-[People can read their manager's mind](https://yosefk.com/blog/people-can-read-their-managers-mind.html#?)
+[People can read their manager&#x27;s mind](https://yosefk.com/blog/people-can-read-their-managers-mind.html#?)
 
 {{< small >}}2024-09-08{{< /small >}}<br>
-[Wealthfolio | Open-Source, Offline & Private Portfolio Tracker](https://wealthfolio.app/#?)
+[Wealthfolio | Open-Source, Offline &amp; Private Portfolio Tracker](https://wealthfolio.app/#?)
 
 {{< small >}}2024-09-08{{< /small >}}<br>
 [2M users but no money in the bank. Tough times 😔](https://exercism.org/blog/september-2024-restructure#?)
@@ -182,7 +182,7 @@ caption = ""
 [Programming ZKPs: From Zero to Hero](https://zkintro.com/articles/programming-zkps-from-zero-to-hero/#?)
 
 {{< small >}}2024-09-04{{< /small >}}<br>
-[OrbStack · Fast, light, simple Docker & Linux](https://orbstack.dev/#?)
+[OrbStack · Fast, light, simple Docker &amp; Linux](https://orbstack.dev/#?)
 
 {{< small >}}2024-09-04{{< /small >}}<br>
 [The Art of Finishing | ByteDrum](https://www.bytedrum.com/posts/art-of-finishing/#?)
@@ -218,7 +218,7 @@ caption = ""
 [Adding 16 KB Page Size to Android](https://android-developers.googleblog.com/2024/08/adding-16-kb-page-size-to-android.html#?)
 
 {{< small >}}2024-08-23{{< /small >}}<br>
-[You don't know how bad most things are nor precisely how they're bad. — LessWrong](https://www.lesswrong.com/posts/PJu2HhKsyTEJMxS9a/you-don-t-know-how-bad-most-things-are-nor-precisely-how#?)
+[You don&#x27;t know how bad most things are nor precisely how they&#x27;re bad. — LessWrong](https://www.lesswrong.com/posts/PJu2HhKsyTEJMxS9a/you-don-t-know-how-bad-most-things-are-nor-precisely-how#?)
 
 {{< small >}}2024-08-23{{< /small >}}<br>
 [GitHub - jbreckmckye/nortis: Tetris clone for PlayStation 1 (PSX)](https://github.com/jbreckmckye/nortis#?)
@@ -230,7 +230,7 @@ caption = ""
 [A ToC of the 20 part linker essay [LWN.net]](https://lwn.net/Articles/276782/#?)
 
 {{< small >}}2024-08-21{{< /small >}}<br>
-[ramsey nasser / Yesterday's Pixels, Today](https://nas.sr/text/yesterdays-pixels-today/#?)
+[ramsey nasser / Yesterday&#x27;s Pixels, Today](https://nas.sr/text/yesterdays-pixels-today/#?)
 
 {{< small >}}2024-08-17{{< /small >}}<br>
 [Using a list to manage executive function](https://drmaciver.substack.com/p/using-a-list-to-manage-executive#?)
@@ -266,7 +266,7 @@ caption = ""
 [A Eulogy for Dark Sky, a Data Visualization Masterpiece](https://nightingaledvs.com/dark-sky-weather-data-viz/#?)
 
 {{< small >}}2024-07-31{{< /small >}}<br>
-[Why doesn't advice work?](https://dynomight.substack.com/p/advice#?)
+[Why doesn&#x27;t advice work?](https://dynomight.substack.com/p/advice#?)
 
 {{< small >}}2024-07-31{{< /small >}}<br>
 [Porffor](https://porffor.dev/#?)
@@ -278,7 +278,7 @@ caption = ""
 [Creativity Fundamentally Comes From Memorization](https://shwin.co/blog/creativity-fundamentally-comes-from-memorization#?)
 
 {{< small >}}2024-07-29{{< /small >}}<br>
-[Interview: "It's Easy To Get A Bit Over-Ambitious" - Roguecraft Devs On Developing For Amiga In 2024](https://www.timeextension.com/features/interview-its-easy-to-get-a-bit-over-ambitious-roguecraft-devs-on-developing-for-amiga-in-2024#?)
+[Interview: &quot;It&#x27;s Easy To Get A Bit Over-Ambitious&quot; - Roguecraft Devs On Developing For Amiga In 2024](https://www.timeextension.com/features/interview-its-easy-to-get-a-bit-over-ambitious-roguecraft-devs-on-developing-for-amiga-in-2024#?)
 
 {{< small >}}2024-07-29{{< /small >}}<br>
 [Statsbomb Pass Visualizer](https://statsbomb-3d-viz.vercel.app/#?)
@@ -287,10 +287,10 @@ caption = ""
 [Plan 9 is a Uniquely Complete Operating System](https://posixcafe.org/blogs/2024/07/27/0/#?)
 
 {{< small >}}2024-07-28{{< /small >}}<br>
-[Linux Network Performance Ultimate Guide | kiennt26's home](https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/#?)
+[Linux Network Performance Ultimate Guide | kiennt26&#x27;s home](https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/#?)
 
 {{< small >}}2024-07-28{{< /small >}}<br>
-[My Favorite Tools + Techniques for Procedural Gamedev - Casey Primozic's Homepage](https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/#?)
+[My Favorite Tools + Techniques for Procedural Gamedev - Casey Primozic&#x27;s Homepage](https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/#?)
 
 {{< small >}}2024-07-26{{< /small >}}<br>
 [Unfashionably secure: why we use isolated VMs](https://blog.thinkst.com/2024/07/unfashionably-secure-why-we-use-isolated-vms.html#?)
@@ -428,7 +428,7 @@ caption = ""
 [Game 6: Get the DVD logo in the corner · eieio.games](https://eieio.games/blog/get-the-dvd-logo-in-the-corner/#?)
 
 {{< small >}}2024-07-03{{< /small >}}<br>
-[An unexpected journey into Microsoft Defender's signature World — retooling_](https://retooling.io/blog/an-unexpected-journey-into-microsoft-defenders-signature-world#?)
+[An unexpected journey into Microsoft Defender&#x27;s signature World — retooling_](https://retooling.io/blog/an-unexpected-journey-into-microsoft-defenders-signature-world#?)
 
 {{< small >}}2024-07-02{{< /small >}}<br>
 [Neo Geo Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/neogeo/#?)
@@ -437,13 +437,13 @@ caption = ""
 [Apple II graphics: More than you wanted to know](https://nicole.express/2024/phasing-in-and-out-of-existence.html#?)
 
 {{< small >}}2024-06-30{{< /small >}}<br>
-[A Bunch of Programming Advice I'd Give To Myself 15 Years Ago | Marcus' Blog](https://mbuffett.com/posts/programming-advice-younger-self/#?)
+[A Bunch of Programming Advice I&#x27;d Give To Myself 15 Years Ago | Marcus&#x27; Blog](https://mbuffett.com/posts/programming-advice-younger-self/#?)
 
 {{< small >}}2024-06-30{{< /small >}}<br>
 [GitHub - WerWolv/ImHex: 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.](https://github.com/WerWolv/ImHex#?)
 
 {{< small >}}2024-06-30{{< /small >}}<br>
-[Inside a 1 dollar radar motion sensor (Maurycy's blog)](http://maurycyz.com/projects/motion_sensor_hacking/#?)
+[Inside a 1 dollar radar motion sensor (Maurycy&#x27;s blog)](http://maurycyz.com/projects/motion_sensor_hacking/#?)
 
 {{< small >}}2024-06-28{{< /small >}}<br>
 [Flow Charts with CSS Anchor Positioning](https://coryrylan.com/blog/flow-charts-with-css-anchor-positioning#?)
@@ -470,7 +470,7 @@ caption = ""
 [20x Faster Browser Background Removal with ONNX Runtime | IMG.LY](https://img.ly/blog/browser-background-removal-using-onnx-runtime-webgpu/#?)
 
 {{< small >}}2024-06-21{{< /small >}}<br>
-[Let's write a video game from scratch like it's 1987](https://gaultier.github.io/blog/write_a_video_game_from_scratch_like_1987.html#?)
+[Let&#x27;s write a video game from scratch like it&#x27;s 1987](https://gaultier.github.io/blog/write_a_video_game_from_scratch_like_1987.html#?)
 
 {{< small >}}2024-06-20{{< /small >}}<br>
 [The Demise of the Mildly Dynamic Website](https://www.devever.net/~hl/mildlydynamic#?)
@@ -551,7 +551,7 @@ caption = ""
 [githublog/2024/5/29/fast-inverse-sqrt.md at main · francisrstokes/githublog](https://github.com/francisrstokes/githublog/blob/main/2024%2F5%2F29%2Ffast-inverse-sqrt.md#?)
 
 {{< small >}}2024-06-02{{< /small >}}<br>
-[Don't DRY Your Code Prematurely](https://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html#?)
+[Don&#x27;t DRY Your Code Prematurely](https://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html#?)
 
 {{< small >}}2024-06-02{{< /small >}}<br>
 [Three.js Shading Language](https://github.com/mrdoob/three.js/wiki/Three.js-Shading-Language#?)
@@ -563,7 +563,7 @@ caption = ""
 [Engineering for Slow Internet – brr](https://brr.fyi/posts/engineering-for-slow-internet#?)
 
 {{< small >}}2024-06-02{{< /small >}}<br>
-[Things you wish you didn't need to know about S3](https://www.plerion.com/blog/things-you-wish-you-didnt-need-to-know-about-s3#?)
+[Things you wish you didn&#x27;t need to know about S3](https://www.plerion.com/blog/things-you-wish-you-didnt-need-to-know-about-s3#?)
 
 {{< small >}}2024-06-02{{< /small >}}<br>
 [Simulate sun shadows](https://shademap.app/#?)
@@ -638,7 +638,7 @@ caption = ""
 [Reddit - The heart of the internet](https://www.reddit.com/r/ArtificialInteligence/comments/1cpbh1s/ilya_sutskever_if_you_really_learn_all_of_these/#?)
 
 {{< small >}}2024-05-19{{< /small >}}<br>
-[Cyber Security: A Pre-War Reality Check - Bert Hubert's writings](https://berthub.eu/articles/posts/cyber-security-pre-war-reality-check/#?)
+[Cyber Security: A Pre-War Reality Check - Bert Hubert&#x27;s writings](https://berthub.eu/articles/posts/cyber-security-pre-war-reality-check/#?)
 
 {{< small >}}2024-05-17{{< /small >}}<br>
 [rate limiter – smudge.ai blog](https://smudge.ai/blog/ratelimit-algorithms#?)
@@ -659,7 +659,7 @@ caption = ""
 [GitHub - hugeicons/hugeicons-react: Carefully crafted open-source React icons to fit seamlessly into your development workflow, ensuring your projects look user-friendly and professional.](https://github.com/hugeicons/hugeicons-react#?)
 
 {{< small >}}2024-05-11{{< /small >}}<br>
-[So We've Got a Memory Leak… | Steven Harman — Maker & Breaker of Things](https://stevenharman.net/so-we-have-a-memory-leak#?)
+[So We&#x27;ve Got a Memory Leak… | Steven Harman — Maker &amp; Breaker of Things](https://stevenharman.net/so-we-have-a-memory-leak#?)
 
 {{< small >}}2024-05-11{{< /small >}}<br>
 [Immersive Math](http://immersivemath.com/ila/index.html#?)
@@ -695,7 +695,7 @@ caption = ""
 [GitHub - alessiodm/drl-zh: Deep Reinforcement Learning: Zero to Hero!](https://github.com/alessiodm/drl-zh#?)
 
 {{< small >}}2024-05-05{{< /small >}}<br>
-[No, I don’t want to fill out your contact form - Adam Jones's Blog](https://adamjones.me/blog/dont-use-contact-forms/#?)
+[No, I don’t want to fill out your contact form - Adam Jones&#x27;s Blog](https://adamjones.me/blog/dont-use-contact-forms/#?)
 
 {{< small >}}2024-05-05{{< /small >}}<br>
 [Time-based CSS Animations](https://yuanchuan.dev/time-based-css-animations#?)
@@ -710,13 +710,13 @@ caption = ""
 [Redirecting to: /blog/introducing/](https://typespec.io/blog/2024-04-25-introducing/#?)
 
 {{< small >}}2024-05-01{{< /small >}}<br>
-[Exploit Education :: Andrew Griffiths' Exploit Education](https://exploit.education/#?)
+[Exploit Education :: Andrew Griffiths&#x27; Exploit Education](https://exploit.education/#?)
 
 {{< small >}}2024-05-01{{< /small >}}<br>
 [Printing music with CSS grid](https://cruncher.ch/blog/printing-music-with-css-grid/#?)
 
 {{< small >}}2024-05-01{{< /small >}}<br>
-[Penpot: The Design Tool for Design & Code Collaboration](https://penpot.app/#?)
+[Penpot: The Design Tool for Design &amp; Code Collaboration](https://penpot.app/#?)
 
 {{< small >}}2024-05-01{{< /small >}}<br>
 [LoG](https://zju3dv.github.io/LoG_webpage/#?)
@@ -746,13 +746,13 @@ caption = ""
 [HTML attributes vs DOM properties](https://jakearchibald.com/2024/attributes-vs-properties/#?)
 
 {{< small >}}2024-04-24{{< /small >}}<br>
-[I'm giving up — on open source - Blog](https://nutjs.dev/blog/i-give-up#?)
+[I&#x27;m giving up — on open source - Blog](https://nutjs.dev/blog/i-give-up#?)
 
 {{< small >}}2024-04-24{{< /small >}}<br>
 [Will Usher](https://www.willusher.io/graphics/2024/04/22/webgpu-marching-cubes/#?)
 
 {{< small >}}2024-04-23{{< /small >}}<br>
-[16BPP.net: Blog / The Performance Impact of C++'s `final` Keyword](https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/#?)
+[16BPP.net: Blog / The Performance Impact of C++&#x27;s `final` Keyword](https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/#?)
 
 {{< small >}}2024-04-23{{< /small >}}<br>
 [Franken UI](https://franken-ui.dev/#?)
@@ -890,7 +890,7 @@ caption = ""
 [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html#?)
 
 {{< small >}}2024-03-23{{< /small >}}<br>
-[Rediscovering Ikigai: What We Got Wrong & How to Find Meaning in Life](https://nesslabs.com/ikigai#?)
+[Rediscovering Ikigai: What We Got Wrong &amp; How to Find Meaning in Life](https://nesslabs.com/ikigai#?)
 
 {{< small >}}2024-03-20{{< /small >}}<br>
 [Rive Renderer — now open source and available on all platforms](https://rive.app/blog/rive-renderer-now-open-source-and-available-on-all-platforms#?)
@@ -917,10 +917,10 @@ caption = ""
 [What I learned from looking at 900 most popular open source AI tools](https://huyenchip.com/2024/03/14/ai-oss.html#?)
 
 {{< small >}}2024-03-16{{< /small >}}<br>
-[Nix is a better Docker image builder than Docker's image builder](https://xeiaso.net/talks/2024/nix-docker-build/#?)
+[Nix is a better Docker image builder than Docker&#x27;s image builder](https://xeiaso.net/talks/2024/nix-docker-build/#?)
 
 {{< small >}}2024-03-16{{< /small >}}<br>
-[Vaxry's Blog](https://blog.vaxry.net/articles/2024-cursors#?)
+[Vaxry&#x27;s Blog](https://blog.vaxry.net/articles/2024-cursors#?)
 
 {{< small >}}2024-03-14{{< /small >}}<br>
 [HTTP/2 and HTTP/3 explained
@@ -951,7 +951,7 @@ caption = ""
 [My Clients, The Liars — LessWrong](https://www.lesswrong.com/posts/h99tRkpQGxwtb9Dpv/my-clients-the-liars#?)
 
 {{< small >}}2024-03-10{{< /small >}}<br>
-[I'm betting on Call-by-Push-Value](https://thunderseethe.dev/posts/bet-on-cbpv/#?)
+[I&#x27;m betting on Call-by-Push-Value](https://thunderseethe.dev/posts/bet-on-cbpv/#?)
 
 {{< small >}}2024-03-09{{< /small >}}<br>
 [Open Source Alternatives to Popular Software](https://openalternative.co/#?)
@@ -1044,7 +1044,7 @@ caption = ""
 [Data will not tell you what to do](https://mikkeldengsoe.substack.com/p/data-will-not-tell-you-what-to-do#?)
 
 {{< small >}}2024-02-22{{< /small >}}<br>
-[Things I Don't Know About AI](https://blog.eladgil.com/p/things-i-dont-know-about-ai#?)
+[Things I Don&#x27;t Know About AI](https://blog.eladgil.com/p/things-i-dont-know-about-ai#?)
 
 {{< small >}}2024-02-22{{< /small >}}<br>
 [Useful Uses of cat](https://entropicthoughts.com/useful-uses-of-cat#?)
@@ -1062,7 +1062,7 @@ caption = ""
 [Translating OpenStreetMap data to HTML5 Canvas with Rust and WebAssembly | Programming | mary.codes](https://mary.codes/blog/programming/translating_openstreetmaps_to_HTML5_canvas_rust_wasm/#?)
 
 {{< small >}}2024-02-20{{< /small >}}<br>
-[DJI - The ART of obfuscation - Quarkslab's blog](https://blog.quarkslab.com/dji-the-art-of-obfuscation.html#?)
+[DJI - The ART of obfuscation - Quarkslab&#x27;s blog](https://blog.quarkslab.com/dji-the-art-of-obfuscation.html#?)
 
 {{< small >}}2024-02-20{{< /small >}}<br>
 [AI Your Home on Street View](https://googlemapsmania.blogspot.com/2024/02/ai-your-home-on-street-view.html#?)
@@ -1146,7 +1146,7 @@ caption = ""
 [World’s Leading Network Source of Truth (NSoT) | NetBox Labs](https://netboxlabs.com/products/netbox/#?)
 
 {{< small >}}2024-02-05{{< /small >}}<br>
-[Screencasts & Tutorials](https://zellij.dev/screencasts/#?)
+[Screencasts &amp; Tutorials](https://zellij.dev/screencasts/#?)
 
 {{< small >}}2024-02-04{{< /small >}}<br>
 [How I reduced the size of my very first published docker image by 40% - A lesson in dockerizing shell scripts](https://bhupesh.me/publishing-my-first-ever-dockerfile-optimization-ugit/#?)
@@ -1161,7 +1161,7 @@ caption = ""
 [Browser extensions are underrated: the promise of hackable software](https://www.geoffreylitt.com/2019/07/29/browser-extensions#?)
 
 {{< small >}}2024-02-03{{< /small >}}<br>
-[When should you give up on a project that doesn't work?](https://www.preethamrn.com/posts/when-should-you-give-up#?)
+[When should you give up on a project that doesn&#x27;t work?](https://www.preethamrn.com/posts/when-should-you-give-up#?)
 
 {{< small >}}2024-02-03{{< /small >}}<br>
 [Minesweeper Twist](https://polyreplay.com/minesweepertwist#?)
@@ -1173,16 +1173,16 @@ caption = ""
 [Constructing a four-point egg – Tony Finch](https://dotat.at/@/2024-01-29-four-point-egg.html#?)
 
 {{< small >}}2024-01-30{{< /small >}}<br>
-[How to do things if you're not that smart and don't have any talent](https://adaobi.substack.com/p/how-to-do-things-if-youre-not-that#?)
+[How to do things if you&#x27;re not that smart and don&#x27;t have any talent](https://adaobi.substack.com/p/how-to-do-things-if-youre-not-that#?)
 
 {{< small >}}2024-01-28{{< /small >}}<br>
-[I looked through attacks in my access logs. Here's what I found](https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/#?)
+[I looked through attacks in my access logs. Here&#x27;s what I found](https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/#?)
 
 {{< small >}}2024-01-27{{< /small >}}<br>
 [Lossy CSS compression for fun and loss (or profit)](https://blog.danieljanus.pl/2024/01/26/lossy-css-compression/#?)
 
 {{< small >}}2024-01-25{{< /small >}}<br>
-[GitHub - ashvardanian/SimSIMD: Up to 200x Faster Dot Products & Similarity Metrics — for Python, Rust, C, JS, and Swift, supporting f64, f32, f16 real & complex, i8, and bit vectors using SIMD for both AVX2, AVX-512, NEON, SVE, & SVE2 📐](https://github.com/ashvardanian/SimSIMD#?)
+[GitHub - ashvardanian/SimSIMD: Up to 200x Faster Dot Products &amp; Similarity Metrics — for Python, Rust, C, JS, and Swift, supporting f64, f32, f16 real &amp; complex, i8, and bit vectors using SIMD for both AVX2, AVX-512, NEON, SVE, &amp; SVE2 📐](https://github.com/ashvardanian/SimSIMD#?)
 
 {{< small >}}2024-01-25{{< /small >}}<br>
 [GitHub - placemark/placemark: A flexible web-based editor, converter, visualization tool, for geospatial data](https://github.com/placemark/placemark#?)
@@ -1224,7 +1224,7 @@ caption = ""
 [The Ultimate Docker Cheat Sheet](https://devopscycle.com/blog/the-ultimate-docker-cheat-sheet#?)
 
 {{< small >}}2024-01-14{{< /small >}}<br>
-[Reverse-engineering the Yamaha DX7 synthesizer's sound chip from die photos](http://www.righto.com/2021/11/reverse-engineering-yamaha-dx7.html#?)
+[Reverse-engineering the Yamaha DX7 synthesizer&#x27;s sound chip from die photos](http://www.righto.com/2021/11/reverse-engineering-yamaha-dx7.html#?)
 
 {{< small >}}2024-01-14{{< /small >}}<br>
 [How to be more agentic](https://usefulfictions.substack.com/p/how-to-be-more-agentic#?)

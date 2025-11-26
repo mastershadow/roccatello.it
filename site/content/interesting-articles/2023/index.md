@@ -14,7 +14,7 @@ caption = ""
 
 
 {{< small >}}2023-12-31{{< /small >}}<br>
-[Why I'm skeptical of low-code - Nick Scialli | Senior Software Engineer](https://nick.scialli.me/blog/why-im-skeptical-of-low-code/#?)
+[Why I&#x27;m skeptical of low-code - Nick Scialli | Senior Software Engineer](https://nick.scialli.me/blog/why-im-skeptical-of-low-code/#?)
 
 {{< small >}}2023-12-30{{< /small >}}<br>
 [PostgreSQL Internals: 3 Things to Know About UPDATE Statements](https://patrick.engineering/posts/postgres-internals/#?)
@@ -89,7 +89,7 @@ caption = ""
 [VanJS - A 1.0kB No-JSX Framework Based on Vanilla JavaScript](https://vanjs.org/#?)
 
 {{< small >}}2023-12-19{{< /small >}}<br>
-[Python, C, Assembly - 2'500x Faster Cosine Similarity 📐](https://ashvardanian.com/posts/python-c-assembly-comparison/#?)
+[Python, C, Assembly - 2&#x27;500x Faster Cosine Similarity 📐](https://ashvardanian.com/posts/python-c-assembly-comparison/#?)
 
 {{< small >}}2023-12-19{{< /small >}}<br>
 [Projects](https://siddhesh.substack.com/p/projects#?)
@@ -101,7 +101,7 @@ caption = ""
 [GitHub - OmarShehata/google-earth-as-gltf](https://github.com/OmarShehata/google-earth-as-gltf#?)
 
 {{< small >}}2023-12-17{{< /small >}}<br>
-[Hitchhiker's Guide To Moving From Relational Data To Events - Event-Driven.io](https://event-driven.io/en/the_end_is_near_for_crud_data/#?)
+[Hitchhiker&#x27;s Guide To Moving From Relational Data To Events - Event-Driven.io](https://event-driven.io/en/the_end_is_near_for_crud_data/#?)
 
 {{< small >}}2023-12-17{{< /small >}}<br>
 [GitHub - tlack/atree: Stevan Apter-style trees in C++17](https://github.com/tlack/atree#?)
@@ -152,7 +152,7 @@ caption = ""
 [The surprising connection between after-hours work and decreased productivity](https://slack.com/blog/news/the-surprising-connection-between-after-hours-work-and-decreased-productivity#?)
 
 {{< small >}}2023-12-08{{< /small >}}<br>
-[Noah's Rug (5784) — Hanukkah of Data](https://hanukkah.bluebird.sh/5784/#?)
+[Noah&#x27;s Rug (5784) — Hanukkah of Data](https://hanukkah.bluebird.sh/5784/#?)
 
 {{< small >}}2023-12-07{{< /small >}}<br>
 [SVG Tutorial - Learn how to code images in HTML with SVG](https://svg-tutorial.com/#?)
@@ -176,13 +176,13 @@ caption = ""
 [GitHub - excalidraw/excalidraw: Virtual whiteboard for sketching hand-drawn like diagrams](https://github.com/excalidraw/excalidraw#?)
 
 {{< small >}}2023-12-03{{< /small >}}<br>
-[jim-fx's | Plantarium](https://plant.max-richter.dev/#?)
+[jim-fx&#x27;s | Plantarium](https://plant.max-richter.dev/#?)
 
 {{< small >}}2023-12-03{{< /small >}}<br>
 [Life is Too Short for Jenkins - Richard Marmorstein](http://twitchard.github.io/posts/2019-06-21-life-is-too-short-for-jenkins.html#?)
 
 {{< small >}}2023-12-02{{< /small >}}<br>
-[You don't need JavaScript for that - HTMHell](https://www.htmhell.dev/adventcalendar/2023/2/#?)
+[You don&#x27;t need JavaScript for that - HTMHell](https://www.htmhell.dev/adventcalendar/2023/2/#?)
 
 {{< small >}}2023-12-02{{< /small >}}<br>
 [POV Candle - mitxela.com](https://mitxela.com/projects/candle#?)
@@ -212,10 +212,10 @@ caption = ""
 [Millions of new materials discovered with deep learning](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/#?)
 
 {{< small >}}2023-11-29{{< /small >}}<br>
-[An ex-Googler's guide to dev tools | Sourcegraph Blog](https://sourcegraph.com/blog/ex-googler-guide-dev-tools#?)
+[An ex-Googler&#x27;s guide to dev tools | Sourcegraph Blog](https://sourcegraph.com/blog/ex-googler-guide-dev-tools#?)
 
 {{< small >}}2023-11-27{{< /small >}}<br>
-[Beej's Guide to Interprocess Communication](https://beej.us/guide/bgipc/html/#?)
+[Beej&#x27;s Guide to Interprocess Communication](https://beej.us/guide/bgipc/html/#?)
 
 {{< small >}}2023-11-27{{< /small >}}<br>
 [Demystifying Web Push Notifications](https://pqvst.com/2023/11/21/web-push-notifications/#?)
@@ -248,13 +248,13 @@ caption = ""
 [An Interactive Guide to CSS Grid • Josh W. Comeau](https://www.joshwcomeau.com/css/interactive-guide-to-grid/#?)
 
 {{< small >}}2023-11-20{{< /small >}}<br>
-[GitHub - cxli233/FriendsDontLetFriends: Friends don't let friends make certain types of data visualization - What are they and why are they bad.](https://github.com/cxli233/FriendsDontLetFriends#?)
+[GitHub - cxli233/FriendsDontLetFriends: Friends don&#x27;t let friends make certain types of data visualization - What are they and why are they bad.](https://github.com/cxli233/FriendsDontLetFriends#?)
 
 {{< small >}}2023-11-20{{< /small >}}<br>
-[</> htmx ~ Why I Tend Not To Use Content Negotiation](https://htmx.org/essays/why-tend-not-to-use-content-negotiation/#?)
+[&lt;/&gt; htmx ~ Why I Tend Not To Use Content Negotiation](https://htmx.org/essays/why-tend-not-to-use-content-negotiation/#?)
 
 {{< small >}}2023-11-20{{< /small >}}<br>
-[The architecture of today's LLM applications](https://github.blog/engineering/the-architecture-of-todays-llm-applications/#?)
+[The architecture of today&#x27;s LLM applications](https://github.blog/engineering/the-architecture-of-todays-llm-applications/#?)
 
 {{< small >}}2023-11-18{{< /small >}}<br>
 [Oops! We Automated Bullshit. | Department of Computer Science and Technology](https://www.cst.cam.ac.uk/blog/afb21/oops-we-automated-bullshit#?)
@@ -410,7 +410,7 @@ caption = ""
 [Amiga ASCII art](https://blog.glyphdrawing.club/amiga-ascii-art/#?)
 
 {{< small >}}2023-10-21{{< /small >}}<br>
-[Don't use DISTINCT as a "join-fixer"](https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/dont-use-distinct-as-a-join-fixer/#?)
+[Don&#x27;t use DISTINCT as a &quot;join-fixer&quot;](https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/dont-use-distinct-as-a-join-fixer/#?)
 
 {{< small >}}2023-10-20{{< /small >}}<br>
 [Accounting for Computer Scientists — Martin Kleppmann’s blog](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html#?)
@@ -419,7 +419,7 @@ caption = ""
 [Microfrontends should be your last resort](https://www.breck-mckye.com/blog/2023/05/Microfrontends-should-be-your-last-resort/#?)
 
 {{< small >}}2023-10-19{{< /small >}}<br>
-[Write more "useless" software | nicole@web](https://ntietz.com/blog/write-more-useless-software/#?)
+[Write more &quot;useless&quot; software | nicole@web](https://ntietz.com/blog/write-more-useless-software/#?)
 
 {{< small >}}2023-10-18{{< /small >}}<br>
 [Welcome! · wiwi blog](https://whiona.weblog.lol#?)
@@ -440,7 +440,7 @@ caption = ""
 [Making CRDTs 98% More Efficient | jakelazaroff.com](https://jakelazaroff.com/words/making-crdts-98-percent-more-efficient/#?)
 
 {{< small >}}2023-10-17{{< /small >}}<br>
-[Ishkur's Guide to Electronic Music](https://music.ishkur.com/#?)
+[Ishkur&#x27;s Guide to Electronic Music](https://music.ishkur.com/#?)
 
 {{< small >}}2023-10-16{{< /small >}}<br>
 [Cockpit Project](https://cockpit-project.org/#?)
@@ -452,7 +452,7 @@ caption = ""
 [How Far Would $1 From 1999 Go In 2023?](https://perthirtysix.com/tool/visualizing-american-inflation#?)
 
 {{< small >}}2023-10-16{{< /small >}}<br>
-[Organizing multiple Git identities | Garrit's Notes](https://garrit.xyz/posts/2023-10-13-organizing-multiple-git-identities#?)
+[Organizing multiple Git identities | Garrit&#x27;s Notes](https://garrit.xyz/posts/2023-10-13-organizing-multiple-git-identities#?)
 
 {{< small >}}2023-10-15{{< /small >}}<br>
 [Learn Wayland by writing a GUI from scratch](https://gaultier.github.io/blog/wayland_from_scratch.html#?)
@@ -467,7 +467,7 @@ caption = ""
 [Kalman Filter Explained Through Examples](https://kalmanfilter.net/#?)
 
 {{< small >}}2023-10-14{{< /small >}}<br>
-[Implementing a GPU's Programming Model on a CPU](http://litherum.blogspot.com/2023/10/implementing-gpus-programming-model-on.html#?)
+[Implementing a GPU&#x27;s Programming Model on a CPU](http://litherum.blogspot.com/2023/10/implementing-gpus-programming-model-on.html#?)
 
 {{< small >}}2023-10-13{{< /small >}}<br>
 [Desmos | 3D Graphing Calculator](https://www.desmos.com/3d#?)
@@ -485,7 +485,7 @@ caption = ""
 [Metric Time Clock](https://metric-time.com/#?)
 
 {{< small >}}2023-10-11{{< /small >}}<br>
-[A student asked how I keep us innovative. I don't. | nicole@web](https://ntietz.com/blog/forefront-of-innovation/#?)
+[A student asked how I keep us innovative. I don&#x27;t. | nicole@web](https://ntietz.com/blog/forefront-of-innovation/#?)
 
 {{< small >}}2023-10-11{{< /small >}}<br>
 [Lensm, A Tool for Viewing Disassembly | Storj Engineering Blog](https://storj.dev/blog/lensm#?)
@@ -518,10 +518,10 @@ caption = ""
 [Introduction · Joys of Small Game Development](https://abagames.github.io/joys-of-small-game-development-en/#?)
 
 {{< small >}}2023-10-08{{< /small >}}<br>
-[Your Organization Probably Doesn't Want To Improve Things — Ludicity](https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/#?)
+[Your Organization Probably Doesn&#x27;t Want To Improve Things — Ludicity](https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/#?)
 
 {{< small >}}2023-10-07{{< /small >}}<br>
-[Preston's Diamond Wars — Hop on in! This is a live multiplayer session!](https://dotbigbang.com/game/1af877e9bfdb47088611f55982b7570f/prestons-diamond-wars?mp=playdw#?)
+[Preston&#x27;s Diamond Wars — Hop on in! This is a live multiplayer session!](https://dotbigbang.com/game/1af877e9bfdb47088611f55982b7570f/prestons-diamond-wars?mp=playdw#?)
 
 {{< small >}}2023-10-07{{< /small >}}<br>
 [What is in that .git directory?](https://blog.meain.io/2023/what-is-in-dot-git/#?)
@@ -542,7 +542,7 @@ caption = ""
 [An Interactive Intro to CRDTs | jakelazaroff.com](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/#?)
 
 {{< small >}}2023-10-04{{< /small >}}<br>
-[Strong static typing, a hill I'm willing to die on...](https://www.svix.com/blog/strong-typing-hill-to-die-on/#?)
+[Strong static typing, a hill I&#x27;m willing to die on...](https://www.svix.com/blog/strong-typing-hill-to-die-on/#?)
 
 {{< small >}}2023-10-03{{< /small >}}<br>
 [Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/#?)
@@ -575,7 +575,7 @@ caption = ""
 [CSS Solves Auto-Expanding Textareas (Probably, Eventually)](https://chriscoyier.net/2023/09/29/css-solves-auto-expanding-textareas-probably-eventually/#?)
 
 {{< small >}}2023-10-01{{< /small >}}<br>
-[How to See Bright, Vivid Images in Your Mind's Eye](https://photographyinsider.info/image-streaming-for-photographers/#?)
+[How to See Bright, Vivid Images in Your Mind&#x27;s Eye](https://photographyinsider.info/image-streaming-for-photographers/#?)
 
 {{< small >}}2023-10-01{{< /small >}}<br>
 [The missing middle in game development – How To Market A Game](https://howtomarketagame.com/2023/09/28/the-missing-middle-in-game-development/#?)
@@ -587,7 +587,7 @@ caption = ""
 [Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/#?)
 
 {{< small >}}2023-09-30{{< /small >}}<br>
-[Burning money on paid ads for a dev tool – what we've learned - PostHog](https://posthog.com/founders/dev-marketing-paid-ads#?)
+[Burning money on paid ads for a dev tool – what we&#x27;ve learned - PostHog](https://posthog.com/founders/dev-marketing-paid-ads#?)
 
 {{< small >}}2023-09-30{{< /small >}}<br>
 [Things Every Hacker Once Knew](http://www.catb.org/~esr/faqs/things-every-hacker-once-knew/#?)
@@ -629,13 +629,13 @@ caption = ""
 [OpenStreetMap (@openstreetmap@en.osm.town)](https://en.osm.town/@openstreetmap/111120663721969898#?)
 
 {{< small >}}2023-09-25{{< /small >}}<br>
-[It's time to let go, Apache Software Foundation](https://rocket9labs.com/post/its-time-to-let-go-apache-software-foundation/#?)
+[It&#x27;s time to let go, Apache Software Foundation](https://rocket9labs.com/post/its-time-to-let-go-apache-software-foundation/#?)
 
 {{< small >}}2023-09-23{{< /small >}}<br>
 [The Frustration Loop](https://herman.bearblog.dev/the-frustration-loop/#?)
 
 {{< small >}}2023-09-23{{< /small >}}<br>
-[It's okay to Make Something Nobody Wants](https://zhangluyao.com/blog/make-something-nobody-wants/#?)
+[It&#x27;s okay to Make Something Nobody Wants](https://zhangluyao.com/blog/make-something-nobody-wants/#?)
 
 {{< small >}}2023-09-23{{< /small >}}<br>
 [11 principles for building and scaling feature flag systems | Unleash Documentation](https://docs.getunleash.io/topics/feature-flags/feature-flag-best-practices#?)
@@ -659,7 +659,7 @@ caption = ""
 [Paisa](https://paisa.fyi/#?)
 
 {{< small >}}2023-09-22{{< /small >}}<br>
-[Cay Horstmann's Unblog](https://horstmann.com/unblog/2023-09-19/index.html#?)
+[Cay Horstmann&#x27;s Unblog](https://horstmann.com/unblog/2023-09-19/index.html#?)
 
 {{< small >}}2023-09-22{{< /small >}}<br>
 [How-to Evaluate a Product Roadmap, for Engineers](https://stephen.fm/how-to-evaluate-a-product-roadmap/#?)
@@ -680,7 +680,7 @@ caption = ""
 [Tracing: structured logging, but better in every way](https://andydote.co.uk/2023/09/19/tracing-is-better/#?)
 
 {{< small >}}2023-09-19{{< /small >}}<br>
-[fx – a terminal JSON viewer & processor](https://fx.wtf/#?)
+[fx – a terminal JSON viewer &amp; processor](https://fx.wtf/#?)
 
 {{< small >}}2023-09-19{{< /small >}}<br>
 [64-Bit Bank Balances ‘Ought to be Enough for Anybody’?](https://tigerbeetle.com/blog/2023-09-19-64-bit-bank-balances-ought-to-be-enough-for-anybody/#?)
@@ -689,7 +689,7 @@ caption = ""
 [How HTTPS Works](https://howhttps.works/#?)
 
 {{< small >}}2023-09-18{{< /small >}}<br>
-[GitHub - lambertjamesd/n64brew2023: Ultrarare's entry for 2023 n64 game jam](https://github.com/lambertjamesd/n64brew2023#?)
+[GitHub - lambertjamesd/n64brew2023: Ultrarare&#x27;s entry for 2023 n64 game jam](https://github.com/lambertjamesd/n64brew2023#?)
 
 {{< small >}}2023-09-18{{< /small >}}<br>
 [Donut math: how donut.c works](https://www.a1k0n.net/2011/07/20/donut-math.html#?)
@@ -701,13 +701,13 @@ caption = ""
 [Lago Blog - The 4 biggest problems with homemade billing systems](https://www.getlago.com/blog/the-4-biggest-problems-with-homemade-billing-systems#?)
 
 {{< small >}}2023-09-17{{< /small >}}<br>
-[Peter Higgs: I wouldn't be productive enough for today's academic system](https://www.theguardian.com/science/2013/dec/06/peter-higgs-boson-academic-system#?)
+[Peter Higgs: I wouldn&#x27;t be productive enough for today&#x27;s academic system](https://www.theguardian.com/science/2013/dec/06/peter-higgs-boson-academic-system#?)
 
 {{< small >}}2023-09-17{{< /small >}}<br>
-[Java 21's pattern matching could actually convince me to touch Java again - WSCP's blog](https://wscp.dev/posts/tech/java-pattern-matching/#?)
+[Java 21&#x27;s pattern matching could actually convince me to touch Java again - WSCP&#x27;s blog](https://wscp.dev/posts/tech/java-pattern-matching/#?)
 
 {{< small >}}2023-09-17{{< /small >}}<br>
-[The Next Gen Database Servers Powering Let's Encrypt](https://letsencrypt.org/2021/01/21/next-gen-database-servers.html#?)
+[The Next Gen Database Servers Powering Let&#x27;s Encrypt](https://letsencrypt.org/2021/01/21/next-gen-database-servers.html#?)
 
 {{< small >}}2023-09-16{{< /small >}}<br>
 [How does the Linux Kernel start a Process](https://iq.thc.org/how-does-linux-start-a-process#?)
@@ -776,7 +776,7 @@ caption = ""
 [A Critical Analysis of the What3Words Geocoding Algorithm](https://arxiv.org/abs/2308.16025#?)
 
 {{< small >}}2023-09-03{{< /small >}}<br>
-[Build Your Own Flight Sim In C++ (DOS GameDev) by Michael Radtke & Chris Lampton : Michael Radtke, Chris Lampton : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/build-your-own-flight-sim-in-c-dos-game-dev-michael-radtke-chris-lampton#?)
+[Build Your Own Flight Sim In C++ (DOS GameDev) by Michael Radtke &amp; Chris Lampton : Michael Radtke, Chris Lampton : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/build-your-own-flight-sim-in-c-dos-game-dev-michael-radtke-chris-lampton#?)
 
 {{< small >}}2023-09-03{{< /small >}}<br>
 [Transformers as Support Vector Machines](https://arxiv.org/abs/2308.16898#?)
@@ -797,7 +797,7 @@ caption = ""
 [Ghostfolio – Open Source Wealth Management Software](https://ghostfol.io/en#?)
 
 {{< small >}}2023-08-30{{< /small >}}<br>
-[Hacking the LG Monitor's EDID](https://gist.github.com/kj800x/be3001c07c49fdb36970633b0bc6defb#?)
+[Hacking the LG Monitor&#x27;s EDID](https://gist.github.com/kj800x/be3001c07c49fdb36970633b0bc6defb#?)
 
 {{< small >}}2023-08-29{{< /small >}}<br>
 [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/awk-introduction.html#?)
@@ -824,7 +824,7 @@ caption = ""
 [Python type hints: *args and **kwargs - Adam Johnson](https://adamj.eu/tech/2021/05/11/python-type-hints-args-and-kwargs/#?)
 
 {{< small >}}2023-08-26{{< /small >}}<br>
-[Email Authentication: A Developer's Guide](https://resend.com/blog/email-authentication-a-developers-guide#?)
+[Email Authentication: A Developer&#x27;s Guide](https://resend.com/blog/email-authentication-a-developers-guide#?)
 
 {{< small >}}2023-08-25{{< /small >}}<br>
 [OS.js](https://www.os-js.org/#?)
@@ -878,7 +878,7 @@ caption = ""
 [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react#?)
 
 {{< small >}}2023-08-14{{< /small >}}<br>
-[The Elite's War on Remote Work Has Nothing to Do with Productivity](https://www.okdoomer.io/heres-why-they-want-you-back-at-the-office-so-bad/#?)
+[The Elite&#x27;s War on Remote Work Has Nothing to Do with Productivity](https://www.okdoomer.io/heres-why-they-want-you-back-at-the-office-so-bad/#?)
 
 {{< small >}}2023-08-14{{< /small >}}<br>
 [Astro](https://astro.build/#?)
@@ -1043,7 +1043,7 @@ caption = ""
 [Confronting Failure as a Core Life Skill](https://buildinghealthier.substack.com/p/confronting-failure-as-a-core-life#?)
 
 {{< small >}}2023-07-22{{< /small >}}<br>
-[Putting the "You" in CPU](https://cpu.land/#?)
+[Putting the &quot;You&quot; in CPU](https://cpu.land/#?)
 
 {{< small >}}2023-07-22{{< /small >}}<br>
 [AWS Networking Concepts](https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/#?)
@@ -1151,7 +1151,7 @@ caption = ""
 [No CSS Club](https://nocss.club/#?)
 
 {{< small >}}2023-07-13{{< /small >}}<br>
-[GitHub - Svxy/The-Simpsons-Hit-and-Run: Stolen (and slightly cleaned up) version of The Simpsons: Hit & Run original source code from 2003](https://github.com/Svxy/The-Simpsons-Hit-and-Run#?)
+[GitHub - Svxy/The-Simpsons-Hit-and-Run: Stolen (and slightly cleaned up) version of The Simpsons: Hit &amp; Run original source code from 2003](https://github.com/Svxy/The-Simpsons-Hit-and-Run#?)
 
 {{< small >}}2023-07-12{{< /small >}}<br>
 [Proof You Can Do Hard Things](https://blog.nateliason.com/p/proof-you-can-do-hard-things#?)
@@ -1175,7 +1175,7 @@ caption = ""
 [Easy SVG sparklines](https://alexplescan.com/posts/2023/07/08/easy-svg-sparklines/#?)
 
 {{< small >}}2023-07-10{{< /small >}}<br>
-[Inside the perverse system of 'lazy management' that's destroying the tech industry](https://www.businessinsider.com/tech-industry-fake-work-problem-bad-managers-bosses-layoffs-jobs-2023-7#?)
+[Inside the perverse system of &#x27;lazy management&#x27; that&#x27;s destroying the tech industry](https://www.businessinsider.com/tech-industry-fake-work-problem-bad-managers-bosses-layoffs-jobs-2023-7#?)
 
 {{< small >}}2023-07-10{{< /small >}}<br>
 [GitHub - Shelf-nu/shelf.nu: A free open source IT asset / Equipment / management and scheduling system.](https://github.com/Shelf-nu/shelf.nu#?)
@@ -1196,7 +1196,7 @@ caption = ""
 [Announcing the first Machine Unlearning Challenge](https://research.google/blog/announcing-the-first-machine-unlearning-challenge/#?)
 
 {{< small >}}2023-07-09{{< /small >}}<br>
-[Don't Take VC Funding - It Will Destroy Your Company](https://eidel.io/vc-funding/#?)
+[Don&#x27;t Take VC Funding - It Will Destroy Your Company](https://eidel.io/vc-funding/#?)
 
 {{< small >}}2023-07-08{{< /small >}}<br>
 [Sleeping Through the Technical Interview](https://xeiaso.net/blog/sleeping-the-technical-interview/#?)
@@ -1223,13 +1223,13 @@ caption = ""
 [LiteFS Cloud: Distributed SQLite with Managed Backups](https://fly.io/blog/litefs-cloud/#?)
 
 {{< small >}}2023-07-06{{< /small >}}<br>
-[Book Review: 'The Overflowing Brain' by Torkel Klingberg](https://tertulia-moderna.blogspot.com/2010/12/overflowing-brain-by-torkel-klingberg.html#?)
+[Book Review: &#x27;The Overflowing Brain&#x27; by Torkel Klingberg](https://tertulia-moderna.blogspot.com/2010/12/overflowing-brain-by-torkel-klingberg.html#?)
 
 {{< small >}}2023-07-06{{< /small >}}<br>
 [GitHub - raysan5/raylib: A simple and easy-to-use library to enjoy videogames programming](https://github.com/raysan5/raylib#?)
 
 {{< small >}}2023-07-06{{< /small >}}<br>
-[The Making Of: Noctis, The 'No Man's Sky' Forerunner Whose Creator Retreated From The World](https://www.timeextension.com/features/the-making-of-noctis-the-no-mans-sky-forerunner-whose-creator-retreated-from-the-world#?)
+[The Making Of: Noctis, The &#x27;No Man&#x27;s Sky&#x27; Forerunner Whose Creator Retreated From The World](https://www.timeextension.com/features/the-making-of-noctis-the-no-mans-sky-forerunner-whose-creator-retreated-from-the-world#?)
 
 {{< small >}}2023-07-06{{< /small >}}<br>
 [Mid-1990s Sega document leak shows how it lost the second console war to Sony](https://arstechnica.com/gaming/2023/07/mid-1990s-sega-document-leak-shows-how-it-lost-the-second-console-war-to-sony/#?)
@@ -1250,10 +1250,10 @@ caption = ""
 [Iridescent crystal with raymarching and signed distance fields](https://varun.ca/ray-march-sdf/#?)
 
 {{< small >}}2023-07-05{{< /small >}}<br>
-[The hardest part of building software is not coding, it's requirements - Stack Overflow](https://stackoverflow.blog/2023/12/29/the-hardest-part-of-building-software-is-not-coding-its-requirements/#?)
+[The hardest part of building software is not coding, it&#x27;s requirements - Stack Overflow](https://stackoverflow.blog/2023/12/29/the-hardest-part-of-building-software-is-not-coding-its-requirements/#?)
 
 {{< small >}}2023-07-05{{< /small >}}<br>
-[GitHub - ronami/meta-typing: 📚 Functions and algorithms implemented purely with TypeScript's type system](https://github.com/ronami/meta-typing#?)
+[GitHub - ronami/meta-typing: 📚 Functions and algorithms implemented purely with TypeScript&#x27;s type system](https://github.com/ronami/meta-typing#?)
 
 {{< small >}}2023-07-05{{< /small >}}<br>
 [GitHub - karanpratapsingh/system-design: Learn how to design systems at scale and prepare for system design interviews](https://github.com/karanpratapsingh/system-design#?)
@@ -1298,7 +1298,7 @@ caption = ""
 [Optimizing a ring buffer for throughput](https://rigtorp.se/ringbuffer/#?)
 
 {{< small >}}2023-06-28{{< /small >}}<br>
-[Is ORM still an 'anti pattern'?](https://github.com/getlago/lago/wiki/Is-ORM-still-an-%27anti-pattern%27%3F#?)
+[Is ORM still an &#x27;anti pattern&#x27;?](https://github.com/getlago/lago/wiki/Is-ORM-still-an-%27anti-pattern%27%3F#?)
 
 {{< small >}}2023-06-28{{< /small >}}<br>
 [Fast machines, slow machines - Julio Merino (jmmv.dev)](https://jmmv.dev/2023/06/fast-machines-slow-machines.html#?)
@@ -1313,7 +1313,7 @@ caption = ""
 [A Senior Engineer’s Guide to FAANG Interviews](https://interviewing.io/guides/hiring-process#?)
 
 {{< small >}}2023-06-26{{< /small >}}<br>
-[Connor's Blog](https://cedwards.xyz/the-fuck-you-pattern/#?)
+[Connor&#x27;s Blog](https://cedwards.xyz/the-fuck-you-pattern/#?)
 
 {{< small >}}2023-06-26{{< /small >}}<br>
 [Eight Ways to Say No With Grace and Style](https://fs.blog/saying-no/#?)
@@ -1325,10 +1325,10 @@ caption = ""
 [Real-time Messaging](https://slack.engineering/real-time-messaging/#?)
 
 {{< small >}}2023-06-24{{< /small >}}<br>
-[Maker's Schedule, Manager's Schedule](https://paulgraham.com/makersschedule.html#?)
+[Maker&#x27;s Schedule, Manager&#x27;s Schedule](https://paulgraham.com/makersschedule.html#?)
 
 {{< small >}}2023-06-23{{< /small >}}<br>
-[pratik.is/here - Pratik's Personal Site](https://pratik.is/writing/essays/neverending-hustle#?)
+[pratik.is/here - Pratik&#x27;s Personal Site](https://pratik.is/writing/essays/neverending-hustle#?)
 
 {{< small >}}2023-06-23{{< /small >}}<br>
 [One second code: Do YOU know how much your computer can do in a second?](https://computers-are-fast.github.io/#?)
@@ -1346,7 +1346,7 @@ caption = ""
 [Handles are the better pointers](https://floooh.github.io/2018/06/17/handles-vs-pointers.html#?)
 
 {{< small >}}2023-06-21{{< /small >}}<br>
-[How "Exit Traps" Can Make Your Bash Scripts Way More
+[How &quot;Exit Traps&quot; Can Make Your Bash Scripts Way More
 Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 
 {{< small >}}2023-06-20{{< /small >}}<br>
@@ -1437,7 +1437,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [How the Computer Graphics Industry Got Started at the University of Utah](https://spectrum.ieee.org/history-of-computer-graphics-industry#?)
 
 {{< small >}}2023-06-10{{< /small >}}<br>
-[Emoji Kitchen - Browse Google's unique emoji combinations](https://emojikitchen.dev/#?)
+[Emoji Kitchen - Browse Google&#x27;s unique emoji combinations](https://emojikitchen.dev/#?)
 
 {{< small >}}2023-06-09{{< /small >}}<br>
 [Introduction · Startup Incorporation for Founders](https://handbooks.clerky.com/startup-incorporation#?)
@@ -1452,7 +1452,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Why do cats knead?](https://www.livescience.com/animals/cats/why-do-cats-knead#?)
 
 {{< small >}}2023-06-07{{< /small >}}<br>
-[Modern Image Processing Algorithms Overview & Implementation in C/C++](https://sod.pixlab.io/articles/modern-image-processing-algorithms-implementation.html#?)
+[Modern Image Processing Algorithms Overview &amp; Implementation in C/C++](https://sod.pixlab.io/articles/modern-image-processing-algorithms-implementation.html#?)
 
 {{< small >}}2023-06-07{{< /small >}}<br>
 [The growing pains of database architecture | Figma Blog](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/#?)
@@ -1518,7 +1518,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Apache Baremaps - Apache Baremaps](https://baremaps.apache.org/#?)
 
 {{< small >}}2023-05-29{{< /small >}}<br>
-[300ms Faster: Reducing Wikipedia's Total Blocking Time](https://www.nray.dev/blog/300ms-faster-reducing-wikipedias-total-blocking-time/#?)
+[300ms Faster: Reducing Wikipedia&#x27;s Total Blocking Time](https://www.nray.dev/blog/300ms-faster-reducing-wikipedias-total-blocking-time/#?)
 
 {{< small >}}2023-05-29{{< /small >}}<br>
 [GitHub - wwmm/easyeffects: Limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications](https://github.com/wwmm/easyeffects#?)
@@ -1533,7 +1533,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Modern SAT solvers: fast, neat and underused (part 1 of N)](https://codingnest.com/modern-sat-solvers-fast-neat-underused-part-1-of-n/#?)
 
 {{< small >}}2023-05-25{{< /small >}}<br>
-[GitHub - vanjs-org/van: 🍦 VanJS: World's smallest reactive UI framework. Incredibly Powerful, Insanely Small - Everyone can build a useful UI app in an hour.](https://github.com/vanjs-org/van#?)
+[GitHub - vanjs-org/van: 🍦 VanJS: World&#x27;s smallest reactive UI framework. Incredibly Powerful, Insanely Small - Everyone can build a useful UI app in an hour.](https://github.com/vanjs-org/van#?)
 
 {{< small >}}2023-05-24{{< /small >}}<br>
 [GitHub - google/comprehensive-rust: This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.](https://github.com/google/comprehensive-rust#?)
@@ -1545,7 +1545,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Meta Open-Sources Computer Vision Foundation Model DINOv2](https://www.infoq.com/news/2023/05/meta-dinov2-vision/#?)
 
 {{< small >}}2023-05-24{{< /small >}}<br>
-[You don't need a modal window](https://youdontneedamodalwindow.dev/#?)
+[You don&#x27;t need a modal window](https://youdontneedamodalwindow.dev/#?)
 
 {{< small >}}2023-05-24{{< /small >}}<br>
 [GitHub - raphamorim/rio: A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.](https://github.com/raphamorim/rio#?)
@@ -1572,7 +1572,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://arxiv.org/abs/2305.10973#?)
 
 {{< small >}}2023-05-18{{< /small >}}<br>
-[🤠 "Where have all the hackers gone?" + a way to discuss programming languages 👨‍🎤](https://morepablo.com/2023/05/where-have-all-the-hackers-gone.html#?)
+[🤠 &quot;Where have all the hackers gone?&quot; + a way to discuss programming languages 👨‍🎤](https://morepablo.com/2023/05/where-have-all-the-hackers-gone.html#?)
 
 {{< small >}}2023-05-18{{< /small >}}<br>
 [The Great CPU Stagnation](http://databasearchitects.blogspot.com/2023/04/the-great-cpu-stagnation.html#?)
@@ -1599,7 +1599,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [pigz - Parallel gzip](https://zlib.net/pigz/#?)
 
 {{< small >}}2023-05-12{{< /small >}}<br>
-[Introducing "Implement DNS in a Weekend"](https://jvns.ca/blog/2023/05/12/introducing-implement-dns-in-a-weekend/#?)
+[Introducing &quot;Implement DNS in a Weekend&quot;](https://jvns.ca/blog/2023/05/12/introducing-implement-dns-in-a-weekend/#?)
 
 {{< small >}}2023-05-11{{< /small >}}<br>
 [Fuck being productive.](https://dostoynikov.bearblog.dev/fuck-being-productive/#?)
@@ -1614,13 +1614,13 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [DIY-Thermocam | Open-source thermal imaging for everyone](https://www.diy-thermocam.net/#?)
 
 {{< small >}}2023-05-08{{< /small >}}<br>
-[You don't need Scrum. You just need to do Kanban right.](https://www.lucasfcosta.com/scrum-versus-kanban#?)
+[You don&#x27;t need Scrum. You just need to do Kanban right.](https://www.lucasfcosta.com/scrum-versus-kanban#?)
 
 {{< small >}}2023-05-08{{< /small >}}<br>
 [How To Design Software Architecture For Startups](https://appventuretime.blog/how-to-design-software-architecture-for-startups#?)
 
 {{< small >}}2023-05-07{{< /small >}}<br>
-[FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/#?)
+[FAAS in Go with WASM, WASI and Rust - Eli Bendersky&#x27;s website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/#?)
 
 {{< small >}}2023-05-06{{< /small >}}<br>
 [When “free forever” means “free for the next 4 months”](https://blog.zulip.com/2023/05/04/when-free-forever-is-4-months/#?)
@@ -1647,7 +1647,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Public Money, Public Code](https://publiccode.eu/en/#?)
 
 {{< small >}}2023-05-05{{< /small >}}<br>
-[What is a Vector Database & How Does it Work? Use Cases + Examples | Pinecone](https://www.pinecone.io/learn/vector-database/#?)
+[What is a Vector Database &amp; How Does it Work? Use Cases + Examples | Pinecone](https://www.pinecone.io/learn/vector-database/#?)
 
 {{< small >}}2023-05-04{{< /small >}}<br>
 [JavaScript import maps are now supported cross-browser  |  Blog  |  web.dev](https://web.dev/blog/import-maps-in-all-modern-browsers#?)
@@ -1656,7 +1656,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Rules of Thumb for Software Development Estimations](https://vadimkravcenko.com/shorts/project-estimates/#?)
 
 {{< small >}}2023-05-03{{< /small >}}<br>
-[Grokking Simplicity: Taming complex software with functional thinking by Eric Normand - Summary & Notes | Christian B. B. Houmann](https://bagerbach.com/books/grokking-simplicity#?)
+[Grokking Simplicity: Taming complex software with functional thinking by Eric Normand - Summary &amp; Notes | Christian B. B. Houmann](https://bagerbach.com/books/grokking-simplicity#?)
 
 {{< small >}}2023-05-03{{< /small >}}<br>
 [Investigating Linux Phantom Disk Reads | QuestDB](https://questdb.com/blog/investigating-linux-phantom-disk-reads/#?)
@@ -1665,7 +1665,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [How to Reduce Stress and Overcome Anxiety as a Software Developer](https://andreizgirvaci.com/blog/how-to-reduce-stress-and-overcome-anxiety-as-a-software-developer#?)
 
 {{< small >}}2023-05-03{{< /small >}}<br>
-[A Programmer's Introduction to Mathematics](https://pimbook.org/#?)
+[A Programmer&#x27;s Introduction to Mathematics](https://pimbook.org/#?)
 
 {{< small >}}2023-05-02{{< /small >}}<br>
 [Brutalist Web Design](https://brutalist-web.design/#?)
@@ -1749,7 +1749,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Keep Stuff Linkable (Crash Lime)](https://animaomnium.github.io/keep-stuff-linkable/#?)
 
 {{< small >}}2023-04-18{{< /small >}}<br>
-[You're not uncool. Making friends as an adult is just hard](https://www.wbur.org/hereandnow/2021/11/10/making-friends-adults#?)
+[You&#x27;re not uncool. Making friends as an adult is just hard](https://www.wbur.org/hereandnow/2021/11/10/making-friends-adults#?)
 
 {{< small >}}2023-04-18{{< /small >}}<br>
 [The Inner Workings of Distributed Databases | QuestDB](https://questdb.com/blog/inner-workings-distributed-databases/#?)
@@ -1794,7 +1794,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [On a great interview question](https://behdadesfahbod.medium.com/on-a-great-interview-question-aea168279942#?)
 
 {{< small >}}2023-04-13{{< /small >}}<br>
-[SQLite performance tuning - Scaling SQLite databases to many concurrent readers and multiple gigabytes while maintaining 100k SELECTs per second - phiresky's blog](https://phiresky.github.io/blog/2020/sqlite-performance-tuning/#?)
+[SQLite performance tuning - Scaling SQLite databases to many concurrent readers and multiple gigabytes while maintaining 100k SELECTs per second - phiresky&#x27;s blog](https://phiresky.github.io/blog/2020/sqlite-performance-tuning/#?)
 
 {{< small >}}2023-04-13{{< /small >}}<br>
 [Do you actually need a vector database? | Ethan Rosenthal](https://www.ethanrosenthal.com/2023/04/10/nn-vs-ann/#?)
@@ -1836,7 +1836,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Gource - a software version control visualization tool](https://gource.io/#?)
 
 {{< small >}}2023-04-07{{< /small >}}<br>
-[Is It My Fault You Can't Handle The Truth?](http://agileotter.blogspot.com/2019/09/is-it-my-fault-you-cant-handle-truth.html#?)
+[Is It My Fault You Can&#x27;t Handle The Truth?](http://agileotter.blogspot.com/2019/09/is-it-my-fault-you-cant-handle-truth.html#?)
 
 {{< small >}}2023-04-07{{< /small >}}<br>
 [What is database sharding and how does it work? — PlanetScale](https://planetscale.com/blog/what-is-database-sharding-and-how-does-it-work#?)
@@ -1866,7 +1866,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Comprehensive keyboard handling in terminals](https://sw.kovidgoyal.net/kitty/keyboard-protocol/#?)
 
 {{< small >}}2023-04-01{{< /small >}}<br>
-[These maps provide graphic evidence of how parking lots "eat" U.S. cities](https://bigthink.com/strange-maps/parking-lots-eat-american-cities/#?)
+[These maps provide graphic evidence of how parking lots &quot;eat&quot; U.S. cities](https://bigthink.com/strange-maps/parking-lots-eat-american-cities/#?)
 
 {{< small >}}2023-03-31{{< /small >}}<br>
 [RoboPianist](https://kevinzakka.github.io/robopianist-demo/#?)
@@ -1878,7 +1878,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [That time when SVG almost got network support for raw sockets](https://leonidasv.com/til-svg-specs-almost-got-raw-socket-support/#?)
 
 {{< small >}}2023-03-31{{< /small >}}<br>
-[Postgres: The Graph Database You Didn't Know You Had](https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/#?)
+[Postgres: The Graph Database You Didn&#x27;t Know You Had](https://www.dylanpaulus.com/posts/postgres-is-a-graph-database/#?)
 
 {{< small >}}2023-03-31{{< /small >}}<br>
 [BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564#?)
@@ -1914,13 +1914,13 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [GitHub - charmbracelet/soft-serve: The mighty, self-hostable Git server for the command line🍦](https://github.com/charmbracelet/soft-serve#?)
 
 {{< small >}}2023-03-28{{< /small >}}<br>
-[GitHub - statelyai/xstate: Actor-based state management & orchestration for complex app logic.](https://github.com/statelyai/xstate#?)
+[GitHub - statelyai/xstate: Actor-based state management &amp; orchestration for complex app logic.](https://github.com/statelyai/xstate#?)
 
 {{< small >}}2023-03-28{{< /small >}}<br>
 [Kubernetes is hard](https://rcwz.pl/2023-03-26-kubernetes-is-hard/#?)
 
 {{< small >}}2023-03-28{{< /small >}}<br>
-[Jason Eckert's Website and Blog](https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/#?)
+[Jason Eckert&#x27;s Website and Blog](https://jasoneckert.github.io/myblog/linux-is-making-apple-great-again/#?)
 
 {{< small >}}2023-03-28{{< /small >}}<br>
 [Procedural 3D mesh generation in a 64kB intro - Ctrl-Alt-Test](https://www.ctrl-alt-test.fr/2023/procedural-3d-mesh-generation-in-a-64kb-intro/#?)
@@ -1956,7 +1956,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Why Engineers Need To Write](https://www.developing.dev/p/why-engineers-need-to-write#?)
 
 {{< small >}}2023-03-24{{< /small >}}<br>
-[Habitat Chronicles:   You can't tell people anything](http://habitatchronicles.com/2004/04/you-cant-tell-people-anything/#?)
+[Habitat Chronicles:   You can&#x27;t tell people anything](http://habitatchronicles.com/2004/04/you-cant-tell-people-anything/#?)
 
 {{< small >}}2023-03-24{{< /small >}}<br>
 [Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions](https://instruct-nerf2nerf.github.io/#?)
@@ -2016,7 +2016,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [GitHub - pedrozath/coltrane: 🎹🎸A music theory library with a command-line interface](https://github.com/pedrozath/coltrane#?)
 
 {{< small >}}2023-03-12{{< /small >}}<br>
-[GitHub - pgrok/pgrok: Poor man's ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding](https://github.com/pgrok/pgrok#?)
+[GitHub - pgrok/pgrok: Poor man&#x27;s ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding](https://github.com/pgrok/pgrok#?)
 
 {{< small >}}2023-03-10{{< /small >}}<br>
 [Stylized Water Shader](http://ameye.dev/notes/stylized-water-shader/#?)
@@ -2025,7 +2025,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [cobble_stone (The Texture of Your Childhood)](https://github.com/Render96/Render96Wiki/wiki/cobble_stone-%28The-Texture-of-Your-Childhood%29#?)
 
 {{< small >}}2023-03-10{{< /small >}}<br>
-[GitHub - maxgoedjen/secretive: Protect your SSH keys with your Mac's Secure Enclave](https://github.com/maxgoedjen/secretive#?)
+[GitHub - maxgoedjen/secretive: Protect your SSH keys with your Mac&#x27;s Secure Enclave](https://github.com/maxgoedjen/secretive#?)
 
 {{< small >}}2023-03-10{{< /small >}}<br>
 [Nearly 40% of software engineers will only work remotely | TechTarget](https://www.techtarget.com/searchhrsoftware/news/365531979/Nearly-40-of-software-engineers-will-only-work-remotely#?)
@@ -2100,7 +2100,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [briefsky](https://briefsky.app/#?)
 
 {{< small >}}2023-02-28{{< /small >}}<br>
-[Every Graphics At Once: Nintendo's Popeye](https://nicole.express/2023/yes-popeye-the-sailor-man.html#?)
+[Every Graphics At Once: Nintendo&#x27;s Popeye](https://nicole.express/2023/yes-popeye-the-sailor-man.html#?)
 
 {{< small >}}2023-02-28{{< /small >}}<br>
 [GitHub - nalgeon/sqlean: The ultimate set of SQLite extensions](https://github.com/nalgeon/sqlean#?)
@@ -2112,7 +2112,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [FOSDEM 2023 - Bizarre and Unusual Uses of DNS](https://archive.fosdem.org/2023/schedule/event/dns_bizarre_and_unusual_uses_of_dns/#?)
 
 {{< small >}}2023-02-26{{< /small >}}<br>
-[Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html#?)
+[Beej&#x27;s Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html#?)
 
 {{< small >}}2023-02-26{{< /small >}}<br>
 [WebGL2 Fundamentals](https://webgl2fundamentals.org/#?)
@@ -2121,7 +2121,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [GitHub - motion-canvas/motion-canvas: Visualize Your Ideas With Code](https://github.com/motion-canvas/motion-canvas#?)
 
 {{< small >}}2023-02-22{{< /small >}}<br>
-[Let's build a Chrome extension that steals everything](https://mattfrisbie.substack.com/p/spy-chrome-extension#?)
+[Let&#x27;s build a Chrome extension that steals everything](https://mattfrisbie.substack.com/p/spy-chrome-extension#?)
 
 {{< small >}}2023-02-22{{< /small >}}<br>
 [The age of cargo cult Agile must end.](https://jchyip.medium.com/the-age-of-cargo-cult-agile-must-end-9408e1d13e1d#?)
@@ -2145,7 +2145,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [self-organizing notes for your grug brain | Grug Notes](https://grugnotes.com/#?)
 
 {{< small >}}2023-02-19{{< /small >}}<br>
-[Mark Moxon's Software Archaeology](https://www.bbcelite.com/#?)
+[Mark Moxon&#x27;s Software Archaeology](https://www.bbcelite.com/#?)
 
 {{< small >}}2023-02-19{{< /small >}}<br>
 [New headless Chrome has been released and has a near-perfect browser fingerprint](https://antoinevastel.com/bot%20detection/2023/02/19/new-headless-chrome.html#?)
@@ -2157,7 +2157,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Postgres 16: Cumulative I/O statistics with pg_stat_io](https://pganalyze.com/blog/pg-stat-io#?)
 
 {{< small >}}2023-02-18{{< /small >}}<br>
-[Why 'Atomic Habits' may not be working for you - Krishna Bharadwaj](https://www.krishnabharadwaj.info/why-atomic-habits-may-not-be-working-for-you/#?)
+[Why &#x27;Atomic Habits&#x27; may not be working for you - Krishna Bharadwaj](https://www.krishnabharadwaj.info/why-atomic-habits-may-not-be-working-for-you/#?)
 
 {{< small >}}2023-02-17{{< /small >}}<br>
 [Writing Javascript without a build system](https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/#?)
@@ -2202,10 +2202,10 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Aurora](https://www.drawaurora.com/#?)
 
 {{< small >}}2023-02-12{{< /small >}}<br>
-[Let's write a setjmp](https://nullprogram.com/blog/2023/02/12/#?)
+[Let&#x27;s write a setjmp](https://nullprogram.com/blog/2023/02/12/#?)
 
 {{< small >}}2023-02-11{{< /small >}}<br>
-[QGIS is the mapping software you didn't know you needed](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/#?)
+[QGIS is the mapping software you didn&#x27;t know you needed](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/#?)
 
 {{< small >}}2023-02-11{{< /small >}}<br>
 [A treasury of Zork maps](https://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html#?)
@@ -2220,7 +2220,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [My Fifth Year as a Bootstrapped Founder](https://mtlynch.io/solo-developer-year-5/#?)
 
 {{< small >}}2023-02-09{{< /small >}}<br>
-[Why We're Rebuilding The Thunderbird Interface From Scratch](https://blog.thunderbird.net/2023/02/the-future-of-thunderbird-why-were-rebuilding-from-the-ground-up/#?)
+[Why We&#x27;re Rebuilding The Thunderbird Interface From Scratch](https://blog.thunderbird.net/2023/02/the-future-of-thunderbird-why-were-rebuilding-from-the-ground-up/#?)
 
 {{< small >}}2023-02-08{{< /small >}}<br>
 [Fundamental Math for Game Developers](https://pikuma.com/blog/math-for-game-developers#?)
@@ -2286,7 +2286,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [GitHub - snesrev/zelda3](https://github.com/snesrev/zelda3#?)
 
 {{< small >}}2023-01-29{{< /small >}}<br>
-[Features I'd like in PostgreSQL | Gil's LotD](https://gilslotd.com/blog/features_id_postgresql#?)
+[Features I&#x27;d like in PostgreSQL | Gil&#x27;s LotD](https://gilslotd.com/blog/features_id_postgresql#?)
 
 {{< small >}}2023-01-28{{< /small >}}<br>
 [Accessible hamburger buttons without JavaScript — Mat Simon](https://www.matsimon.dev/blog/accessible-hamburger-buttons-without-javascript#?)
@@ -2343,7 +2343,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [The Surprising Things That CSS Can Animate](https://codersblock.com/blog/the-surprising-things-that-css-can-animate/#?)
 
 {{< small >}}2023-01-21{{< /small >}}<br>
-[You don't have to engage with people on the Internet](https://xeiaso.net/blog/lesson-online-feedback/#?)
+[You don&#x27;t have to engage with people on the Internet](https://xeiaso.net/blog/lesson-online-feedback/#?)
 
 {{< small >}}2023-01-21{{< /small >}}<br>
 [The Page With No Code](https://danq.me/2023/01/11/nocode/#?)
@@ -2433,7 +2433,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [HTML with Superpowers | HTML with Superpowers](https://htmlwithsuperpowers.netlify.app/#?)
 
 {{< small >}}2023-01-12{{< /small >}}<br>
-[Don't use Tailwind for your Design System | sancho.dev](https://sancho.dev/blog/tailwind-and-design-systems#?)
+[Don&#x27;t use Tailwind for your Design System | sancho.dev](https://sancho.dev/blog/tailwind-and-design-systems#?)
 
 {{< small >}}2023-01-12{{< /small >}}<br>
 [How setting the TZ environment variable avoids thousands of system calls | Packagecloud Blog](https://blog.packagecloud.io/set-environment-variable-save-thousands-of-system-calls/#?)
@@ -2481,7 +2481,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Where are my Git UI features from the future?](https://blog.waleedkhan.name/git-ui-features/#?)
 
 {{< small >}}2023-01-07{{< /small >}}<br>
-[Things they didn't teach you about Software Engineering](https://vadimkravcenko.com/shorts/things-they-didnt-teach-you/#?)
+[Things they didn&#x27;t teach you about Software Engineering](https://vadimkravcenko.com/shorts/things-they-didnt-teach-you/#?)
 
 {{< small >}}2023-01-07{{< /small >}}<br>
 [Modern C for C++ Peeps](https://floooh.github.io/2019/09/27/modern-c-for-cpp-peeps.html#?)
@@ -2508,7 +2508,7 @@ Robust And Reliable](http://redsymbol.net/articles/bash-exit-traps/#?)
 [Flying away from AWS](https://terrateam.io/blog/flying-away-from-aws#?)
 
 {{< small >}}2023-01-04{{< /small >}}<br>
-[Lessons Learned from the Book 'Effective Remote Work'](https://phauer.com/2022/book-remote-work-lessons-learned/#?)
+[Lessons Learned from the Book &#x27;Effective Remote Work&#x27;](https://phauer.com/2022/book-remote-work-lessons-learned/#?)
 
 {{< small >}}2023-01-04{{< /small >}}<br>
 [Going Full Time on My SaaS After 13 Years](https://mattmazur.com/2023/01/04/going-full-time-on-my-saas-after-13-years/#?)
