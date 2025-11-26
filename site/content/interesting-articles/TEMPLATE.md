@@ -1,6 +1,6 @@
 +++
 title = "0000's interesting articles archive"
-summary = "This page contains all the article worth reading, I collected in 2025"
+summary = "This page contains all the article worth reading, I collected in 0000"
 date = 0000-01-01T12:00:00
 math = false
 highlight = false
