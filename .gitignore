@@ -27,3 +27,5 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/visualstudiocode
 node_modules
+CLAUDE.md
+claude/
