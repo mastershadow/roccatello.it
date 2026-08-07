@@ -1,6 +1,12 @@
-@forward "~bootstrap/scss/bootstrap";
-
+// un @import di css puro deve stare in cima al file generato, altrimenti il
+// browser lo scarta. webpack lo spostava da solo, libsass no
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// il cookie consent carica il proprio scss dall'entry point javascript.
+// esbuild non compila lo scss, quindi il css va preso da qui
+@import "../node_modules/@klaxit/cookie-consent/src/styles/main";
 
 @font-face {
   font-family: system;

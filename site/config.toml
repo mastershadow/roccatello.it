@@ -6,8 +6,22 @@ theme = "eduard-v3"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
 enableRobotsTXT = true
+
+# niente pagine /tags e /categories. i tag restano nel front matter e
+# continuano ad alimentare i post correlati, ma non generano pagine
+disableKinds = ["taxonomy", "term"]
+
+# node_modules sta nella radice del repo, fuori dal progetto hugo. va montato
+# dentro assets, altrimenti scss e javascript non risolvono gli import.
+# dichiarando un mount per assets si perde quello di default, quindi va rimesso
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "../node_modules"
+    target = "assets/node_modules"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""

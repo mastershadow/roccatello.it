@@ -1,6 +1,8 @@
 import "bootstrap/js/src/collapse";
 
-import CookieConsent from "@klaxit/cookie-consent"
+// non il pacchetto intero: il suo entry point importa uno scss, che esbuild
+// non sa compilare. il css arriva da assets/scss/main.scss
+import CookieConsent from "@klaxit/cookie-consent/src/cookie_consent"
 import { v4 as uuid } from 'uuid';
 
 const GA_LOCAL_STORAGE_KEY = 'ga:clientId';

@@ -1,9 +1,11 @@
-# Update the NODE_VERSION arg in docker-compose.yml to pick a Node version: 10, 12, 14
-ARG NODE_VERSION=20
-FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${NODE_VERSION}
+# la versione di node si imposta in devcontainer.json. serve la 22 o superiore:
+# hugo-bin 0.161 e successivi non partono su node 20
+ARG NODE_VERSION=22
+FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}-bookworm
 
 # VARIANT can be either 'hugo' for the standard version or 'hugo_extended' for the extended version.
-ARG VARIANT=hugo
+# la extended serve per compilare lo scss con le pipe di hugo
+ARG VARIANT=hugo_extended
 # VERSION can be either 'latest' or a specific version number
 ARG VERSION=latest
 
@@ -17,12 +19,12 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
     echo ${VERSION} && \
     case $(uname -m) in \
     aarch64) \
-    export ARCH=ARM64 ;; \
+    export ARCH=linux-arm64 ;; \
     *) \
-    export ARCH=64bit ;; \
+    export ARCH=linux-amd64 ;; \
     esac && \
     echo ${ARCH} && \
-    wget -O ${VERSION}.tar.gz https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${VARIANT}_${VERSION}_Linux-${ARCH}.tar.gz && \
+    wget -O ${VERSION}.tar.gz https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${VARIANT}_${VERSION}_${ARCH}.tar.gz && \
     tar xf ${VERSION}.tar.gz && \
     mv hugo /usr/bin/hugo
 

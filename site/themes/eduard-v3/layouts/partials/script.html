@@ -1,0 +1,4 @@
+{{ $opts := dict "targetPath" "main.js" "minify" true "target" "es2015" }}
+{{ with resources.Get "js/index.js" | js.Build $opts | fingerprint }}
+<script src="{{ .RelPermalink }}"></script>
+{{ end }}

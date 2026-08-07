@@ -1,0 +1,4 @@
+{{ $opts := dict "targetPath" "main.css" "outputStyle" "compressed" }}
+{{ with resources.Get "scss/main.scss" | toCSS $opts | fingerprint }}
+<link href="{{ .RelPermalink }}" rel="stylesheet">
+{{ end }}

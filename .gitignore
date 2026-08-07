@@ -1,5 +1,10 @@
 # Hugo default output directory
 /public/
+/site/public/
+
+# cache degli asset compilati e jsconfig per l'editor, rigenerati da hugo
+/site/resources/
+/site/assets/jsconfig.json
 
 ## OS Files
 # Windows

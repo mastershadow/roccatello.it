@@ -5,9 +5,9 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
-			"VARIANT": "hugo",
+			"VARIANT": "hugo_extended",
 			"VERSION": "latest",
-			"NODE_VERSION": "20"
+			"NODE_VERSION": "22"
 		}
 	},
 
