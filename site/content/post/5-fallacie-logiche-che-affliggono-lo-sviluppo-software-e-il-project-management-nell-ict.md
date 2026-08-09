@@ -10,6 +10,7 @@ slug = "5-fallacie-logiche-sviluppo-software-project-management"
 caption = ""
 image = "posts/T-error-article-header.jpg"
 
+language = "it"
 +++
 
 Progettare, sviluppare e mantenere software è un lavoro complesso. Uno dei lavori più stressanti a mio avviso, che con l'avvento del mainstream computing ha portato la percezione di come sia "semplice" fare le cose con il computer.

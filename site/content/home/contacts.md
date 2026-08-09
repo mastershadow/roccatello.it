@@ -1,16 +1,13 @@
 +++
-# Contact widget.
 widget = "contacts"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Contacts"
-subtitle = ""
+title = "Contatti"
 
-# Order that this section will appear in.
 weight = 8
 
-# Automatically link email and phone?
 autolink = true
-
 +++
+
+Per collaborazioni, consulenze o per segnalarmi un errore in un articolo.

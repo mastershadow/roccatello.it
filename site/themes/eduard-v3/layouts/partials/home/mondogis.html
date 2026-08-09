@@ -15,7 +15,7 @@
       </div>
       <div class="col-lg-6 col-12 fs-5">
         {{ $page.Content }}
-        <a class="btn btn-block btn-lg btn-success" href="{{ $page.Params.channelurl }}">Go to the Tales from the GIS channel</a>
+        <a class="btn btn-lg btn-outline-success" href="{{ $page.Params.channelurl }}">{{ $page.Params.cta | default "Vai al canale" }}</a>
       </div>
     </div>
   </div>

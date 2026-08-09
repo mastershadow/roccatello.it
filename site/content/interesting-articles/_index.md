@@ -1,6 +1,7 @@
 +++
-title = "Interesting articles and news archive"
+title = "Link interessanti"
 date = 2025-10-25T00:00:00
+language = "it"
 math = false
 highlight = false
 
@@ -17,11 +18,7 @@ image = ""
 caption = ""
 +++
 
-A curated archive of intriguing discoveries from across the web.<br>
-This collection spans a wide range of topics: sometimes unexpected, always interesting. 
+Un archivio di letture che mi sono sembrate interessanti: articoli tecnici,
+analisi, e ogni tanto cose che con la tecnologia non c'entrano nulla.
 
-They are organized by year for easy browsing.<br>
-Dive in and explore freely.<br>
-Each link reflects a moment of curiosity worth sharing.
-
-Sometimes they are not about tech but still worth it.
+Sono ordinati per anno.

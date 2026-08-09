@@ -10,6 +10,7 @@ slug = "gis-5g-matrimonio-citta-futuro"
 caption = ""
 image = "posts/5G-radiation-1024x579-1-1024x579-1024x579-1024x579-1024x579-1.jpg"
 
+language = "it"
 +++
 
 Visualizzate nella vostra mente un paesaggio urbano: ognuno di voi vedrà il riflesso della città ideale nei propri pensieri. Lo scopo principale della pubblica amministrazione e del governo del territorio è proprio la costruzione di un ambiente ideale per ognuno di noi, per ogni cittadino.

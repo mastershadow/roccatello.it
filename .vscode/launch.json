@@ -1,0 +1,54 @@
+{
+  // Il server di sviluppo e' `npm start`, cioe' `hugo server -s site -p 3000`.
+  // Le configurazioni qui sotto lo avviano e aspettano che annunci la porta
+  // prima di aprire il browser: senza attesa si aprirebbe su una pagina morta.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Da usare normalmente. Apre il browser di sistema: funziona anche in
+      // devcontainer, dove il port forwarding porta la 3000 sull'host.
+      "name": "Hugo: server + browser",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm start",
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "Web Server is available at (https?://localhost:[0-9]+/)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    },
+    {
+      // Come sopra, ma aggancia il debugger di Chrome per mettere breakpoint
+      // nel javascript. In devcontainer serve Chrome installato nel container,
+      // altrimenti usare la configurazione qui sopra.
+      "name": "Hugo: server + debug JS (Chrome)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm start",
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "Web Server is available at (https?://localhost:[0-9]+/)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome",
+        "webRoot": "${workspaceFolder}/site"
+      }
+    },
+    {
+      // Solo il server, senza aprire nulla.
+      "name": "Hugo: solo server",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm start",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      // Per agganciarsi a un server gia' avviato in un altro terminale.
+      "name": "Browser: collega a localhost:3000",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000/",
+      "webRoot": "${workspaceFolder}/site"
+    }
+  ]
+}

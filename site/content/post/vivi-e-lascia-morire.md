@@ -10,6 +10,7 @@ slug = "paese-distrutto-faziosita-analisi-razionale-italia-riflessioni"
 caption = ""
 image = "https://res.cloudinary.com/roccatello/image/upload/c_scale,w_1920/v1613414358/worried-businessman-with-sign-decreased-profit.jpg"
 
+language = "it"
 +++
 Memore di quanto scritto ormai un paio d'anni fa, mi trovo amaramente a dover rivedere la mia posizione sul futuro civile e politico di questo paese.
 

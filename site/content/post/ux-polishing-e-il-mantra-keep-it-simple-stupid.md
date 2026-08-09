@@ -10,6 +10,7 @@ slug = "user-experience-keep-it-simple"
 caption = ""
 image = ""
 
+language = "it"
 +++
 
 Questa immagine è in giro da un bel po' ormai... Sebbene sia datata 2012, se ricordo bene, rappresenta la realtà ancora oggi e forse non ci sarà modo di cambiare le cose.

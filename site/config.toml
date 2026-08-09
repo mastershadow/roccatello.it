@@ -1,5 +1,5 @@
 baseurl = "https://www.roccatello.it/"
-title = "Eduard Roccatello's GIS blog"
+title = "Eduard Roccatello"
 copyright = "&copy; 2025"
 
 theme = "eduard-v3"
@@ -26,8 +26,18 @@ disableKinds = ["taxonomy", "term"]
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "it"
+languageCode = "it-IT"
+# gli url restano senza prefisso di lingua: nessun redirect da sistemare
 defaultContentLanguageInSubdir = false
+
+# senza questo blocco hugo tiene "en" come chiave di lingua anche impostando
+# defaultContentLanguage, e le pagine escono con lang="en"
+[languages]
+  [languages.it]
+    languageName = "Italiano"
+    languageCode = "it-IT"
+    weight = 1
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -56,6 +66,9 @@ enableGitInfo = false
 [params]
   name = "Eduard Roccatello"
   role = ""
+
+  # usato solo nel tag <title> della home: il navbar mostra Site.Title
+  home_title = "Eduard Roccatello — dati territoriali, LIDAR e modelli urbani 3D"
   organizations = [ { name = "3DGIS Chief Technical Officer", url = "https://www.3dgis.it" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
@@ -70,7 +83,7 @@ enableGitInfo = false
   zoom = 6
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = "Esperto di geoinformatica e software design. Faccio ricerca e sviluppo a 3DGIS. La mia mission è fornire strumenti per costruire un mondo migliore"
+  description = "Ricerca e sviluppo su dati territoriali: rilievo LIDAR, modelli urbani tridimensionali, banche dati spaziali. Note tecniche e appunti di lavoro di Eduard Roccatello, fondatore e CTO di 3DGIS."
   sharing_image = "avatar.png"
   twitter = "edurocc"
   date_format = "2006-01-02"
@@ -139,34 +152,34 @@ enableGitInfo = false
     text = "github.com/mastershadow"
 
 [[menu.main]]
-  name = "Tales from the GIS"
-  url = "#mondogis"
+  name = "Articoli"
+  url = "post"
   weight = 2
 
 [[menu.main]]
-  name = "Showcase"
-  url = "#showcase"
-  weight = 4
-
-[[menu.main]]
-  name = "My articles"
-  url = "post"
+  name = "Tales from the GIS"
+  url = "#mondogis"
   weight = 3
 
 [[menu.main]]
-  name = "Interesting articles"
-  url = "interesting-articles"
-  weight = 5
-  
-[[menu.main]]
-  name = "About"
+  name = "Chi sono"
   url = "#aboutme"
+  weight = 4
+
+[[menu.main]]
+  name = "Progetti"
+  url = "#showcase"
   weight = 6
 
 [[menu.main]]
-  name = "Contacts"
-  url = "#contacts"
+  name = "Link interessanti"
+  url = "interesting-articles"
   weight = 7
+
+[[menu.main]]
+  name = "Contatti"
+  url = "#contacts"
+  weight = 8
 
 [markup]
   [markup.goldmark]

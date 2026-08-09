@@ -10,6 +10,7 @@ slug = "distanza-rapporti-lavoro-fiducia"
 caption = ""
 image = "posts/FB_IMG_1571218314881_drqgau.jpg"
 
+language = "it"
 +++
 
 Circola da un po' questa foto qui (la stessa dell'header ma la ripropongo in dettaglio di seguito):

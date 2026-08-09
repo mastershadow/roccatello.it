@@ -1,26 +1,19 @@
 +++
-# Hero widget.
 widget = "hero"
 active = true
 date = 2017-10-15T00:00:00
 
 title = "Eduard Roccatello"
-subtitle = "A geospatial expert who loves technology and creates software"
+subtitle = "Fondatore e CTO di 3DGIS"
 
-# Order that this section will appear in.
 weight = 1
 
-# Overlay a color or image (optional).
-#   Deactivate an option by commenting out the line, prefixing it with `#`.
 [header]
-  overlay_color = "#090"  # An HTML color value.
-  overlay_img = "headers/abstract.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.4  # Darken the image. Value in range 0-1.
-
-# Call to action button (optional).
-#   Activate the button by specifying a URL and button label below.
-#   Deactivate by commenting out parameters, prefixing lines with `#`.
-#[cta]
-##  url = "./post/getting-started/"
-#  label = '<i class="fas fa-download"></i> Install Now'
+  overlay_color = "#090"
+  overlay_img = "headers/abstract.jpg"
+  overlay_filter = 0.4
 +++
+
+Da vent'anni mi occupo di dati territoriali: rilievo LIDAR, modelli urbani
+tridimensionali, banche dati spaziali. Su questo sito pubblico note tecniche e
+appunti di lavoro.

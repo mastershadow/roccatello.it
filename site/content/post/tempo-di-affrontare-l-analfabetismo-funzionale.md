@@ -10,6 +10,7 @@ slug = "affrontare-analfabetismo-funzionale"
 caption = ""
 image = ""
 
+language = "it"
 +++
 
 Fino a poco tempo fa la mia policy su social e affini è stata il silenzio. Forse altezzosamente volevo sentirmi superiore agli altri ignorandoli.

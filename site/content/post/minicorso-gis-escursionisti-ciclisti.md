@@ -6,6 +6,7 @@ summary = "Guida per escursionisti e ciclisti per orientarsi con mappe e GPS."
 tags = ["storie", "mondo-gis", "youtube", "video"]
 title = "Minicorso GIS per escursionisti e ciclisti"
 
+language = "it"
 +++
 Ho pubblicato sul mio canale Youtube, che dovreste assolutamente seguire, una piccola serie di estratti da una breve lezione che ho tenuto sull'orientamento con le mappe e sul posizionamento via GPS qualche settimana fa.
 

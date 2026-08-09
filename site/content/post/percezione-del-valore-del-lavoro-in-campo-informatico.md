@@ -10,6 +10,7 @@ slug = "percezione-valore-lavoro-informatica"
 caption = ""
 image = "posts/accessories-bag.jpg"
 
+language = "it"
 +++
 
 Sono incappato in questa domanda su Quora:

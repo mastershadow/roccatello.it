@@ -9,6 +9,7 @@ slug = "distruption-pubblica-amministrazione-smart-cities"
 [header]
 image = "posts/Think-smart.jpg"
 
+language = "it"
 +++
 
 Vivere in Italia significa barcamenarsi tra procedure burocratiche complicate, dove anche le innovazioni non riescono a staccarsi dallo strato burocratico storico, aggiungendo provvedimenti di semplificazione che in realtà si incastrano in un dedalo di ulteriori norme. Il risultato è sorprendentemente deludente e abbiamo ancora molta strada da fare per poter essere all'altezza delle migliori realtà mondiali.

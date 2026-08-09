@@ -4,15 +4,21 @@
   translation: Attiva la navigazione
 
 - id: table_of_contents
-  translation: Indice dei Contenuti
+  translation: Indice dei contenuti
+
+- id: on_this_page
+  translation: In questa pagina
+
+- id: back_to_top
+  translation: Torna su
 
 # General
 
 - id: related
-  translation: Related
+  translation: Articoli correlati
 
 - id: minute_read
-  translation: minute(s)
+  translation: min di lettura
 
 - id: previous
   translation: Precedente
@@ -53,7 +59,7 @@
   translation: Poster
 
 - id: btn_source
-  translation: Source Document
+  translation: Documento originale
 
 - id: btn_copy
   translation: Copia
@@ -64,10 +70,10 @@
 # About widget
 
 - id: interests
-  translation: Interests
+  translation: Interessi
 
 - id: education
-  translation: Education
+  translation: Formazione
 
 # Publications widget
 
@@ -80,7 +86,7 @@
   translation: LEGGI TUTTO
 
 - id: more_posts
-  translation: More posts
+  translation: Tutti gli articoli
 
 # Talks widget
 
@@ -93,7 +99,7 @@
   translation: Abstract
 
 - id: publication
-  translation: Publicazione
+  translation: Pubblicazione
 
 - id: publication_type
   translation: Tipo
@@ -157,7 +163,7 @@
   translation: Pagina non trovata
 
 - id: 404_recommendations
-  translation: Perhaps you were looking for one of these?
+  translation: Forse cercavi una di queste pagine?
 
 # Cookie consent
 

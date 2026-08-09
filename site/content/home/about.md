@@ -3,58 +3,59 @@ widget = "aboutme"
 active = true
 date = 2016-04-20T00:00:00
 weight = 4
-title = "About me"
+title = "Chi sono"
 
 [interests]
   interests = [
-    "Game development",
-    "Open data / source",
+    "Sviluppo di videogiochi",
+    "Open data e open source",
     "3D e LIDAR",
-    "Linux & *NIX",
-    "Cats (big and small)",
-    "Biking",
-    "Photography"
+    "Linux e *NIX",
+    "Gatti, grandi e piccoli",
+    "Bicicletta",
+    "Fotografia"
   ]
 
 [[education.courses]]
-  course = "Master degree in Computer Engineering"
-  institution = "University of Padua"
+  course = "Laurea magistrale in Ingegneria Informatica"
+  institution = "Università degli Studi di Padova"
   year = 2008
 
 [[education.courses]]
-  course = "Bachelor degree in Computer Engineering"
-  institution = "University of Padua"
+  course = "Laurea triennale in Ingegneria Informatica"
+  institution = "Università degli Studi di Padova"
   year = 2005
 
 [[education.courses]]
-  course = "Industrial electrical engineering technician"
-  institution = "ITIS F.Viola Rovigo"
+  course = "Perito industriale in elettrotecnica"
+  institution = "ITIS F. Viola, Rovigo"
   year = 2002
 +++
 
-<section lang="it" class="col">
+<div class="col-12">
 
-### Italiano
+Sono nato a Rovigo nel 1983 e sono appassionato di tecnologia da quando, a
+sette anni, ho ricevuto il mio primo personal computer. Da lì è nata la passione
+per l'informatica, che mi ha portato a diventare prima programmatore e poi
+ingegnere. Nel tempo mi sono dedicato a molti progetti: se usate Linux, FreeBSD
+o OpenBSD è possibile che stiate usando qualcosa fatto da me, soprattutto se il
+vostro ambiente desktop è Xfce.
 
-Sono Eduard Roccatello, nato a Rovigo nel 1983 e grande appassionato di tecnologia fin dall'età di sette anni, quando ricevetti il mio primo personal computer.
-Da lì nacque la mia passione per l'informatica, che mi portò a diventare prima un programmatore e poi un ingegnere.
-Nel tempo mi sono dedicato a molti progetti: se utilizzate Linux, FreeBSD o OpenBSD è possibile stiate utilizzando qualcosa fatto da me, soprattutto se il vostro ambiente desktop è Xfce.
+Sono stato freelance a lungo prima di fondare 3DGIS, software house GIS italiana
+di cui sono CTO e dove mi occupo di ricerca e sviluppo. Le mie giornate sono
+fatte di matematica e di grandi moli di dati, con problemi complessi da
+risolvere in tempi stretti. Mi occupo anche della parte estetica dei prodotti,
+curandone l'esperienza d'uso e l'usabilità.
 
-<br>
-Sono stato un freelance per lungo tempo prima di fondare 3DGIS, software house GIS italiana di cui sono CTO e mi occupo di **ricerca e sviluppo (RD)**.
-La mia giornata è solitamente densa di matematica e grandi moli di dati e ogni giorno devo gestire task complessi in tempi ridotti. Mi piace inoltre occuparmi della componente estetica dei prodotti, curandone la User Experience (UX) e l'usabilità.
-</section>
+Sono lead software architect del progetto Cityvu e da molti anni sviluppatore
+dell'ambiente desktop Xfce.
 
-<section lang="en" class="col-sm-12 col-md mt-3 mt-md-0 text-warning">
+<p lang="en" class="mt-4 text-warning">
+I'm Eduard Roccatello, founder and CTO of 3DGIS, an Italian GIS company. I work
+on 3D geospatial research and development, I'm the lead software architect of
+the Cityvu project and a long time developer of the Xfce Desktop Environment.
+Most of the writing here is in Italian, but a good part of the archive is in
+English.
+</p>
 
-### English
-
-I'm Eduard Roccatello, CTO of 3DGIS, an Italian GIS company.
-I love working on innovative solutions: things that _change the status quo about spatial data development and usage_.
-
-My day is full of math and big data. I like to be surrounded by interesting and skilled people. I really do care about user experience and software usability.
-
-Leading 3D geospatial R&D, I've learnt to manage hard tasks on tight timelines.
-I'm also the lead software architect of the Cityvu project and a long time developer of the Xfce Desktop Environment.
-
-</section>
+</div>

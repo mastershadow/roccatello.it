@@ -9,6 +9,7 @@ title = "Testing Forestry.io as Static CMS"
 caption = ""
 image = "posts/nature-mountains.jpg"
 
+language = "en"
 +++
 
 Some days ago I've switched from Wordpress to Hugo, as I was looking for a zero maintenance solution after deploy.

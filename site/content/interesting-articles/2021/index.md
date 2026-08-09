@@ -1,6 +1,6 @@
 +++
-title = "2021's interesting articles archive"
-summary = "This page contains all the article worth reading, I collected in 2021"
+title = "Link interessanti del 2021"
+summary = "Le letture che ho raccolto nel corso del 2021."
 date = 2021-01-01T12:00:00
 math = false
 highlight = false
@@ -10,6 +10,7 @@ list_format = 10
 [header]
 image = ""
 caption = ""
+language = "it"
 +++
 
 

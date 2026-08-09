@@ -10,6 +10,7 @@ slug = "5-cose-programmator-migliorare-software"
 caption = ""
 image = "posts/product-launch-mistakes_mgk4k8.png"
 
+language = "it"
 +++
 
 Siete i programmatori più bravi nel mondo e nel vostro campo siete imbattibili. Il vostro output è solitamente un prodotto, gestito da un product manager, che va a finire nelle mani di utenti, più o meno bravi (solitamente meno, dati gli ultimi rapporti Nielsen sulla capacità digitale media delle persone).

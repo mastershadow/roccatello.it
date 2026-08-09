@@ -3,7 +3,9 @@
 <html lang="{{ $lang }}">
 
 <head>
-  <title>{{ if not $.IsHome }}{{ .Title }}{{ else }}{{ $.Site.Title }}{{ end }}</title>
+  {{/* in home il navbar mostra Site.Title (il solo nome), mentre il tag title
+       usa home_title, piu' descrittivo per i motori di ricerca */}}
+  <title>{{ if not $.IsHome }}{{ .Title }}{{ else }}{{ $.Site.Params.home_title | default $.Site.Title }}{{ end }}</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
