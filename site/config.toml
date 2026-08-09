@@ -1,4 +1,6 @@
-baseurl = "https://www.roccatello.it/"
+# il dns reale serve l'apex: www.roccatello.it fa 301 verso roccatello.it,
+# quindi canonical e sitemap devono puntare all'apex
+baseurl = "https://roccatello.it/"
 title = "Eduard Roccatello"
 copyright = "&copy; 2025"
 
@@ -182,11 +184,6 @@ enableGitInfo = false
   name = "Progetti"
   url = "#showcase"
   weight = 6
-
-[[menu.main]]
-  name = "Link interessanti"
-  url = "interesting-articles"
-  weight = 7
 
 [[menu.main]]
   name = "Contatti"

@@ -10,4 +10,5 @@ weight = 8
 autolink = true
 +++
 
-Per collaborazioni, consulenze o per segnalarmi un errore in un articolo.
+Per collaborazioni, consulenze, formazione o per segnalarmi un errore in un
+articolo.

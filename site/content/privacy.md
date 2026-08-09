@@ -52,7 +52,10 @@ server del fornitore (con relativa trasmissione del tuo indirizzo IP):
 
 - **video YouTube**, in modalità *nocookie* (`youtube-nocookie.com`): YouTube
   non imposta cookie finché non avvii la riproduzione;
-- **font e icone** da Google Fonts e Font Awesome (CDN).
+- **icone** da Font Awesome (CDN).
+
+I font tipografici sono ospitati direttamente da questo sito e non comportano
+richieste a server terzi.
 
 ## I tuoi diritti
 

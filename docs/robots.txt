@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.roccatello.it/sitemap.xml
+Sitemap: https://roccatello.it/sitemap.xml
