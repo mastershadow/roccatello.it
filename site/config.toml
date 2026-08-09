@@ -146,10 +146,22 @@ enableGitInfo = false
     text = "eduard.roccatello@3dgis.it"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "https://www.linkedin.com/in/roccatello/"
+    text = "linkedin.com/in/roccatello"
+
+  [[params.social]]
     icon = "github"
     icon_pack = "fab"
     link = "//github.com/mastershadow"
     text = "github.com/mastershadow"
+
+  [[params.social]]
+    icon = "mastodon"
+    icon_pack = "fab"
+    link = "https://mas.to/@mastershadow"
+    text = "@mastershadow@mas.to"
 
 [[menu.main]]
   name = "Articoli"

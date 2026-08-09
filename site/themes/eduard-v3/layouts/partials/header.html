@@ -29,12 +29,62 @@
   {{ $desc = .Site.Params.role }}
   {{ end }}
   <meta name="description" content="{{ $desc }}">
+  {{/* rel=me: mastodon verifica il sito se questa pagina linka il profilo */}}
+  <link rel="me" href="https://mas.to/@mastershadow">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  {{ $ogimage := printf "%s%s" $.Site.BaseURL (or .Params.ogimage "img/placeholder.jpg") }}
   <meta property="og:title" content="{{ if not $.IsHome }}{{ .Title }}{{ else }}{{ $.Site.Title }}{{ end }}">
   <meta property="og:site_name" content="{{ $.Site.Title }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:description" content="{{ $desc }}">
-  <meta property="og:type" content="article">
-  <meta property="og:image" content="{{ $.Site.BaseURL }}{{ if .Params.ogimage }}{{ .Params.ogimage }}{{ else }}img/placeholder.jpg{{ end }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:image" content="{{ $ogimage }}">
+  {{/* card grande solo quando il post ha un'immagine sua: il placeholder
+       a tutta larghezza sarebbe peggio di una card piccola */}}
+  <meta name="twitter:card" content="{{ if .Params.ogimage }}summary_large_image{{ else }}summary{{ end }}">
+  {{ with $.Site.Params.twitter }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
+  <meta name="twitter:title" content="{{ if not $.IsHome }}{{ .Title }}{{ else }}{{ $.Site.Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $ogimage }}">
+  {{ if and .IsPage (eq .Section "post") }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ .Title }},
+    "description": {{ $desc }},
+    "url": {{ .Permalink }},
+    "datePublished": {{ .Date.Format "2006-01-02" }},
+    "dateModified": {{ .Lastmod.Format "2006-01-02" }},
+    "inLanguage": {{ $lang }},
+    "image": {{ $ogimage }},
+    "author": {
+      "@type": "Person",
+      "name": {{ $.Site.Params.name }},
+      "url": {{ $.Site.BaseURL }}
+    }
+  }
+  </script>
+  {{ else if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": {{ $.Site.Params.name }},
+    "url": {{ $.Site.BaseURL }},
+    "jobTitle": "Fondatore e CTO",
+    "worksFor": { "@type": "Organization", "name": "3DGIS", "url": "https://www.3dgis.it" },
+    "sameAs": [
+      "https://www.linkedin.com/in/roccatello/",
+      "https://github.com/mastershadow",
+      "https://mas.to/@mastershadow",
+      "https://www.youtube.com/channel/UCjcLUZV44x0CieY-goXpeTw"
+    ]
+  }
+  </script>
+  {{ end }}
   {{ partial "stylesheet" . }}
 </head>
 

@@ -7,48 +7,75 @@ import { v4 as uuid } from 'uuid';
 
 const GA_LOCAL_STORAGE_KEY = 'ga:clientId';
 
+// il client id sta in localStorage invece che nel cookie _ga: meno cookie in
+// giro a parita' di misurazione
+let analyticsActive = false;
 const activateAnalytics = () => {
-  const hd = document.head;
+  if (analyticsActive || !window.localStorage) {
+    return;
+  }
+  analyticsActive = true;
+
   const gtagScript = document.createElement("script");
   gtagScript.setAttribute("async", "");
   gtagScript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-S3YK3YKMEZ");
-  hd.appendChild(gtagScript);
+  document.head.appendChild(gtagScript);
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  if (window.localStorage) {
-    if (!localStorage.getItem(GA_LOCAL_STORAGE_KEY)) {
-      window.localStorage.setItem(GA_LOCAL_STORAGE_KEY, uuid());
-    }
-
-    gtag('config', 'G-S3YK3YKMEZ', {
-          send_page_view: true,
-          client_storage: 'none',
-          client_id: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
-        });
+  if (!localStorage.getItem(GA_LOCAL_STORAGE_KEY)) {
+    localStorage.setItem(GA_LOCAL_STORAGE_KEY, uuid());
   }
+
+  gtag('config', 'G-S3YK3YKMEZ', {
+    send_page_view: true,
+    client_storage: 'none',
+    client_id: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
+  });
 };
 
+// il costruttore apre da solo il banner alla prima visita; se una scelta
+// esiste gia' non riapre nulla, nemmeno per chi ha rifiutato
 const cc = new CookieConsent({
-  title: "We use cookies 🍪",
-  description: `Click “Accept” to enable us to use cookies to personalize
-  this site. Customize your preferences in your
-  Cookie Settings or click “Reject” if you do not want us
-  to use cookies for this purpose. Learn more in our
-  <a href="/privacy">Privacy policy</a>.`
+  title: "Questo sito usa i cookie 🍪",
+  description: `Premi "Accetta" per consentire l'uso dei cookie di misurazione
+  del traffico, oppure "Rifiuta" se non vuoi. I dettagli sono nella
+  <a href="/privacy">privacy policy</a>.`,
+  buttons: {
+    acceptAll: "Accetta",
+    acceptSelected: "Accetta i selezionati",
+    reject: "Rifiuta",
+    showSettings: "Preferenze",
+    hideSettings: "Nascondi",
+  },
+  categories: {
+    essentials: {
+      label: "Essenziali",
+      description: `Servono al funzionamento di base del sito, come ricordare
+      questa scelta sui cookie.`,
+      checked: true,
+      mandatory: true,
+    },
+    analytics: {
+      label: "Statistiche",
+      description: `Permettono di misurare le visite in forma anonima, per
+      capire quali contenuti sono letti.`,
+    },
+  },
 });
 
-if (cc.status != "accepted") {
-  cc.open();
-} 
+const analyticsConsented = () =>
+  cc.status === "accepted" && cc.acceptedCategories.indexOf("analytics") !== -1;
 
-activateAnalytics();
+// google analytics parte solo dopo il consenso esplicito alla categoria
+// statistiche: mai al primo caricamento, mai dopo un rifiuto
+if (analyticsConsented()) {
+  activateAnalytics();
+}
 
-cc.on("accept", (cc) => {
-  const hasAnalytics = cc.acceptedCategories.indexOf("analytics") !== -1;
-  if (hasAnalytics) {
-    //activateAnalytics();
+cc.on("accept", () => {
+  if (analyticsConsented()) {
+    activateAnalytics();
   }
-
 });

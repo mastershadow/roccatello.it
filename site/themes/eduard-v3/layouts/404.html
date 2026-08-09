@@ -1,0 +1,19 @@
+{{ partial "header" . }}
+{{ partial "navbar" . }}
+
+<div class="p-4 bg-success text-light">
+  <div class="container">
+    <h2 class="m-0 p-0">{{ i18n "page_not_found" }}</h2>
+  </div>
+</div>
+
+<div class="container mt-4 mb-5">
+  <p class="lead">{{ i18n "404_recommendations" }}</p>
+  <ul>
+    <li><a class="link-success" href="{{ "/" | relURL }}">{{ .Site.Title }}</a></li>
+    <li><a class="link-success" href="{{ "post" | relURL }}">{{ (.Site.GetPage "section" "post").Title }}</a></li>
+    <li><a class="link-success" href="{{ "interesting-articles" | relURL }}">{{ (.Site.GetPage "section" "interesting-articles").Title }}</a></li>
+  </ul>
+</div>
+
+{{ partial "footer" . }}

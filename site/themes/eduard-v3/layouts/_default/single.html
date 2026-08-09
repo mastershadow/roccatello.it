@@ -34,6 +34,10 @@
       </div>
 
 
+      {{ if eq .Section "post" }}
+      {{ partial "author_box" . }}
+      {{ end }}
+
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       {{ with $related }}
       <div class="article-widget col col-lg-8 offset-lg-2 mt-3">
