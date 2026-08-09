@@ -1,14 +1,15 @@
 
 <footer class="bg-success text-light">
   <div class="container">
-    <div class="row p-2">
-      <div class="col">
+    {{/* su mobile le colonne si impilano: affiancate solo da md in su */}}
+    <div class="row p-2 gy-2">
+      <div class="col-12 col-md">
         <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="link-light">CC BY-SA 4.0 by Eduard Roccatello</a>
       </div>
-      <div class="col text-end">
+      <div class="col-12 col-md text-md-end">
         <a href="{{ "interesting-articles" | relURL }}" class="link-light me-3">Link interessanti</a>
         <a href="#" data-cookie-preferences class="link-light me-3">Preferenze cookie</a>
-        <a href="{{ "privacy" | relURL }}" class="link-light">Privacy</a>
+        <a href="{{ "privacy" | relURL }}" class="link-light me-md-0">Privacy</a>
       </div>
     </div>
   </div>
