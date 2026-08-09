@@ -11,5 +11,6 @@ image = ""
 
 +++
 
-Note tecniche, analisi e resoconti di problemi risolti. Gli articoli più recenti
-sono in italiano, l'archivio precedente è in larga parte in inglese.
+Note tecniche, analisi, resoconti di problemi risolti e qualche opinione.
+In italiano o in inglese, a seconda dell'argomento e di chi può esserne
+interessato.

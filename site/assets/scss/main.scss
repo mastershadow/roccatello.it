@@ -2,45 +2,51 @@
 // browser lo scarta. webpack lo spostava da solo, libsass no
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
+// colore del logo (campionato da design/logo/header.jpeg). il tema usa le
+// classi *-success di bootstrap ovunque: ridefinire $success qui cambia
+// l'accento in tutto il sito senza toccare i template
+$brand: #013564;
+$primary: $brand;
+$success: $brand;
+$link-color: $brand;
+
+$font-family-base: "Noto Serif", Georgia, serif;
+$headings-font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // il cookie consent carica il proprio scss dall'entry point javascript.
 // esbuild non compila lo scss, quindi il css va preso da qui
 @import "../node_modules/@klaxit/cookie-consent/src/styles/main";
 
-@font-face {
-  font-family: system;
-  font-style: normal;
-  font-weight: 300;
-  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"),
-    local("Roboto-Light"), local("DroidSans"), local("Tahoma");
-}
-
 body {
-  font-family: "Noto Serif", serif;
-  padding-top: 56px;
+  padding-top: 56px; // navbar fixed-top
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
-  font-display: swap;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 nav {
-  font-family: "system";
+  font-family: $headings-font-family;
 }
 
-.featurette {
-  text-align: center;
+// navbar e hero formano un'unica fascia navy in testa: il lockup del logo
+#navbar-main {
+  background-color: $brand;
+}
 
-  .featurette-icon {
-    font-size: 4rem;
+.hero-band {
+  background-color: $brand;
+}
+
+// sezioni della home: carta, con un'alternanza di tinta appena percettibile
+// per dare ritmo verticale senza tornare alle fasce colorate
+.home-section {
+  padding: 3.5rem 0;
+
+  &:nth-of-type(odd) {
+    background-color: mix($brand, #fff, 4%);
   }
 }
 
@@ -57,10 +63,6 @@ nav {
     top: 0.14285714em;
     text-align: center;
   }
-}
-
-#posts {
-  background-color: #f0f0f0;
 }
 
 .article-header {
@@ -81,7 +83,7 @@ nav {
     font-size: 1.7rem;
   }
 
-  h2 {
+  h3 {
     font-size: 1.5rem;
   }
 }
@@ -89,10 +91,9 @@ nav {
 blockquote {
   margin: 1em 0;
   padding-left: 1em;
-  border-left: 4px solid #eee;
+  border-left: 4px solid rgba($brand, 0.25);
   font-style: italic;
 }
-
 
 figure figcaption h4 {
   margin-top: 0.3rem;

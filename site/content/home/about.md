@@ -32,7 +32,7 @@ title = "Chi sono"
   year = 2002
 +++
 
-<div class="col-12">
+<div class="col-lg-8 pe-lg-5">
 
 Sono nato a Rovigo nel 1983 e sono appassionato di tecnologia da quando, a
 sette anni, ho ricevuto il mio primo personal computer. Da lì è nata la passione
@@ -50,12 +50,11 @@ curandone l'esperienza d'uso e l'usabilità.
 Sono lead software architect del progetto Cityvu e da molti anni sviluppatore
 dell'ambiente desktop Xfce.
 
-<p lang="en" class="mt-4 text-warning">
+<p lang="en" class="mt-4 text-muted fst-italic">
 I'm Eduard Roccatello, founder and CTO of 3DGIS, an Italian GIS company. I work
 on 3D geospatial research and development, I'm the lead software architect of
 the Cityvu project and a long time developer of the Xfce Desktop Environment.
-Most of the writing here is in Italian, but a good part of the archive is in
-English.
+I write both in Italian and in English, depending on the topic.
 </p>
 
 </div>

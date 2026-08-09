@@ -35,8 +35,8 @@ defaultContentLanguageInSubdir = false
 # defaultContentLanguage, e le pagine escono con lang="en"
 [languages]
   [languages.it]
-    languageName = "Italiano"
-    languageCode = "it-IT"
+    label = "Italiano"
+    locale = "it-IT"
     weight = 1
 
 # Get last modified date for content from Git?

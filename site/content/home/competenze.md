@@ -15,3 +15,6 @@ tridimensionale nel browser.
 territoriali.
 
 **Standard e interoperabilità** — INSPIRE, specifiche OGC, dati aperti.
+
+**Sicurezza** — hardening di infrastrutture esposte, analisi di vulnerabilità,
+logging e conformità.

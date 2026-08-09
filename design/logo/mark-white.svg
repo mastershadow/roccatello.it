@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- la vite del logo su tessera del blu del brand -->
-  <rect width="64" height="64" rx="12" fill="#013564"/>
-  <svg x="12" y="12" width="40" height="40" viewBox="-0.03 -0.01 713.50 714.80" preserveAspectRatio="xMidYMid meet"><g transform="translate(-1432.229394,1112.789954) scale(0.1,-0.1)" fill="#ffffff" stroke="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.03 -0.01 713.50 714.80">
+<g transform="translate(-1432.229394,1112.789954) scale(0.1,-0.1)" fill="#ffffff" stroke="none">
 <path d="M17768 10254 c-484 -484 -888 -891 -899 -906 -18 -25 -20 -54 -27
 -525 l-7 -498 -360 -8 c-198 -4 -366 -9 -372 -12 -45 -16 -8 -55 1245 -1308
 935 -935 1262 -1257 1277 -1255 28 4 33 61 34 413 1 237 4 294 16 311 13 19
@@ -14,5 +12,5 @@
 -508 3 -930 6 -939 3 -9 13 -16 22 -16 19 0 1196 1172 1218 1212 11 22 14 88
 14 345 0 182 4 324 10 333 11 18 122 28 337 29 143 1 153 2 163 22 10 18 -66
 97 -848 880 -472 472 -866 859 -875 859 -9 0 -21 -9 -27 -19z"/>
-</g></svg>
+</g>
 </svg>

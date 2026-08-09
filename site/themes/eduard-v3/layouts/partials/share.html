@@ -2,20 +2,20 @@
 <div class="share-box" aria-hidden="true">
   <ul class="share list-inline m-0">
     <li class="list-inline-item">
-      <a class="facebook text-light" href="https://www.facebook.com/sharer.php?u={{ .Permalink | html }}" target="_blank"
+      <a class="facebook link-success" href="https://www.facebook.com/sharer.php?u={{ .Permalink | html }}" target="_blank"
         rel="noopener">
         <i class="fab fa-fw fa-facebook-f"></i>
       </a>
     </li>
     <li class="list-inline-item">
-      <a class="linkedin text-light"
+      <a class="linkedin link-success"
         href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink | html }}&amp;title={{ .Title | html }}"
         target="_blank" rel="noopener">
         <i class="fab fa-fw fa-linkedin-in"></i>
       </a>
     </li>
     <li class="list-inline-item">
-      <a class="email text-light" href="mailto:?subject={{ .Title | html }}&amp;body={{ .Permalink | html }}">
+      <a class="email link-success" href="mailto:?subject={{ .Title | html }}&amp;body={{ .Permalink | html }}">
         <i class="fas fa-fw fa-envelope"></i>
       </a>
     </li>
