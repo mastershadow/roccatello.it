@@ -16,5 +16,6 @@ territoriali.
 
 **Standard e interoperabilità** — INSPIRE, specifiche OGC, dati aperti.
 
-**Sicurezza** — hardening di infrastrutture esposte, analisi di vulnerabilità,
-logging e conformità.
+**Sicurezza delle informazioni** — responsabile del sistema di gestione
+ISO/IEC 27001:2022 di 3DGIS. Hardening, analisi di vulnerabilità, logging,
+conformità.

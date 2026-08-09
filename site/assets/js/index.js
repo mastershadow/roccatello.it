@@ -79,3 +79,12 @@ cc.on("accept", () => {
     activateAnalytics();
   }
 });
+
+// il footer offre un link per riaprire il banner e cambiare la scelta:
+// senza, il consenso non sarebbe revocabile
+document.querySelectorAll("[data-cookie-preferences]").forEach((el) => {
+  el.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    cc.open();
+  });
+});
