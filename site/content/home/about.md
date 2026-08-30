@@ -34,7 +34,7 @@ title = "Chi sono"
 
 <div class="col-lg-8 pe-lg-5">
 
-Sono il fondatore e CTO di 3DGIS, software house GIS italiana dove mi occupo di
+Sono uno dei fondatori e il CTO di 3DGIS, software house GIS italiana dove mi occupo di
 ricerca e sviluppo. Le mie giornate sono fatte di matematica e di grandi moli di
 dati, con problemi complessi da risolvere in tempi stretti. Sono anche il
 responsabile del sistema di gestione per la sicurezza delle informazioni
@@ -55,7 +55,7 @@ molti anni sviluppatore dell'ambiente desktop Xfce. Mi occupo anche della parte
 estetica dei prodotti, curandone l'esperienza d'uso e l'usabilità.
 
 <p lang="en" class="mt-4 text-muted fst-italic">
-I'm Eduard Roccatello, founder and CTO of 3DGIS, an Italian GIS company, where
+I'm Eduard Roccatello, co-founder and CTO of 3DGIS, an Italian GIS company, where
 I lead 3D geospatial R&D and the ISO/IEC 27001 information security management
 system. I'm the lead software architect of the Cityvu project and a long time
 developer of the Xfce Desktop Environment, and I taught Spatial Data

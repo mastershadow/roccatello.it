@@ -4,7 +4,7 @@ active = true
 date = 2017-10-15T00:00:00
 
 title = "Eduard Roccatello"
-subtitle = "Fondatore e CTO di 3DGIS"
+subtitle = "Co-fondatore e CTO di 3DGIS"
 
 weight = 1
 
