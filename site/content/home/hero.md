@@ -15,5 +15,4 @@ weight = 1
 +++
 
 Da vent'anni mi occupo di geoinformatica, ingegneria del software e sicurezza
-delle informazioni: dati territoriali e modelli 3D, gestione della sicurezza e
-conformità normativa. Su questo sito pubblico note tecniche e appunti di lavoro.
+delle informazioni. Su questo sito pubblico note tecniche e appunti di lavoro.
