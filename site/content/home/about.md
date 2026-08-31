@@ -37,8 +37,9 @@ title = "Chi sono"
 Sono uno dei fondatori e il CTO di 3DGIS, software house GIS italiana dove mi occupo di
 ricerca e sviluppo. Le mie giornate sono fatte di matematica e di grandi moli di
 dati, con problemi complessi da risolvere in tempi stretti. Sono anche il
-responsabile del sistema di gestione per la sicurezza delle informazioni
-dell'azienda, certificato ISO/IEC 27001:2022. Ho insegnato Spatial Data
+responsabile dei sistemi di gestione dell'azienda per la sicurezza delle
+informazioni (ISO/IEC 27001:2022) e per la qualità (ISO 9001), e seguo la
+conformità a NIS2 e GDPR. Ho insegnato Spatial Data
 Infrastructures allo IUAV di Venezia, Web Engineering alla Scuola Comics di
 Padova, e Sicurezza Informatica e Programmazione Mobile in numerosi corsi FSE.
 Per molti anni ho scritto per la rivista Linux Pro.
@@ -56,8 +57,8 @@ estetica dei prodotti, curandone l'esperienza d'uso e l'usabilità.
 
 <p lang="en" class="mt-4 text-muted fst-italic">
 I'm Eduard Roccatello, co-founder and CTO of 3DGIS, an Italian GIS company, where
-I lead 3D geospatial R&D and the ISO/IEC 27001 information security management
-system. I'm the lead software architect of the Cityvu project and a long time
+I lead 3D geospatial R&D and the company's ISO/IEC 27001 (information security)
+and ISO 9001 (quality) management systems. I'm the lead software architect of the Cityvu project and a long time
 developer of the Xfce Desktop Environment, and I taught Spatial Data
 Infrastructures at the IUAV University of Venice. I write both in Italian and
 in English, depending on the topic.

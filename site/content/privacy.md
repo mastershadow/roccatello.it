@@ -12,7 +12,7 @@ richiesto ai visitatori.
 
 ## Titolare del trattamento
 
-Eduard Roccatello — [eduard.roccatello@3dgis.it](mailto:eduard.roccatello@3dgis.it)
+Eduard Roccatello - [eduard.roccatello@3dgis.it](mailto:eduard.roccatello@3dgis.it)
 
 ## Hosting
 

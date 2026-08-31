@@ -14,6 +14,6 @@ weight = 1
   overlay_filter = 0.4
 +++
 
-Da vent'anni mi occupo di dati territoriali: rilievo LIDAR, modelli urbani
-tridimensionali, banche dati spaziali. Su questo sito pubblico note tecniche e
-appunti di lavoro.
+Da vent'anni mi occupo di geoinformatica, ingegneria del software e sicurezza
+delle informazioni: dati territoriali e modelli 3D, gestione della sicurezza e
+conformità normativa. Su questo sito pubblico note tecniche e appunti di lavoro.

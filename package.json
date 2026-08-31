@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "/usr/bin/hugo server -s site -p 3000",
+    "start": "/usr/bin/hugo server -s site -p 3000 -D",
     "prebuild": "rm -rf docs",
     "build": "/usr/bin/hugo -d ../docs --minify -s site"
   },

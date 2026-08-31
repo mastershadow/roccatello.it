@@ -136,6 +136,23 @@ blockquote {
   font-style: italic;
 }
 
+// blocchi di codice: il tema non li stilava, ereditavano il pre di bootstrap
+// senza padding. il testo usciva attaccato ai bordi
+pre {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  overflow-x: auto; // righe lunghe scrollano, non allargano la pagina
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
+// codice inline: piccolo respiro e stacco cromatico, senza diventare un box
+:not(pre) > code {
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background-color: mix($brand, #fff, 8%);
+}
+
 figure figcaption h4 {
   margin-top: 0.3rem;
   font-size: 0.9rem;

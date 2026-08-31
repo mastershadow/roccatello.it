@@ -70,7 +70,7 @@ enableGitInfo = false
   role = ""
 
   # usato solo nel tag <title> della home: il navbar mostra Site.Title
-  home_title = "Eduard Roccatello — dati territoriali, LIDAR e modelli urbani 3D"
+  home_title = "Eduard Roccatello | geoinformatica, ingegneria del software, cybersecurity"
   organizations = [ { name = "3DGIS Chief Technical Officer", url = "https://www.3dgis.it" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
@@ -85,8 +85,10 @@ enableGitInfo = false
   zoom = 6
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = "Ricerca e sviluppo su dati territoriali: rilievo LIDAR, modelli urbani tridimensionali, banche dati spaziali. Note tecniche e appunti di lavoro di Eduard Roccatello, fondatore e CTO di 3DGIS."
-  sharing_image = "avatar.png"
+  description = "Geoinformatica, ingegneria del software e sicurezza delle informazioni. Note tecniche e appunti di lavoro di Eduard Roccatello, co-fondatore e CTO di 3DGIS: dati territoriali e 3D, ISO 27001, NIS2, GDPR."
+  # card social di default (home e post senza ogimage proprio).
+  # generata da design/og/make-og.py --home
+  og_image_default = "img/og/default.png"
   twitter = "edurocc"
   date_format = "2006-01-02"
   time_format = "15:04"
