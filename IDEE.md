@@ -12,18 +12,15 @@ Stati usati: `idea`, `bozza`, `in revisione`, `pubblicato`.
 
 ## Nginx e Tomcat non sono d'accordo su cosa sia un path
 
-Stato: bozza
+Stato: pubblicato (2026-08-31, `nginx-tomcat-normalizzazione-path`)
 
 Il bypass `..;` che espone il manager di Tomcat dietro un `deny all` su Nginx.
 Due normalizzazioni diverse dello stesso URI, il fix su `$request_uri`, e il
 motivo per cui il fix non basta. Lingua: italiano.
 
-Da verificare prima di pubblicare: che il sistema di origine non sia più
-esposto, e il comportamento di Tomcat sul separatore percent-encoded `%3b`.
-
 ## Il drift dei file CAD georiferiti
 
-Stato: idea
+Stato: bozza (`georeferenziare-disegni-cad`, draft = true)
 
 150 file DXF e DWG di corridoi stradali con uno scostamento di 86-150 metri tra
 QGIS e AutoCAD. Causa: geometrie in CRS locale arbitrario e ancora geo_rss
@@ -73,3 +70,72 @@ Perché il float32 non basta a rappresentare coordinate terrestri in una scena
 3D, e come si aggira: coordinate relative alla camera, ECEF su WGS84,
 emulazione double-single sulla GPU. Il più tecnico e il più di nicchia del
 gruppo. Lingua: inglese, il pubblico è internazionale.
+
+## Cityvu: il design di un viewer 3D urbano nel browser
+
+Stato: idea
+
+Le decisioni di design dietro Cityvu, raccontate dal suo lead software
+architect. Tre tagli possibili, probabilmente una serie e non un pezzo solo:
+l'architettura del viewer, la gestione dei dati urbani (tiling, livelli di
+dettaglio, formati), e come l'architettura è cambiata nel tempo, con quello
+che oggi si rifarebbe diversamente. Si collega all'idea sulla precisione in
+virgola mobile già in lista. Lingua: italiano per il taglio di design,
+inglese possibile per i pezzi più tecnici.
+
+Da fare: buttare giù le decisioni chiave e i vicoli ciechi di ciascun taglio
+finché si ricorda il perché di ogni scelta.
+
+## felib: progettare una libreria condivisa tra prodotti
+
+Stato: idea
+
+felib è la libreria condivisa dei prodotti 3DGIS. Il tema è il design di una
+libreria interna che serve più prodotti: cosa ci entra e cosa no, come si fa
+evolvere senza rompere chi la usa, confini delle API e versioning. Anche
+questa è una serie, un pezzo per decisione di design. Tema trasversale che
+parla anche a chi non fa GIS. Lingua: italiano.
+
+Da fare: la voce va riempita con decisioni concrete ed errori reali, per ora
+è solo il perimetro.
+
+## carto.bi: dove il GIS incontra la business intelligence
+
+Stato: idea
+
+Il design di un prodotto di location intelligence, su tre livelli: le scelte
+architetturali per far convivere dati spaziali e BI, la pipeline dei dati
+(aggregazioni, PostGIS, multi-tenancy), e il design del prodotto per clienti
+reali. Anche questa è una serie, un pezzo per livello o per decisione.
+Lingua: italiano.
+
+Da fare: come per felib, servono le decisioni e i vicoli ciechi di prima
+mano.
+
+## carto.app: il design di un'app di rilievo sul campo
+
+Stato: idea
+
+Il design di carto.app, l'app Android per i rilievi sul campo di 3DGIS,
+come serie: le decisioni di design di un'applicazione che deve funzionare
+in campagna, dove la connettività va e viene e i dati raccolti non si
+possono perdere. Lingua: italiano.
+
+Da fare: elencare i pezzi della serie e le decisioni concrete di prima
+mano.
+
+## La ISO 27001 vista da chi se la gestisce davvero
+
+Stato: idea
+
+La 27001 in una PMI software, raccontata da chi ne guida il sistema di
+gestione e non da un consulente: cosa della norma produce sicurezza reale e
+cosa produce solo carta, come si fa convivere con lo sviluppo quotidiano,
+cosa cambia nei rapporti con la pubblica amministrazione e nei bandi. Anche
+questa è una serie, un pezzo per tema. Stessa cautela della voce sul
+Garante: niente riferimenti ad audit, clienti o non conformità specifiche.
+Si collega all'idea sui log dell'Amministratore di Sistema. Lingua:
+italiano.
+
+Da fare: elencare i temi della serie e per ciascuno l'esperienza concreta
+che lo regge.
