@@ -1,0 +1,27 @@
+{{ partial "header" . }}
+{{ partial "navbar" . }}
+  <div class="container mt-5">
+    {{ with .Title }}
+    <h1>{{ . }}</h1>
+    {{ end }}
+    {{ with .Content }}
+    <div class="lead border-bottom pb-3">{{ . }}</div>
+    {{ end }}
+  </div>
+  <div class="container mt-3">
+    <div class="row">
+    {{ range (where .Site.RegularPages "Section" "post").ByDate.Reverse }}
+      {{ $img := "img/og/default.png" }}
+      {{ with .Params.ogimage }}{{ $img = . }}{{ end }}
+      <div class="col-md-6 pt-4">
+        <a href="{{ $img | absURL }}"><img src="{{ $img | absURL }}" class="img-fluid border" alt="{{ .Title }}" loading="lazy"></a>
+        <div class="small text-muted mt-2">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
+        </div>
+        <div>{{ .Title }}</div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+
+{{ partial "footer" . }}

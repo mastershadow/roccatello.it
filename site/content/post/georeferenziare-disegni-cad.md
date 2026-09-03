@@ -1,7 +1,7 @@
 +++
-date = "2026-09-02"
-lastmod = "2026-09-02"
-draft = true
+date = "2026-09-03"
+lastmod = "2026-09-03"
+draft = false
 title = "Georeferenziare correttamente disegni CAD: il drift tra AutoCAD e QGIS"
 slug = "georeferenziare-disegni-cad"
 summary = "Centinaia di file DXF e DWG e nessuno posizionato correttamente. Eppure in AutoCAD sembrava tutto a posto: li apri in QGIS e ci sono 150 metri di scostamento. Nessun bug: solo disegni posizionati approssimativamente. Vi spiego perché succede e come si georeferenziano correttamente."

@@ -1,0 +1,168 @@
+<!doctype html><html lang="it"><head><title>Georeferenziare correttamente disegni CAD: il drift tra AutoCAD e QGIS</title><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="generator" content="Eduard Roccatello"><meta name="generator" content="Hugo 0.164.0"><meta name="author" content="Eduard Roccatello"><meta name="description" content="Centinaia di file DXF e DWG e nessuno posizionato correttamente. Eppure in AutoCAD sembrava tutto a posto: li apri in QGIS e ci sono 150 metri di scostamento. Nessun bug: solo disegni posizionati approssimativamente. Vi spiego perché succede e come si georeferenziano correttamente."><link rel="me" href="https://mas.to/@mastershadow"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:title" content="Georeferenziare correttamente disegni CAD: il drift tra AutoCAD e QGIS"><meta property="og:site_name" content="Eduard Roccatello"><meta property="og:url" content="https://roccatello.it/2026/09/georeferenziare-disegni-cad/"><meta property="og:description" content="Centinaia di file DXF e DWG e nessuno posizionato correttamente. Eppure in AutoCAD sembrava tutto a posto: li apri in QGIS e ci sono 150 metri di scostamento. Nessun bug: solo disegni posizionati approssimativamente. Vi spiego perché succede e come si georeferenziano correttamente."><meta property="og:type" content="article"><meta property="og:image" content="https://roccatello.it/img/og/georeferenziare-disegni-cad.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@edurocc"><meta name="twitter:title" content="Georeferenziare correttamente disegni CAD: il drift tra AutoCAD e QGIS"><meta name="twitter:description" content="Centinaia di file DXF e DWG e nessuno posizionato correttamente. Eppure in AutoCAD sembrava tutto a posto: li apri in QGIS e ci sono 150 metri di scostamento. Nessun bug: solo disegni posizionati approssimativamente. Vi spiego perché succede e come si georeferenziano correttamente."><meta name="twitter:image" content="https://roccatello.it/img/og/georeferenziare-disegni-cad.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Georeferenziare correttamente disegni CAD: il drift tra AutoCAD e QGIS","description":"Centinaia di file DXF e DWG e nessuno posizionato correttamente. Eppure in AutoCAD sembrava tutto a posto: li apri in QGIS e ci sono 150 metri di scostamento. Nessun bug: solo disegni posizionati approssimativamente. Vi spiego perché succede e come si georeferenziano correttamente.","url":"https://roccatello.it/2026/09/georeferenziare-disegni-cad/","datePublished":"2026-09-03","dateModified":"2026-09-03","inLanguage":"it","image":"https://roccatello.it/img/og/georeferenziare-disegni-cad.png","author":{"@type":"Person","name":"Eduard Roccatello","url":"https://roccatello.it/"}}</script><link href="/main.1f96f2c8882245a1de56d4f60b21ea490d692f7fb1c2fa877c79245cb2b44c6e.css" rel="stylesheet"></head><body><nav class="navbar navbar-dark fixed-top navbar-expand-lg" id="navbar-main"><div class="container"><a class="navbar-brand" href="/"><img src="/img/logo.svg" height="30" alt="Eduard Roccatello"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Attiva la navigazione">
+<span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/post"><span>Articoli</span></a></li><li class="nav-item"><a class="nav-link" href="/#mondogis"><span>Tales from the GIS</span></a></li><li class="nav-item"><a class="nav-link" href="/#aboutme"><span>Chi sono</span></a></li><li class="nav-item"><a class="nav-link" href="/#showcase"><span>Progetti</span></a></li><li class="nav-item"><a class="nav-link" href="/#contacts"><span>Contatti</span></a></li></ul></div></div></nav><article class="article" itemscope itemtype="http://schema.org/Article"><div class="container mt-5"><div class="row"><div class="col col-lg-8 offset-lg-2"><h1>Georeferenziare correttamente disegni CAD: il drift tra AutoCAD e QGIS</h1><p class="lead text-muted">Centinaia di file DXF e DWG e nessuno posizionato correttamente. Eppure in AutoCAD sembrava tutto a posto: li apri in QGIS e ci sono 150 metri di scostamento. Nessun bug: solo disegni posizionati approssimativamente. Vi spiego perché succede e come si georeferenziano correttamente.</p><div class="d-flex justify-content-between align-items-center text-muted border-bottom pb-3"><div class="article-metadata"><span itemscope itemprop="author" itemtype="http://schema.org/Person"><meta itemprop="name" content="Eduard Roccatello"></span><span class="article-date"><meta content="2026-09-03 00:00:00 +0000 UTC" itemprop="datePublished"><time datetime="2026-09-03 00:00:00 +0000 UTC" itemprop="dateModified"><i class="fa fa-calendar fa-fw mr-1"></i>2026-09-03
+</time></span><span itemscope itemprop="publisher" itemtype="http://schema.org/Person"><meta itemprop="name" content="Eduard Roccatello"></span><span class="middot-divider"></span>
+<span class="article-reading-time"><i class="fa fa-clock fa-fw mr-1"></i>10 min di lettura</span></div><div class="share-box" aria-hidden="true"><ul class="share list-inline m-0"><li class="list-inline-item"><a class="facebook link-success" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2froccatello.it%2f2026%2f09%2fgeoreferenziare-disegni-cad%2f" target="_blank" rel="noopener"><i class="fab fa-fw fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="linkedin link-success" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2froccatello.it%2f2026%2f09%2fgeoreferenziare-disegni-cad%2f&amp;title=Georeferenziare%20correttamente%20disegni%20CAD%3a%20il%20drift%20tra%20AutoCAD%20e%20QGIS" target="_blank" rel="noopener"><i class="fab fa-fw fa-linkedin-in"></i></a></li><li class="list-inline-item"><a class="email link-success" href="mailto:?subject=Georeferenziare%20correttamente%20disegni%20CAD%3a%20il%20drift%20tra%20AutoCAD%20e%20QGIS&amp;body=https%3a%2f%2froccatello.it%2f2026%2f09%2fgeoreferenziare-disegni-cad%2f"><i class="fas fa-fw fa-envelope"></i></a></li></ul></div></div></div></div></div><div class="container pb-5 mb-4"><div class="article-style row pt-4" itemprop="articleBody"><div class="col col-lg-8 offset-lg-2"><p>Centinaia di file DXF e DWG, consegnati come georiferiti. In AutoCAD stanno
+esattamente dove devono stare, perfettamente allineati con le tavole di
+progetto. Aperti in QGIS sopra la cartografia regionale, le stesse geometrie
+si spostano: 86 metri in un punto, 150 in un altro. Nessuno dei due software
+ha un bug: stanno solo trattando la stessa geometria in modi diversi.</p><p>Non è un caso isolato: ci è capitato più volte, con consegne diverse, senza
+nemmeno contare il catasto, che è un altro paio di maniche. È un problema
+che manda fuori strada intere commesse, e diciamoci la verità: è un mistero
+per tanti. Vale la pena capire perché succede, e poi vedere come si
+georeferenzia un disegno CAD correttamente.</p><h2 id="il-cad-non-sa-dove-sta-il-mondo">Il CAD non sa dove sta il mondo</h2><p>Possiamo dire che un disegno CAD viva su un piano infinito con un&rsquo;origine arbitraria. Il
+formato DXF non trasporta alcun sistema di riferimento: le coordinate sono
+numeri puri, e sta a chi legge il file decidere cosa significano. Nei
+capitolati si scrive &ldquo;consegna georiferita&rdquo;, ma quello che arriva spesso è
+un&rsquo;altra cosa: qualcuno ha preso il disegno, lo ha traslato sopra una base
+cartografica finché non combaciava a schermo, e lo ha salvato lì.</p><p>Dentro AutoCAD tutto torna, perché dentro AutoCAD tutto è sbagliato insieme:
+il rilievo, le tavole, la base di appoggio condividono lo stesso piano
+locale e gli stessi errori. È un mondo internamente coerente. Il problema
+emerge solo quando quelle coordinate vengono lette da un GIS, che le prende
+alla lettera e le appoggia sulla cartografia vera. Lì la coerenza interna
+non basta più: conta la posizione assoluta, e quella è stata decisa a
+occhio.</p><h2 id="le-coordinate-non-dicono-nulla-senza-un-sistema-di-riferimento">Le coordinate non dicono nulla senza un sistema di riferimento</h2><p>Prima di guardare lo scostamento serve un passo indietro. Una coppia di
+numeri come 1725000, 5032000 non è una posizione: è una posizione <em>dentro
+un sistema di riferimento</em>, e cambiando sistema cambiano i numeri, non il
+punto sul terreno. E i sistemi di riferimento vivono su due livelli, che
+vanno tenuti distinti.</p><p>Il primo livello è il sistema geodetico, il datum: la scelta dell&rsquo;ellissoide
+che approssima la Terra e del modo in cui viene agganciato alla sua
+superficie. Sul datum si misurano latitudine e longitudine, in gradi, su una
+superficie curva. Il secondo livello è il sistema proiettato: si prende un
+sistema geodetico e ci si aggiunge una proiezione cartografica, che
+schiaccia la superficie curva su un piano e restituisce coordinate metriche,
+quelle su cui si può disegnare e misurare. Ogni sistema, geodetico o
+proiettato, ha un codice EPSG che lo identifica senza ambiguità.</p><p>Per capire i due livelli conviene fare un giro nella storia, perché
+l&rsquo;Italia li ha attraversati tutti. Nel dopoguerra il paese si è dato Roma40:
+un ellissoide orientato all&rsquo;osservatorio astronomico di Roma Monte Mario e,
+sopra, la proiezione di Gauss nei due fusi ovest ed est. È il sistema che
+tutti chiamano Gauss-Boaga (EPSG:3003 e 3004), e gran parte della
+cartografia tecnica italiana è nata lì. In mezzo c&rsquo;è stato anche ED50, il
+datum europeo adottato dalla cartografia IGM, ma la svolta vera è arrivata
+dal satellite.</p><p>Il GPS misura in WGS84 (EPSG:4326), un sistema geodetico globale:
+latitudine e longitudine su un ellissoide geocentrico, nessuna proiezione.
+Ma un datum globale ha un difetto per chi fa cartografia: i continenti si
+muovono, e la placca euroasiatica scivola di un paio di centimetri all&rsquo;anno.
+Per questo l&rsquo;Europa si è data ETRS89, un datum agganciato alla placca: le
+coordinate di un punto fermo restano ferme nel tempo.</p><p>L&rsquo;Italia ha realizzato ETRS89 con la Rete Dinamica Nazionale misurata nel
+2008, da cui il nome RDN2008, cioè ETRF2000 all&rsquo;epoca 2008.0. E qui la
+geodesia incontra la legge: con il DM 10 novembre 2011 quello è diventato il
+sistema geodetico nazionale, obbligatorio per le pubbliche amministrazioni,
+con sopra le proiezioni UTM nei fusi 32, 33 e 34. Quando una consegna per un
+ente pubblico si dichiara georiferita, il sistema di riferimento atteso è
+quindi stabilito per decreto, non lasciato alla discrezione del fornitore.</p><p>Lo stesso chiusino ha coordinate diverse in ognuno di questi sistemi, e
+nessuna è più vera delle altre: sono traduzioni della stessa posizione, e
+per passare dall&rsquo;una all&rsquo;altra esistono trasformazioni note e documentate.</p><p>Il GIS è costruito attorno a un contratto preciso: ogni dataset dichiara il
+sistema di riferimento in cui sono espresse le sue coordinate. Su questa
+dichiarazione alcuni software costruiscono la riproiezione al volo: QGIS,
+per esempio, permette di sovrapporre un&rsquo;ortofoto in UTM e una mappa
+catastale in Gauss-Boaga e le mostra allineate, convertendo le coordinate a
+ogni ridisegno. È una funzionalità, non una garanzia: altri sistemi
+richiedono che tutti i dati arrivino già nello stesso sistema di
+riferimento. In entrambi i casi la dichiarazione è il prerequisito: senza
+sapere da quale sistema si parte, nessuna conversione è possibile. Il CAD questo contratto non ce l&rsquo;ha.
+I numeri sono numeri, il significato sta nella testa di chi ha disegnato, e
+quando quella testa non ha scelto un sistema il significato non c&rsquo;è. È qui
+che &ldquo;georiferito&rdquo; scivola verso &ldquo;traslato&rdquo;.</p><h2 id="perché-lo-scostamento-non-è-una-traslazione">Perché lo scostamento non è una traslazione</h2><p>Se l&rsquo;errore fosse uguale dappertutto basterebbe spostare tutto una volta e
+chiuderla lì. Invece 86 metri a un capo del disegno e 150 all&rsquo;altro: lo
+scostamento cambia lungo l&rsquo;estensione del rilievo, e questo dice che oltre
+alla traslazione ci sono di mezzo una rotazione e una scala.</p><p>Il motivo è geodetico prima che informatico. Un rilievo in coordinate locali
+è un piano appoggiato al terreno in un punto; una proiezione cartografica è
+un&rsquo;altra cosa: ha una convergenza del meridiano che ruota il nord e un
+modulo di deformazione lineare che cambia le distanze. Sovrapponendo a
+occhio si fa combaciare un punto, magari il primo incrocio del disegno, e da
+lì in poi le due superfici si aprono come una forbice: più ci si allontana
+dal punto di appoggio, più l&rsquo;errore cresce. Su un tracciato di qualche
+chilometro, una strada o una condotta, quella forbice vale decine di metri.</p><p>Con centinaia di file la cosa peggiora, perché ogni file ha la sua storia:
+origini diverse, rotazioni diverse, mani diverse che hanno traslato. Non
+esiste <em>la</em> correzione, ne esistono tante quante sono le famiglie di file
+che condividono lo stesso piano locale.</p><h2 id="si-georeferenzia-con-una-trasformazione-affine-non-traslando">Si georeferenzia con una trasformazione affine, non traslando</h2><p>La soluzione non è traslare meglio, è smettere di traslare. Serve una
+trasformazione affine stimata su punti di controllo: sei parametri, due
+traslazioni, rotazione, scala e le loro combinazioni, calcolati ai minimi
+quadrati su coppie di punti omologhi. Il procedimento è sempre lo stesso:
+si scelgono i punti, si stima la trasformazione, si controllano i residui,
+si applica.</p><p>I punti omologhi si scelgono su elementi riconoscibili sia nel disegno che
+in una fonte affidabile, cartografia tecnica o ortofoto: chiusini, spigoli
+di fabbricati, incroci di recinzioni. Ne bastano tre in teoria, ne servono
+di più in pratica, distribuiti su tutta l&rsquo;estensione del disegno: i
+residui della stima sono l&rsquo;unico modo per sapere se la trasformazione tiene
+o se il file ha problemi peggiori di un piano locale.</p><p>Una volta stimati i parametri, PROJ sa applicarli direttamente, quindi la
+correzione si automatizza con <code>ogr2ogr</code> su tutta la famiglia di file che
+condivide lo stesso piano:</p><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none"><code class="language-sh" data-lang="sh"><span style="display:flex"><span>ogr2ogr -f GPKG corretto.gpkg disegno.dxf <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex"><span>  -ct <span style="color:#e6db74">&#34;+proj=affine +s11=... +s12=... +s21=... +s22=... +xoff=... +yoff=...&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex"><span>  -a_srs EPSG:25832
+</span></span></code></pre></div><blockquote><p><code>ogr2ogr</code> è lo strumento di conversione dei
+dati vettoriali di GDAL, la libreria su cui poggia mezzo mondo
+geospaziale, QGIS compreso. Legge un formato e ne scrive un altro, DXF
+incluso, e lungo la strada può trasformare le coordinate. L&rsquo;opzione <code>-ct</code>
+accetta una pipeline PROJ e la applica a ogni geometria: qui
+<code>+proj=affine</code> esegue la trasformazione stimata, con i parametri da
+<code>s11</code> a <code>s22</code> che contengono rotazione e scala e <code>xoff</code>, <code>yoff</code> le due
+traslazioni. Da non confondere con <code>-a_srs</code>, che non trasforma nulla:
+dichiara soltanto il sistema di riferimento del file in uscita. Prima si
+trasformano le coordinate con <code>-ct</code>, poi si dichiara con <code>-a_srs</code> cosa
+sono diventate: è la stessa distinzione tra trasformare e dichiarare che
+attraversa tutto questo articolo.</p></blockquote><p>In QGIS la stessa cosa si fa con l&rsquo;algoritmo di trasformazione affine del
+processing.</p><p>C&rsquo;è poi il caso in cui i residui restano alti anche con una trasformazione
+ben stimata. Succede con i disegni internamente incoerenti: fogli
+digitalizzati dalla carta, mosaici di rilievi diversi incollati insieme,
+geometrie ritoccate a mano negli anni. Lì l&rsquo;affine non può funzionare,
+perché non esiste una trasformazione unica da stimare: ogni zona del
+disegno ha la sua. La tecnica per questi casi si chiama rubber sheeting: si
+distribuiscono molti punti di controllo e il disegno viene deformato
+localmente, come un foglio di gomma ancorato in più punti, interpolando la
+deformazione tra un punto e l&rsquo;altro. In QGIS lo fa il plugin Vector Bender,
+in AutoCAD Map 3D la funzione omonima. Va usato sapendo cosa state
+comprando: la posizione torna corretta sui punti di controllo, ma le forme
+tra un punto e l&rsquo;altro vengono piegate, e distanze e aree smettono di
+essere affidabili. È una tecnica di recupero per un disegno compromesso,
+non un modo per georeferenziarlo bene.</p><p>Il punto fermo, in ogni caso, è uno: <strong>prima si
+raggruppano i file per piano locale, poi si stima una trasformazione per
+gruppo, e i residui si guardano sempre.</strong> Applicare un&rsquo;unica trasformazione
+a tutti i file in blocco non elimina l&rsquo;errore: lo ripartisce. La stima si
+adatta alla media dei file, i più lontani dalla media restano fuori posto, e
+nessuno finisce esattamente dove deve stare.</p><h2 id="lavorare-in-locale-è-legittimo-consegnare-senza-aggancio-no">Lavorare in locale è legittimo, consegnare senza aggancio no</h2><p>Attenzione però a non rovesciare il problema: la colpa non è del sistema
+locale in sé. Alla scala dell&rsquo;oggetto il locale è lo strumento giusto. Una
+casa si progetta in metri veri, perché in cantiere le distanze devono essere
+quelle reali: sul piano UTM un lato di 100 metri misurato a terra può valere
+99.96, a seconda della posizione nel fuso e della quota, e quella
+contrazione, irrilevante per la cartografia, su una struttura è un errore.
+Nessuno progetta un edificio in coordinate proiettate, e fa bene.</p><p>Alla scala dell&rsquo;edificio, peraltro, collocare il progetto sul territorio è
+un problema risolto: su poche decine di metri il modulo di deformazione è
+praticamente costante, la trasformazione si riduce a una rototraslazione, e
+bastano poche coppie di punti misurati in entrambi i sistemi per posizionare
+il disegno senza ambiguità. Il progettista lavora in metri veri, chi riceve
+ha l&rsquo;aggancio.</p><p>Il discorso cambia quando il disegno copre chilometri. Un tracciato
+stradale, una condotta, una rete non sono più alla scala dell&rsquo;oggetto ma a
+quella del territorio, e a quella scala le deformazioni della proiezione non
+si possono ignorare: vanno gestite. È il lavoro per cui esistono il GIS e i
+CAD con un motore di coordinate, come AutoCAD Map 3D o Civil 3D. Il drift da
+150 metri con cui si apre questo articolo è il sintomo di uno strumento
+usato fuori dal suo campo: un CAD in piano locale trattato come se fosse un
+GIS.</p><p>Resta da capire come le coordinate proiettate arrivino in un disegno, ed è
+qui che si chiude il cerchio: non dichiarando un codice EPSG al software, ma
+dal rilievo. Un rilievo GNSS inquadrato nella rete nazionale restituisce
+punti già in ETRF2000 proiettato UTM, e si disegna appoggiandosi a quei
+punti. Un rilievo celerimetrico nasce locale e va inquadrato agganciando la
+poligonale a vertici di coordinate note, lasciando al software topografico
+il compito di applicare il modulo di deformazione. In entrambi i casi la
+regola è la stessa: in un sistema proiettato si disegna sui punti calcolati,
+mai riportando le distanze misurate. I punti del rilievo stanno sul piano
+proiettato, dove le distanze sono già passate per il modulo di deformazione;
+una distanza misurata a terra non coincide con la sua proiezione, e
+riportarla tra quei punti reintroduce nel disegno lo stesso errore di scala
+che si voleva eliminare.</p><h2 id="il-problema-non-è-tecnico-è-contrattuale">Il problema non è tecnico, è contrattuale</h2><p>Sistemare centinaia di file costa giorni di lavoro. Prevenirli costava
+qualche riga nel capitolato, e sono righe che impongono un metodo, non un
+software: alla scala del territorio, consegna in un sistema di riferimento
+dichiarato con codice EPSG; alla scala dell&rsquo;oggetto, disegno locale
+accompagnato dalle coordinate dei punti di controllo in entrambi i sistemi.
+Il CAD e il GIS continueranno a convivere, ciascuno alla propria scala, e il
+confine tra i due non si presidia a valle, quando i file vi sono già
+arrivati traslati: si presidia a monte, nel momento in cui si scrive cosa
+deve
+contenere una consegna. Tutto il resto è georeferenziazione a occhio, e
+l&rsquo;occhio, su un piano proiettato, non è lo strumento migliore: è come
+misurare i micron con il metro da sarto.</p></div></div><div class="col col-lg-8 offset-lg-2 mt-4"><div class="p-3 bg-light border-start border-4 border-success"><p class="mb-1"><strong><a class="link-success text-decoration-none" href="/">Eduard Roccatello</a></strong> - co-fondatore e CTO di <a class="link-success" href="https://www.3dgis.it">3DGIS</a>.</p><p class="mb-0">Da vent'anni mi occupo di geoinformatica, ingegneria del software e sicurezza
+delle informazioni. Per collaborazioni o segnalazioni:
+<a class="link-success" href="/#contacts">contatti</a>.</p></div></div><div class="article-widget col col-lg-8 offset-lg-2 mt-3"><div class="hr-light"></div><h3 class="text-secondary">Articoli correlati</h3><hr><ul><li><a class="link-success" href="/2023/01/tutorial-gdal-introduction/">A GDAL video introduction: installation and conversion basics</a></li><li><a class="link-success" href="/2022/02/gdal-translate-scale-raster-gis-data/">Scale GIS raster data using gdal_translate</a></li><li><a class="link-success" href="/2022/02/dark-maps-openstreetmap-qgis/">Create dark maps using OpenStreetMap and QGIS</a></li><li><a class="link-success" href="/2022/02/converting-gis-raster-data-formats-using-gdal/">Converting between GIS raster data formats using gdal_translate</a></li><li><a class="link-success" href="/2023/05/what-digital-twin-means/">What creating a Digital Twin really means</a></li></ul></div></div></article><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><footer class="bg-success text-light"><div class="container"><div class="row p-2 gy-2"><div class="col-12 col-md"><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="link-light">CC BY-SA 4.0 by Eduard Roccatello</a></div><div class="col-12 col-md text-md-end"><a href="#" data-cookie-preferences class="link-light me-3">Preferenze cookie</a>
+<a href="/privacy" class="link-light me-md-0">Privacy</a></div></div></div></footer><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><script src="/main.98f94718780e2b14eebaf5036cd48487c655698617f6b277f4272597e1d9910b.js"></script></body></html>
