@@ -76,15 +76,26 @@ gruppo. Lingua: inglese, il pubblico è internazionale.
 Stato: idea
 
 Le decisioni di design dietro Cityvu, raccontate dal suo lead software
-architect. Tre tagli possibili, probabilmente una serie e non un pezzo solo:
-l'architettura del viewer, la gestione dei dati urbani (tiling, livelli di
-dettaglio, formati), e come l'architettura è cambiata nel tempo, con quello
-che oggi si rifarebbe diversamente. Si collega all'idea sulla precisione in
-virgola mobile già in lista. Lingua: italiano per il taglio di design,
-inglese possibile per i pezzi più tecnici.
+architect. Quattro tagli possibili, probabilmente una serie e non un pezzo
+solo: "perché non Cesium" (le alternative valutate all'epoca - CesiumJS,
+iTowns, deck.gl - e cosa serviva che non c'era; le alternative come termini
+di paragone tecnici, non confronto a griglia da brochure), l'architettura
+del viewer, la gestione dei dati urbani (tiling, livelli di dettaglio,
+formati), e come l'architettura è cambiata nel tempo, con quello che oggi si
+rifarebbe diversamente. Il pezzo sul "perché non Cesium" è probabilmente il
+più forte della serie. Si collega all'idea sulla precisione in virgola
+mobile già in lista. Lingua: italiano per il taglio di design, inglese
+possibile per i pezzi più tecnici.
+
+Dal pezzo tecnico si deriva una versione commerciale per il sito 3DGIS, in
+quest'ordine e non il contrario: prima il blog, poi la riscrittura per il
+sito, due testi distinti con registri distinti, link incrociato tra i due.
+Se la versione commerciale nomina concorrenti, ogni affermazione su di loro
+deve essere verificabile.
 
 Da fare: buttare giù le decisioni chiave e i vicoli ciechi di ciascun taglio
-finché si ricorda il perché di ogni scelta.
+finché si ricorda il perché di ogni scelta: cosa è stato valutato all'epoca,
+cosa è stato scartato e perché, cosa oggi si rifarebbe.
 
 ## felib: progettare una libreria condivisa tra prodotti
 
@@ -92,9 +103,15 @@ Stato: idea
 
 felib è la libreria condivisa dei prodotti 3DGIS. Il tema è il design di una
 libreria interna che serve più prodotti: cosa ci entra e cosa no, come si fa
-evolvere senza rompere chi la usa, confini delle API e versioning. Anche
-questa è una serie, un pezzo per decisione di design. Tema trasversale che
-parla anche a chi non fa GIS. Lingua: italiano.
+evolvere senza rompere chi la usa, confini delle API e versioning. Il
+confronto qui non è con prodotti (non esistono "soluzioni simili" per una
+libreria interna) ma con gli approcci alternativi: copia-incolla tra
+prodotti, monorepo, pacchetti npm interni versionati, comporre solo librerie
+pubbliche. Il pezzo forte è "perché una libreria nostra invece di comporre
+librerie pubbliche". Anche questa è una serie, un pezzo per decisione di
+design. Tema trasversale che parla anche a chi non fa GIS. Lingua: italiano.
+Come per Cityvu, dal pezzo tecnico si può derivare una versione per il sito
+3DGIS (stesso ordine: prima il blog).
 
 Da fare: la voce va riempita con decisioni concrete ed errori reali, per ora
 è solo il perimetro.
