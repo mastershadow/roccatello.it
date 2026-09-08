@@ -20,7 +20,7 @@ motivo per cui il fix non basta. Lingua: italiano.
 
 ## Il drift dei file CAD georiferiti
 
-Stato: bozza (`georeferenziare-disegni-cad`, draft = true)
+Stato: pubblicato (2026-09-03, `georeferenziare-disegni-cad`)
 
 150 file DXF e DWG di corridoi stradali con uno scostamento di 86-150 metri tra
 QGIS e AutoCAD. Causa: geometrie in CRS locale arbitrario e ancora geo_rss

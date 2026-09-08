@@ -6,6 +6,7 @@ title = "La legge di Conway vale anche per gli agenti di intelligenza artificial
 slug = "legge-di-conway-agenti-intelligenza-artificiale"
 summary = "Ho aperto più sessioni di Claude Code in parallelo su una feature, una per componente, e il risultato era peggiore di quello che avrebbe fatto un agente solo, anche se ogni pezzo preso da solo era giusto. Il problema non stava nei modelli ma nell'organizzazione, e Conway lo aveva già descritto nel 1967. Vi racconto cosa è andato storto e come l'ho risolto con un documento di design condiviso e un agente di coordinamento."
 tags = ["ai", "agenti", "software", "ingegneria", "development"]
+ogimage = "img/og/legge-di-conway-agenti-intelligenza-artificiale.png"
 language = "it"
 +++
 
