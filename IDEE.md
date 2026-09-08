@@ -139,3 +139,20 @@ italiano.
 
 Da fare: elencare i temi della serie e per ciascuno l'esperienza concreta
 che lo regge.
+
+## Orchestrare agenti: quando serve e quando è solo overhead
+
+Stato: bozza (`legge-di-conway-agenti-intelligenza-artificiale`, draft = true)
+
+L'orchestrazione di agenti AI vista da chi la usa per lavorare, non da chi
+la vende: cosa cambia tra un agente solo e più agenti coordinati, i pattern
+che reggono (pipeline, distribuzione parallela con verifica, un agente che controlla il
+lavoro di un altro), i costi in token e in tempo, e i casi in cui la
+complessità in più non ripaga. Angolo poco battuto: il confine tra
+orchestrazione e semplice sequenza di prompt. Si collega all'idea sulle
+query in linguaggio naturale su PostGIS. Lingua: da decidere, il tema è
+internazionale ma il taglio esperienziale funziona bene anche in italiano.
+
+Da fare: elencare i casi reali di lavoro con più agenti e i vicoli ciechi,
+per esempio dove l'orchestrazione ha prodotto risultati peggiori del singolo
+agente.
