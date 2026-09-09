@@ -1,0 +1,110 @@
+<!doctype html><html lang="it"><head><title>La legge di Conway vale anche per gli agenti di intelligenza artificiale</title><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="generator" content="Eduard Roccatello"><meta name="generator" content="Hugo 0.164.0"><meta name="author" content="Eduard Roccatello"><meta name="description" content="Ho aperto più sessioni di Claude Code in parallelo su una feature, una per componente, e il risultato era peggiore di quello che avrebbe fatto un agente solo, anche se ogni pezzo preso da solo era giusto. Il problema non stava nei modelli ma nell&rsquo;organizzazione, e Conway lo aveva già descritto nel 1967. Vi racconto cosa è andato storto e come l&rsquo;ho risolto con un documento di design condiviso e un agente di coordinamento."><link rel="me" href="https://mas.to/@mastershadow"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:title" content="La legge di Conway vale anche per gli agenti di intelligenza artificiale"><meta property="og:site_name" content="Eduard Roccatello"><meta property="og:url" content="https://roccatello.it/2026/09/legge-di-conway-agenti-intelligenza-artificiale/"><meta property="og:description" content="Ho aperto più sessioni di Claude Code in parallelo su una feature, una per componente, e il risultato era peggiore di quello che avrebbe fatto un agente solo, anche se ogni pezzo preso da solo era giusto. Il problema non stava nei modelli ma nell&rsquo;organizzazione, e Conway lo aveva già descritto nel 1967. Vi racconto cosa è andato storto e come l&rsquo;ho risolto con un documento di design condiviso e un agente di coordinamento."><meta property="og:type" content="article"><meta property="og:image" content="https://roccatello.it/img/og/legge-di-conway-agenti-intelligenza-artificiale.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@edurocc"><meta name="twitter:title" content="La legge di Conway vale anche per gli agenti di intelligenza artificiale"><meta name="twitter:description" content="Ho aperto più sessioni di Claude Code in parallelo su una feature, una per componente, e il risultato era peggiore di quello che avrebbe fatto un agente solo, anche se ogni pezzo preso da solo era giusto. Il problema non stava nei modelli ma nell&rsquo;organizzazione, e Conway lo aveva già descritto nel 1967. Vi racconto cosa è andato storto e come l&rsquo;ho risolto con un documento di design condiviso e un agente di coordinamento."><meta name="twitter:image" content="https://roccatello.it/img/og/legge-di-conway-agenti-intelligenza-artificiale.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"La legge di Conway vale anche per gli agenti di intelligenza artificiale","description":"Ho aperto più sessioni di Claude Code in parallelo su una feature, una per componente, e il risultato era peggiore di quello che avrebbe fatto un agente solo, anche se ogni pezzo preso da solo era giusto. Il problema non stava nei modelli ma nell\u0026rsquo;organizzazione, e Conway lo aveva già descritto nel 1967. Vi racconto cosa è andato storto e come l\u0026rsquo;ho risolto con un documento di design condiviso e un agente di coordinamento.","url":"https://roccatello.it/2026/09/legge-di-conway-agenti-intelligenza-artificiale/","datePublished":"2026-09-09","dateModified":"2026-09-09","inLanguage":"it","image":"https://roccatello.it/img/og/legge-di-conway-agenti-intelligenza-artificiale.png","author":{"@type":"Person","name":"Eduard Roccatello","url":"https://roccatello.it/"}}</script><link href="/main.1f96f2c8882245a1de56d4f60b21ea490d692f7fb1c2fa877c79245cb2b44c6e.css" rel="stylesheet"></head><body><nav class="navbar navbar-dark fixed-top navbar-expand-lg" id="navbar-main"><div class="container"><a class="navbar-brand" href="/"><img src="/img/logo.svg" height="30" alt="Eduard Roccatello"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Attiva la navigazione">
+<span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/post"><span>Articoli</span></a></li><li class="nav-item"><a class="nav-link" href="/#mondogis"><span>Tales from the GIS</span></a></li><li class="nav-item"><a class="nav-link" href="/#aboutme"><span>Chi sono</span></a></li><li class="nav-item"><a class="nav-link" href="/#showcase"><span>Progetti</span></a></li><li class="nav-item"><a class="nav-link" href="/#contacts"><span>Contatti</span></a></li></ul></div></div></nav><article class="article" itemscope itemtype="http://schema.org/Article"><div class="container mt-5"><div class="row"><div class="col col-lg-8 offset-lg-2"><h1>La legge di Conway vale anche per gli agenti di intelligenza artificiale</h1><p class="lead text-muted">Ho aperto più sessioni di Claude Code in parallelo su una feature, una per componente, e il risultato era peggiore di quello che avrebbe fatto un agente solo, anche se ogni pezzo preso da solo era giusto. Il problema non stava nei modelli ma nell&rsquo;organizzazione, e Conway lo aveva già descritto nel 1967. Vi racconto cosa è andato storto e come l&rsquo;ho risolto con un documento di design condiviso e un agente di coordinamento.</p><div class="d-flex justify-content-between align-items-center text-muted border-bottom pb-3"><div class="article-metadata"><span itemscope itemprop="author" itemtype="http://schema.org/Person"><meta itemprop="name" content="Eduard Roccatello"></span><span class="article-date"><meta content="2026-09-09 00:00:00 +0000 UTC" itemprop="datePublished"><time datetime="2026-09-09 00:00:00 +0000 UTC" itemprop="dateModified"><i class="fa fa-calendar fa-fw mr-1"></i>2026-09-09
+</time></span><span itemscope itemprop="publisher" itemtype="http://schema.org/Person"><meta itemprop="name" content="Eduard Roccatello"></span><span class="middot-divider"></span>
+<span class="article-reading-time"><i class="fa fa-clock fa-fw mr-1"></i>7 min di lettura</span></div><div class="share-box" aria-hidden="true"><ul class="share list-inline m-0"><li class="list-inline-item"><a class="facebook link-success" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2froccatello.it%2f2026%2f09%2flegge-di-conway-agenti-intelligenza-artificiale%2f" target="_blank" rel="noopener"><i class="fab fa-fw fa-facebook-f"></i></a></li><li class="list-inline-item"><a class="linkedin link-success" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2froccatello.it%2f2026%2f09%2flegge-di-conway-agenti-intelligenza-artificiale%2f&amp;title=La%20legge%20di%20Conway%20vale%20anche%20per%20gli%20agenti%20di%20intelligenza%20artificiale" target="_blank" rel="noopener"><i class="fab fa-fw fa-linkedin-in"></i></a></li><li class="list-inline-item"><a class="email link-success" href="mailto:?subject=La%20legge%20di%20Conway%20vale%20anche%20per%20gli%20agenti%20di%20intelligenza%20artificiale&amp;body=https%3a%2f%2froccatello.it%2f2026%2f09%2flegge-di-conway-agenti-intelligenza-artificiale%2f"><i class="fas fa-fw fa-envelope"></i></a></li></ul></div></div></div></div></div><div class="container pb-5 mb-4"><div class="article-style row pt-4" itemprop="articleBody"><div class="col col-lg-8 offset-lg-2"><p>Spesso si parla dell&rsquo;orchestrazione degli agenti LLM come se fosse un problema appena emerso. In realtà il coordinamento di team è il problema più vecchio
+dell&rsquo;ingegneria del software, cioè come si spezza un lavoro tra più teste
+senza che nel risultato finale si veda dove è stato spezzato. La differenza è che
+adesso le teste sono modelli e non persone.</p><p>Due parole sui termini, prima di andare avanti. I modelli linguistici di
+grandi dimensioni, gli LLM, sono i sistemi di intelligenza artificiale che
+stanno dietro a strumenti come ChatGPT e Claude: ricevono un testo e
+producono un testo. Un agente è un LLM a cui sono stati dati degli
+strumenti e un obiettivo: può leggere e scrivere file, eseguire comandi,
+consultare la documentazione, e ripete il ciclo di ragionamento e azione
+finché non ritiene di aver finito. Claude Code, lo strumento di cui parlo
+in questo articolo, è un agente di questo tipo che lavora direttamente
+dentro un repository di codice.</p><p>Orchestrare agenti significa far lavorare più agenti sullo stesso
+obiettivo, ciascuno con un compito, e mettere insieme i risultati. È il
+passo che si fa quando un compito è troppo grande per il contesto di un
+agente solo, o quando si vuole fare in parallelo quello che in sequenza
+richiederebbe ore. Ed è il passo in cui si ripresentano problemi vecchi.</p><p>Vi racconto la mia esperienza con uno dei progetti al quale sto lavorando e sul quale ho voluto condurre degli esperimenti con gli LLM. Con Claude Code ho fatto quello che sembrava naturale: ho aperto N sessioni e ho assegnato in ciascuna un compito, per poi ricomporre il tutto alla fine. Il risultato è arrivato in fretta e,
+preso pezzo per pezzo, era anche corretto: ogni agente aveva fatto
+esattamente quello che gli era stato chiesto. Preso nel suo insieme, però,
+era peggiore di quello che un agente solo, con tutto il contesto a
+disposizione, avrebbe prodotto impiegandoci magari il doppio del tempo.</p><h2 id="ogni-risultato-era-corretto-ma-anche-sbagliato">Ogni risultato era corretto, ma anche sbagliato</h2><p>Nessuno degli agenti ha sbagliato il proprio compito. È questo il dettaglio
+che rende il caso interessante, perché <strong>il problema non stava dentro i
+compiti ma tra un compito e l&rsquo;altro</strong>. Lo stesso concetto era stato chiamato
+in tre modi diversi in tre componenti diverse, due agenti avevano risolto lo
+stesso problema di validazione ciascuno a modo loro (entrambi in modo
+ragionevole, va detto), e l&rsquo;interfaccia che uno esponeva non era quella che
+l&rsquo;altro si aspettava di consumare. La ricomposizione, che sulla carta doveva
+essere una formalità di dieci minuti, è diventata il lavoro vero della
+giornata.</p><p>Se la stessa cosa fosse successa con sviluppatori junior chiusi in stanze diverse senza potersi parlare,
+nessuno si sarebbe stupito più di tanto. Sarebbe stato quello che succede normalmente nelle aziende.</p><p>Ci saremmo detti che l&rsquo;errore era
+organizzativo prima ancora che tecnico. Con gli agenti invece la prima
+reazione, quasi istintiva, è dare la colpa al modello, come se il problema
+stesse nella qualità delle singole risposte. Ma le singole risposte erano
+buone. Quello che mancava era qualcuno che guardasse l&rsquo;insieme.</p><h2 id="conway-aveva-descritto-questo-fenomeno-nel-1967">Conway aveva descritto questo fenomeno nel 1967</h2><p>Melvin Conway era un programmatore che nel 1967 scrisse un articolo
+intitolato &ldquo;How Do Committees Invent?&rdquo;, pubblicato su Datamation l&rsquo;anno
+dopo. Osservava una cosa che chiunque abbia lavorato in
+un&rsquo;organizzazione grande riconosce al volo: <strong>le aziende che
+progettano sistemi sono costrette a produrre progetti che sono copie della
+loro struttura di comunicazione</strong>.</p><p>Il motivo per cui la legge funziona è quasi banale. Perché due
+moduli si parlino bene, le persone che li scrivono devono parlarsi, dato che
+un&rsquo;interfaccia è prima di tutto un accordo tra chi sta ai due lati. Dove
+quell&rsquo;accordo non c&rsquo;è, perché i due gruppi non comunicano o comunicano male,
+l&rsquo;interfaccia viene fuori come può, cioè male. Quindi se avete tre team che
+non si parlano vi ritroverete tre sottosistemi che non si parlano, con le
+interfacce peggiori esattamente nei punti in cui passano i confini tra i
+team. È un&rsquo;osservazione di quasi sessant&rsquo;anni fa e nel frattempo non ha
+smesso di valere nemmeno per un giorno, al punto che oggi la si usa al
+contrario, disegnando prima i team nella forma che si vuole dare al
+software.</p><p>Agenti lanciati in parallelo sono a tutti gli effetti
+un&rsquo;organizzazione, e non hanno una struttura di comunicazione.
+Ognuno riceve il suo brief, lavora nel suo contesto e
+consegna, senza sapere che cosa stiano facendo gli altri. Il software
+che ne esce rispecchia questa struttura alla lettera, coerente dentro ogni
+componente e incoerente sulle interfacce.
+Dove non esisteva un contratto ogni agente si è arrangiato come poteva.</p><h2 id="ho-spezzato-il-lavoro-lungo-i-confini-che-esistevano-già">Ho spezzato il lavoro lungo i confini che esistevano già</h2><p>La correzione non è stata rinunciare al parallelismo, che resta il motivo
+per cui gli agenti convengono, ma rimettere i confini dove il sistema li
+aveva già. Un modulo, un servizio, uno strato con un&rsquo;interfaccia esistente
+verso il resto: quella è una parte che un agente può gestire per intero,
+dato che il contratto con gli altri esiste prima che lui cominci e non deve
+inventarlo strada facendo.</p><p>La tecnica, in concreto, è questa. Prima di aprire qualunque sessione si
+scrive un documento di design condiviso, in cui le componenti sono elencate
+e tutte le interfacce tra loro sono già definite: cosa espone ciascuna
+parte, cosa consuma, con quali nomi e in quale forma. Ogni sessione riceve
+il documento insieme al proprio compito, e <strong>il documento è il contratto</strong>.</p><p>La seconda regola è che <strong>le decisioni non coperte dal documento non si
+prendono sul posto</strong>. Se un agente incontra una scelta che tocca un&rsquo;interfaccia
+o che gli altri dovrebbero conoscere, non decide da solo: si ferma e la
+riporta indietro. La decisione viene presa a livello di coordinamento, il
+documento viene aggiornato e l&rsquo;aggiornamento arriva a tutte le sessioni.
+È esattamente la struttura di comunicazione che nel primo tentativo
+mancava.</p><p>Per far funzionare le due regole serve un agente di coordinamento, con un
+compito solo: tenere il documento di design, spezzare il lavoro e
+distribuirlo, ricevere le domande delle altre sessioni, decidere, aggiornare
+il documento e alla fine controllare che i pezzi si incastrino. Le sessioni
+che lavorano sulle componenti non si parlano tra loro; parlano tutte con
+lui.</p><p>La somiglianza con la gestione dei progetti non è casuale. Chi ha lavorato
+su una commessa con un progetto vero, scritto prima e fatto bene, sa come
+vanno le cose: le persone possono lavorare in parallelo perché ognuna sa
+cosa deve produrre e cosa riceverà dagli altri, e le riunioni servono a
+verificare, non a decidere. Dove invece il progetto non c&rsquo;è, o c&rsquo;è solo per
+formalità, le cose si inventano al momento. Ogni gruppo decide per sé, le
+decisioni degli altri si scoprono quando i pezzi devono incastrarsi, e il
+tempo risparmiato all&rsquo;inizio viene perso alla fine, con gli interessi.</p><p>Con gli agenti succede la stessa cosa. Il documento di design condiviso è il
+progetto, e l&rsquo;agente di coordinamento è chi lo fa rispettare; una
+distribuzione delle attività con un compito per sessione e nessun documento
+corrisponde a un cantiere dove si decide sul posto, con la differenza che
+il problema si vede nel giro di ore invece che di mesi.</p><h2 id="serve-qualcuno-che-tenga-linsieme">Serve qualcuno che tenga l&rsquo;insieme</h2><p>In un team questo ruolo è la somma di due figure, di solito distinte ma nelle piccole realtà spesso uniche. Il product owner, che decide cosa entra nel prodotto e accetta o
+respinge quello che viene consegnato, ed è quindi la persona a cui tornano
+le decisioni che le sessioni riportano indietro. E il project manager, che
+tiene in testa l&rsquo;insieme, fa in modo che i contratti siano scritti prima
+che si cominci e controlla i punti di raccordo dopo. Con gli agenti la
+coincidenza delle due figure è la norma. Il ruolo non sparisce, cambia
+soltanto chi lo ricopre: può essere l&rsquo;agente di coordinamento, oppure potete essere voi,
+che è quello che faccio più spesso. <strong>Quello che non può succedere è che il ruolo
+resti vuoto</strong>, perché per la legge di Conway quel vuoto si ritrova poi nel
+codice. Nel mio primo tentativo ogni sessione aveva il proprio brief e
+nessuno aveva il brief dell&rsquo;insieme.</p><p>Rifatta così, con il documento di design scritto prima e un agente di
+coordinamento sopra, la stessa feature è uscita coerente e il merge è tornato ad
+essere la formalità che doveva essere fin dall&rsquo;inizio.</p><p>Gli strumenti sono nuovi ma le capacità necessarie sono le stesse di
+sempre. Chi sa spezzare il lavoro in un team lo sa spezzare anche tra
+agenti, dato che il ragionamento è identico: prima i confini e i contratti,
+poi le persone, o i processi, che ci lavorano dentro. Chi non lo sa fare
+otterrà lo stesso risultato di sempre, solo più in fretta, perché gli
+errori di organizzazione che prima impiegavano settimane a manifestarsi
+adesso si vedono in poche ore.</p></div></div><div class="col col-lg-8 offset-lg-2 mt-4"><div class="p-3 bg-light border-start border-4 border-success"><p class="mb-1"><strong><a class="link-success text-decoration-none" href="/">Eduard Roccatello</a></strong> - co-fondatore e CTO di <a class="link-success" href="https://www.3dgis.it">3DGIS</a>.</p><p class="mb-0">Da vent'anni mi occupo di geoinformatica, ingegneria del software e sicurezza
+delle informazioni. Per collaborazioni o segnalazioni:
+<a class="link-success" href="/#contacts">contatti</a>.</p></div></div><div class="article-widget col col-lg-8 offset-lg-2 mt-3"><div class="hr-light"></div><h3 class="text-secondary">Articoli correlati</h3><hr><ul><li><a class="link-success" href="/2019/06/5-fallacie-logiche-sviluppo-software-project-management/">5 fallacie logiche che affliggono lo sviluppo software e il project management nell'ICT</a></li><li><a class="link-success" href="/2022/10/computational-thinking/">Computational thinking</a></li><li><a class="link-success" href="/2022/09/bugfixing-and-refactoring/">You should never fix bugs and do code refactoring at the same time</a></li><li><a class="link-success" href="/2022/08/senior-developer-tips/">Six software development tips from a senior software engineer</a></li></ul></div></div></article><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><footer class="bg-success text-light"><div class="container"><div class="row p-2 gy-2"><div class="col-12 col-md"><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="link-light">CC BY-SA 4.0 by Eduard Roccatello</a></div><div class="col-12 col-md text-md-end"><a href="#" data-cookie-preferences class="link-light me-3">Preferenze cookie</a>
+<a href="/privacy" class="link-light me-md-0">Privacy</a></div></div></div></footer><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><script src="/main.98f94718780e2b14eebaf5036cd48487c655698617f6b277f4272597e1d9910b.js"></script></body></html>
