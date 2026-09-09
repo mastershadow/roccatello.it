@@ -118,16 +118,48 @@ Da fare: la voce va riempita con decisioni concrete ed errori reali, per ora
 
 ## carto.bi: dove il GIS incontra la business intelligence
 
-Stato: idea
+Stato: serie aperta, primo pezzo in bozza
 
-Il design di un prodotto di location intelligence, su tre livelli: le scelte
-architetturali per far convivere dati spaziali e BI, la pipeline dei dati
-(aggregazioni, PostGIS, multi-tenancy), e il design del prodotto per clienti
-reali. Anche questa è una serie, un pezzo per livello o per decisione.
-Lingua: italiano.
+Il design di carto.bi, la piattaforma di city intelligence di 3DGIS,
+raccontato per decisioni e non per livelli: ogni pezzo sta in piedi da solo e
+la serie non ha bisogno di essere completata. Il materiale di prima mano c'è
+(documenti di design, ADR e codice). Due vincoli validi per tutta la serie: il
+prodotto non è ancora in produzione, quindi si racconta la decisione presa e
+non il consuntivo, e il nome carto.bi si cita mentre clienti e città della
+prima installazione no. Lingua: italiano.
 
-Da fare: come per felib, servono le decisioni e i vicoli ciechi di prima
-mano.
+I pezzi individuati:
+
+1. Redis in un'architettura share nothing. Stato: bozza
+   (`redis-architettura-share-nothing`, draft = true). Tesi: in share nothing
+   un componente infrastrutturale non costa una volta, costa una volta per
+   cliente, e da lì discende la coda dei task come tabella Postgres. Include la
+   soglia numerica alla quale la decisione va revocata.
+2. I vicoli ciechi della coda su Postgres. Stato: idea. Lease più corto del
+   tempo che un task può legittimamente impiegare, il task immortale perché la
+   ripresa non contava il tentativo, i due orologi, l'upsert latest-wins che
+   cancella la propria impronta, il job di housekeeping che ferma
+   l'accodamento. Tesi: la ragione per isolare è il raggio e non la gravità, e
+   isolare senza allarme scambia un guasto rumoroso con una crescita
+   silenziosa.
+3. Privilegi per ruolo con PgBouncer in transaction mode. Stato: idea.
+   `server_reset_query` che non gira di default, `SET LOCAL ROLE` invece di
+   `SET ROLE`, e l'harness end to end che gira da superuser e nasconde i grant
+   mancanti per sette settimane con i test verdi. Non ha niente di
+   geospaziale, quindi è il pezzo della serie con il pubblico più largo.
+4. Share nothing come requisito e non come ottimizzazione. Stato: idea.
+   Isolamento fra clienti, residenza dei dati, identità delegata a un provider
+   OIDC. Si lega alle idee sui log dell'Amministratore di Sistema e sulla ISO
+   27001.
+
+Restano candidati i due livelli della voce originale che qui non compaiono, la
+pipeline dei dati (aggregazioni, PostGIS) e il design di prodotto: vanno
+riempiti con decisioni concrete prima di diventare pezzi.
+
+Da valutare come voce a sé, perché non riguarda solo carto.bi: la divergenza
+fra documento di design e codice (il polling dichiarato a 10 secondi che nel
+codice è 1, lo scheduler proprio al posto di quello raccomandato) e cosa la
+produce.
 
 ## carto.app: il design di un'app di rilievo sul campo
 
