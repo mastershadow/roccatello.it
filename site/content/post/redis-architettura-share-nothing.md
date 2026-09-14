@@ -243,5 +243,5 @@ Nell'implementazione inoltre abbiamo avuto la nostra dose di problemi, e questa 
 * Due orologi leggermente diversi, quello del worker e quello del database, e righe scritte che diventano invisibili per lo sfasamento fra i due orologi.
 * E molti altri problemini...
 
-**Nessuno di questi è "Postgres come coda non regge".** Sono problemi di lease, di orologi, di privilegi e di ruoli, cioè esattamente quelli che avremmo avuto anche con un broker vero.
+**Nessuno di questi è "Postgres come coda non regge".** Sono problemi di lease, di tempi non allineati, di privilegi e di ruoli, cioè esattamente quelli che avremmo avuto anche con un broker vero.
 Se non altro in questo caso per vedere i task accodati bastava una query.
