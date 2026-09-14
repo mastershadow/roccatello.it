@@ -118,7 +118,7 @@ Da fare: la voce va riempita con decisioni concrete ed errori reali, per ora
 
 ## carto.bi: dove il GIS incontra la business intelligence
 
-Stato: serie aperta, primo pezzo in bozza
+Stato: serie aperta, primo pezzo programmato per il 2026-09-14
 
 Il design di carto.bi, la piattaforma di city intelligence di 3DGIS,
 raccontato per decisioni e non per livelli: ogni pezzo sta in piedi da solo e
@@ -130,8 +130,8 @@ prima installazione no. Lingua: italiano.
 
 I pezzi individuati:
 
-1. Redis in un'architettura share nothing. Stato: bozza
-   (`redis-architettura-share-nothing`, draft = true). Tesi: in share nothing
+1. Redis in un'architettura share nothing. Stato: programmato (2026-09-14,
+   `redis-architettura-share-nothing`). Tesi: in share nothing
    un componente infrastrutturale non costa una volta, costa una volta per
    cliente, e da lì discende la coda dei task come tabella Postgres. Include la
    soglia numerica alla quale la decisione va revocata.
@@ -163,15 +163,52 @@ produce.
 
 ## carto.app: il design di un'app di rilievo sul campo
 
-Stato: idea
+Stato: serie aperta, primo pezzo accantonato
 
 Il design di carto.app, l'app Android per i rilievi sul campo di 3DGIS,
 come serie: le decisioni di design di un'applicazione che deve funzionare
 in campagna, dove la connettività va e viene e i dati raccolti non si
 possono perdere. Lingua: italiano.
 
-Da fare: elencare i pezzi della serie e le decisioni concrete di prima
-mano.
+Il post del 2022 (`behind-carto-app-technical-review`, in inglese) è una
+panoramica e si chiude con due domande senza risposta: cosa succede quando si
+aggiorna o si clona un elemento remoto, e come si disegnano cento layer raster
+con un frame rate ragionevole. I pezzi della serie partono da lì e lo linkano.
+
+I pezzi individuati:
+
+1. Il rendering sulla CPU. Stato: accantonato il 2026-09-10 (bozza
+   `carto-app-mappe-cpu` lasciata con draft = true e tre segnaposto). Né la
+   versione descrittiva della pipeline né quella raccontata come storia delle
+   riscritture hanno convinto Eduard. Risponde
+   alla seconda domanda del 2022: in un'installazione tipica i layer accesi
+   sono una ventina. Tesi da rivedere: il render differito è nato nel giugno
+   2019 insieme al canvas accelerato in hardware, quindi non è una conseguenza
+   del disegno sulla CPU. Storia verificata su git: nel 2017 tutti i layer a
+   ogni frame su SurfaceView con canvas software; nel 2019 doppio buffer,
+   render differito, deferred e realtime, lockHardwareCanvas; nell'ottobre 2020
+   TextureView, prima con canvas hardware e dopo due settimane con lockCanvas
+   software; OpenGL mai usato. Materiale: appunti sul motore in mf-lib,
+   diagramma della pipeline, verifiche sul repo. Aperti: perché si è tornati
+   al canvas software, il motivo del backoff introdotto a marzo 2026, la
+   chiusura e se nominare Cityvu mobile, il titolo.
+2. Le proiezioni nazionali su mobile. Stato: idea. OSM in EPSG:3857 sotto dati
+   in EPSG:25832, riproiezione di ogni tile con una mesh 9x9 passando per
+   WGS84, mesh vecchia usata finché quella nuova non è pronta, valori assoluti
+   in double e solo le differenze in float. Con lo sfondo Google Maps
+   abilitato tutto passa in EPSG:3857, riproiettato al volo. Il pezzo più
+   mirato al pubblico PA.
+   Si lega all'idea sulla precisione in virgola mobile. Serve
+   `slippymap-reprojection.md`.
+3. Il modello a campagne. Stato: idea. Offline first, merge con il remoto,
+   validazione prima di andare live, conflitti, cloni e cancellazioni. Risponde
+   alla prima domanda del 2022 ed è il più leggibile da un cliente PA.
+4. La Spatialite modificata per Room. Stato: idea. La scelta, le alternative
+   (GeoPackage, SQLite con WKB), il costo di manutenzione.
+5. Il linear referencing e il rilievo della segnaletica. Stato: idea. Il più di
+   nicchia, parla a chi gestisce strade.
+
+Da fare: materiale di prima mano per i pezzi 3, 4 e 5.
 
 ## La ISO 27001 vista da chi se la gestisce davvero
 
@@ -191,7 +228,7 @@ che lo regge.
 
 ## Orchestrare agenti: quando serve e quando è solo overhead
 
-Stato: bozza (`legge-di-conway-agenti-intelligenza-artificiale`, draft = true)
+Stato: pubblicato (2026-09-09, `legge-di-conway-agenti-intelligenza-artificiale`)
 
 L'orchestrazione di agenti AI vista da chi la usa per lavorare, non da chi
 la vende: cosa cambia tra un agente solo e più agenti coordinati, i pattern
@@ -205,3 +242,39 @@ internazionale ma il taglio esperienziale funziona bene anche in italiano.
 Da fare: elencare i casi reali di lavoro con più agenti e i vicoli ciechi,
 per esempio dove l'orchestrazione ha prodotto risultati peggiori del singolo
 agente.
+
+## Il heartbeat di Icinga 2 verso ilert, e il 404 che non era la chiave
+
+Stato: bozza (`icinga-ilert-heartbeat`, draft = true)
+
+Un dead man's switch per accorgersi che Icinga si è fermato: un servizio che
+pinga a intervalli regolari un heartbeat monitor di ilert, realizzato con
+`check_http` e configurato interamente da Director, senza toccare l'immagine
+del container.
+
+Il vicolo cieco è il 404. Nella ITL di Icinga `http_address` diventa `-I`,
+cioè l'indirizzo a cui aprire la connessione, e `http_vhost` diventa `-H`,
+cioè l'header `Host`. Configurando solo il primo, la richiesta parte senza
+`Host` e con la SNI vuota, e un endpoint dietro CDN risponde 404. Una chiave
+sbagliata avrebbe risposto 400, quindi il codice di errore diceva già che il
+problema non era la chiave.
+
+Le due code allargano il pezzo e valgono più della configurazione. Il
+heartbeat dice che lo scheduler gira e che l'uscita HTTPS funziona, non che
+il monitoraggio funzioni, e in una zona master a due nodi dice solo che uno
+dei due è vivo. La integration key è una credenziale che permette a chi la
+possiede di tenere vivo il heartbeat mentre Icinga è fermo, cioè esattamente
+il guasto che il monitor dovrebbe intercettare.
+
+Si lega al pezzo su Nginx e Tomcat: anche lì due componenti non erano
+d'accordo sul significato della stessa cosa. Lingua: italiano.
+
+Contesto chiarito il 2026-09-14: infrastruttura interna 3DGIS, nominabile.
+ilert scelto perché fornitore europeo e certificato. Master singolo, quindi la
+sezione sul cluster HA della nota operativa non entra nel pezzo. Il check più
+profondo su `/v1/status` non è implementato ed è in programma, quindi si cita
+come passo successivo. Sospetti prima della soluzione: la integration key e il
+CDN davanti a ilert.
+
+Da fare: generare la card OG; decidere la data di pubblicazione; verificare
+quale certificazione di ilert citare, se si vuole essere espliciti.

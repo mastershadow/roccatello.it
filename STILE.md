@@ -133,3 +133,55 @@ Aggiornare a ogni articolo.
 Da tenere d'occhio nei prossimi pezzi: tende a **chiudere sull'ultima nota
 tecnica** invece che con la stoccata personale prevista dal profilo. Se si
 ripete, non è una svista ma un'evoluzione della voce, e va scritto qui.
+Aggiornamento: sul pezzo Icinga/ilert ha fatto il contrario, chiudendo con un
+modo di dire. Quindi la chiusa tecnica non è una regola, è il caso in cui non
+gli è venuta la battuta.
+
+**Icinga/ilert, settembre 2026** - la revisione più pesante finora, il pezzo si
+è accorciato di circa un terzo:
+
+- **Taglia tutto quello che non serve a rifare la cosa.** Via le chiavi legacy
+  `ih2:`, `http_expect`, lo stato "Waiting for first ping", il conto dei cinque
+  ping persi, e soprattutto le due sezioni che io consideravo il valore del
+  pezzo: la catena delle notifiche che il ping non attraversa e la integration
+  key come credenziale con cui si può simulare il guasto. **Un articolo dice
+  una cosa sola**, e le implicazioni interessanti che non sono quella cosa
+  vanno tagliate, non aggiunte in coda. Conferma e allarga il taglio delle
+  cautele già visto sui pezzi carto.bi.
+- **Elimina la tesi finale in grassetto e chiude con un modo di dire**: "Un
+  dead man's switch vale quanto la catena di cose da cui dipende il ping" →
+  "Come si dice? L'importante è cominciare e migliorarsi un po' alla volta".
+  Conferma che la sua ironia è colloquiale e la mia epigrammatica, e che le
+  chiuse sentenziose non passano mai.
+- **Il racconto dell'errore è auto-ironico ed enfatico, non analitico.** "Il
+  sospetto è andato subito alla chiave, che è la cosa più facile da sbagliare"
+  → "Ecco che abbiamo sbagliato la chiave!!!", e "il secondo sospetto" →
+  "il secondo capro espiatorio". I punti esclamativi multipli restano, anche
+  se emoji e maiuscole urlate sono superate.
+- **Riordina in ordine cronologico vissuto, non didattico.** Ha spostato la
+  prova manuale dopo la soluzione dichiarandola flashback ("Prima di capire
+  effettivamente il problema ho provato ad eseguire nel container"), invece di
+  presentarla come verifica finale.
+- **Declassa il vicolo cieco invece di promuoverlo**: "## Il 404" → "## Un
+  caveat legato a SNI: un 404 inaspettato". Lo tiene, non ne fa la tesi. Vale
+  anche il contrario di quanto pensassi: nomina la causa nel titolo, ma sceglie
+  SNI e non l'header `Host`.
+- **Titoli di sezione con il sostantivo esplicito**: "Cosa dice davvero questo
+  heartbeat" → "Lo scopo dell'heartbeat". Conferma il rifiuto dei titoli
+  interrogativi o allusivi miei.
+- **Sostituisce le glosse che anticipano l'obiezione con affermazioni
+  compatte**: "sono domande che arrivano comunque" → "sono importanti"; "Le
+  notifiche sono disattivate e non è una dimenticanza" → "disattivate per
+  scelta operativa". Non spiega al lettore perché una scelta non è un errore.
+- **Gergo corrente al posto della perifrasi**: "se la macchina muore" →
+  "crasha", "se il traffico in uscita non passa più" → "se il traffico non
+  esce".
+- **Prima persona singolare nel debugging** ("ho provato ad eseguire"), noi per
+  le scelte di infrastruttura ("abbiamo impostato"). Conferma il profilo.
+- **Elide l'articolo**: scrive `l'heartbeat` e `dell'heartbeat`, non
+  "il heartbeat". Usa **la CDN** al femminile.
+- **Il summary del front matter è un gancio, non un sommario**: "Un heartbeat
+  verso ilert risolve il problema, dopo aver capito perché rispondeva 404" →
+  "Un heartbeat verso un sistema di monitoraggio esterno ci salva la vita".
+  Non anticipa il contenuto tecnico e non nomina il fornitore.
+- Non rimpagina a 80 colonne, come già visto: le sue righe restano lunghe.
