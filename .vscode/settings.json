@@ -1,4 +1,5 @@
 {
   "npm-scripts.showStartNotification": false,
-  "chat.fontSize": 18
+  "chat.fontSize": 18,
+  "editor.fontSize": 16
 }

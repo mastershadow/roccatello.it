@@ -185,3 +185,79 @@ gli è venuta la battuta.
   "Un heartbeat verso un sistema di monitoraggio esterno ci salva la vita".
   Non anticipa il contenuto tecnico e non nomina il fornitore.
 - Non rimpagina a 80 colonne, come già visto: le sue righe restano lunghe.
+
+**Conway/agenti, settembre 2026** - terzo giro di revisione dello stesso
+pezzo, il primo in cui Eduard ha nominato esplicitamente il problema: "molti
+avverbi che tu tendi ad usare ma che non sono parte del mio linguaggio".
+Confronto parola per parola con la versione precedente.
+
+- **Niente naturalizzatori e intensificatori.** Sono spariti tutti, senza
+  sostituto: "ho fatto quello che sembrava naturale" → "Ho iniziato aprendo";
+  "il passo che si fa quando" → "una scelta utile quando"; "riconosce al
+  volo" → "riconosce immediatamente"; "il motivo per cui la legge funziona è
+  quasi banale" eliminato; "entrambi in modo ragionevole, va detto"
+  eliminato; "è questo il dettaglio che rende il caso interessante"
+  eliminato. La famiglia da non usare: davvero, naturale, il passo naturale,
+  ovvio, banale, proprio, al volo, va detto, esattamente come rafforzativo.
+  Gli avverbi che invece scrive lui sono epistemici, non enfatici:
+  "probabilmente", "sostanzialmente", "fortunatamente", "ultimamente".
+- **Niente metadiscorso.** "Due parole sui termini, prima di andare avanti"
+  e "lo strumento di cui parlo in questo articolo" eliminati: non commenta
+  il testo che sta scrivendo, entra nel merito ("Ultimamente uso Claude
+  Code").
+- **Niente drammatizzazione narrativa.** "Sulla carta doveva essere una
+  formalità di dieci minuti, è diventata il lavoro vero della giornata" →
+  "era sostanzialmente possibile solo dopo una grande revisione"; "era
+  peggiore di quello che un agente solo avrebbe prodotto" → "non funzionava
+  nulla". Dice il fatto, non lo mette in scena. E dichiara subito la
+  portata: "Fortunatamente stavo solo lavorando ad un prototipo".
+- **Non ripete l'analogia dopo averla fatta.** Ha tagliato per intero il
+  paragrafo-specchio ("Con gli agenti succede la stessa cosa. Il documento è
+  il progetto, l'agente è chi lo fa rispettare...") e la frase di ricapitolo
+  a fine sezione ("Dove non esisteva un contratto ogni agente si è
+  arrangiato come poteva"). Il parallelo lo tira il lettore.
+- **Taglia l'elaborazione dopo il punto.** "Tre sottosistemi che non si
+  parlano, con le interfacce peggiori esattamente nei punti in cui passano i
+  confini tra i team" → "tre sottosistemi che non si parlano." Quando la
+  frase ha già detto la cosa, la coda esplicativa salta.
+- **Le frasi corte gli vanno bene se sono fatti o regole, non massime.**
+  Dopo aver bocciato le mie frasi brevi ("non credo di usare frasi così
+  corte") ne ha scritte molte: "Ora il prototipo funziona.", "Le sessioni
+  che lavorano sulle componenti non si parlano. Mai.", "Quindi? Cosa
+  facciamo?". La differenza è nel contenuto: le sue sono constatazioni,
+  regole operative o domande-cerniera; le mie erano sentenze. Quindi la
+  regola non è sulla lunghezza, è sul non chiudere con un'epigramma.
+- **Le domande retoriche come cerniere sono tornate** ("come si spezza un
+  lavoro... senza che si veda come è stato suddiviso?", "Quindi? Cosa
+  facciamo?", titolo "Chi guida il progetto?"). Conferma il profilo storico
+  che nelle mie bozze non applicavo.
+- **L'ironia sua è nel lessico concreto**: "bruciando più token", "un
+  contratto di ferro", "il secondo capro espiatorio" nel pezzo precedente.
+  Modi di dire e gergo, mai battute costruite.
+- **Il risultato concreto sostituisce la metafora**: "viene perso alla fine,
+  con gli interessi" → "con l'ennesima consegna mancata".
+- **L'autorità che giudica è una figura tipica, non un lettore fittizio**:
+  "Ci saremmo detti che l'errore era organizzativo" → "Un buon coach avrebbe
+  detto che l'errore era organizzativo". Non contraddice il divieto di
+  interlocutori immaginari: il coach è un ruolo, non un'obiezione messa in
+  bocca a qualcuno.
+- **Lessico di ruolo più preciso quando parla di organizzazione**: "vuoto" →
+  "vacante", "contratti" → "specifiche" (per il PM), "tornano" →
+  "spettano", "riportano indietro" → "sottopongono". Colloquiale nel
+  racconto, preciso nelle definizioni.
+- **Chiusa col tu, come da profilo storico**: "Quello che dico sempre: l'AI
+  mette a leva le tue capacità. Sia nel bene che nel male." Unico punto del
+  pezzo in cui dà del tu, e arriva dopo la mia chiusa, che ha lasciato ma
+  declassato a penultimo paragrafo. Conferma che la stoccata finale è sua
+  e non va scritta al posto suo.
+- **Titoli di sezione corti e impersonali**, anche quando il racconto è in
+  prima persona: "Ho spezzato il lavoro lungo i confini che esistevano già"
+  → "Serve un riferimento condiviso". La prima persona sta nel testo, non
+  nei titoli.
+- Come sempre, riscrivendo di getto lascia concordanze e refusi da
+  rifinire, da proporre come lista puntuale.
+- **Non esplicita i passaggi ovvi.** Avevo segnalato che tra "ho assegnato
+  un compito" e "ogni agente aveva fatto quello che gli era stato chiesto"
+  mancava la frase in cui il lavoro viene svolto; per lui è ovvio: "se mi
+  arriva un risultato qualcosa nel frattempo ha fatto lavoro". Le
+  transizioni che il lettore ricostruisce da solo non si scrivono.
