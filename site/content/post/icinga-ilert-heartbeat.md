@@ -1,38 +1,32 @@
 +++
-date = "2026-09-21"
-lastmod = "2026-09-21"
+date = "2026-10-11"
+lastmod = "2026-10-11"
 draft = true
 title = "Il monitoraggio del monitoraggio: un heartbeat da Icinga 2 verso ilert"
 slug = "icinga-ilert-heartbeat"
-summary = "Se Icinga si ferma non arriva nessun allarme, ed è esattamente quello che succede anche quando va tutto bene. Un heartbeat verso un sistema di monitoraggio esterno ci salva la vita."
+summary = "Se il monitoraggio si ferma gli allarmi non arrivano più. Ma non arrivano anche quando va tutto bene. Un heartbeat verso un sistema di monitoraggio esterno ci salva la vita."
 tags = ["monitoraggio", "icinga", "devops", "infrastruttura"]
 ogimage = "img/og/icinga-ilert-heartbeat.png"
 language = "it"
 +++
 
-Il vostro Icinga controlla i server, i servizi, i certificati e lo spazio sui
-dischi, tuttavia c'è una cosa sola che non può controllare: se sta girando.
+Il sistema di monitoring controlla i server, i servizi, i certificati e lo spazio sui
+dischi, tuttavia c'è una cosa sola che non può controllare: se sta funzionando.
 
-Se Icinga si ferma non succede niente. Nessun check gira, nessun allarme parte,
+Se Icinga si ferma, si ferma tutto. Nessun check gira, nessun allarme parte,
 nessuna notifica arriva. **Il guasto di un sistema di monitoraggio è
 indistinguibile dal suo funzionamento corretto**, perché in entrambi i casi il
-segnale è il silenzio. Ce ne si accorge il giorno dopo, quando qualcuno viene a chiedervi
+segnale è il silenzio. Ce ne si accorge il giorno dopo, quando qualcuno viene a chiederci
 come mai non è arrivato niente per quel disco pieno.
 
-Mettere un secondo Icinga a controllare il primo sposta il problema di un
-passo e basta. La forma che funziona è un'altra, ed è un check invertito:
-qualcosa che sta fuori dalla nostra infrastruttura si aspetta di ricevere un
-segnale a intervalli regolari, e se il segnale non arriva è quello a dare
-l'allarme. Un dead man's switch.
+Una soluzione naive potrebbe essere quella di mettere un secondo Icinga a controllare il primo, tuttavia si sposta il problema di un passo e basta. Un metodo che funziona è un check invertito: qualcosa che sta fuori dalla nostra infrastruttura si aspetta di ricevere un segnale a intervalli regolari, e se il segnale non arriva è quello a dare l'allarme.
 
-Per la parte fuori abbiamo scelto ilert, che fa alerting e reperibilità. La
-ragione principale non è tecnica: è un fornitore europeo e certificato, e
-quando si lavora con la pubblica amministrazione italiana la residenza dei
-dati e le certificazioni di chi tiene quei dati sono importanti.
+Tra le varie possibilità per la componente esterna ho scelto ilert: uno dei molteplici servizi managed per alerting e reperibilità. La
+ragione principale non è tecnica. È un fornitore europeo e certificato ISO 27001, e in tal modo mi consente di mantenere sia la catena di gestione per la security, che la gestione di un eventuale switch off di servizi non europei. Better safe than sorry, visto l'aria che tira.
 
 ## Configurare un Heartbeat monitor
 
-ilert espone una URL di ping e si aspetta di riceverne una entro l'intervallo
+ilert espone una URL di ping e si aspetta di riceverne periodicamente entro l'intervallo
 configurato. Se i ping smettono di arrivare, apre un alert sulla alert source
 collegata al monitor. Il monitor resta inattivo finché non riceve il primo
 ping: il timer parte da lì.
@@ -40,7 +34,7 @@ ping: il timer parte da lì.
 Si crea da **Alert sources**, voce **Heartbeat monitors** nel menu a tendina,
 poi **Create heartbeat monitor**. Si assegna a un team, gli si dà un nome, si
 sceglie la alert source che genererà l'alert e l'intervallo oltre il quale il
-ping è considerato in ritardo. Quello che si ottiene è una URL di questa forma:
+ping è considerato in ritardo. Viene restituito un URL formattato come segue:
 
 ```
 https://beat.ilert.com/api/pings/ih2:<intervallo>:<tenant>:<id>:<secret>
@@ -48,12 +42,12 @@ https://beat.ilert.com/api/pings/ih2:<intervallo>:<tenant>:<id>:<secret>
 
 ## Un servizio come tutti gli altri
 
-Lato Icinga il ping non è niente di speciale: è un servizio che interroga
+Lato Icinga, configurare ping è semplice: un servizio che interroga
 quella URL a intervalli regolari. Se lo scheduler si ferma, il servizio non
 gira, i ping cessano e ilert se ne accorge.
 
-Il nostro Icinga gira in container. Per non doverne modificare l'immagine né
-aggiungere bind mount, il ping lo fa `check_http`, che sta già nei monitoring
+Nel mio caso Icinga gira in container. Per non doverne modificare l'immagine né
+aggiungere bind mount, il ping lo facciamo fare a `check_http`, che sta già nei monitoring
 plugins dell'immagine, configurato interamente da Director. Il template di
 servizio è questo:
 
@@ -91,23 +85,22 @@ Service Apply Rule, e si fa Deploy.
 
 La prima configurazione non aveva `http_vhost`, e il servizio rispondeva **404**.
 
-Ecco che abbiamo sbagliato la chiave!!! Ricontrollata più volte,
-confrontata con quella sul pannello, stesso risultato.
-Il secondo capro espiatorio è stata la CDN davanti ilert.
+Ecco che abbiamo sbagliato la chiave!!! 
 
-Non era né l'una né l'altra. Nella ITL di Icinga i due campi non fanno quello
-che il nome lascia intuire:
+L'ho verificata più volte, confrontata con quella sul pannello, ottenendo lo stesso risultato.
+Il secondo capro espiatorio è stata la CDN davanti ilert.
+Tuttavia non era né l'una né l'altra.
+
+Nella ITL di Icinga i due campi che seguono non fanno quello che il nome potrebbe indicare intuire:
 
 - **`http_address`** diventa `-I`, cioè l'indirizzo a cui aprire la connessione
 - **`http_vhost`** diventa `-H`, cioè l'header `Host`
 
 Configurando solo `http_address` la connessione parte verso beat.ilert.com, ma
 la richiesta HTTP esce senza header `Host`. L'endpoint sta dietro un CDN con
-virtual hosting e senza `Host` non sa a quale sito stiamo bussando: risponde
-404. In più `--sni` prende il nome dal valore di `-H`, quindi anche la SNI
-partiva vuota e il TLS terminava sul certificato di default del CDN. Un campo
-che si chiama address non fa esattamente quello che pensate.
-La correzione è valorizzare `http_vhost` oltre a `http_address`.
+virtual hosting e senza `Host` non sa a quale sito fare riferimento: con il risultato di un bel  404. In più `--sni` prende il nome dal valore di `-H`, quindi anche la SNI
+partiva vuota e il TLS terminava sul certificato di default del CDN. 
+È sufficiente valorizzare `http_vhost` oltre a `http_address`.
 
 Per vedere il comando lanciato da Icinga, si deve aprire il servizio in Icinga Web, accedere alla sezione **Check
 execution**, e leggere riga **Command** in cui devono comparire sia `-I` sia `-H`.
