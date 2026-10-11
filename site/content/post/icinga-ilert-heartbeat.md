@@ -1,7 +1,7 @@
 +++
 date = "2026-10-11"
 lastmod = "2026-10-11"
-draft = true
+draft = false
 title = "Il monitoraggio del monitoraggio: un heartbeat da Icinga 2 verso ilert"
 slug = "icinga-ilert-heartbeat"
 summary = "Se il monitoraggio si ferma gli allarmi non arrivano più. Ma non arrivano anche quando va tutto bene. Un heartbeat verso un sistema di monitoraggio esterno ci salva la vita."
